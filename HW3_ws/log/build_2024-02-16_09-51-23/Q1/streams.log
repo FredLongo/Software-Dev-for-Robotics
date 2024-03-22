@@ -1,0 +1,69 @@
+[1.804s] Invoking command in '/home/vboxuser/HW3_ws/build/Q1': PYTHONPATH=/home/vboxuser/HW3_ws/build/Q1/prefix_override:/home/vboxuser/HW3_ws/install/Q1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/vboxuser/HW3_ws/build/Q1/build
+[2.200s] running develop
+[2.492s] Removing /home/vboxuser/HW3_ws/install/Q1/lib/python3.10/site-packages/Q1.egg-link (link to .)
+[2.533s] Invoked command in '/home/vboxuser/HW3_ws/build/Q1' returned '0': PYTHONPATH=/home/vboxuser/HW3_ws/build/Q1/prefix_override:/home/vboxuser/HW3_ws/install/Q1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/vboxuser/HW3_ws/build/Q1/build
+[2.534s] Invoking command in '/home/vboxuser/HW3_ws/src/Q1': PYTHONPATH=/home/vboxuser/HW3_ws/build/Q1/prefix_override:/home/vboxuser/HW3_ws/install/Q1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/Q1 build --build-base /home/vboxuser/HW3_ws/build/Q1/build install --record /home/vboxuser/HW3_ws/build/Q1/install.log --single-version-externally-managed
+[2.934s] running egg_info
+[2.935s] writing ../../build/Q1/Q1.egg-info/PKG-INFO
+[2.936s] writing dependency_links to ../../build/Q1/Q1.egg-info/dependency_links.txt
+[2.936s] writing entry points to ../../build/Q1/Q1.egg-info/entry_points.txt
+[2.936s] writing requirements to ../../build/Q1/Q1.egg-info/requires.txt
+[2.937s] writing top-level names to ../../build/Q1/Q1.egg-info/top_level.txt
+[2.940s] reading manifest file '../../build/Q1/Q1.egg-info/SOURCES.txt'
+[2.942s] writing manifest file '../../build/Q1/Q1.egg-info/SOURCES.txt'
+[2.942s] running build
+[2.942s] running build_py
+[2.944s] copying Q1/fred_node.py -> /home/vboxuser/HW3_ws/build/Q1/build/lib/Q1
+[2.944s] copying Q1/kim_pub.py -> /home/vboxuser/HW3_ws/build/Q1/build/lib/Q1
+[2.944s] copying Q1/lee_sub.py -> /home/vboxuser/HW3_ws/build/Q1/build/lib/Q1
+[2.944s] copying Q1/subscriber_member_function.py -> /home/vboxuser/HW3_ws/build/Q1/build/lib/Q1
+[2.944s] copying Q1/lee_pub.py -> /home/vboxuser/HW3_ws/build/Q1/build/lib/Q1
+[2.944s] copying Q1/park_sub.py -> /home/vboxuser/HW3_ws/build/Q1/build/lib/Q1
+[2.944s] copying Q1/park_pub.py -> /home/vboxuser/HW3_ws/build/Q1/build/lib/Q1
+[2.945s] copying Q1/my_node.py -> /home/vboxuser/HW3_ws/build/Q1/build/lib/Q1
+[2.945s] copying Q1/kim_sub.py -> /home/vboxuser/HW3_ws/build/Q1/build/lib/Q1
+[2.945s] copying Q1/publisher_member_function.py -> /home/vboxuser/HW3_ws/build/Q1/build/lib/Q1
+[2.945s] copying Q1/son_pub.py -> /home/vboxuser/HW3_ws/build/Q1/build/lib/Q1
+[2.945s] copying Q1/son_sub.py -> /home/vboxuser/HW3_ws/build/Q1/build/lib/Q1
+[2.946s] running install
+[2.946s] running install_lib
+[2.947s] creating /home/vboxuser/HW3_ws/install/Q1/lib/python3.10/site-packages/Q1
+[2.947s] copying /home/vboxuser/HW3_ws/build/Q1/build/lib/Q1/fred_node.py -> /home/vboxuser/HW3_ws/install/Q1/lib/python3.10/site-packages/Q1
+[2.947s] copying /home/vboxuser/HW3_ws/build/Q1/build/lib/Q1/ann_node.py -> /home/vboxuser/HW3_ws/install/Q1/lib/python3.10/site-packages/Q1
+[2.947s] copying /home/vboxuser/HW3_ws/build/Q1/build/lib/Q1/kim_pub.py -> /home/vboxuser/HW3_ws/install/Q1/lib/python3.10/site-packages/Q1
+[2.947s] copying /home/vboxuser/HW3_ws/build/Q1/build/lib/Q1/lee_sub.py -> /home/vboxuser/HW3_ws/install/Q1/lib/python3.10/site-packages/Q1
+[2.947s] copying /home/vboxuser/HW3_ws/build/Q1/build/lib/Q1/subscriber_member_function.py -> /home/vboxuser/HW3_ws/install/Q1/lib/python3.10/site-packages/Q1
+[2.948s] copying /home/vboxuser/HW3_ws/build/Q1/build/lib/Q1/lee_pub.py -> /home/vboxuser/HW3_ws/install/Q1/lib/python3.10/site-packages/Q1
+[2.948s] copying /home/vboxuser/HW3_ws/build/Q1/build/lib/Q1/cia_node.py -> /home/vboxuser/HW3_ws/install/Q1/lib/python3.10/site-packages/Q1
+[2.948s] copying /home/vboxuser/HW3_ws/build/Q1/build/lib/Q1/park_sub.py -> /home/vboxuser/HW3_ws/install/Q1/lib/python3.10/site-packages/Q1
+[2.948s] copying /home/vboxuser/HW3_ws/build/Q1/build/lib/Q1/__init__.py -> /home/vboxuser/HW3_ws/install/Q1/lib/python3.10/site-packages/Q1
+[2.948s] copying /home/vboxuser/HW3_ws/build/Q1/build/lib/Q1/park_pub.py -> /home/vboxuser/HW3_ws/install/Q1/lib/python3.10/site-packages/Q1
+[2.948s] copying /home/vboxuser/HW3_ws/build/Q1/build/lib/Q1/my_node.py -> /home/vboxuser/HW3_ws/install/Q1/lib/python3.10/site-packages/Q1
+[2.948s] copying /home/vboxuser/HW3_ws/build/Q1/build/lib/Q1/kim_sub.py -> /home/vboxuser/HW3_ws/install/Q1/lib/python3.10/site-packages/Q1
+[2.949s] copying /home/vboxuser/HW3_ws/build/Q1/build/lib/Q1/publisher_member_function.py -> /home/vboxuser/HW3_ws/install/Q1/lib/python3.10/site-packages/Q1
+[2.949s] copying /home/vboxuser/HW3_ws/build/Q1/build/lib/Q1/ben_node.py -> /home/vboxuser/HW3_ws/install/Q1/lib/python3.10/site-packages/Q1
+[2.949s] copying /home/vboxuser/HW3_ws/build/Q1/build/lib/Q1/son_pub.py -> /home/vboxuser/HW3_ws/install/Q1/lib/python3.10/site-packages/Q1
+[2.949s] copying /home/vboxuser/HW3_ws/build/Q1/build/lib/Q1/son_sub.py -> /home/vboxuser/HW3_ws/install/Q1/lib/python3.10/site-packages/Q1
+[2.949s] byte-compiling /home/vboxuser/HW3_ws/install/Q1/lib/python3.10/site-packages/Q1/fred_node.py to fred_node.cpython-310.pyc
+[2.950s] byte-compiling /home/vboxuser/HW3_ws/install/Q1/lib/python3.10/site-packages/Q1/ann_node.py to ann_node.cpython-310.pyc
+[2.950s] byte-compiling /home/vboxuser/HW3_ws/install/Q1/lib/python3.10/site-packages/Q1/kim_pub.py to kim_pub.cpython-310.pyc
+[2.950s] byte-compiling /home/vboxuser/HW3_ws/install/Q1/lib/python3.10/site-packages/Q1/lee_sub.py to lee_sub.cpython-310.pyc
+[2.951s] byte-compiling /home/vboxuser/HW3_ws/install/Q1/lib/python3.10/site-packages/Q1/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc
+[2.951s] byte-compiling /home/vboxuser/HW3_ws/install/Q1/lib/python3.10/site-packages/Q1/lee_pub.py to lee_pub.cpython-310.pyc
+[2.951s] byte-compiling /home/vboxuser/HW3_ws/install/Q1/lib/python3.10/site-packages/Q1/cia_node.py to cia_node.cpython-310.pyc
+[2.952s] byte-compiling /home/vboxuser/HW3_ws/install/Q1/lib/python3.10/site-packages/Q1/park_sub.py to park_sub.cpython-310.pyc
+[2.952s] byte-compiling /home/vboxuser/HW3_ws/install/Q1/lib/python3.10/site-packages/Q1/__init__.py to __init__.cpython-310.pyc
+[2.952s] byte-compiling /home/vboxuser/HW3_ws/install/Q1/lib/python3.10/site-packages/Q1/park_pub.py to park_pub.cpython-310.pyc
+[2.952s] byte-compiling /home/vboxuser/HW3_ws/install/Q1/lib/python3.10/site-packages/Q1/my_node.py to my_node.cpython-310.pyc
+[2.953s] byte-compiling /home/vboxuser/HW3_ws/install/Q1/lib/python3.10/site-packages/Q1/kim_sub.py to kim_sub.cpython-310.pyc
+[2.953s] byte-compiling /home/vboxuser/HW3_ws/install/Q1/lib/python3.10/site-packages/Q1/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[2.953s] byte-compiling /home/vboxuser/HW3_ws/install/Q1/lib/python3.10/site-packages/Q1/ben_node.py to ben_node.cpython-310.pyc
+[2.954s] byte-compiling /home/vboxuser/HW3_ws/install/Q1/lib/python3.10/site-packages/Q1/son_pub.py to son_pub.cpython-310.pyc
+[2.954s] byte-compiling /home/vboxuser/HW3_ws/install/Q1/lib/python3.10/site-packages/Q1/son_sub.py to son_sub.cpython-310.pyc
+[2.954s] running install_data
+[2.956s] running install_egg_info
+[2.958s] Copying ../../build/Q1/Q1.egg-info to /home/vboxuser/HW3_ws/install/Q1/lib/python3.10/site-packages/Q1-0.0.0-py3.10.egg-info
+[2.971s] running install_scripts
+[2.999s] Installing fred_node script to /home/vboxuser/HW3_ws/install/Q1/lib/Q1
+[2.999s] writing list of installed files to '/home/vboxuser/HW3_ws/build/Q1/install.log'
+[3.072s] Invoked command in '/home/vboxuser/HW3_ws/src/Q1' returned '0': PYTHONPATH=/home/vboxuser/HW3_ws/build/Q1/prefix_override:/home/vboxuser/HW3_ws/install/Q1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/Q1 build --build-base /home/vboxuser/HW3_ws/build/Q1/build install --record /home/vboxuser/HW3_ws/build/Q1/install.log --single-version-externally-managed

@@ -1,0 +1,6 @@
+{
+  "package_name": "tutorial_interfaces",
+  "non_idl_tuples": [
+    "/home/vboxuser/hw4_ws/src/tutorial_interfaces:srv/TwoInts.srv"
+  ]
+}

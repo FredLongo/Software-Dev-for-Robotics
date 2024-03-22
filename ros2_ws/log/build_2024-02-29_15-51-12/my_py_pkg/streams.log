@@ -1,0 +1,21 @@
+[1.119s] Invoking command in '/home/vboxuser/ros2_ws/build/my_py_pkg': PYTHONPATH=/home/vboxuser/ros2_ws/build/my_py_pkg/prefix_override:/home/vboxuser/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/vboxuser/ros2_ws/build/my_py_pkg/build --no-deps install_data
+[1.526s] running develop
+[1.789s] running egg_info
+[1.790s] writing my_py_pkg.egg-info/PKG-INFO
+[1.790s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[1.790s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[1.791s] writing requirements to my_py_pkg.egg-info/requires.txt
+[1.791s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[1.793s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[1.794s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[1.796s] running build_ext
+[1.796s] Creating /home/vboxuser/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[1.797s] Installing add_two_ints_client_no_oop script to /home/vboxuser/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.797s] Installing add_two_ints_server script to /home/vboxuser/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.797s] Installing my_first_node script to /home/vboxuser/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.797s] Installing robot_news_station script to /home/vboxuser/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.797s] Installing smart_phone script to /home/vboxuser/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.798s] 
+[1.798s] Installed /home/vboxuser/ros2_ws/build/my_py_pkg
+[1.798s] running install_data
+[1.834s] Invoked command in '/home/vboxuser/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/vboxuser/ros2_ws/build/my_py_pkg/prefix_override:/home/vboxuser/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/vboxuser/ros2_ws/build/my_py_pkg/build --no-deps install_data

@@ -1,0 +1,111 @@
+[1m============================= test session starts ==============================[0m
+platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+cachedir: /home/vboxuser/HW3_ws/build/Q1/.pytest_cache
+rootdir: /home/vboxuser/HW3_ws/src/Q1
+plugins: ament-copyright-0.12.9, launch-testing-1.0.4, ament-xmllint-0.12.9, ament-pep257-0.12.9, launch-testing-ros-0.19.6, ament-lint-0.12.9, ament-flake8-0.12.9, cov-3.0.0, colcon-core-0.15.1
+[1mcollecting ... [0m[1m
+collected 3 items                                                              [0m
+
+test/test_copyright.py [33ms[0m[32m                                                 [ 33%][0m
+test/test_flake8.py [31mF[0m[31m                                                    [ 66%][0m
+test/test_pep257.py [32m.[0m[31m                                                    [100%][0m
+
+=================================== FAILURES ===================================
+[31m[1m_________________________________ test_flake8 __________________________________[0m
+[1m[31mtest/test_flake8.py[0m:23: in test_flake8
+    [94massert[39;49;00m rc == [94m0[39;49;00m, \
+[1m[31mE   AssertionError: Found 9 code style errors / warnings:[0m
+[1m[31mE     ./setup.py:1:1: F401 'setuptools.find_packages' imported but unused[0m
+[1m[31mE     ./Q1/fred_node.py:16:49: E225 missing whitespace around operator[0m
+[1m[31mE     ./Q1/fred_node.py:20:1: E303 too many blank lines (3)[0m
+[1m[31mE     ./Q1/fred_node.py:22:20: W291 trailing whitespace[0m
+[1m[31mE     ./Q1/fred_node.py:26:1: E305 expected 2 blank lines after class or function definition, found 1[0m
+[1m[31mE     ./Q1/my_node.py:1:1: F401 'time' imported but unused[0m
+[1m[31mE     ./Q1/my_node.py:3:1: E302 expected 2 blank lines, found 1[0m
+[1m[31mE     ./Q1/my_node.py:5:1: W293 blank line contains whitespace[0m
+[1m[31mE     ./Q1/my_node.py:8:1: E303 too many blank lines (3)[0m
+[1m[31mE   assert 1 == 0[0m
+----------------------------- Captured stdout call -----------------------------
+
+./setup.py:1:1: F401 'setuptools.find_packages' imported but unused
+from setuptools import find_packages, setup
+^
+
+./Q1/fred_node.py:16:49: E225 missing whitespace around operator
+        self.get_logger().info("Hello time is :"+ current_time.strftime("%H:%M:%S"))
+                                                ^
+
+./Q1/fred_node.py:20:1: E303 too many blank lines (3)
+def main(args=None):
+^
+
+./Q1/fred_node.py:22:20: W291 trailing whitespace
+    node = MyNode() 
+                   ^
+
+./Q1/fred_node.py:26:1: E305 expected 2 blank lines after class or function definition, found 1
+if __name__ == '__main__':
+^
+
+./Q1/my_node.py:1:1: F401 'time' imported but unused
+import time
+^
+
+./Q1/my_node.py:3:1: E302 expected 2 blank lines, found 1
+def main():
+^
+
+./Q1/my_node.py:5:1: W293 blank line contains whitespace
+    
+^
+
+./Q1/my_node.py:8:1: E303 too many blank lines (3)
+if __name__ == '__main__':
+^
+
+1     E225 missing whitespace around operator
+1     E302 expected 2 blank lines, found 1
+2     E303 too many blank lines (3)
+1     E305 expected 2 blank lines after class or function definition, found 1
+2     F401 'time' imported but unused
+1     W291 trailing whitespace
+1     W293 blank line contains whitespace
+
+17 files checked
+9 errors
+
+'E'-type errors: 5
+'F'-type errors: 2
+'W'-type errors: 2
+
+Checked files:
+
+* ./setup.py
+* ./test/test_flake8.py
+* ./test/test_copyright.py
+* ./test/test_pep257.py
+* ./Q1/fred_node.py
+* ./Q1/kim_pub.py
+* ./Q1/lee_sub.py
+* ./Q1/subscriber_member_function.py
+* ./Q1/lee_pub.py
+* ./Q1/park_sub.py
+* ./Q1/__init__.py
+* ./Q1/park_pub.py
+* ./Q1/my_node.py
+* ./Q1/kim_sub.py
+* ./Q1/publisher_member_function.py
+* ./Q1/son_pub.py
+* ./Q1/son_sub.py
+----------------------------- Captured stderr call -----------------------------
+option --max-complexity: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+-------- generated xml file: /home/vboxuser/HW3_ws/build/Q1/pytest.xml ---------
+[33m=============================== warnings summary ===============================[0m
+test/test_flake8.py::test_flake8
+test/test_flake8.py::test_flake8
+  Warning: SelectableGroups dict interface is deprecated. Use select.
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+=========================== short test summary info ============================
+FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 9 code style ...
+[31m============== [31m[1m1 failed[0m, [32m1 passed[0m, [33m1 skipped[0m, [33m2 warnings[0m[31m in 0.68s[0m[31m ==============[0m

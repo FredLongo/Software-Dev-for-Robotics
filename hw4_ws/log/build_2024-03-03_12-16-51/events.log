@@ -1,0 +1,5 @@
+[0.000000] (-) TimerEvent: {}
+[0.000116] (-) JobUnselected: {'identifier': 'calculator'}
+[0.000140] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.000157] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000171] (-) EventReactorShutdown: {}

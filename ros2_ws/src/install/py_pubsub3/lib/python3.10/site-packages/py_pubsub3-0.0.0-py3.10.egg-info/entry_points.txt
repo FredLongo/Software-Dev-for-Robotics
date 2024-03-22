@@ -1,0 +1,4 @@
+[console_scripts]
+my_pub = py_pubsub3.my_pub:main
+my_sub = py_pubsub3.my_sub:main
+

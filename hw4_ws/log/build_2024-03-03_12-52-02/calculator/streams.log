@@ -1,0 +1,23 @@
+[1.731s] Invoking command in '/home/vboxuser/hw4_ws/src/calculator': PYTHONPATH=/home/vboxuser/hw4_ws/build/calculator/prefix_override:/home/vboxuser/hw4_ws/install/calculator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/calculator build --build-base /home/vboxuser/hw4_ws/build/calculator/build install --record /home/vboxuser/hw4_ws/build/calculator/install.log --single-version-externally-managed
+[2.115s] running egg_info
+[2.117s] writing ../../build/calculator/calculator.egg-info/PKG-INFO
+[2.117s] writing dependency_links to ../../build/calculator/calculator.egg-info/dependency_links.txt
+[2.117s] writing entry points to ../../build/calculator/calculator.egg-info/entry_points.txt
+[2.118s] writing requirements to ../../build/calculator/calculator.egg-info/requires.txt
+[2.118s] writing top-level names to ../../build/calculator/calculator.egg-info/top_level.txt
+[2.122s] reading manifest file '../../build/calculator/calculator.egg-info/SOURCES.txt'
+[2.122s] adding license file 'LICENSE'
+[2.123s] writing manifest file '../../build/calculator/calculator.egg-info/SOURCES.txt'
+[2.123s] running build
+[2.123s] running build_py
+[2.123s] running install
+[2.124s] running install_lib
+[2.126s] running install_data
+[2.126s] running install_egg_info
+[2.129s] removing '/home/vboxuser/hw4_ws/install/calculator/lib/python3.10/site-packages/calculator-0.0.0-py3.10.egg-info' (and everything under it)
+[2.129s] Copying ../../build/calculator/calculator.egg-info to /home/vboxuser/hw4_ws/install/calculator/lib/python3.10/site-packages/calculator-0.0.0-py3.10.egg-info
+[2.130s] running install_scripts
+[2.157s] Installing client script to /home/vboxuser/hw4_ws/install/calculator/lib/calculator
+[2.157s] Installing service script to /home/vboxuser/hw4_ws/install/calculator/lib/calculator
+[2.158s] writing list of installed files to '/home/vboxuser/hw4_ws/build/calculator/install.log'
+[2.192s] Invoked command in '/home/vboxuser/hw4_ws/src/calculator' returned '0': PYTHONPATH=/home/vboxuser/hw4_ws/build/calculator/prefix_override:/home/vboxuser/hw4_ws/install/calculator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/calculator build --build-base /home/vboxuser/hw4_ws/build/calculator/build install --record /home/vboxuser/hw4_ws/build/calculator/install.log --single-version-externally-managed

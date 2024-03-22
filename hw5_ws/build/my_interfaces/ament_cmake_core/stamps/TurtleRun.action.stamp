@@ -1,0 +1,12 @@
+# Goal
+string start_flag
+---
+# Result
+# turtlesim/msg/Pose
+float64 final_position_x
+float64 final_position_y
+float64 total_control_time
+---
+# Feedback
+float64 current_position_x
+float64 current_position_y

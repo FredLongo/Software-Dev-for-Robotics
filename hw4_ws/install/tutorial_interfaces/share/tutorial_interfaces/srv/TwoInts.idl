@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from tutorial_interfaces/srv/TwoInts.srv
+// generated code does not contain a copyright notice
+
+
+module tutorial_interfaces {
+  module srv {
+    struct TwoInts_Request {
+      int64 a;
+
+      int64 b;
+
+      string s;
+    };
+    struct TwoInts_Response {
+      int64 sum;
+    };
+  };
+};

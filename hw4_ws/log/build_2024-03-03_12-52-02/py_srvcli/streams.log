@@ -1,0 +1,23 @@
+[1.624s] Invoking command in '/home/vboxuser/hw4_ws/src/py_srvcli': PYTHONPATH=/home/vboxuser/hw4_ws/build/py_srvcli/prefix_override:/home/vboxuser/hw4_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/vboxuser/hw4_ws/build/py_srvcli/build install --record /home/vboxuser/hw4_ws/build/py_srvcli/install.log --single-version-externally-managed
+[2.006s] running egg_info
+[2.008s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[2.009s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[2.009s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[2.009s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[2.009s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[2.012s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[2.012s] adding license file 'LICENSE'
+[2.013s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[2.013s] running build
+[2.013s] running build_py
+[2.014s] running install
+[2.014s] running install_lib
+[2.015s] running install_data
+[2.016s] running install_egg_info
+[2.018s] removing '/home/vboxuser/hw4_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info' (and everything under it)
+[2.018s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/vboxuser/hw4_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info
+[2.019s] running install_scripts
+[2.047s] Installing client script to /home/vboxuser/hw4_ws/install/py_srvcli/lib/py_srvcli
+[2.047s] Installing service script to /home/vboxuser/hw4_ws/install/py_srvcli/lib/py_srvcli
+[2.048s] writing list of installed files to '/home/vboxuser/hw4_ws/build/py_srvcli/install.log'
+[2.150s] Invoked command in '/home/vboxuser/hw4_ws/src/py_srvcli' returned '0': PYTHONPATH=/home/vboxuser/hw4_ws/build/py_srvcli/prefix_override:/home/vboxuser/hw4_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/vboxuser/hw4_ws/build/py_srvcli/build install --record /home/vboxuser/hw4_ws/build/py_srvcli/install.log --single-version-externally-managed

@@ -1,0 +1,54 @@
+[0.493s] Invoking command in '/home/vboxuser/hw5_ws/build/my_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/hw5_ws/install/turtle_run:/home/vboxuser/hw5_ws/install/turtle_mover:/home/vboxuser/hw5_ws/install/turtle_joy:/home/vboxuser/hw5_ws/install/actions_py:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/hw5_ws/build/my_interfaces -- -j6 -l6
+[1.576s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.576s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.576s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.576s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.576s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.576s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[1.576s] -- Configuring incomplete, errors occurred!
+[1.577s] See also "/home/vboxuser/hw5_ws/build/my_interfaces/CMakeFiles/CMakeOutput.log".
+[1.577s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[1.578s]   execute_process(/usr/bin/python3.10 -m rosidl_adapter --package-name
+[1.578s]   my_interfaces --arguments-file
+[1.578s]   /home/vboxuser/hw5_ws/build/my_interfaces/rosidl_adapter__arguments__my_interfaces.json
+[1.578s]   --output-dir
+[1.578s]   /home/vboxuser/hw5_ws/build/my_interfaces/rosidl_adapter/my_interfaces
+[1.578s]   --output-file
+[1.578s]   /home/vboxuser/hw5_ws/build/my_interfaces/rosidl_adapter/my_interfaces.idls)
+[1.578s]   returned error code 1:
+[1.578s] 
+[1.579s]   Error processing 'turtlesim/msg/Pose final_position' of
+[1.579s]   'my_interfaces/TurtleRun_Result': 'turtlesim/msg/Pose'
+[1.579s] 
+[1.579s]   Traceback (most recent call last):
+[1.579s] 
+[1.579s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[1.579s]       return _run_code(code, main_globals, None,
+[1.579s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[1.579s]       exec(code, run_globals)
+[1.579s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[1.579s]       sys.exit(main())
+[1.579s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[1.580s]       abs_idl_file = convert_to_idl(
+[1.580s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 29, in convert_to_idl
+[1.580s]       return convert_action_to_idl(
+[1.580s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/action/__init__.py", line 28, in convert_action_to_idl
+[1.580s]       action = parse_action_string(package_name, input_file.stem, content)
+[1.580s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 904, in parse_action_string
+[1.580s]       result_message = parse_message_string(
+[1.580s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 520, in parse_message_string
+[1.580s]       Type(type_string, context_package_name=pkg_name),
+[1.580s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 277, in __init__
+[1.580s]       super(Type, self).__init__(
+[1.580s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 190, in __init__
+[1.581s]       raise InvalidResourceName(type_string)
+[1.581s] 
+[1.581s]   rosidl_adapter.parser.InvalidResourceName: turtlesim/msg/Pose
+[1.581s] 
+[1.581s] Call Stack (most recent call first):
+[1.581s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[1.581s]   CMakeLists.txt:14 (rosidl_generate_interfaces)
+[1.581s] 
+[1.581s] [0m
+[1.581s] gmake: *** [Makefile:747: cmake_check_build_system] Error 1
+[2.107s] Invoked command in '/home/vboxuser/hw5_ws/build/my_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/hw5_ws/install/turtle_run:/home/vboxuser/hw5_ws/install/turtle_mover:/home/vboxuser/hw5_ws/install/turtle_joy:/home/vboxuser/hw5_ws/install/actions_py:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/hw5_ws/build/my_interfaces -- -j6 -l6

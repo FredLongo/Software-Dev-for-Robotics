@@ -1,0 +1,26 @@
+[2.214s] Invoking command in '/home/vboxuser/hw3_ws/src/q2': PYTHONPATH=/home/vboxuser/hw3_ws/build/q2/prefix_override:/home/vboxuser/hw3_ws/install/q2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/q2 build --build-base /home/vboxuser/hw3_ws/build/q2/build install --record /home/vboxuser/hw3_ws/build/q2/install.log --single-version-externally-managed
+[2.609s] running egg_info
+[2.610s] writing ../../build/q2/q2.egg-info/PKG-INFO
+[2.610s] writing dependency_links to ../../build/q2/q2.egg-info/dependency_links.txt
+[2.610s] writing entry points to ../../build/q2/q2.egg-info/entry_points.txt
+[2.611s] writing requirements to ../../build/q2/q2.egg-info/requires.txt
+[2.611s] writing top-level names to ../../build/q2/q2.egg-info/top_level.txt
+[2.613s] reading manifest file '../../build/q2/q2.egg-info/SOURCES.txt'
+[2.613s] adding license file 'LICENSE'
+[2.614s] writing manifest file '../../build/q2/q2.egg-info/SOURCES.txt'
+[2.614s] running build
+[2.614s] running build_py
+[2.615s] copying q2/node_link2.py -> /home/vboxuser/hw3_ws/build/q2/build/lib/q2
+[2.615s] running install
+[2.616s] running install_lib
+[2.616s] copying /home/vboxuser/hw3_ws/build/q2/build/lib/q2/node_link2.py -> /home/vboxuser/hw3_ws/install/q2/lib/python3.10/site-packages/q2
+[2.617s] byte-compiling /home/vboxuser/hw3_ws/install/q2/lib/python3.10/site-packages/q2/node_link2.py to node_link2.cpython-310.pyc
+[2.618s] running install_data
+[2.619s] running install_egg_info
+[2.621s] removing '/home/vboxuser/hw3_ws/install/q2/lib/python3.10/site-packages/q2-0.0.0-py3.10.egg-info' (and everything under it)
+[2.621s] Copying ../../build/q2/q2.egg-info to /home/vboxuser/hw3_ws/install/q2/lib/python3.10/site-packages/q2-0.0.0-py3.10.egg-info
+[2.622s] running install_scripts
+[2.662s] Installing node_link script to /home/vboxuser/hw3_ws/install/q2/lib/q2
+[2.662s] Installing node_link2 script to /home/vboxuser/hw3_ws/install/q2/lib/q2
+[2.662s] writing list of installed files to '/home/vboxuser/hw3_ws/build/q2/install.log'
+[2.781s] Invoked command in '/home/vboxuser/hw3_ws/src/q2' returned '0': PYTHONPATH=/home/vboxuser/hw3_ws/build/q2/prefix_override:/home/vboxuser/hw3_ws/install/q2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/q2 build --build-base /home/vboxuser/hw3_ws/build/q2/build install --record /home/vboxuser/hw3_ws/build/q2/install.log --single-version-externally-managed

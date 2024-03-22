@@ -1,0 +1,5 @@
+  File "/home/vboxuser/hw3_ws/install/q3/lib/python3.10/site-packages/q3/node_link.py", line 21
+    new_msg = str(datetime.now() ) + " " + str(_counter) + "Message:" + str(_counter) + " from " + _node
+    ^^^^^^^
+SyntaxError: invalid syntax
+

@@ -1,0 +1,196 @@
+[0.000000] (-) TimerEvent: {}
+[0.000612] (Q1) JobQueued: {'identifier': 'Q1', 'dependencies': OrderedDict([('Q1', '/home/vboxuser/HW3_ws/install/Q1')])}
+[0.000649] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict([('py_pubsub', '/home/vboxuser/HW3_ws/install/py_pubsub')])}
+[0.000673] (Q1) JobStarted: {'identifier': 'Q1'}
+[0.075066] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.098550] (-) TimerEvent: {}
+[0.199074] (-) TimerEvent: {}
+[0.299619] (-) TimerEvent: {}
+[0.401211] (-) TimerEvent: {}
+[0.501542] (-) TimerEvent: {}
+[0.575112] (Q1) Command: {'cmd': ['/usr/bin/python3', '-m', 'pytest'], 'cwd': '/home/vboxuser/HW3_ws/src/Q1', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vboxuser', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/vboxuser', 'OLDPWD': '/home/vboxuser/HW3_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1393', 'SYSTEMD_EXEC_PID': '1571', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4450', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'vboxuser', 'JOURNAL_STREAM': '8:22974', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vboxuser', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Ubuntu:@/tmp/.ICE-unix/1539,unix/Ubuntu:/tmp/.ICE-unix/1539', 'INVOCATION_ID': '3cec6e32e7524ebbb8089f08d9f2f313', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.509PI2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vboxuser/HW3_ws/install/Q1:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:f7d82740-862f-431e-a20b-7c61fe11af7e', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vboxuser/HW3_ws/build/Q1', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vboxuser/HW3_ws/install/Q1/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'PYTEST_ADDOPTS': '--tb=short --junit-xml=/home/vboxuser/HW3_ws/build/Q1/pytest.xml --junit-prefix=Q1 -o cache_dir=/home/vboxuser/HW3_ws/build/Q1/.pytest_cache'}, 'shell': False}
+[0.603807] (-) TimerEvent: {}
+[0.705033] (-) TimerEvent: {}
+[0.806905] (-) TimerEvent: {}
+[0.908171] (-) TimerEvent: {}
+[0.977365] (Q1) StdoutLine: {'line': b'\x1b[1m============================= test session starts ==============================\x1b[0m\n'}
+[0.977598] (Q1) StdoutLine: {'line': b'platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0\n'}
+[0.984075] (Q1) StdoutLine: {'line': b'cachedir: /home/vboxuser/HW3_ws/build/Q1/.pytest_cache\n'}
+[0.984280] (Q1) StdoutLine: {'line': b'rootdir: /home/vboxuser/HW3_ws/src/Q1\n'}
+[0.984450] (Q1) StdoutLine: {'line': b'plugins: ament-copyright-0.12.9, launch-testing-1.0.4, ament-xmllint-0.12.9, ament-pep257-0.12.9, launch-testing-ros-0.19.6, ament-lint-0.12.9, ament-flake8-0.12.9, cov-3.0.0, colcon-core-0.15.1\n'}
+[0.987039] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', '-m', 'pytest'], 'cwd': '/home/vboxuser/HW3_ws/src/py_pubsub', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vboxuser', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/vboxuser', 'OLDPWD': '/home/vboxuser/HW3_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1393', 'SYSTEMD_EXEC_PID': '1571', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4450', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'vboxuser', 'JOURNAL_STREAM': '8:22974', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vboxuser', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Ubuntu:@/tmp/.ICE-unix/1539,unix/Ubuntu:/tmp/.ICE-unix/1539', 'INVOCATION_ID': '3cec6e32e7524ebbb8089f08d9f2f313', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.509PI2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vboxuser/HW3_ws/install/py_pubsub:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:f7d82740-862f-431e-a20b-7c61fe11af7e', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vboxuser/HW3_ws/build/py_pubsub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vboxuser/HW3_ws/install/py_pubsub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'PYTEST_ADDOPTS': '--tb=short --junit-xml=/home/vboxuser/HW3_ws/build/py_pubsub/pytest.xml --junit-prefix=py_pubsub -o cache_dir=/home/vboxuser/HW3_ws/build/py_pubsub/.pytest_cache'}, 'shell': False}
+[1.010135] (-) TimerEvent: {}
+[1.111795] (-) TimerEvent: {}
+[1.212524] (-) TimerEvent: {}
+[1.220879] (Q1) StdoutLine: {'line': b'\x1b[1mcollecting ... \x1b[0m\x1b[1m\n'}
+[1.221053] (Q1) StdoutLine: {'line': b'collected 3 items                                                              \x1b[0m\n'}
+[1.221582] (Q1) StdoutLine: {'line': b'\n'}
+[1.239811] (Q1) StdoutLine: {'line': b'test/test_copyright.py \x1b[33ms\x1b[0m\x1b[32m                                                 [ 33%]\x1b[0m\n'}
+[1.312664] (-) TimerEvent: {}
+[1.380311] (py_pubsub) StdoutLine: {'line': b'\x1b[1m============================= test session starts ==============================\x1b[0m\n'}
+[1.380569] (py_pubsub) StdoutLine: {'line': b'platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0\n'}
+[1.386996] (py_pubsub) StdoutLine: {'line': b'cachedir: /home/vboxuser/HW3_ws/build/py_pubsub/.pytest_cache\n'}
+[1.387228] (py_pubsub) StdoutLine: {'line': b'rootdir: /home/vboxuser/HW3_ws/src/py_pubsub\n'}
+[1.387327] (py_pubsub) StdoutLine: {'line': b'plugins: ament-copyright-0.12.9, launch-testing-1.0.4, ament-xmllint-0.12.9, ament-pep257-0.12.9, launch-testing-ros-0.19.6, ament-lint-0.12.9, ament-flake8-0.12.9, cov-3.0.0, colcon-core-0.15.1\n'}
+[1.412812] (-) TimerEvent: {}
+[1.480961] (Q1) StdoutLine: {'line': b'test/test_flake8.py \x1b[31mF\x1b[0m\x1b[31m                                                    [ 66%]\x1b[0m\n'}
+[1.488878] (py_pubsub) StdoutLine: {'line': b'\x1b[1mcollecting ... \x1b[0m\x1b[1m\n'}
+[1.489045] (py_pubsub) StdoutLine: {'line': b'collected 3 items                                                              \x1b[0m\n'}
+[1.489251] (py_pubsub) StdoutLine: {'line': b'\n'}
+[1.506491] (py_pubsub) StdoutLine: {'line': b'test/test_copyright.py \x1b[33ms\x1b[0m\x1b[32m                                                 [ 33%]\x1b[0m\n'}
+[1.513788] (-) TimerEvent: {}
+[1.543554] (Q1) StdoutLine: {'line': b'test/test_pep257.py \x1b[32m.\x1b[0m\x1b[31m                                                    [100%]\x1b[0m\n'}
+[1.543876] (Q1) StdoutLine: {'line': b'\n'}
+[1.543981] (Q1) StdoutLine: {'line': b'=================================== FAILURES ===================================\n'}
+[1.544038] (Q1) StdoutLine: {'line': b'\x1b[31m\x1b[1m_________________________________ test_flake8 __________________________________\x1b[0m\n'}
+[1.544091] (Q1) StdoutLine: {'line': b'\x1b[1m\x1b[31mtest/test_flake8.py\x1b[0m:23: in test_flake8\n'}
+[1.616551] (-) TimerEvent: {}
+[1.654992] (Q1) StdoutLine: {'line': b'    \x1b[94massert\x1b[39;49;00m rc == \x1b[94m0\x1b[39;49;00m, \\\n'}
+[1.655311] (Q1) StdoutLine: {'line': b'\x1b[1m\x1b[31mE   AssertionError: Found 9 code style errors / warnings:\x1b[0m\n'}
+[1.655483] (Q1) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./setup.py:1:1: F401 'setuptools.find_packages' imported but unused\x1b[0m\n"}
+[1.655613] (Q1) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./Q1/fred_node.py:16:49: E225 missing whitespace around operator\x1b[0m\n'}
+[1.655746] (Q1) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./Q1/fred_node.py:20:1: E303 too many blank lines (3)\x1b[0m\n'}
+[1.655892] (Q1) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./Q1/fred_node.py:22:20: W291 trailing whitespace\x1b[0m\n'}
+[1.656013] (Q1) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./Q1/fred_node.py:26:1: E305 expected 2 blank lines after class or function definition, found 1\x1b[0m\n'}
+[1.656142] (Q1) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./Q1/my_node.py:1:1: F401 'time' imported but unused\x1b[0m\n"}
+[1.656268] (Q1) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./Q1/my_node.py:3:1: E302 expected 2 blank lines, found 1\x1b[0m\n'}
+[1.656438] (Q1) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./Q1/my_node.py:5:1: W293 blank line contains whitespace\x1b[0m\n'}
+[1.656580] (Q1) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./Q1/my_node.py:8:1: E303 too many blank lines (3)\x1b[0m\n'}
+[1.656669] (Q1) StdoutLine: {'line': b'\x1b[1m\x1b[31mE   assert 1 == 0\x1b[0m\n'}
+[1.656754] (Q1) StdoutLine: {'line': b'----------------------------- Captured stdout call -----------------------------\n'}
+[1.656878] (Q1) StdoutLine: {'line': b'\n'}
+[1.656966] (Q1) StdoutLine: {'line': b"./setup.py:1:1: F401 'setuptools.find_packages' imported but unused\n"}
+[1.657051] (Q1) StdoutLine: {'line': b'from setuptools import find_packages, setup\n'}
+[1.657136] (Q1) StdoutLine: {'line': b'^\n'}
+[1.657220] (Q1) StdoutLine: {'line': b'\n'}
+[1.657305] (Q1) StdoutLine: {'line': b'./Q1/fred_node.py:16:49: E225 missing whitespace around operator\n'}
+[1.657389] (Q1) StdoutLine: {'line': b'        self.get_logger().info("Hello time is :"+ current_time.strftime("%H:%M:%S"))\n'}
+[1.657474] (Q1) StdoutLine: {'line': b'                                                ^\n'}
+[1.657560] (Q1) StdoutLine: {'line': b'\n'}
+[1.657644] (Q1) StdoutLine: {'line': b'./Q1/fred_node.py:20:1: E303 too many blank lines (3)\n'}
+[1.657728] (Q1) StdoutLine: {'line': b'def main(args=None):\n'}
+[1.657858] (Q1) StdoutLine: {'line': b'^\n'}
+[1.657945] (Q1) StdoutLine: {'line': b'\n'}
+[1.658030] (Q1) StdoutLine: {'line': b'./Q1/fred_node.py:22:20: W291 trailing whitespace\n'}
+[1.658115] (Q1) StdoutLine: {'line': b'    node = MyNode() \n'}
+[1.658199] (Q1) StdoutLine: {'line': b'                   ^\n'}
+[1.658282] (Q1) StdoutLine: {'line': b'\n'}
+[1.658367] (Q1) StdoutLine: {'line': b'./Q1/fred_node.py:26:1: E305 expected 2 blank lines after class or function definition, found 1\n'}
+[1.658451] (Q1) StdoutLine: {'line': b"if __name__ == '__main__':\n"}
+[1.658535] (Q1) StdoutLine: {'line': b'^\n'}
+[1.658618] (Q1) StdoutLine: {'line': b'\n'}
+[1.658702] (Q1) StdoutLine: {'line': b"./Q1/my_node.py:1:1: F401 'time' imported but unused\n"}
+[1.658818] (Q1) StdoutLine: {'line': b'import time\n'}
+[1.658905] (Q1) StdoutLine: {'line': b'^\n'}
+[1.658989] (Q1) StdoutLine: {'line': b'\n'}
+[1.659073] (Q1) StdoutLine: {'line': b'./Q1/my_node.py:3:1: E302 expected 2 blank lines, found 1\n'}
+[1.659157] (Q1) StdoutLine: {'line': b'def main():\n'}
+[1.659241] (Q1) StdoutLine: {'line': b'^\n'}
+[1.659325] (Q1) StdoutLine: {'line': b'\n'}
+[1.659409] (Q1) StdoutLine: {'line': b'./Q1/my_node.py:5:1: W293 blank line contains whitespace\n'}
+[1.659509] (Q1) StdoutLine: {'line': b'    \n'}
+[1.659592] (Q1) StdoutLine: {'line': b'^\n'}
+[1.659676] (Q1) StdoutLine: {'line': b'\n'}
+[1.659796] (Q1) StdoutLine: {'line': b'./Q1/my_node.py:8:1: E303 too many blank lines (3)\n'}
+[1.659885] (Q1) StdoutLine: {'line': b"if __name__ == '__main__':\n"}
+[1.659969] (Q1) StdoutLine: {'line': b'^\n'}
+[1.660052] (Q1) StdoutLine: {'line': b'\n'}
+[1.660136] (Q1) StdoutLine: {'line': b'1     E225 missing whitespace around operator\n'}
+[1.660220] (Q1) StdoutLine: {'line': b'1     E302 expected 2 blank lines, found 1\n'}
+[1.660303] (Q1) StdoutLine: {'line': b'2     E303 too many blank lines (3)\n'}
+[1.660445] (Q1) StdoutLine: {'line': b'1     E305 expected 2 blank lines after class or function definition, found 1\n'}
+[1.660547] (Q1) StdoutLine: {'line': b"2     F401 'time' imported but unused\n"}
+[1.660633] (Q1) StdoutLine: {'line': b'1     W291 trailing whitespace\n'}
+[1.660760] (Q1) StdoutLine: {'line': b'1     W293 blank line contains whitespace\n'}
+[1.660848] (Q1) StdoutLine: {'line': b'\n'}
+[1.660933] (Q1) StdoutLine: {'line': b'17 files checked\n'}
+[1.661017] (Q1) StdoutLine: {'line': b'9 errors\n'}
+[1.661101] (Q1) StdoutLine: {'line': b'\n'}
+[1.661184] (Q1) StdoutLine: {'line': b"'E'-type errors: 5\n"}
+[1.661268] (Q1) StdoutLine: {'line': b"'F'-type errors: 2\n"}
+[1.661352] (Q1) StdoutLine: {'line': b"'W'-type errors: 2\n"}
+[1.661436] (Q1) StdoutLine: {'line': b'\n'}
+[1.661519] (Q1) StdoutLine: {'line': b'Checked files:\n'}
+[1.661603] (Q1) StdoutLine: {'line': b'\n'}
+[1.661731] (Q1) StdoutLine: {'line': b'* ./setup.py\n'}
+[1.661820] (Q1) StdoutLine: {'line': b'* ./test/test_flake8.py\n'}
+[1.661904] (Q1) StdoutLine: {'line': b'* ./test/test_copyright.py\n'}
+[1.661989] (Q1) StdoutLine: {'line': b'* ./test/test_pep257.py\n'}
+[1.662073] (Q1) StdoutLine: {'line': b'* ./Q1/fred_node.py\n'}
+[1.662158] (Q1) StdoutLine: {'line': b'* ./Q1/kim_pub.py\n'}
+[1.662242] (Q1) StdoutLine: {'line': b'* ./Q1/lee_sub.py\n'}
+[1.662326] (Q1) StdoutLine: {'line': b'* ./Q1/subscriber_member_function.py\n'}
+[1.662410] (Q1) StdoutLine: {'line': b'* ./Q1/lee_pub.py\n'}
+[1.662496] (Q1) StdoutLine: {'line': b'* ./Q1/park_sub.py\n'}
+[1.662579] (Q1) StdoutLine: {'line': b'* ./Q1/__init__.py\n'}
+[1.662702] (Q1) StdoutLine: {'line': b'* ./Q1/park_pub.py\n'}
+[1.662791] (Q1) StdoutLine: {'line': b'* ./Q1/my_node.py\n'}
+[1.662875] (Q1) StdoutLine: {'line': b'* ./Q1/kim_sub.py\n'}
+[1.662959] (Q1) StdoutLine: {'line': b'* ./Q1/publisher_member_function.py\n'}
+[1.663043] (Q1) StdoutLine: {'line': b'* ./Q1/son_pub.py\n'}
+[1.663127] (Q1) StdoutLine: {'line': b'* ./Q1/son_sub.py\n'}
+[1.663210] (Q1) StdoutLine: {'line': b'----------------------------- Captured stderr call -----------------------------\n'}
+[1.663295] (Q1) StdoutLine: {'line': b'option --max-complexity: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future\n'}
+[1.663381] (Q1) StdoutLine: {'line': b'-------- generated xml file: /home/vboxuser/HW3_ws/build/Q1/pytest.xml ---------\n'}
+[1.663467] (Q1) StderrLine: {'line': b'\x1b[33m=============================== warnings summary ===============================\x1b[0m\n'}
+[1.663587] (Q1) StderrLine: {'line': b'test/test_flake8.py::test_flake8\n'}
+[1.663768] (Q1) StderrLine: {'line': b'test/test_flake8.py::test_flake8\n'}
+[1.663863] (Q1) StderrLine: {'line': b'  Warning: SelectableGroups dict interface is deprecated. Use select.\n'}
+[1.663951] (Q1) StderrLine: {'line': b'\n'}
+[1.664036] (Q1) StderrLine: {'line': b'-- Docs: https://docs.pytest.org/en/stable/warnings.html\n'}
+[1.664122] (Q1) StdoutLine: {'line': b'=========================== short test summary info ============================\n'}
+[1.664221] (Q1) StdoutLine: {'line': b'FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 9 code style ...\n'}
+[1.664307] (Q1) StdoutLine: {'line': b'\x1b[31m============== \x1b[31m\x1b[1m1 failed\x1b[0m, \x1b[32m1 passed\x1b[0m, \x1b[33m1 skipped\x1b[0m, \x1b[33m2 warnings\x1b[0m\x1b[31m in 0.68s\x1b[0m\x1b[31m ==============\x1b[0m\n'}
+[1.687976] (py_pubsub) StdoutLine: {'line': b'test/test_flake8.py \x1b[31mF\x1b[0m\x1b[31m                                                    [ 66%]\x1b[0m\n'}
+[1.717787] (-) TimerEvent: {}
+[1.719583] (py_pubsub) StdoutLine: {'line': b'test/test_pep257.py \x1b[32m.\x1b[0m\x1b[31m                                                    [100%]\x1b[0m\n'}
+[1.719767] (py_pubsub) StdoutLine: {'line': b'\n'}
+[1.719877] (py_pubsub) StdoutLine: {'line': b'=================================== FAILURES ===================================\n'}
+[1.720043] (py_pubsub) StdoutLine: {'line': b'\x1b[31m\x1b[1m_________________________________ test_flake8 __________________________________\x1b[0m\n'}
+[1.720137] (py_pubsub) StdoutLine: {'line': b'\x1b[1m\x1b[31mtest/test_flake8.py\x1b[0m:23: in test_flake8\n'}
+[1.735298] (Q1) CommandEnded: {'returncode': 1}
+[1.735848] (Q1) TestFailure: {'identifier': 'Q1'}
+[1.735906] (Q1) JobEnded: {'identifier': 'Q1', 'rc': 0}
+[1.800824] (py_pubsub) StdoutLine: {'line': b'    \x1b[94massert\x1b[39;49;00m rc == \x1b[94m0\x1b[39;49;00m, \\\n'}
+[1.801144] (py_pubsub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE   AssertionError: Found 1 code style errors / warnings:\x1b[0m\n'}
+[1.801290] (py_pubsub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./setup.py:24:68: W291 trailing whitespace\x1b[0m\n'}
+[1.801397] (py_pubsub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE   assert 1 == 0\x1b[0m\n'}
+[1.801665] (py_pubsub) StdoutLine: {'line': b'----------------------------- Captured stdout call -----------------------------\n'}
+[1.801765] (py_pubsub) StdoutLine: {'line': b'\n'}
+[1.801854] (py_pubsub) StdoutLine: {'line': b'./setup.py:24:68: W291 trailing whitespace\n'}
+[1.801940] (py_pubsub) StdoutLine: {'line': b"            'listener = py_pubsub.subscriber_member_function:main',         \n"}
+[1.802027] (py_pubsub) StdoutLine: {'line': b'                                                                   ^\n'}
+[1.802285] (py_pubsub) StdoutLine: {'line': b'\n'}
+[1.802384] (py_pubsub) StdoutLine: {'line': b'1     W291 trailing whitespace\n'}
+[1.802469] (py_pubsub) StdoutLine: {'line': b'\n'}
+[1.802554] (py_pubsub) StdoutLine: {'line': b'7 files checked\n'}
+[1.802639] (py_pubsub) StdoutLine: {'line': b'1 errors\n'}
+[1.802724] (py_pubsub) StdoutLine: {'line': b'\n'}
+[1.802809] (py_pubsub) StdoutLine: {'line': b"'W'-type errors: 1\n"}
+[1.802893] (py_pubsub) StdoutLine: {'line': b'\n'}
+[1.802977] (py_pubsub) StdoutLine: {'line': b'Checked files:\n'}
+[1.803061] (py_pubsub) StdoutLine: {'line': b'\n'}
+[1.803144] (py_pubsub) StdoutLine: {'line': b'* ./setup.py\n'}
+[1.803230] (py_pubsub) StdoutLine: {'line': b'* ./py_pubsub/subscriber_member_function.py\n'}
+[1.803348] (py_pubsub) StdoutLine: {'line': b'* ./py_pubsub/__init__.py\n'}
+[1.803433] (py_pubsub) StdoutLine: {'line': b'* ./py_pubsub/publisher_member_function.py\n'}
+[1.803516] (py_pubsub) StdoutLine: {'line': b'* ./test/test_flake8.py\n'}
+[1.803600] (py_pubsub) StdoutLine: {'line': b'* ./test/test_copyright.py\n'}
+[1.803684] (py_pubsub) StdoutLine: {'line': b'* ./test/test_pep257.py\n'}
+[1.803768] (py_pubsub) StdoutLine: {'line': b'----------------------------- Captured stderr call -----------------------------\n'}
+[1.803852] (py_pubsub) StdoutLine: {'line': b'option --max-complexity: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future\n'}
+[1.803937] (py_pubsub) StderrLine: {'line': b'\x1b[33m=============================== warnings summary ===============================\x1b[0m\n'}
+[1.804045] (py_pubsub) StderrLine: {'line': b'test/test_flake8.py::test_flake8\n'}
+[1.804131] (py_pubsub) StderrLine: {'line': b'test/test_flake8.py::test_flake8\n'}
+[1.804214] (py_pubsub) StderrLine: {'line': b'  Warning: SelectableGroups dict interface is deprecated. Use select.\n'}
+[1.804299] (py_pubsub) StderrLine: {'line': b'\n'}
+[1.804447] (py_pubsub) StderrLine: {'line': b'-- Docs: https://docs.pytest.org/en/stable/warnings.html\n'}
+[1.804536] (py_pubsub) StdoutLine: {'line': b'----- generated xml file: /home/vboxuser/HW3_ws/build/py_pubsub/pytest.xml -----\n'}
+[1.804631] (py_pubsub) StdoutLine: {'line': b'=========================== short test summary info ============================\n'}
+[1.804716] (py_pubsub) StdoutLine: {'line': b'FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 1 code style ...\n'}
+[1.804801] (py_pubsub) StdoutLine: {'line': b'\x1b[31m============== \x1b[31m\x1b[1m1 failed\x1b[0m, \x1b[32m1 passed\x1b[0m, \x1b[33m1 skipped\x1b[0m, \x1b[33m2 warnings\x1b[0m\x1b[31m in 0.42s\x1b[0m\x1b[31m ==============\x1b[0m\n'}
+[1.819146] (-) TimerEvent: {}
+[1.885266] (py_pubsub) CommandEnded: {'returncode': 1}
+[1.885584] (py_pubsub) TestFailure: {'identifier': 'py_pubsub'}
+[1.885610] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[1.886526] (-) EventReactorShutdown: {}

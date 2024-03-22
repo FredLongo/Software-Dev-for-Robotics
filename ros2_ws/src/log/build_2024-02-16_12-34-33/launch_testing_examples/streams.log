@@ -1,0 +1,51 @@
+[3.074s] Invoking command in '/home/vboxuser/ros2_ws/src/examples/launch_testing/launch_testing_examples': PYTHONPATH=/home/vboxuser/ros2_ws/src/build/launch_testing_examples/prefix_override:/home/vboxuser/ros2_ws/src/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/launch_testing_examples build --build-base /home/vboxuser/ros2_ws/src/build/launch_testing_examples/build install --record /home/vboxuser/ros2_ws/src/build/launch_testing_examples/install.log --single-version-externally-managed
+[3.812s] running egg_info
+[3.812s] creating ../../../build/launch_testing_examples/launch_testing_examples.egg-info
+[3.812s] writing ../../../build/launch_testing_examples/launch_testing_examples.egg-info/PKG-INFO
+[3.817s] writing dependency_links to ../../../build/launch_testing_examples/launch_testing_examples.egg-info/dependency_links.txt
+[3.818s] writing entry points to ../../../build/launch_testing_examples/launch_testing_examples.egg-info/entry_points.txt
+[3.818s] writing requirements to ../../../build/launch_testing_examples/launch_testing_examples.egg-info/requires.txt
+[3.818s] writing top-level names to ../../../build/launch_testing_examples/launch_testing_examples.egg-info/top_level.txt
+[3.818s] writing manifest file '../../../build/launch_testing_examples/launch_testing_examples.egg-info/SOURCES.txt'
+[3.818s] reading manifest file '../../../build/launch_testing_examples/launch_testing_examples.egg-info/SOURCES.txt'
+[3.818s] writing manifest file '../../../build/launch_testing_examples/launch_testing_examples.egg-info/SOURCES.txt'
+[3.830s] running build
+[3.830s] running build_py
+[3.830s] creating /home/vboxuser/ros2_ws/src/build/launch_testing_examples/build
+[3.830s] creating /home/vboxuser/ros2_ws/src/build/launch_testing_examples/build/lib
+[3.830s] creating /home/vboxuser/ros2_ws/src/build/launch_testing_examples/build/lib/launch_testing_examples
+[3.830s] copying launch_testing_examples/check_multiple_nodes_launch_test.py -> /home/vboxuser/ros2_ws/src/build/launch_testing_examples/build/lib/launch_testing_examples
+[3.830s] copying launch_testing_examples/__init__.py -> /home/vboxuser/ros2_ws/src/build/launch_testing_examples/build/lib/launch_testing_examples
+[3.830s] copying launch_testing_examples/set_param_launch_test.py -> /home/vboxuser/ros2_ws/src/build/launch_testing_examples/build/lib/launch_testing_examples
+[3.830s] copying launch_testing_examples/check_msgs_launch_test.py -> /home/vboxuser/ros2_ws/src/build/launch_testing_examples/build/lib/launch_testing_examples
+[3.830s] copying launch_testing_examples/check_node_launch_test.py -> /home/vboxuser/ros2_ws/src/build/launch_testing_examples/build/lib/launch_testing_examples
+[3.830s] copying launch_testing_examples/record_rosbag_launch_test.py -> /home/vboxuser/ros2_ws/src/build/launch_testing_examples/build/lib/launch_testing_examples
+[3.831s] copying launch_testing_examples/hello_world_launch_test.py -> /home/vboxuser/ros2_ws/src/build/launch_testing_examples/build/lib/launch_testing_examples
+[3.831s] running install
+[3.831s] running install_lib
+[3.831s] creating /home/vboxuser/ros2_ws/src/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples
+[3.831s] copying /home/vboxuser/ros2_ws/src/build/launch_testing_examples/build/lib/launch_testing_examples/check_multiple_nodes_launch_test.py -> /home/vboxuser/ros2_ws/src/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples
+[3.831s] copying /home/vboxuser/ros2_ws/src/build/launch_testing_examples/build/lib/launch_testing_examples/__init__.py -> /home/vboxuser/ros2_ws/src/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples
+[3.840s] copying /home/vboxuser/ros2_ws/src/build/launch_testing_examples/build/lib/launch_testing_examples/set_param_launch_test.py -> /home/vboxuser/ros2_ws/src/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples
+[3.841s] copying /home/vboxuser/ros2_ws/src/build/launch_testing_examples/build/lib/launch_testing_examples/check_msgs_launch_test.py -> /home/vboxuser/ros2_ws/src/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples
+[3.841s] copying /home/vboxuser/ros2_ws/src/build/launch_testing_examples/build/lib/launch_testing_examples/check_node_launch_test.py -> /home/vboxuser/ros2_ws/src/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples
+[3.841s] copying /home/vboxuser/ros2_ws/src/build/launch_testing_examples/build/lib/launch_testing_examples/record_rosbag_launch_test.py -> /home/vboxuser/ros2_ws/src/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples
+[3.841s] copying /home/vboxuser/ros2_ws/src/build/launch_testing_examples/build/lib/launch_testing_examples/hello_world_launch_test.py -> /home/vboxuser/ros2_ws/src/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples
+[3.841s] byte-compiling /home/vboxuser/ros2_ws/src/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples/check_multiple_nodes_launch_test.py to check_multiple_nodes_launch_test.cpython-310.pyc
+[3.841s] byte-compiling /home/vboxuser/ros2_ws/src/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples/__init__.py to __init__.cpython-310.pyc
+[3.841s] byte-compiling /home/vboxuser/ros2_ws/src/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples/set_param_launch_test.py to set_param_launch_test.cpython-310.pyc
+[3.841s] byte-compiling /home/vboxuser/ros2_ws/src/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples/check_msgs_launch_test.py to check_msgs_launch_test.cpython-310.pyc
+[3.841s] byte-compiling /home/vboxuser/ros2_ws/src/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples/check_node_launch_test.py to check_node_launch_test.cpython-310.pyc
+[3.845s] byte-compiling /home/vboxuser/ros2_ws/src/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples/record_rosbag_launch_test.py to record_rosbag_launch_test.cpython-310.pyc
+[3.845s] byte-compiling /home/vboxuser/ros2_ws/src/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples/hello_world_launch_test.py to hello_world_launch_test.cpython-310.pyc
+[3.845s] running install_data
+[3.845s] creating /home/vboxuser/ros2_ws/src/install/launch_testing_examples/share/ament_index
+[3.846s] creating /home/vboxuser/ros2_ws/src/install/launch_testing_examples/share/ament_index/resource_index
+[3.846s] creating /home/vboxuser/ros2_ws/src/install/launch_testing_examples/share/ament_index/resource_index/packages
+[3.846s] copying resource/launch_testing_examples -> /home/vboxuser/ros2_ws/src/install/launch_testing_examples/share/ament_index/resource_index/packages
+[3.846s] copying package.xml -> /home/vboxuser/ros2_ws/src/install/launch_testing_examples/share/launch_testing_examples
+[3.858s] running install_egg_info
+[3.858s] Copying ../../../build/launch_testing_examples/launch_testing_examples.egg-info to /home/vboxuser/ros2_ws/src/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples-0.15.1-py3.10.egg-info
+[3.859s] running install_scripts
+[3.927s] writing list of installed files to '/home/vboxuser/ros2_ws/src/build/launch_testing_examples/install.log'
+[4.019s] Invoked command in '/home/vboxuser/ros2_ws/src/examples/launch_testing/launch_testing_examples' returned '0': PYTHONPATH=/home/vboxuser/ros2_ws/src/build/launch_testing_examples/prefix_override:/home/vboxuser/ros2_ws/src/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/launch_testing_examples build --build-base /home/vboxuser/ros2_ws/src/build/launch_testing_examples/build install --record /home/vboxuser/ros2_ws/src/build/launch_testing_examples/install.log --single-version-externally-managed

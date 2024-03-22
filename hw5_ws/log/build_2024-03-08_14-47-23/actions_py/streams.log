@@ -1,0 +1,33 @@
+[1.968s] Invoking command in '/home/vboxuser/hw5_ws/build/actions_py': PYTHONPATH=/home/vboxuser/hw5_ws/build/actions_py/prefix_override:/home/vboxuser/hw5_ws/install/actions_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/vboxuser/hw5_ws/build/actions_py/build
+[2.384s] running develop
+[2.645s] Removing /home/vboxuser/hw5_ws/install/actions_py/lib/python3.10/site-packages/actions-py.egg-link (link to .)
+[2.712s] Invoked command in '/home/vboxuser/hw5_ws/build/actions_py' returned '0': PYTHONPATH=/home/vboxuser/hw5_ws/build/actions_py/prefix_override:/home/vboxuser/hw5_ws/install/actions_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/vboxuser/hw5_ws/build/actions_py/build
+[2.715s] Invoking command in '/home/vboxuser/hw5_ws/src/actions_py': PYTHONPATH=/home/vboxuser/hw5_ws/build/actions_py/prefix_override:/home/vboxuser/hw5_ws/install/actions_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/actions_py build --build-base /home/vboxuser/hw5_ws/build/actions_py/build install --record /home/vboxuser/hw5_ws/build/actions_py/install.log --single-version-externally-managed
+[3.119s] running egg_info
+[3.120s] writing ../../build/actions_py/actions_py.egg-info/PKG-INFO
+[3.120s] writing dependency_links to ../../build/actions_py/actions_py.egg-info/dependency_links.txt
+[3.120s] writing entry points to ../../build/actions_py/actions_py.egg-info/entry_points.txt
+[3.120s] writing requirements to ../../build/actions_py/actions_py.egg-info/requires.txt
+[3.120s] writing top-level names to ../../build/actions_py/actions_py.egg-info/top_level.txt
+[3.121s] reading manifest file '../../build/actions_py/actions_py.egg-info/SOURCES.txt'
+[3.123s] writing manifest file '../../build/actions_py/actions_py.egg-info/SOURCES.txt'
+[3.123s] running build
+[3.123s] running build_py
+[3.124s] running install
+[3.124s] running install_lib
+[3.125s] creating /home/vboxuser/hw5_ws/install/actions_py/lib/python3.10/site-packages/actions_py
+[3.126s] copying /home/vboxuser/hw5_ws/build/actions_py/build/lib/actions_py/count_until_client.py -> /home/vboxuser/hw5_ws/install/actions_py/lib/python3.10/site-packages/actions_py
+[3.126s] copying /home/vboxuser/hw5_ws/build/actions_py/build/lib/actions_py/count_until_server.py -> /home/vboxuser/hw5_ws/install/actions_py/lib/python3.10/site-packages/actions_py
+[3.126s] copying /home/vboxuser/hw5_ws/build/actions_py/build/lib/actions_py/__init__.py -> /home/vboxuser/hw5_ws/install/actions_py/lib/python3.10/site-packages/actions_py
+[3.126s] copying /home/vboxuser/hw5_ws/build/actions_py/build/lib/actions_py/TemplateNodeOPP.py -> /home/vboxuser/hw5_ws/install/actions_py/lib/python3.10/site-packages/actions_py
+[3.127s] byte-compiling /home/vboxuser/hw5_ws/install/actions_py/lib/python3.10/site-packages/actions_py/count_until_client.py to count_until_client.cpython-310.pyc
+[3.127s] byte-compiling /home/vboxuser/hw5_ws/install/actions_py/lib/python3.10/site-packages/actions_py/count_until_server.py to count_until_server.cpython-310.pyc
+[3.128s] byte-compiling /home/vboxuser/hw5_ws/install/actions_py/lib/python3.10/site-packages/actions_py/__init__.py to __init__.cpython-310.pyc
+[3.128s] byte-compiling /home/vboxuser/hw5_ws/install/actions_py/lib/python3.10/site-packages/actions_py/TemplateNodeOPP.py to TemplateNodeOPP.cpython-310.pyc
+[3.128s] running install_data
+[3.129s] running install_egg_info
+[3.131s] Copying ../../build/actions_py/actions_py.egg-info to /home/vboxuser/hw5_ws/install/actions_py/lib/python3.10/site-packages/actions_py-0.0.0-py3.10.egg-info
+[3.132s] running install_scripts
+[3.161s] Installing count_until_client script to /home/vboxuser/hw5_ws/install/actions_py/lib/actions_py
+[3.162s] Installing count_until_server script to /home/vboxuser/hw5_ws/install/actions_py/lib/actions_py
+[3.162s] writing list of installed files to '/home/vboxuser/hw5_ws/build/actions_py/install.log'

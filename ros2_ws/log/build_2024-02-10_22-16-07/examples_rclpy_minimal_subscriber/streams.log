@@ -1,0 +1,19 @@
+[3.413s] Invoking command in '/home/vboxuser/ros2_ws/build/examples_rclpy_minimal_subscriber': PYTHONPATH=/home/vboxuser/ros2_ws/build/examples_rclpy_minimal_subscriber/prefix_override:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/vboxuser/ros2_ws/build/examples_rclpy_minimal_subscriber/build --no-deps install_data
+[3.866s] running develop
+[4.149s] running egg_info
+[4.150s] writing examples_rclpy_minimal_subscriber.egg-info/PKG-INFO
+[4.150s] writing dependency_links to examples_rclpy_minimal_subscriber.egg-info/dependency_links.txt
+[4.151s] writing entry points to examples_rclpy_minimal_subscriber.egg-info/entry_points.txt
+[4.151s] writing requirements to examples_rclpy_minimal_subscriber.egg-info/requires.txt
+[4.152s] writing top-level names to examples_rclpy_minimal_subscriber.egg-info/top_level.txt
+[4.154s] reading manifest file 'examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[4.156s] writing manifest file 'examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[4.159s] running build_ext
+[4.159s] Creating /home/vboxuser/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples-rclpy-minimal-subscriber.egg-link (link to .)
+[4.161s] Installing subscriber_lambda script to /home/vboxuser/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[4.161s] Installing subscriber_member_function script to /home/vboxuser/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[4.161s] Installing subscriber_old_school script to /home/vboxuser/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[4.162s] 
+[4.162s] Installed /home/vboxuser/ros2_ws/build/examples_rclpy_minimal_subscriber
+[4.162s] running install_data
+[4.289s] Invoked command in '/home/vboxuser/ros2_ws/build/examples_rclpy_minimal_subscriber' returned '0': PYTHONPATH=/home/vboxuser/ros2_ws/build/examples_rclpy_minimal_subscriber/prefix_override:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/vboxuser/ros2_ws/build/examples_rclpy_minimal_subscriber/build --no-deps install_data

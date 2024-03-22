@@ -1,0 +1,28 @@
+[0.193s] Invoking command in '/home/vboxuser/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ros2_ws/src/install/py_pubsub3:/home/vboxuser/ros2_ws/src/install/py_pubsub2:/home/vboxuser/ros2_ws/src/install/py_pubsub:/home/vboxuser/ros2_ws/src/install/launch_testing_examples:/home/vboxuser/ros2_ws/src/install/examples_rclpy_pointcloud_publisher:/home/vboxuser/ros2_ws/src/install/examples_rclpy_minimal_subscriber:/home/vboxuser/ros2_ws/src/install/examples_rclpy_minimal_service:/home/vboxuser/ros2_ws/src/install/examples_rclpy_minimal_publisher:/home/vboxuser/ros2_ws/src/install/examples_rclpy_minimal_client:/home/vboxuser/ros2_ws/src/install/examples_rclpy_minimal_action_server:/home/vboxuser/ros2_ws/src/install/examples_rclpy_minimal_action_client:/home/vboxuser/ros2_ws/src/install/examples_rclpy_guard_conditions:/home/vboxuser/ros2_ws/src/install/examples_rclpy_executors:/home/vboxuser/ros2_ws/install/py_pubsub2:/home/vboxuser/ros2_ws/install/py_pubsub:/home/vboxuser/ros2_ws/install/launch_testing_examples:/home/vboxuser/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_service:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_publisher:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_client:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_action_server:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_action_client:/home/vboxuser/ros2_ws/install/examples_rclpy_guard_conditions:/home/vboxuser/ros2_ws/install/examples_rclpy_executors:/home/vboxuser/HW3_ws/install/py_pubsub:/home/vboxuser/HW3_ws/install/Q1:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/my_cpp_pkg -- -j6 -l6
+[0.226s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.524s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[0.593s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.598s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.609s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.633s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.671s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.791s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.797s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.014s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.469s] -- Configuring done
+[1.472s] [31mCMake Error at CMakeLists.txt:13 (add_executable):
+[1.472s]   Cannot find source file:
+[1.472s] 
+[1.473s]     /src/my_first_node.cpp
+[1.473s] 
+[1.473s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[1.476s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[1.476s] 
+[1.476s] [0m
+[1.476s] [31mCMake Error at CMakeLists.txt:13 (add_executable):
+[1.476s]   No SOURCES given to target: cpp_node
+[1.476s] 
+[1.476s] [0m
+[1.476s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[1.487s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[1.490s] Invoked command in '/home/vboxuser/ros2_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ros2_ws/src/install/py_pubsub3:/home/vboxuser/ros2_ws/src/install/py_pubsub2:/home/vboxuser/ros2_ws/src/install/py_pubsub:/home/vboxuser/ros2_ws/src/install/launch_testing_examples:/home/vboxuser/ros2_ws/src/install/examples_rclpy_pointcloud_publisher:/home/vboxuser/ros2_ws/src/install/examples_rclpy_minimal_subscriber:/home/vboxuser/ros2_ws/src/install/examples_rclpy_minimal_service:/home/vboxuser/ros2_ws/src/install/examples_rclpy_minimal_publisher:/home/vboxuser/ros2_ws/src/install/examples_rclpy_minimal_client:/home/vboxuser/ros2_ws/src/install/examples_rclpy_minimal_action_server:/home/vboxuser/ros2_ws/src/install/examples_rclpy_minimal_action_client:/home/vboxuser/ros2_ws/src/install/examples_rclpy_guard_conditions:/home/vboxuser/ros2_ws/src/install/examples_rclpy_executors:/home/vboxuser/ros2_ws/install/py_pubsub2:/home/vboxuser/ros2_ws/install/py_pubsub:/home/vboxuser/ros2_ws/install/launch_testing_examples:/home/vboxuser/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_service:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_publisher:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_client:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_action_server:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_action_client:/home/vboxuser/ros2_ws/install/examples_rclpy_guard_conditions:/home/vboxuser/ros2_ws/install/examples_rclpy_executors:/home/vboxuser/HW3_ws/install/py_pubsub:/home/vboxuser/HW3_ws/install/Q1:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/my_cpp_pkg -- -j6 -l6

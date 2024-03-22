@@ -1,0 +1,5 @@
+  File "/home/vboxuser/hw5_ws/src/install/turtle_run/lib/python3.10/site-packages/turtle_run/turtle_run_server.py", line 94
+    def is_pose_in_checkpoint(checkpoint, point:Pose)
+                                                     ^
+SyntaxError: expected ':'
+

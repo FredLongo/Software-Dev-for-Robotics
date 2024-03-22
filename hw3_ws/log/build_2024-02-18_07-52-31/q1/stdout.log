@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing q1.egg-info/PKG-INFO
+writing dependency_links to q1.egg-info/dependency_links.txt
+writing entry points to q1.egg-info/entry_points.txt
+writing requirements to q1.egg-info/requires.txt
+writing top-level names to q1.egg-info/top_level.txt
+reading manifest file 'q1.egg-info/SOURCES.txt'
+writing manifest file 'q1.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/vboxuser/hw3_ws/install/q1/lib/python3.10/site-packages/q1.egg-link (link to .)
+Installing my_pub script to /home/vboxuser/hw3_ws/install/q1/lib/q1
+
+Installed /home/vboxuser/hw3_ws/build/q1
+running install_data

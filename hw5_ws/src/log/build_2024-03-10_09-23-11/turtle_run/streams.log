@@ -1,0 +1,37 @@
+[2.752s] Invoking command in '/home/vboxuser/hw5_ws/src/turtle_run': PYTHONPATH=/home/vboxuser/hw5_ws/src/build/turtle_run/prefix_override:/home/vboxuser/hw5_ws/src/install/turtle_run/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/turtle_run build --build-base /home/vboxuser/hw5_ws/src/build/turtle_run/build install --record /home/vboxuser/hw5_ws/src/build/turtle_run/install.log --single-version-externally-managed
+[3.296s] running egg_info
+[3.296s] creating ../build/turtle_run/turtle_run.egg-info
+[3.296s] writing ../build/turtle_run/turtle_run.egg-info/PKG-INFO
+[3.296s] writing dependency_links to ../build/turtle_run/turtle_run.egg-info/dependency_links.txt
+[3.297s] writing entry points to ../build/turtle_run/turtle_run.egg-info/entry_points.txt
+[3.297s] writing requirements to ../build/turtle_run/turtle_run.egg-info/requires.txt
+[3.297s] writing top-level names to ../build/turtle_run/turtle_run.egg-info/top_level.txt
+[3.297s] writing manifest file '../build/turtle_run/turtle_run.egg-info/SOURCES.txt'
+[3.297s] reading manifest file '../build/turtle_run/turtle_run.egg-info/SOURCES.txt'
+[3.304s] writing manifest file '../build/turtle_run/turtle_run.egg-info/SOURCES.txt'
+[3.304s] running build
+[3.304s] running build_py
+[3.304s] creating /home/vboxuser/hw5_ws/src/build/turtle_run/build
+[3.304s] creating /home/vboxuser/hw5_ws/src/build/turtle_run/build/lib
+[3.304s] creating /home/vboxuser/hw5_ws/src/build/turtle_run/build/lib/turtle_run
+[3.304s] copying turtle_run/turtle_run_server.py -> /home/vboxuser/hw5_ws/src/build/turtle_run/build/lib/turtle_run
+[3.304s] copying turtle_run/__init__.py -> /home/vboxuser/hw5_ws/src/build/turtle_run/build/lib/turtle_run
+[3.304s] running install
+[3.304s] running install_lib
+[3.305s] creating /home/vboxuser/hw5_ws/src/install/turtle_run/lib/python3.10/site-packages/turtle_run
+[3.305s] copying /home/vboxuser/hw5_ws/src/build/turtle_run/build/lib/turtle_run/turtle_run_server.py -> /home/vboxuser/hw5_ws/src/install/turtle_run/lib/python3.10/site-packages/turtle_run
+[3.305s] copying /home/vboxuser/hw5_ws/src/build/turtle_run/build/lib/turtle_run/__init__.py -> /home/vboxuser/hw5_ws/src/install/turtle_run/lib/python3.10/site-packages/turtle_run
+[3.305s] byte-compiling /home/vboxuser/hw5_ws/src/install/turtle_run/lib/python3.10/site-packages/turtle_run/turtle_run_server.py to turtle_run_server.cpython-310.pyc
+[3.305s] byte-compiling /home/vboxuser/hw5_ws/src/install/turtle_run/lib/python3.10/site-packages/turtle_run/__init__.py to __init__.cpython-310.pyc
+[3.305s] running install_data
+[3.305s] creating /home/vboxuser/hw5_ws/src/install/turtle_run/share/ament_index
+[3.305s] creating /home/vboxuser/hw5_ws/src/install/turtle_run/share/ament_index/resource_index
+[3.305s] creating /home/vboxuser/hw5_ws/src/install/turtle_run/share/ament_index/resource_index/packages
+[3.305s] copying resource/turtle_run -> /home/vboxuser/hw5_ws/src/install/turtle_run/share/ament_index/resource_index/packages
+[3.305s] copying package.xml -> /home/vboxuser/hw5_ws/src/install/turtle_run/share/turtle_run
+[3.306s] running install_egg_info
+[3.306s] Copying ../build/turtle_run/turtle_run.egg-info to /home/vboxuser/hw5_ws/src/install/turtle_run/lib/python3.10/site-packages/turtle_run-0.0.0-py3.10.egg-info
+[3.306s] running install_scripts
+[3.326s] Installing turtle_run_server script to /home/vboxuser/hw5_ws/src/install/turtle_run/lib/turtle_run
+[3.326s] writing list of installed files to '/home/vboxuser/hw5_ws/src/build/turtle_run/install.log'
+[3.538s] Invoked command in '/home/vboxuser/hw5_ws/src/turtle_run' returned '0': PYTHONPATH=/home/vboxuser/hw5_ws/src/build/turtle_run/prefix_override:/home/vboxuser/hw5_ws/src/install/turtle_run/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/turtle_run build --build-base /home/vboxuser/hw5_ws/src/build/turtle_run/build install --record /home/vboxuser/hw5_ws/src/build/turtle_run/install.log --single-version-externally-managed

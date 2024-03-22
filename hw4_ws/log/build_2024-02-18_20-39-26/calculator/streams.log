@@ -1,0 +1,25 @@
+[1.064s] Invoking command in '/home/vboxuser/hw4_ws/src/calculator': PYTHONPATH=/home/vboxuser/hw4_ws/build/calculator/prefix_override:/home/vboxuser/hw4_ws/install/calculator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/calculator build --build-base /home/vboxuser/hw4_ws/build/calculator/build install --record /home/vboxuser/hw4_ws/build/calculator/install.log --single-version-externally-managed
+[1.417s] running egg_info
+[1.418s] writing ../../build/calculator/calculator.egg-info/PKG-INFO
+[1.418s] writing dependency_links to ../../build/calculator/calculator.egg-info/dependency_links.txt
+[1.418s] writing entry points to ../../build/calculator/calculator.egg-info/entry_points.txt
+[1.418s] writing requirements to ../../build/calculator/calculator.egg-info/requires.txt
+[1.418s] writing top-level names to ../../build/calculator/calculator.egg-info/top_level.txt
+[1.420s] reading manifest file '../../build/calculator/calculator.egg-info/SOURCES.txt'
+[1.421s] adding license file 'LICENSE'
+[1.422s] writing manifest file '../../build/calculator/calculator.egg-info/SOURCES.txt'
+[1.422s] running build
+[1.422s] running build_py
+[1.422s] copying calculator/calc_node.py -> /home/vboxuser/hw4_ws/build/calculator/build/lib/calculator
+[1.422s] running install
+[1.423s] running install_lib
+[1.423s] copying /home/vboxuser/hw4_ws/build/calculator/build/lib/calculator/calc_node.py -> /home/vboxuser/hw4_ws/install/calculator/lib/python3.10/site-packages/calculator
+[1.424s] byte-compiling /home/vboxuser/hw4_ws/install/calculator/lib/python3.10/site-packages/calculator/calc_node.py to calc_node.cpython-310.pyc
+[1.424s] running install_data
+[1.425s] running install_egg_info
+[1.427s] removing '/home/vboxuser/hw4_ws/install/calculator/lib/python3.10/site-packages/calculator-0.0.0-py3.10.egg-info' (and everything under it)
+[1.427s] Copying ../../build/calculator/calculator.egg-info to /home/vboxuser/hw4_ws/install/calculator/lib/python3.10/site-packages/calculator-0.0.0-py3.10.egg-info
+[1.428s] running install_scripts
+[1.453s] Installing calc_node script to /home/vboxuser/hw4_ws/install/calculator/lib/calculator
+[1.454s] writing list of installed files to '/home/vboxuser/hw4_ws/build/calculator/install.log'
+[1.480s] Invoked command in '/home/vboxuser/hw4_ws/src/calculator' returned '0': PYTHONPATH=/home/vboxuser/hw4_ws/build/calculator/prefix_override:/home/vboxuser/hw4_ws/install/calculator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/calculator build --build-base /home/vboxuser/hw4_ws/build/calculator/build install --record /home/vboxuser/hw4_ws/build/calculator/install.log --single-version-externally-managed

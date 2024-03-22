@@ -1,0 +1,22 @@
+[3.228s] Invoking command in '/home/vboxuser/hw5_ws/src/actions_py': PYTHONPATH=/home/vboxuser/hw5_ws/build/actions_py/prefix_override:/home/vboxuser/hw5_ws/install/actions_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/actions_py build --build-base /home/vboxuser/hw5_ws/build/actions_py/build install --record /home/vboxuser/hw5_ws/build/actions_py/install.log --single-version-externally-managed
+[3.763s] running egg_info
+[3.765s] writing ../../build/actions_py/actions_py.egg-info/PKG-INFO
+[3.766s] writing dependency_links to ../../build/actions_py/actions_py.egg-info/dependency_links.txt
+[3.766s] writing entry points to ../../build/actions_py/actions_py.egg-info/entry_points.txt
+[3.766s] writing requirements to ../../build/actions_py/actions_py.egg-info/requires.txt
+[3.766s] writing top-level names to ../../build/actions_py/actions_py.egg-info/top_level.txt
+[3.769s] reading manifest file '../../build/actions_py/actions_py.egg-info/SOURCES.txt'
+[3.771s] writing manifest file '../../build/actions_py/actions_py.egg-info/SOURCES.txt'
+[3.771s] running build
+[3.771s] running build_py
+[3.771s] running install
+[3.772s] running install_lib
+[3.774s] running install_data
+[3.775s] running install_egg_info
+[3.777s] removing '/home/vboxuser/hw5_ws/install/actions_py/lib/python3.10/site-packages/actions_py-0.0.0-py3.10.egg-info' (and everything under it)
+[3.777s] Copying ../../build/actions_py/actions_py.egg-info to /home/vboxuser/hw5_ws/install/actions_py/lib/python3.10/site-packages/actions_py-0.0.0-py3.10.egg-info
+[3.778s] running install_scripts
+[3.812s] Installing count_until_client script to /home/vboxuser/hw5_ws/install/actions_py/lib/actions_py
+[3.813s] Installing count_until_server script to /home/vboxuser/hw5_ws/install/actions_py/lib/actions_py
+[3.813s] writing list of installed files to '/home/vboxuser/hw5_ws/build/actions_py/install.log'
+[3.997s] Invoked command in '/home/vboxuser/hw5_ws/src/actions_py' returned '0': PYTHONPATH=/home/vboxuser/hw5_ws/build/actions_py/prefix_override:/home/vboxuser/hw5_ws/install/actions_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/actions_py build --build-base /home/vboxuser/hw5_ws/build/actions_py/build install --record /home/vboxuser/hw5_ws/build/actions_py/install.log --single-version-externally-managed

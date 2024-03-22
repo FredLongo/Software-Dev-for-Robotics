@@ -1,0 +1,18 @@
+[3.146s] Invoking command in '/home/vboxuser/hw3_ws/build/py_pubsub': PYTHONPATH=/home/vboxuser/hw3_ws/build/py_pubsub/prefix_override:/home/vboxuser/hw3_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/vboxuser/hw3_ws/build/py_pubsub/build --no-deps install_data
+[3.586s] running develop
+[3.837s] running egg_info
+[3.837s] writing py_pubsub.egg-info/PKG-INFO
+[3.838s] writing dependency_links to py_pubsub.egg-info/dependency_links.txt
+[3.838s] writing entry points to py_pubsub.egg-info/entry_points.txt
+[3.838s] writing requirements to py_pubsub.egg-info/requires.txt
+[3.838s] writing top-level names to py_pubsub.egg-info/top_level.txt
+[3.841s] reading manifest file 'py_pubsub.egg-info/SOURCES.txt'
+[3.842s] writing manifest file 'py_pubsub.egg-info/SOURCES.txt'
+[3.844s] running build_ext
+[3.844s] Creating /home/vboxuser/hw3_ws/install/py_pubsub/lib/python3.10/site-packages/py-pubsub.egg-link (link to .)
+[3.845s] Installing listener script to /home/vboxuser/hw3_ws/install/py_pubsub/lib/py_pubsub
+[3.851s] Installing talker script to /home/vboxuser/hw3_ws/install/py_pubsub/lib/py_pubsub
+[3.851s] 
+[3.851s] Installed /home/vboxuser/hw3_ws/build/py_pubsub
+[3.851s] running install_data
+[4.083s] Invoked command in '/home/vboxuser/hw3_ws/build/py_pubsub' returned '0': PYTHONPATH=/home/vboxuser/hw3_ws/build/py_pubsub/prefix_override:/home/vboxuser/hw3_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/vboxuser/hw3_ws/build/py_pubsub/build --no-deps install_data

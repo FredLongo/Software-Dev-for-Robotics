@@ -1,0 +1,22 @@
+[1.423s] Invoking command in '/home/vboxuser/ros2_ws/build/my_py_pkg': PYTHONPATH=/home/vboxuser/ros2_ws/build/my_py_pkg/prefix_override:/home/vboxuser/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/vboxuser/ros2_ws/build/my_py_pkg/build --no-deps install_data
+[1.863s] running develop
+[2.134s] running egg_info
+[2.135s] writing my_py_pkg.egg-info/PKG-INFO
+[2.135s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[2.135s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[2.135s] writing requirements to my_py_pkg.egg-info/requires.txt
+[2.135s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[2.138s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[2.140s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[2.141s] running build_ext
+[2.142s] Creating /home/vboxuser/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[2.143s] Installing add_two_ints_client_no_oop script to /home/vboxuser/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.143s] Installing add_two_ints_clinet script to /home/vboxuser/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.143s] Installing add_two_ints_server script to /home/vboxuser/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.143s] Installing my_first_node script to /home/vboxuser/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.143s] Installing robot_news_station script to /home/vboxuser/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.143s] Installing smart_phone script to /home/vboxuser/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.143s] 
+[2.144s] Installed /home/vboxuser/ros2_ws/build/my_py_pkg
+[2.144s] running install_data
+[2.194s] Invoked command in '/home/vboxuser/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/vboxuser/ros2_ws/build/my_py_pkg/prefix_override:/home/vboxuser/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/vboxuser/ros2_ws/build/my_py_pkg/build --no-deps install_data

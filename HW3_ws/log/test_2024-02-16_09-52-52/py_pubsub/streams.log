@@ -1,0 +1,55 @@
+[0.913s] Invoking command in '/home/vboxuser/HW3_ws/src/py_pubsub': AMENT_PREFIX_PATH=/home/vboxuser/HW3_ws/install/py_pubsub:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/vboxuser/HW3_ws/build/py_pubsub/pytest.xml --junit-prefix=py_pubsub -o cache_dir=/home/vboxuser/HW3_ws/build/py_pubsub/.pytest_cache PYTHONPATH=/home/vboxuser/HW3_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[1.305s] [1m============================= test session starts ==============================[0m
+[1.306s] platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[1.312s] cachedir: /home/vboxuser/HW3_ws/build/py_pubsub/.pytest_cache
+[1.312s] rootdir: /home/vboxuser/HW3_ws/src/py_pubsub
+[1.312s] plugins: ament-copyright-0.12.9, launch-testing-1.0.4, ament-xmllint-0.12.9, ament-pep257-0.12.9, launch-testing-ros-0.19.6, ament-lint-0.12.9, ament-flake8-0.12.9, cov-3.0.0, colcon-core-0.15.1
+[1.414s] [1mcollecting ... [0m[1m
+[1.414s] collected 3 items                                                              [0m
+[1.414s] 
+[1.432s] test/test_copyright.py [33ms[0m[32m                                                 [ 33%][0m
+[1.613s] test/test_flake8.py [31mF[0m[31m                                                    [ 66%][0m
+[1.645s] test/test_pep257.py [32m.[0m[31m                                                    [100%][0m
+[1.645s] 
+[1.645s] =================================== FAILURES ===================================
+[1.645s] [31m[1m_________________________________ test_flake8 __________________________________[0m
+[1.645s] [1m[31mtest/test_flake8.py[0m:23: in test_flake8
+[1.726s]     [94massert[39;49;00m rc == [94m0[39;49;00m, \
+[1.726s] [1m[31mE   AssertionError: Found 1 code style errors / warnings:[0m
+[1.726s] [1m[31mE     ./setup.py:24:68: W291 trailing whitespace[0m
+[1.727s] [1m[31mE   assert 1 == 0[0m
+[1.727s] ----------------------------- Captured stdout call -----------------------------
+[1.727s] 
+[1.727s] ./setup.py:24:68: W291 trailing whitespace
+[1.727s]             'listener = py_pubsub.subscriber_member_function:main',         
+[1.727s]                                                                    ^
+[1.727s] 
+[1.727s] 1     W291 trailing whitespace
+[1.727s] 
+[1.728s] 7 files checked
+[1.728s] 1 errors
+[1.728s] 
+[1.728s] 'W'-type errors: 1
+[1.728s] 
+[1.728s] Checked files:
+[1.728s] 
+[1.728s] * ./setup.py
+[1.728s] * ./py_pubsub/subscriber_member_function.py
+[1.728s] * ./py_pubsub/__init__.py
+[1.728s] * ./py_pubsub/publisher_member_function.py
+[1.728s] * ./test/test_flake8.py
+[1.729s] * ./test/test_copyright.py
+[1.729s] * ./test/test_pep257.py
+[1.729s] ----------------------------- Captured stderr call -----------------------------
+[1.729s] option --max-complexity: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+[1.729s] [33m=============================== warnings summary ===============================[0m
+[1.729s] test/test_flake8.py::test_flake8
+[1.729s] test/test_flake8.py::test_flake8
+[1.729s]   Warning: SelectableGroups dict interface is deprecated. Use select.
+[1.729s] 
+[1.729s] -- Docs: https://docs.pytest.org/en/stable/warnings.html
+[1.730s] ----- generated xml file: /home/vboxuser/HW3_ws/build/py_pubsub/pytest.xml -----
+[1.730s] =========================== short test summary info ============================
+[1.730s] FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 1 code style ...
+[1.730s] [31m============== [31m[1m1 failed[0m, [32m1 passed[0m, [33m1 skipped[0m, [33m2 warnings[0m[31m in 0.42s[0m[31m ==============[0m
+[1.810s] Invoked command in '/home/vboxuser/HW3_ws/src/py_pubsub' returned '1': AMENT_PREFIX_PATH=/home/vboxuser/HW3_ws/install/py_pubsub:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/vboxuser/HW3_ws/build/py_pubsub/pytest.xml --junit-prefix=py_pubsub -o cache_dir=/home/vboxuser/HW3_ws/build/py_pubsub/.pytest_cache PYTHONPATH=/home/vboxuser/HW3_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest

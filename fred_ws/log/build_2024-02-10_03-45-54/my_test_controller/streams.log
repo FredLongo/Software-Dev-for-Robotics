@@ -1,0 +1,28 @@
+[1.125s] Invoking command in '/home/vboxuser/fred_ws/src/my_test_controller': PYTHONPATH=/home/vboxuser/fred_ws/build/my_test_controller/prefix_override:/home/vboxuser/fred_ws/install/my_test_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_test_controller build --build-base /home/vboxuser/fred_ws/build/my_test_controller/build install --record /home/vboxuser/fred_ws/build/my_test_controller/install.log --single-version-externally-managed
+[1.512s] running egg_info
+[1.513s] writing ../../build/my_test_controller/my_test_controller.egg-info/PKG-INFO
+[1.513s] writing dependency_links to ../../build/my_test_controller/my_test_controller.egg-info/dependency_links.txt
+[1.514s] writing entry points to ../../build/my_test_controller/my_test_controller.egg-info/entry_points.txt
+[1.514s] writing requirements to ../../build/my_test_controller/my_test_controller.egg-info/requires.txt
+[1.514s] writing top-level names to ../../build/my_test_controller/my_test_controller.egg-info/top_level.txt
+[1.517s] reading manifest file '../../build/my_test_controller/my_test_controller.egg-info/SOURCES.txt'
+[1.518s] writing manifest file '../../build/my_test_controller/my_test_controller.egg-info/SOURCES.txt'
+[1.518s] running build
+[1.518s] running build_py
+[1.518s] copying my_test_controller/my_first_node.py -> /home/vboxuser/fred_ws/build/my_test_controller/build/lib/my_test_controller
+[1.519s] copying my_test_controller/node_template.py -> /home/vboxuser/fred_ws/build/my_test_controller/build/lib/my_test_controller
+[1.519s] running install
+[1.519s] running install_lib
+[1.520s] copying /home/vboxuser/fred_ws/build/my_test_controller/build/lib/my_test_controller/my_first_node.py -> /home/vboxuser/fred_ws/install/my_test_controller/lib/python3.10/site-packages/my_test_controller
+[1.520s] copying /home/vboxuser/fred_ws/build/my_test_controller/build/lib/my_test_controller/node_template.py -> /home/vboxuser/fred_ws/install/my_test_controller/lib/python3.10/site-packages/my_test_controller
+[1.521s] byte-compiling /home/vboxuser/fred_ws/install/my_test_controller/lib/python3.10/site-packages/my_test_controller/my_first_node.py to my_first_node.cpython-310.pyc
+[1.521s] byte-compiling /home/vboxuser/fred_ws/install/my_test_controller/lib/python3.10/site-packages/my_test_controller/node_template.py to node_template.cpython-310.pyc
+[1.521s] running install_data
+[1.522s] copying package.xml -> /home/vboxuser/fred_ws/install/my_test_controller/share/my_test_controller
+[1.522s] running install_egg_info
+[1.525s] removing '/home/vboxuser/fred_ws/install/my_test_controller/lib/python3.10/site-packages/my_test_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[1.525s] Copying ../../build/my_test_controller/my_test_controller.egg-info to /home/vboxuser/fred_ws/install/my_test_controller/lib/python3.10/site-packages/my_test_controller-0.0.0-py3.10.egg-info
+[1.527s] running install_scripts
+[1.554s] Installing test_node script to /home/vboxuser/fred_ws/install/my_test_controller/lib/my_test_controller
+[1.554s] writing list of installed files to '/home/vboxuser/fred_ws/build/my_test_controller/install.log'
+[1.589s] Invoked command in '/home/vboxuser/fred_ws/src/my_test_controller' returned '0': PYTHONPATH=/home/vboxuser/fred_ws/build/my_test_controller/prefix_override:/home/vboxuser/fred_ws/install/my_test_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_test_controller build --build-base /home/vboxuser/fred_ws/build/my_test_controller/build install --record /home/vboxuser/fred_ws/build/my_test_controller/install.log --single-version-externally-managed

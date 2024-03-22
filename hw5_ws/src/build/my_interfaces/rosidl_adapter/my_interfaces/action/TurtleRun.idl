@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from my_interfaces/action/TurtleRun.action
+// generated code does not contain a copyright notice
+
+
+module my_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal")
+    struct TurtleRun_Goal {
+      string start_flag;
+    };
+    @verbatim (language="comment", text=
+      "Result" "\n"
+      "turtlesim/msg/Pose")
+    struct TurtleRun_Result {
+      double final_position_x;
+
+      double final_position_y;
+
+      double total_control_time;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct TurtleRun_Feedback {
+      double current_position_x;
+
+      double current_position_y;
+    };
+  };
+};

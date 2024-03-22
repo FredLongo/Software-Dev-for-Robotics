@@ -1,0 +1,135 @@
+[0.527s] Invoking command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_cbg_executor': AMENT_PREFIX_PATH=/home/vboxuser/ros2_ws/install/examples_rclcpp_cbg_executor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/ros2_ws/install/examples_rclcpp_cbg_executor /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.538s] UpdateCTestConfiguration  from :/home/vboxuser/ros2_ws/build/examples_rclcpp_cbg_executor/CTestConfiguration.ini
+[0.538s] Parse Config file:/home/vboxuser/ros2_ws/build/examples_rclcpp_cbg_executor/CTestConfiguration.ini
+[0.539s]    Site: Ubuntu
+[0.539s]    Build name: (empty)
+[0.539s]  Add coverage exclude regular expressions.
+[0.539s] Create new tag: 20240210-0511 - Experimental
+[0.539s] UpdateCTestConfiguration  from :/home/vboxuser/ros2_ws/build/examples_rclcpp_cbg_executor/CTestConfiguration.ini
+[0.540s] Parse Config file:/home/vboxuser/ros2_ws/build/examples_rclcpp_cbg_executor/CTestConfiguration.ini
+[0.540s] Test project /home/vboxuser/ros2_ws/build/examples_rclcpp_cbg_executor
+[0.540s] Constructing a list of tests
+[0.540s] Done constructing a list of tests
+[0.540s] Updating test list for fixtures
+[0.540s] Added 0 tests to meet fixture requirements
+[0.540s] Checking test dependency graph...
+[0.540s] Checking test dependency graph end
+[0.540s] test 1
+[0.541s]     Start 1: copyright
+[0.541s] 
+[0.541s] 1: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/vboxuser/ros2_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/copyright.xunit.xml" "--package-name" "examples_rclcpp_cbg_executor" "--output-file" "/home/vboxuser/ros2_ws/build/examples_rclcpp_cbg_executor/ament_copyright/copyright.txt" "--command" "/opt/ros/humble/bin/ament_copyright" "--xunit-file" "/home/vboxuser/ros2_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/copyright.xunit.xml"
+[0.541s] 1: Test timeout computed to be: 200
+[0.678s] 1: -- run_test.py: invoking following command in '/home/vboxuser/ros2_ws/src/examples/rclcpp/executors/cbg_executor':
+[0.678s] 1:  - /opt/ros/humble/bin/ament_copyright --xunit-file /home/vboxuser/ros2_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/copyright.xunit.xml
+[1.245s] 1: No problems found, checked 8 files
+[1.266s] 1: -- run_test.py: return code 0
+[1.270s] 1: -- run_test.py: verify result file '/home/vboxuser/ros2_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/copyright.xunit.xml'
+[1.296s] 1/6 Test #1: copyright ........................   Passed    0.76 sec
+[1.296s] test 2
+[1.296s]     Start 2: cppcheck
+[1.296s] 
+[1.296s] 2: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/vboxuser/ros2_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/cppcheck.xunit.xml" "--package-name" "examples_rclcpp_cbg_executor" "--output-file" "/home/vboxuser/ros2_ws/build/examples_rclcpp_cbg_executor/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/humble/bin/ament_cppcheck" "--xunit-file" "/home/vboxuser/ros2_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/cppcheck.xunit.xml" "--include_dirs" "/home/vboxuser/ros2_ws/src/examples/rclcpp/executors/cbg_executor/include"
+[1.296s] 2: Test timeout computed to be: 300
+[1.370s] 2: -- run_test.py: invoking following command in '/home/vboxuser/ros2_ws/src/examples/rclcpp/executors/cbg_executor':
+[1.371s] 2:  - /opt/ros/humble/bin/ament_cppcheck --xunit-file /home/vboxuser/ros2_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/cppcheck.xunit.xml --include_dirs /home/vboxuser/ros2_ws/src/examples/rclcpp/executors/cbg_executor/include
+[1.529s] 2: cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+[1.547s] 2: -- run_test.py: return code 0
+[1.547s] 2: -- run_test.py: verify result file '/home/vboxuser/ros2_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/cppcheck.xunit.xml'
+[1.565s] 2/6 Test #2: cppcheck .........................   Passed    0.27 sec
+[1.565s] test 3
+[1.565s]     Start 3: cpplint
+[1.565s] 
+[1.565s] 3: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/vboxuser/ros2_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/cpplint.xunit.xml" "--package-name" "examples_rclcpp_cbg_executor" "--output-file" "/home/vboxuser/ros2_ws/build/examples_rclcpp_cbg_executor/ament_cpplint/cpplint.txt" "--command" "/opt/ros/humble/bin/ament_cpplint" "--xunit-file" "/home/vboxuser/ros2_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/cpplint.xunit.xml"
+[1.565s] 3: Test timeout computed to be: 120
+[1.642s] 3: -- run_test.py: invoking following command in '/home/vboxuser/ros2_ws/src/examples/rclcpp/executors/cbg_executor':
+[1.642s] 3:  - /opt/ros/humble/bin/ament_cpplint --xunit-file /home/vboxuser/ros2_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/cpplint.xunit.xml
+[2.258s] 3: Using '--root=/home/vboxuser/ros2_ws/src/examples/rclcpp/executors/cbg_executor/include' argument
+[2.258s] 3: 
+[2.258s] 3: Done processing /home/vboxuser/ros2_ws/src/examples/rclcpp/executors/cbg_executor/include/examples_rclcpp_cbg_executor/ping_node.hpp
+[2.258s] 3: 
+[2.258s] 3: Done processing /home/vboxuser/ros2_ws/src/examples/rclcpp/executors/cbg_executor/include/examples_rclcpp_cbg_executor/pong_node.hpp
+[2.259s] 3: 
+[2.259s] 3: Using '--root=/home/vboxuser/ros2_ws/src/examples/rclcpp/executors/cbg_executor/src' argument
+[2.259s] 3: 
+[2.259s] 3: Done processing /home/vboxuser/ros2_ws/src/examples/rclcpp/executors/cbg_executor/src/examples_rclcpp_cbg_executor/ping_node.cpp
+[2.259s] 3: 
+[2.259s] 3: Done processing /home/vboxuser/ros2_ws/src/examples/rclcpp/executors/cbg_executor/src/examples_rclcpp_cbg_executor/pong_node.cpp
+[2.259s] 3: 
+[2.259s] 3: Done processing /home/vboxuser/ros2_ws/src/examples/rclcpp/executors/cbg_executor/src/examples_rclcpp_cbg_executor/utilities.hpp
+[2.259s] 3: 
+[2.259s] 3: Done processing /home/vboxuser/ros2_ws/src/examples/rclcpp/executors/cbg_executor/src/ping.cpp
+[2.259s] 3: 
+[2.260s] 3: Done processing /home/vboxuser/ros2_ws/src/examples/rclcpp/executors/cbg_executor/src/ping_pong.cpp
+[2.260s] 3: 
+[2.260s] 3: Done processing /home/vboxuser/ros2_ws/src/examples/rclcpp/executors/cbg_executor/src/pong.cpp
+[2.260s] 3: 
+[2.260s] 3: No problems found
+[2.281s] 3: -- run_test.py: return code 0
+[2.282s] 3: -- run_test.py: verify result file '/home/vboxuser/ros2_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/cpplint.xunit.xml'
+[2.298s] 3/6 Test #3: cpplint ..........................   Passed    0.73 sec
+[2.298s] test 4
+[2.298s]     Start 4: lint_cmake
+[2.298s] 
+[2.298s] 4: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/vboxuser/ros2_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/lint_cmake.xunit.xml" "--package-name" "examples_rclcpp_cbg_executor" "--output-file" "/home/vboxuser/ros2_ws/build/examples_rclcpp_cbg_executor/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/vboxuser/ros2_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/lint_cmake.xunit.xml"
+[2.298s] 4: Test timeout computed to be: 60
+[2.373s] 4: -- run_test.py: invoking following command in '/home/vboxuser/ros2_ws/src/examples/rclcpp/executors/cbg_executor':
+[2.373s] 4:  - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/vboxuser/ros2_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/lint_cmake.xunit.xml
+[2.453s] 4: 
+[2.453s] 4: No problems found
+[2.464s] 4: -- run_test.py: return code 0
+[2.465s] 4: -- run_test.py: verify result file '/home/vboxuser/ros2_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/lint_cmake.xunit.xml'
+[2.475s] 4/6 Test #4: lint_cmake .......................   Passed    0.18 sec
+[2.475s] test 5
+[2.475s]     Start 5: uncrustify
+[2.475s] 
+[2.475s] 5: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/vboxuser/ros2_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/uncrustify.xunit.xml" "--package-name" "examples_rclcpp_cbg_executor" "--output-file" "/home/vboxuser/ros2_ws/build/examples_rclcpp_cbg_executor/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/humble/bin/ament_uncrustify" "--xunit-file" "/home/vboxuser/ros2_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/uncrustify.xunit.xml"
+[2.475s] 5: Test timeout computed to be: 60
+[2.563s] 5: -- run_test.py: invoking following command in '/home/vboxuser/ros2_ws/src/examples/rclcpp/executors/cbg_executor':
+[2.563s] 5:  - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/vboxuser/ros2_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/uncrustify.xunit.xml
+[2.706s] 5: No code style divergence in file 'include/examples_rclcpp_cbg_executor/ping_node.hpp'
+[2.706s] 5: 
+[2.706s] 5: No code style divergence in file 'include/examples_rclcpp_cbg_executor/pong_node.hpp'
+[2.706s] 5: 
+[2.706s] 5: No code style divergence in file 'src/examples_rclcpp_cbg_executor/ping_node.cpp'
+[2.706s] 5: 
+[2.706s] 5: No code style divergence in file 'src/examples_rclcpp_cbg_executor/pong_node.cpp'
+[2.706s] 5: 
+[2.706s] 5: No code style divergence in file 'src/examples_rclcpp_cbg_executor/utilities.hpp'
+[2.707s] 5: 
+[2.707s] 5: No code style divergence in file 'src/ping.cpp'
+[2.707s] 5: 
+[2.707s] 5: No code style divergence in file 'src/ping_pong.cpp'
+[2.707s] 5: 
+[2.707s] 5: No code style divergence in file 'src/pong.cpp'
+[2.707s] 5: 
+[2.707s] 5: No problems found
+[2.735s] 5: -- run_test.py: return code 0
+[2.736s] 5: -- run_test.py: verify result file '/home/vboxuser/ros2_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/uncrustify.xunit.xml'
+[2.756s] 5/6 Test #5: uncrustify .......................   Passed    0.28 sec
+[2.756s] test 6
+[2.756s]     Start 6: xmllint
+[2.756s] 
+[2.756s] 6: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/vboxuser/ros2_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/xmllint.xunit.xml" "--package-name" "examples_rclcpp_cbg_executor" "--output-file" "/home/vboxuser/ros2_ws/build/examples_rclcpp_cbg_executor/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/vboxuser/ros2_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/xmllint.xunit.xml"
+[2.756s] 6: Test timeout computed to be: 60
+[2.841s] 6: -- run_test.py: invoking following command in '/home/vboxuser/ros2_ws/src/examples/rclcpp/executors/cbg_executor':
+[2.841s] 6:  - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/vboxuser/ros2_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/xmllint.xunit.xml
+[3.144s] 6: File 'package.xml' is valid
+[3.144s] 6: 
+[3.145s] 6: No problems found
+[3.156s] 6: -- run_test.py: return code 0
+[3.156s] 6: -- run_test.py: verify result file '/home/vboxuser/ros2_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/xmllint.xunit.xml'
+[3.165s] 6/6 Test #6: xmllint ..........................   Passed    0.41 sec
+[3.165s] 
+[3.166s] [0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 6
+[3.166s] 
+[3.166s] Label Time Summary:
+[3.166s] copyright     =   0.76 sec*proc (1 test)
+[3.166s] cppcheck      =   0.27 sec*proc (1 test)
+[3.166s] cpplint       =   0.73 sec*proc (1 test)
+[3.166s] lint_cmake    =   0.18 sec*proc (1 test)
+[3.166s] linter        =   2.63 sec*proc (6 tests)
+[3.166s] uncrustify    =   0.28 sec*proc (1 test)
+[3.166s] xmllint       =   0.41 sec*proc (1 test)
+[3.167s] 
+[3.167s] Total Test time (real) =   2.63 sec
+[3.201s] Invoked command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_cbg_executor' returned '0': AMENT_PREFIX_PATH=/home/vboxuser/ros2_ws/install/examples_rclcpp_cbg_executor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/ros2_ws/install/examples_rclcpp_cbg_executor /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

@@ -1,0 +1,23 @@
+[1.247s] Invoking command in '/home/vboxuser/hw4_ws/src/py_srvcli': CMAKE_PREFIX_PATH=/home/vboxuser/hw4_ws/install/tutorial_interfaces:/home/vboxuser/hw4_ws/install/custom_interfaces:/home/vboxuser/hw4_ws/install/custom_messages LD_LIBRARY_PATH=/home/vboxuser/hw4_ws/install/tutorial_interfaces/lib:/home/vboxuser/hw4_ws/install/custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/vboxuser/hw4_ws/build/py_srvcli/prefix_override:/home/vboxuser/hw4_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/vboxuser/hw4_ws/build/py_srvcli/build install --record /home/vboxuser/hw4_ws/build/py_srvcli/install.log --single-version-externally-managed
+[1.793s] running egg_info
+[1.795s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[1.795s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[1.795s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[1.796s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[1.796s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[1.798s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[1.798s] adding license file 'LICENSE'
+[1.800s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[1.800s] running build
+[1.800s] running build_py
+[1.800s] running install
+[1.801s] running install_lib
+[1.802s] running install_data
+[1.803s] running install_egg_info
+[1.806s] removing '/home/vboxuser/hw4_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info' (and everything under it)
+[1.806s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/vboxuser/hw4_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info
+[1.807s] running install_scripts
+[1.862s] Installing client script to /home/vboxuser/hw4_ws/install/py_srvcli/lib/py_srvcli
+[1.862s] Installing service script to /home/vboxuser/hw4_ws/install/py_srvcli/lib/py_srvcli
+[1.862s] writing list of installed files to '/home/vboxuser/hw4_ws/build/py_srvcli/install.log'
+[1.916s] Invoked command in '/home/vboxuser/hw4_ws/src/py_srvcli' returned '0': CMAKE_PREFIX_PATH=/home/vboxuser/hw4_ws/install/tutorial_interfaces:/home/vboxuser/hw4_ws/install/custom_interfaces:/home/vboxuser/hw4_ws/install/custom_messages LD_LIBRARY_PATH=/home/vboxuser/hw4_ws/install/tutorial_interfaces/lib:/home/vboxuser/hw4_ws/install/custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/vboxuser/hw4_ws/build/py_srvcli/prefix_override:/home/vboxuser/hw4_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/vboxuser/hw4_ws/build/py_srvcli/build install --record /home/vboxuser/hw4_ws/build/py_srvcli/install.log --single-version-externally-managed

@@ -1,0 +1,17 @@
+[2.974s] Invoking command in '/home/vboxuser/hw3_ws/build/q1': PYTHONPATH=/home/vboxuser/hw3_ws/build/q1/prefix_override:/home/vboxuser/hw3_ws/install/q1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/vboxuser/hw3_ws/build/q1/build --no-deps install_data
+[3.409s] running develop
+[3.684s] running egg_info
+[3.684s] writing q1.egg-info/PKG-INFO
+[3.684s] writing dependency_links to q1.egg-info/dependency_links.txt
+[3.685s] writing entry points to q1.egg-info/entry_points.txt
+[3.685s] writing requirements to q1.egg-info/requires.txt
+[3.685s] writing top-level names to q1.egg-info/top_level.txt
+[3.688s] reading manifest file 'q1.egg-info/SOURCES.txt'
+[3.692s] writing manifest file 'q1.egg-info/SOURCES.txt'
+[3.709s] running build_ext
+[3.710s] Creating /home/vboxuser/hw3_ws/install/q1/lib/python3.10/site-packages/q1.egg-link (link to .)
+[3.710s] Installing my_pub script to /home/vboxuser/hw3_ws/install/q1/lib/q1
+[3.710s] 
+[3.710s] Installed /home/vboxuser/hw3_ws/build/q1
+[3.710s] running install_data
+[3.923s] Invoked command in '/home/vboxuser/hw3_ws/build/q1' returned '0': PYTHONPATH=/home/vboxuser/hw3_ws/build/q1/prefix_override:/home/vboxuser/hw3_ws/install/q1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/vboxuser/hw3_ws/build/q1/build --no-deps install_data

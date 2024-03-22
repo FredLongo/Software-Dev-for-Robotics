@@ -1,0 +1,8 @@
+{
+  "package_name": "turtorial_interfaces",
+  "non_idl_tuples": [
+    "/home/vboxuser/ros2_ws/src/turtorial_interfaces:msg/Num.msg",
+    "/home/vboxuser/ros2_ws/src/turtorial_interfaces:msg/Sphere.msg",
+    "/home/vboxuser/ros2_ws/src/turtorial_interfaces:srv/AddThreeInts.srv"
+  ]
+}

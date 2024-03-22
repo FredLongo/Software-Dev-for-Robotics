@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from custom_interfaces/srv/TwoIntCalc.srv
+// generated code does not contain a copyright notice
+
+
+module custom_interfaces {
+  module srv {
+    struct TwoIntCalc_Request {
+      double x;
+
+      double y;
+
+      string op;
+
+      double client_time;
+    };
+    struct TwoIntCalc_Response {
+      double server_time;
+
+      double result;
+    };
+  };
+};

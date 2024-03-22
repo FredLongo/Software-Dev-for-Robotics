@@ -1,0 +1,95 @@
+[0.000000] (-) TimerEvent: {}
+[0.001092] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.001154] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.001184] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.001219] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.001251] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.001279] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.001306] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.001332] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.001363] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.001394] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.001421] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.001447] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.001475] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.001501] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.001528] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.001554] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.001580] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.001607] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.001633] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.001669] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.001702] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.001734] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.001767] (-) JobUnselected: {'identifier': 'my_cpp_pkg'}
+[0.001799] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.001829] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.001862] (-) JobUnselected: {'identifier': 'py_pubsub2'}
+[0.001893] (-) JobUnselected: {'identifier': 'py_pubsub3'}
+[0.001932] (my_robot_interfaces) JobQueued: {'identifier': 'my_robot_interfaces', 'dependencies': OrderedDict()}
+[0.001973] (my_robot_interfaces) JobStarted: {'identifier': 'my_robot_interfaces'}
+[0.091508] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'cmake'}
+[0.092725] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'build'}
+[0.095095] (my_robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vboxuser/ros2_ws/build/my_robot_interfaces', '--', '-j6', '-l6'], 'cwd': '/home/vboxuser/ros2_ws/build/my_robot_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vboxuser'), ('GIO_MODULE_DIR', '/home/vboxuser/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/153/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vboxuser'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/vboxuser'), ('TERM_PROGRAM_VERSION', '1.87.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/153/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/vboxuser/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/153/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/153/usr/share/code/code'), ('MANAGERPID', '1381'), ('SYSTEMD_EXEC_PID', '1559'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4317'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vboxuser'), ('JOURNAL_STREAM', '8:23899'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'vboxuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu:@/tmp/.ICE-unix/1534,unix/Ubuntu:/tmp/.ICE-unix/1534'), ('GTK_EXE_PREFIX', '/snap/code/153/usr'), ('INVOCATION_ID', '9d19b27d24294f26918b7f21a82a492d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/153/usr/lib/locale'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('IBUS_DISABLE_SNOOPER', '1'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.INLCK2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e1f3700489.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/vboxuser/snap/code/153/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:760c5870-0f05-40bc-81e9-09893fba931c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vboxuser/ros2_ws/build/my_robot_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/vboxuser/snap/code/153/.local/share:/home/vboxuser/snap/code/153:/snap/code/153/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099378] (-) TimerEvent: {}
+[0.129220] (my_robot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199608] (-) TimerEvent: {}
+[0.300057] (-) TimerEvent: {}
+[0.375166] (my_robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.377557] (my_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.382080] (my_robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.401566] (-) TimerEvent: {}
+[0.433656] (my_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.502366] (-) TimerEvent: {}
+[0.602769] (-) TimerEvent: {}
+[0.703194] (-) TimerEvent: {}
+[0.765999] (my_robot_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):\n'}
+[0.766468] (my_robot_interfaces) StderrLine: {'line': b'  execute_process(/usr/bin/python3.10 -m rosidl_adapter --package-name\n'}
+[0.766585] (my_robot_interfaces) StderrLine: {'line': b'  my_robot_interfaces --arguments-file\n'}
+[0.766678] (my_robot_interfaces) StderrLine: {'line': b'  /home/vboxuser/ros2_ws/build/my_robot_interfaces/rosidl_adapter__arguments__my_robot_interfaces.json\n'}
+[0.766767] (my_robot_interfaces) StderrLine: {'line': b'  --output-dir\n'}
+[0.766856] (my_robot_interfaces) StderrLine: {'line': b'  /home/vboxuser/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces\n'}
+[0.766946] (my_robot_interfaces) StderrLine: {'line': b'  --output-file\n'}
+[0.767034] (my_robot_interfaces) StderrLine: {'line': b'  /home/vboxuser/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces.idls)\n'}
+[0.767121] (my_robot_interfaces) StderrLine: {'line': b'  returned error code 1:\n'}
+[0.767208] (my_robot_interfaces) StderrLine: {'line': b'\n'}
+[0.767295] (my_robot_interfaces) StderrLine: {'line': b"  Error processing 'int a' of 'my_robot_interfaces/Calculator': ''int' is an\n"}
+[0.767384] (my_robot_interfaces) StderrLine: {'line': b"  invalid message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$''\n"}
+[0.767487] (my_robot_interfaces) StderrLine: {'line': b'\n'}
+[0.767582] (my_robot_interfaces) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[0.768063] (my_robot_interfaces) StderrLine: {'line': b'\n'}
+[0.768169] (my_robot_interfaces) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main\n'}
+[0.768257] (my_robot_interfaces) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[0.768353] (my_robot_interfaces) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 86, in _run_code\n'}
+[0.768526] (my_robot_interfaces) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[0.768595] (my_robot_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[0.768653] (my_robot_interfaces) StderrLine: {'line': b'      sys.exit(main())\n'}
+[0.768707] (my_robot_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[0.768759] (my_robot_interfaces) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[0.768813] (my_robot_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl\n'}
+[0.768870] (my_robot_interfaces) StderrLine: {'line': b'      return convert_msg_to_idl(\n'}
+[0.768933] (my_robot_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl\n'}
+[0.769092] (my_robot_interfaces) StderrLine: {'line': b'      msg = parse_message_string(package_name, input_file.stem, content)\n'}
+[0.769228] (my_robot_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 520, in parse_message_string\n'}
+[0.769341] (my_robot_interfaces) StderrLine: {'line': b'      Type(type_string, context_package_name=pkg_name),\n'}
+[0.769465] (my_robot_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 277, in __init__\n'}
+[0.769588] (my_robot_interfaces) StderrLine: {'line': b'      super(Type, self).__init__(\n'}
+[0.769744] (my_robot_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__\n'}
+[0.769887] (my_robot_interfaces) StderrLine: {'line': b'      raise InvalidResourceName(\n'}
+[0.769974] (my_robot_interfaces) StderrLine: {'line': b'\n'}
+[0.770060] (my_robot_interfaces) StderrLine: {'line': b"  rosidl_adapter.parser.InvalidResourceName: 'int' is an invalid message\n"}
+[0.770146] (my_robot_interfaces) StderrLine: {'line': b"  name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'\n"}
+[0.770230] (my_robot_interfaces) StderrLine: {'line': b'\n'}
+[0.770315] (my_robot_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.770400] (my_robot_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[0.770486] (my_robot_interfaces) StderrLine: {'line': b'  CMakeLists.txt:14 (rosidl_generate_interfaces)\n'}
+[0.770571] (my_robot_interfaces) StderrLine: {'line': b'\n'}
+[0.770657] (my_robot_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[0.770743] (my_robot_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.770841] (my_robot_interfaces) StdoutLine: {'line': b'See also "/home/vboxuser/ros2_ws/build/my_robot_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[0.776343] (my_robot_interfaces) StderrLine: {'line': b'gmake: *** [Makefile:747: cmake_check_build_system] Error 1\n'}
+[0.777953] (my_robot_interfaces) CommandEnded: {'returncode': 2}
+[0.803543] (-) TimerEvent: {}
+[0.904725] (-) TimerEvent: {}
+[0.976987] (my_robot_interfaces) JobEnded: {'identifier': 'my_robot_interfaces', 'rc': 2}
+[0.977905] (-) EventReactorShutdown: {}

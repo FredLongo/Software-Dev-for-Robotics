@@ -1,0 +1,24 @@
+[2.478s] Invoking command in '/home/vboxuser/hw3_ws/src/q3': PYTHONPATH=/home/vboxuser/hw3_ws/build/q3/prefix_override:/home/vboxuser/hw3_ws/install/q3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/q3 build --build-base /home/vboxuser/hw3_ws/build/q3/build install --record /home/vboxuser/hw3_ws/build/q3/install.log --single-version-externally-managed
+[2.882s] running egg_info
+[2.884s] writing ../../build/q3/q3.egg-info/PKG-INFO
+[2.884s] writing dependency_links to ../../build/q3/q3.egg-info/dependency_links.txt
+[2.884s] writing entry points to ../../build/q3/q3.egg-info/entry_points.txt
+[2.884s] writing requirements to ../../build/q3/q3.egg-info/requires.txt
+[2.884s] writing top-level names to ../../build/q3/q3.egg-info/top_level.txt
+[2.886s] reading manifest file '../../build/q3/q3.egg-info/SOURCES.txt'
+[2.887s] writing manifest file '../../build/q3/q3.egg-info/SOURCES.txt'
+[2.887s] running build
+[2.887s] running build_py
+[2.888s] copying q3/node_link.py -> /home/vboxuser/hw3_ws/build/q3/build/lib/q3
+[2.888s] running install
+[2.889s] running install_lib
+[2.890s] copying /home/vboxuser/hw3_ws/build/q3/build/lib/q3/node_link.py -> /home/vboxuser/hw3_ws/install/q3/lib/python3.10/site-packages/q3
+[2.891s] byte-compiling /home/vboxuser/hw3_ws/install/q3/lib/python3.10/site-packages/q3/node_link.py to node_link.cpython-310.pyc
+[2.893s] running install_data
+[2.893s] running install_egg_info
+[2.896s] removing '/home/vboxuser/hw3_ws/install/q3/lib/python3.10/site-packages/q3-0.0.0-py3.10.egg-info' (and everything under it)
+[2.896s] Copying ../../build/q3/q3.egg-info to /home/vboxuser/hw3_ws/install/q3/lib/python3.10/site-packages/q3-0.0.0-py3.10.egg-info
+[2.897s] running install_scripts
+[2.925s] Installing node_link script to /home/vboxuser/hw3_ws/install/q3/lib/q3
+[2.926s] writing list of installed files to '/home/vboxuser/hw3_ws/build/q3/install.log'
+[3.132s] Invoked command in '/home/vboxuser/hw3_ws/src/q3' returned '0': PYTHONPATH=/home/vboxuser/hw3_ws/build/q3/prefix_override:/home/vboxuser/hw3_ws/install/q3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/q3 build --build-base /home/vboxuser/hw3_ws/build/q3/build install --record /home/vboxuser/hw3_ws/build/q3/install.log --single-version-externally-managed

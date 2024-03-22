@@ -1,0 +1,493 @@
+[0.000000] (-) TimerEvent: {}
+[0.000156] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.000225] (q1) JobQueued: {'identifier': 'q1', 'dependencies': OrderedDict()}
+[0.000267] (q2) JobQueued: {'identifier': 'q2', 'dependencies': OrderedDict()}
+[0.000299] (q3) JobQueued: {'identifier': 'q3', 'dependencies': OrderedDict()}
+[0.000330] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.001210] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.107095] (-) TimerEvent: {}
+[0.132291] (q1) JobStarted: {'identifier': 'q1'}
+[0.207310] (-) TimerEvent: {}
+[0.262002] (q2) JobStarted: {'identifier': 'q2'}
+[0.309251] (-) TimerEvent: {}
+[0.381948] (q3) JobStarted: {'identifier': 'q3'}
+[0.410019] (-) TimerEvent: {}
+[0.503880] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.510976] (-) TimerEvent: {}
+[0.611606] (-) TimerEvent: {}
+[0.718671] (-) TimerEvent: {}
+[0.819103] (-) TimerEvent: {}
+[0.919849] (-) TimerEvent: {}
+[1.020253] (-) TimerEvent: {}
+[1.122334] (-) TimerEvent: {}
+[1.222953] (-) TimerEvent: {}
+[1.324325] (-) TimerEvent: {}
+[1.435439] (-) TimerEvent: {}
+[1.536895] (-) TimerEvent: {}
+[1.639594] (-) TimerEvent: {}
+[1.740146] (-) TimerEvent: {}
+[1.843244] (-) TimerEvent: {}
+[1.944659] (-) TimerEvent: {}
+[2.045974] (-) TimerEvent: {}
+[2.146665] (-) TimerEvent: {}
+[2.247148] (-) TimerEvent: {}
+[2.347469] (-) TimerEvent: {}
+[2.447970] (-) TimerEvent: {}
+[2.548320] (-) TimerEvent: {}
+[2.644555] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[2.646408] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[2.646474] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vboxuser/hw3_ws/build/turtlesim', '--', '-j6', '-l6'], 'cwd': '/home/vboxuser/hw3_ws/build/turtlesim', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vboxuser'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vboxuser/hw3_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vboxuser'), ('OLDPWD', '/home/vboxuser/hw3_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1393'), ('SYSTEMD_EXEC_PID', '1571'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '30852'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vboxuser/hw3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vboxuser'), ('JOURNAL_STREAM', '8:22974'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vboxuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu:@/tmp/.ICE-unix/1539,unix/Ubuntu:/tmp/.ICE-unix/1539'), ('INVOCATION_ID', '3cec6e32e7524ebbb8089f08d9f2f313'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.509PI2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vboxuser/hw3_ws/install/turtlesim:/home/vboxuser/hw3_ws/install/q2:/home/vboxuser/hw3_ws/install/q1:/home/vboxuser/hw3_ws/install/py_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:b094da79-2f67-4267-9e5d-792c1ceae4cc'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vboxuser/hw3_ws/build/turtlesim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vboxuser/hw3_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/vboxuser/hw3_ws/install/q2/lib/python3.10/site-packages:/home/vboxuser/hw3_ws/install/q1/lib/python3.10/site-packages:/home/vboxuser/hw3_ws/install/py_pubsub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vboxuser/hw3_ws/install/turtlesim:/home/vboxuser/hw3_ws/install/q2:/home/vboxuser/hw3_ws/install/q1:/home/vboxuser/hw3_ws/install/py_pubsub:/opt/ros/humble')]), 'shell': False}
+[2.649433] (-) TimerEvent: {}
+[2.749763] (-) TimerEvent: {}
+[2.759499] (turtlesim) StdoutLine: {'line': b'[ 10%] Built target turtlesim__rosidl_generator_c\n'}
+[2.767877] (turtlesim) StdoutLine: {'line': b'[ 11%] Built target turtlesim__cpp\n'}
+[2.817794] (turtlesim) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_copy_turtlesim\n'}
+[2.848362] (turtlesim) StdoutLine: {'line': b'[ 21%] Built target turtlesim__rosidl_typesupport_c\n'}
+[2.849919] (-) TimerEvent: {}
+[2.852652] (turtlesim) StdoutLine: {'line': b'[ 31%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[2.858957] (turtlesim) StdoutLine: {'line': b'[ 41%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[2.862434] (turtlesim) StdoutLine: {'line': b'[ 51%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[2.874157] (turtlesim) StdoutLine: {'line': b'[ 61%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[2.950072] (-) TimerEvent: {}
+[2.958290] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[2.960177] (turtlesim) StdoutLine: {'line': b'[ 73%] Built target mimic\n'}
+[2.975771] (turtlesim) StdoutLine: {'line': b'[ 75%] Built target turtle_teleop_key\n'}
+[2.977640] (turtlesim) StdoutLine: {'line': b'[ 77%] Built target draw_square\n'}
+[2.982466] (turtlesim) StdoutLine: {'line': b'[ 83%] Built target turtlesim_node\n'}
+[3.013708] (turtlesim) StdoutLine: {'line': b'[ 83%] Built target turtlesim\n'}
+[3.041408] (turtlesim) StdoutLine: {'line': b'[ 84%] Built target turtlesim__py\n'}
+[3.050242] (-) TimerEvent: {}
+[3.073692] (turtlesim) StdoutLine: {'line': b'[ 93%] Built target turtlesim__rosidl_generator_py\n'}
+[3.137134] (turtlesim) StdoutLine: {'line': b'[ 95%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext\n'}
+[3.137432] (turtlesim) StdoutLine: {'line': b'[ 97%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.150425] (-) TimerEvent: {}
+[3.159632] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim__rosidl_typesupport_c__pyext\n'}
+[3.251263] (-) TimerEvent: {}
+[3.295753] (q2) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/q2', 'build', '--build-base', '/home/vboxuser/hw3_ws/build/q2/build', 'install', '--record', '/home/vboxuser/hw3_ws/build/q2/install.log', '--single-version-externally-managed'], 'cwd': '/home/vboxuser/hw3_ws/src/q2', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vboxuser', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/vboxuser/hw3_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/vboxuser', 'OLDPWD': '/home/vboxuser/hw3_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1393', 'SYSTEMD_EXEC_PID': '1571', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '30852', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vboxuser/hw3_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'vboxuser', 'JOURNAL_STREAM': '8:22974', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vboxuser', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Ubuntu:@/tmp/.ICE-unix/1539,unix/Ubuntu:/tmp/.ICE-unix/1539', 'INVOCATION_ID': '3cec6e32e7524ebbb8089f08d9f2f313', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.509PI2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vboxuser/hw3_ws/install/turtlesim:/home/vboxuser/hw3_ws/install/q2:/home/vboxuser/hw3_ws/install/q1:/home/vboxuser/hw3_ws/install/py_pubsub:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:b094da79-2f67-4267-9e5d-792c1ceae4cc', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vboxuser/hw3_ws/build/q2', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vboxuser/hw3_ws/build/q2/prefix_override:/home/vboxuser/hw3_ws/install/q2/lib/python3.10/site-packages:/home/vboxuser/hw3_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/vboxuser/hw3_ws/install/q2/lib/python3.10/site-packages:/home/vboxuser/hw3_ws/install/q1/lib/python3.10/site-packages:/home/vboxuser/hw3_ws/install/py_pubsub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/vboxuser/hw3_ws/install/turtlesim'}, 'shell': False}
+[3.305440] (q1) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/q1', 'build', '--build-base', '/home/vboxuser/hw3_ws/build/q1/build', 'install', '--record', '/home/vboxuser/hw3_ws/build/q1/install.log', '--single-version-externally-managed'], 'cwd': '/home/vboxuser/hw3_ws/src/q1', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vboxuser', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/vboxuser/hw3_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/vboxuser', 'OLDPWD': '/home/vboxuser/hw3_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1393', 'SYSTEMD_EXEC_PID': '1571', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '30852', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vboxuser/hw3_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'vboxuser', 'JOURNAL_STREAM': '8:22974', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vboxuser', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Ubuntu:@/tmp/.ICE-unix/1539,unix/Ubuntu:/tmp/.ICE-unix/1539', 'INVOCATION_ID': '3cec6e32e7524ebbb8089f08d9f2f313', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.509PI2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vboxuser/hw3_ws/install/turtlesim:/home/vboxuser/hw3_ws/install/q2:/home/vboxuser/hw3_ws/install/q1:/home/vboxuser/hw3_ws/install/py_pubsub:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:b094da79-2f67-4267-9e5d-792c1ceae4cc', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vboxuser/hw3_ws/build/q1', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vboxuser/hw3_ws/build/q1/prefix_override:/home/vboxuser/hw3_ws/install/q1/lib/python3.10/site-packages:/home/vboxuser/hw3_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/vboxuser/hw3_ws/install/q2/lib/python3.10/site-packages:/home/vboxuser/hw3_ws/install/q1/lib/python3.10/site-packages:/home/vboxuser/hw3_ws/install/py_pubsub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/vboxuser/hw3_ws/install/turtlesim'}, 'shell': False}
+[3.311570] (q3) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/q3', 'build', '--build-base', '/home/vboxuser/hw3_ws/build/q3/build', 'install', '--record', '/home/vboxuser/hw3_ws/build/q3/install.log', '--single-version-externally-managed'], 'cwd': '/home/vboxuser/hw3_ws/src/q3', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vboxuser', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/vboxuser/hw3_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/vboxuser', 'OLDPWD': '/home/vboxuser/hw3_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1393', 'SYSTEMD_EXEC_PID': '1571', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '30852', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vboxuser/hw3_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'vboxuser', 'JOURNAL_STREAM': '8:22974', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vboxuser', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Ubuntu:@/tmp/.ICE-unix/1539,unix/Ubuntu:/tmp/.ICE-unix/1539', 'INVOCATION_ID': '3cec6e32e7524ebbb8089f08d9f2f313', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.509PI2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vboxuser/hw3_ws/install/turtlesim:/home/vboxuser/hw3_ws/install/q2:/home/vboxuser/hw3_ws/install/q1:/home/vboxuser/hw3_ws/install/py_pubsub:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:b094da79-2f67-4267-9e5d-792c1ceae4cc', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vboxuser/hw3_ws/build/q3', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vboxuser/hw3_ws/build/q3/prefix_override:/home/vboxuser/hw3_ws/install/q3/lib/python3.10/site-packages:/home/vboxuser/hw3_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/vboxuser/hw3_ws/install/q2/lib/python3.10/site-packages:/home/vboxuser/hw3_ws/install/q1/lib/python3.10/site-packages:/home/vboxuser/hw3_ws/install/py_pubsub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/vboxuser/hw3_ws/install/turtlesim'}, 'shell': False}
+[3.320458] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/py_pubsub', 'build', '--build-base', '/home/vboxuser/hw3_ws/build/py_pubsub/build', 'install', '--record', '/home/vboxuser/hw3_ws/build/py_pubsub/install.log', '--single-version-externally-managed'], 'cwd': '/home/vboxuser/hw3_ws/src/py_pubsub', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vboxuser', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/vboxuser/hw3_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/vboxuser', 'OLDPWD': '/home/vboxuser/hw3_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1393', 'SYSTEMD_EXEC_PID': '1571', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '30852', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vboxuser/hw3_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'vboxuser', 'JOURNAL_STREAM': '8:22974', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vboxuser', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Ubuntu:@/tmp/.ICE-unix/1539,unix/Ubuntu:/tmp/.ICE-unix/1539', 'INVOCATION_ID': '3cec6e32e7524ebbb8089f08d9f2f313', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.509PI2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vboxuser/hw3_ws/install/turtlesim:/home/vboxuser/hw3_ws/install/q2:/home/vboxuser/hw3_ws/install/q1:/home/vboxuser/hw3_ws/install/py_pubsub:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:b094da79-2f67-4267-9e5d-792c1ceae4cc', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vboxuser/hw3_ws/build/py_pubsub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vboxuser/hw3_ws/build/py_pubsub/prefix_override:/home/vboxuser/hw3_ws/install/py_pubsub/lib/python3.10/site-packages:/home/vboxuser/hw3_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/vboxuser/hw3_ws/install/q2/lib/python3.10/site-packages:/home/vboxuser/hw3_ws/install/q1/lib/python3.10/site-packages:/home/vboxuser/hw3_ws/install/py_pubsub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/vboxuser/hw3_ws/install/turtlesim'}, 'shell': False}
+[3.348751] (turtlesim) StdoutLine: {'line': b'running egg_info\n'}
+[3.349484] (turtlesim) StdoutLine: {'line': b'writing turtlesim.egg-info/PKG-INFO\n'}
+[3.349741] (turtlesim) StdoutLine: {'line': b'writing dependency_links to turtlesim.egg-info/dependency_links.txt\n'}
+[3.349970] (turtlesim) StdoutLine: {'line': b'writing top-level names to turtlesim.egg-info/top_level.txt\n'}
+[3.351382] (-) TimerEvent: {}
+[3.353574] (turtlesim) StdoutLine: {'line': b"reading manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[3.354790] (turtlesim) StdoutLine: {'line': b"writing manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[3.391975] (turtlesim) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_turtlesim_egg\n'}
+[3.414120] (turtlesim) CommandEnded: {'returncode': 0}
+[3.451489] (-) TimerEvent: {}
+[3.552087] (-) TimerEvent: {}
+[3.652587] (-) TimerEvent: {}
+[3.718172] (q2) StdoutLine: {'line': b'running egg_info\n'}
+[3.719098] (q2) StdoutLine: {'line': b'writing ../../build/q2/q2.egg-info/PKG-INFO\n'}
+[3.719350] (q2) StdoutLine: {'line': b'writing dependency_links to ../../build/q2/q2.egg-info/dependency_links.txt\n'}
+[3.719839] (q2) StdoutLine: {'line': b'writing entry points to ../../build/q2/q2.egg-info/entry_points.txt\n'}
+[3.720015] (q2) StdoutLine: {'line': b'writing requirements to ../../build/q2/q2.egg-info/requires.txt\n'}
+[3.720113] (q2) StdoutLine: {'line': b'writing top-level names to ../../build/q2/q2.egg-info/top_level.txt\n'}
+[3.722953] (q2) StdoutLine: {'line': b"reading manifest file '../../build/q2/q2.egg-info/SOURCES.txt'\n"}
+[3.723259] (q2) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[3.724440] (q2) StdoutLine: {'line': b"writing manifest file '../../build/q2/q2.egg-info/SOURCES.txt'\n"}
+[3.724697] (q2) StdoutLine: {'line': b'running build\n'}
+[3.724803] (q2) StdoutLine: {'line': b'running build_py\n'}
+[3.725087] (q2) StdoutLine: {'line': b'running install\n'}
+[3.733541] (q2) StdoutLine: {'line': b'running install_lib\n'}
+[3.733742] (q2) StdoutLine: {'line': b'running install_data\n'}
+[3.733856] (q2) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.733968] (q2) StdoutLine: {'line': b"removing '/home/vboxuser/hw3_ws/install/q2/lib/python3.10/site-packages/q2-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.734067] (q2) StdoutLine: {'line': b'Copying ../../build/q2/q2.egg-info to /home/vboxuser/hw3_ws/install/q2/lib/python3.10/site-packages/q2-0.0.0-py3.10.egg-info\n'}
+[3.734162] (q2) StdoutLine: {'line': b'running install_scripts\n'}
+[3.734257] (q3) StdoutLine: {'line': b'running egg_info\n'}
+[3.734454] (q3) StdoutLine: {'line': b'writing ../../build/q3/q3.egg-info/PKG-INFO\n'}
+[3.734550] (q3) StdoutLine: {'line': b'writing dependency_links to ../../build/q3/q3.egg-info/dependency_links.txt\n'}
+[3.734637] (q3) StdoutLine: {'line': b'writing entry points to ../../build/q3/q3.egg-info/entry_points.txt\n'}
+[3.734722] (q3) StdoutLine: {'line': b'writing requirements to ../../build/q3/q3.egg-info/requires.txt\n'}
+[3.734807] (q3) StdoutLine: {'line': b'writing top-level names to ../../build/q3/q3.egg-info/top_level.txt\n'}
+[3.736307] (q3) StdoutLine: {'line': b"reading manifest file '../../build/q3/q3.egg-info/SOURCES.txt'\n"}
+[3.737485] (q3) StdoutLine: {'line': b"writing manifest file '../../build/q3/q3.egg-info/SOURCES.txt'\n"}
+[3.737784] (q3) StdoutLine: {'line': b'running build\n'}
+[3.737941] (q3) StdoutLine: {'line': b'running build_py\n'}
+[3.738100] (q3) StdoutLine: {'line': b'copying q3/node_link.py -> /home/vboxuser/hw3_ws/build/q3/build/lib/q3\n'}
+[3.738281] (q3) StdoutLine: {'line': b'running install\n'}
+[3.738700] (q3) StdoutLine: {'line': b'running install_lib\n'}
+[3.739741] (q3) StdoutLine: {'line': b'copying /home/vboxuser/hw3_ws/build/q3/build/lib/q3/node_link.py -> /home/vboxuser/hw3_ws/install/q3/lib/python3.10/site-packages/q3\n'}
+[3.740557] (q3) StdoutLine: {'line': b'byte-compiling /home/vboxuser/hw3_ws/install/q3/lib/python3.10/site-packages/q3/node_link.py to node_link.cpython-310.pyc\n'}
+[3.741584] (q3) StdoutLine: {'line': b'running install_data\n'}
+[3.742393] (q3) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.744541] (q3) StdoutLine: {'line': b"removing '/home/vboxuser/hw3_ws/install/q3/lib/python3.10/site-packages/q3-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.744893] (q3) StdoutLine: {'line': b'Copying ../../build/q3/q3.egg-info to /home/vboxuser/hw3_ws/install/q3/lib/python3.10/site-packages/q3-0.0.0-py3.10.egg-info\n'}
+[3.745815] (q3) StdoutLine: {'line': b'running install_scripts\n'}
+[3.749877] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'install'}
+[3.752718] (-) TimerEvent: {}
+[3.759224] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[3.759515] (q2) StdoutLine: {'line': b'Installing node_link script to /home/vboxuser/hw3_ws/install/q2/lib/q2\n'}
+[3.759705] (q2) StdoutLine: {'line': b'Installing node_link2 script to /home/vboxuser/hw3_ws/install/q2/lib/q2\n'}
+[3.759945] (q2) StdoutLine: {'line': b"writing list of installed files to '/home/vboxuser/hw3_ws/build/q2/install.log'\n"}
+[3.760461] (py_pubsub) StdoutLine: {'line': b'writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO\n'}
+[3.760794] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt\n'}
+[3.761068] (py_pubsub) StdoutLine: {'line': b'writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt\n'}
+[3.761287] (py_pubsub) StdoutLine: {'line': b'writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt\n'}
+[3.761452] (py_pubsub) StdoutLine: {'line': b'writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt\n'}
+[3.761619] (q1) StdoutLine: {'line': b'running egg_info\n'}
+[3.762714] (q1) StdoutLine: {'line': b'writing ../../build/q1/q1.egg-info/PKG-INFO\n'}
+[3.762978] (q1) StdoutLine: {'line': b'writing dependency_links to ../../build/q1/q1.egg-info/dependency_links.txt\n'}
+[3.764662] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vboxuser/hw3_ws/build/turtlesim'], 'cwd': '/home/vboxuser/hw3_ws/build/turtlesim', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vboxuser'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vboxuser/hw3_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vboxuser'), ('OLDPWD', '/home/vboxuser/hw3_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1393'), ('SYSTEMD_EXEC_PID', '1571'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '30852'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vboxuser/hw3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vboxuser'), ('JOURNAL_STREAM', '8:22974'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vboxuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu:@/tmp/.ICE-unix/1539,unix/Ubuntu:/tmp/.ICE-unix/1539'), ('INVOCATION_ID', '3cec6e32e7524ebbb8089f08d9f2f313'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.509PI2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vboxuser/hw3_ws/install/turtlesim:/home/vboxuser/hw3_ws/install/q2:/home/vboxuser/hw3_ws/install/q1:/home/vboxuser/hw3_ws/install/py_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:b094da79-2f67-4267-9e5d-792c1ceae4cc'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vboxuser/hw3_ws/build/turtlesim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vboxuser/hw3_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/vboxuser/hw3_ws/install/q2/lib/python3.10/site-packages:/home/vboxuser/hw3_ws/install/q1/lib/python3.10/site-packages:/home/vboxuser/hw3_ws/install/py_pubsub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vboxuser/hw3_ws/install/turtlesim:/home/vboxuser/hw3_ws/install/q2:/home/vboxuser/hw3_ws/install/q1:/home/vboxuser/hw3_ws/install/py_pubsub:/opt/ros/humble')]), 'shell': False}
+[3.765682] (py_pubsub) StdoutLine: {'line': b"reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[3.765854] (py_pubsub) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[3.766270] (q1) StdoutLine: {'line': b'writing entry points to ../../build/q1/q1.egg-info/entry_points.txt\n'}
+[3.766448] (q1) StdoutLine: {'line': b'writing requirements to ../../build/q1/q1.egg-info/requires.txt\n'}
+[3.766686] (q1) StdoutLine: {'line': b'writing top-level names to ../../build/q1/q1.egg-info/top_level.txt\n'}
+[3.766828] (q1) StdoutLine: {'line': b"reading manifest file '../../build/q1/q1.egg-info/SOURCES.txt'\n"}
+[3.766918] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[3.767010] (q1) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[3.767106] (py_pubsub) StdoutLine: {'line': b'running build\n'}
+[3.767266] (py_pubsub) StdoutLine: {'line': b'running build_py\n'}
+[3.767372] (py_pubsub) StdoutLine: {'line': b'running install\n'}
+[3.767650] (q1) StdoutLine: {'line': b"writing manifest file '../../build/q1/q1.egg-info/SOURCES.txt'\n"}
+[3.767803] (q1) StdoutLine: {'line': b'running build\n'}
+[3.767905] (q1) StdoutLine: {'line': b'running build_py\n'}
+[3.768083] (py_pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[3.768249] (q1) StdoutLine: {'line': b'running install\n'}
+[3.768399] (q1) StdoutLine: {'line': b'running install_lib\n'}
+[3.769662] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[3.769891] (q1) StdoutLine: {'line': b'running install_data\n'}
+[3.770463] (py_pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.770709] (q1) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.773020] (q1) StdoutLine: {'line': b"removing '/home/vboxuser/hw3_ws/install/q1/lib/python3.10/site-packages/q1-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.773288] (py_pubsub) StdoutLine: {'line': b"removing '/home/vboxuser/hw3_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.773494] (q1) StdoutLine: {'line': b'Copying ../../build/q1/q1.egg-info to /home/vboxuser/hw3_ws/install/q1/lib/python3.10/site-packages/q1-0.0.0-py3.10.egg-info\n'}
+[3.773660] (py_pubsub) StdoutLine: {'line': b'Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/vboxuser/hw3_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info\n'}
+[3.774298] (q1) StdoutLine: {'line': b'running install_scripts\n'}
+[3.774695] (py_pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[3.777921] (q3) StdoutLine: {'line': b'Installing node_link script to /home/vboxuser/hw3_ws/install/q3/lib/q3\n'}
+[3.779192] (q3) StdoutLine: {'line': b"writing list of installed files to '/home/vboxuser/hw3_ws/build/q3/install.log'\n"}
+[3.783639] (turtlesim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.784061] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim\n'}
+[3.784359] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[3.784571] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[3.784800] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.784912] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[3.785167] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.h\n'}
+[3.785275] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.h\n'}
+[3.785364] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.c\n'}
+[3.785575] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.h\n'}
+[3.785762] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.h\n'}
+[3.785853] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.h\n'}
+[3.785940] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.h\n'}
+[3.786027] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.c\n'}
+[3.786295] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/msg/color.h\n'}
+[3.786412] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/msg/pose.h\n'}
+[3.786500] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[3.786751] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/kill.h\n'}
+[3.786859] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.h\n'}
+[3.786948] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.h\n'}
+[3.787034] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[3.787309] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.h\n'}
+[3.789324] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.h\n'}
+[3.789468] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.h\n'}
+[3.789828] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.h\n'}
+[3.789959] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.c\n'}
+[3.790052] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.c\n'}
+[3.790164] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.h\n'}
+[3.790427] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.h\n'}
+[3.790540] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.c\n'}
+[3.790629] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.h\n'}
+[3.790716] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.h\n'}
+[3.790925] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.h\n'}
+[3.791034] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.h\n'}
+[3.791233] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.h\n'}
+[3.791369] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.c\n'}
+[3.791638] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.c\n'}
+[3.791783] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.h\n'}
+[3.792378] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.h\n'}
+[3.794760] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.h\n'}
+[3.794971] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.h\n'}
+[3.795139] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.h\n'}
+[3.795234] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.h\n'}
+[3.795320] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[3.795472] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[3.795577] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.h\n'}
+[3.795664] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.c\n'}
+[3.795750] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.h\n'}
+[3.795836] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.h\n'}
+[3.795934] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.h\n'}
+[3.796022] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/environment/library_path.sh\n'}
+[3.796109] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/environment/library_path.dsv\n'}
+[3.796195] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so\n'}
+[3.796281] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[3.796368] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[3.796454] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[3.796539] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h\n'}
+[3.796626] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h\n'}
+[3.796713] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.796799] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[3.796885] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[3.796972] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[3.797058] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h\n'}
+[3.797143] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h\n'}
+[3.797242] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h\n'}
+[3.797334] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h\n'}
+[3.797420] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[3.797505] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[3.797591] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[3.797677] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so\n'}
+[3.797763] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[3.797848] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[3.797933] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[3.798018] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__traits.hpp\n'}
+[3.798103] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__builder.hpp\n'}
+[3.798188] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.hpp\n'}
+[3.798273] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__builder.hpp\n'}
+[3.798358] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.hpp\n'}
+[3.798443] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__traits.hpp\n'}
+[3.798528] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/msg/color.hpp\n'}
+[3.798614] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/msg/pose.hpp\n'}
+[3.798698] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[3.799123] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[3.799264] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.hpp\n'}
+[3.799366] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__builder.hpp\n'}
+[3.799538] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__traits.hpp\n'}
+[3.799762] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp\n'}
+[3.799867] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__traits.hpp\n'}
+[3.799954] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__builder.hpp\n'}
+[3.800194] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__traits.hpp\n'}
+[3.800313] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__builder.hpp\n'}
+[3.800400] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__builder.hpp\n'}
+[3.800618] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__builder.hpp\n'}
+[3.800724] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp\n'}
+[3.800811] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__traits.hpp\n'}
+[3.801023] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__traits.hpp\n'}
+[3.801129] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.hpp\n'}
+[3.801216] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.hpp\n'}
+[3.801451] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/kill.hpp\n'}
+[3.801560] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.hpp\n'}
+[3.801662] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.hpp\n'}
+[3.801884] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.hpp\n'}
+[3.801991] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.hpp\n'}
+[3.802078] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[3.802313] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[3.802421] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__builder.hpp\n'}
+[3.802629] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.hpp\n'}
+[3.802733] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__traits.hpp\n'}
+[3.802820] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.hpp\n'}
+[3.803131] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[3.803241] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[3.803541] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[3.803657] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.804001] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/dds_fastrtps\n'}
+[3.805097] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.805467] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.805606] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[3.805716] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[3.805834] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.806049] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.806163] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.806272] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.806379] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/dds_fastrtps\n'}
+[3.806486] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.806592] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[3.806696] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[3.808491] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.808652] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/dds_fastrtps\n'}
+[3.808764] (q2) CommandEnded: {'returncode': 0}
+[3.809362] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.809495] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[3.809607] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[3.814890] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[3.815054] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h\n'}
+[3.815184] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.c\n'}
+[3.815652] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.c\n'}
+[3.815930] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h\n'}
+[3.816272] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.816428] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[3.816534] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[3.816680] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h\n'}
+[3.816835] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h\n'}
+[3.816957] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.c\n'}
+[3.817064] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.c\n'}
+[3.817171] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.c\n'}
+[3.817277] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h\n'}
+[3.817383] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.c\n'}
+[3.817490] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h\n'}
+[3.817901] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h\n'}
+[3.818006] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.c\n'}
+[3.818129] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[3.818210] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[3.818320] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h\n'}
+[3.818441] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.c\n'}
+[3.818560] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so\n'}
+[3.818705] (q1) StdoutLine: {'line': b'Installing my_pub script to /home/vboxuser/hw3_ws/install/q1/lib/q1\n'}
+[3.818827] (q1) StdoutLine: {'line': b"writing list of installed files to '/home/vboxuser/hw3_ws/build/q1/install.log'\n"}
+[3.818940] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so\n'}
+[3.819051] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[3.819159] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[3.819267] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[3.819375] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.819873] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.820050] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.cpp\n'}
+[3.820166] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.cpp\n'}
+[3.820274] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[3.820395] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[3.820653] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.cpp\n'}
+[3.821435] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.821668] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.cpp\n'}
+[3.821818] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.821936] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.822167] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.822256] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.cpp\n'}
+[3.822312] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.cpp\n'}
+[3.822452] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.cpp\n'}
+[3.822544] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.822631] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[3.822718] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[3.822805] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.822891] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.cpp\n'}
+[3.822978] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so\n'}
+[3.823064] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so\n'}
+[3.823149] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/environment/pythonpath.sh\n'}
+[3.823247] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/environment/pythonpath.dsv\n'}
+[3.823416] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info\n'}
+[3.823583] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw3_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/top_level.txt\n'}
+[3.823675] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw3_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/dependency_links.txt\n'}
+[3.823764] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw3_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/SOURCES.txt\n'}
+[3.823851] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw3_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/PKG-INFO\n'}
+[3.823948] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim\n'}
+[3.824035] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.824123] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.824209] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.824341] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py\n'}
+[3.824456] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c\n'}
+[3.824772] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg\n'}
+[3.824918] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py\n'}
+[3.824996] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py\n'}
+[3.825745] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py\n'}
+[3.825841] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color_s.c\n'}
+[3.825912] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose_s.c\n'}
+[3.826182] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.826330] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/libturtlesim__rosidl_generator_py.so\n'}
+[3.826746] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv\n'}
+[3.826830] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative_s.c\n'}
+[3.827202] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py\n'}
+[3.827531] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill_s.c\n'}
+[3.827650] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py\n'}
+[3.828109] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py\n'}
+[3.828231] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py\n'}
+[3.828345] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen_s.c\n'}
+[3.828452] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py\n'}
+[3.828840] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn_s.c\n'}
+[3.828913] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute_s.c\n'}
+[3.829103] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py\n'}
+[3.829322] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action\n'}
+[3.829400] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py\n'}
+[3.829469] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py\n'}
+[3.829758] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute_s.c\n'}
+[3.829934] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.830159] (py_pubsub) StdoutLine: {'line': b'Installing listener script to /home/vboxuser/hw3_ws/install/py_pubsub/lib/py_pubsub\n'}
+[3.830279] (py_pubsub) StdoutLine: {'line': b'Installing talker script to /home/vboxuser/hw3_ws/install/py_pubsub/lib/py_pubsub\n'}
+[3.830477] (py_pubsub) StdoutLine: {'line': b"writing list of installed files to '/home/vboxuser/hw3_ws/build/py_pubsub/install.log'\n"}
+[3.853025] (-) TimerEvent: {}
+[3.858994] (turtlesim) StdoutLine: {'line': b"Listing '/home/vboxuser/hw3_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim'...\n"}
+[3.859198] (turtlesim) StdoutLine: {'line': b"Listing '/home/vboxuser/hw3_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action'...\n"}
+[3.859315] (turtlesim) StdoutLine: {'line': b"Listing '/home/vboxuser/hw3_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg'...\n"}
+[3.859489] (turtlesim) StdoutLine: {'line': b"Listing '/home/vboxuser/hw3_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv'...\n"}
+[3.864184] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.864565] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.864747] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.865093] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so\n'}
+[3.866173] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl\n'}
+[3.866545] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/msg/Color.idl\n'}
+[3.866669] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/msg/Pose.idl\n'}
+[3.867047] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/srv/Kill.idl\n'}
+[3.867177] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/srv/SetPen.idl\n'}
+[3.867257] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/srv/Spawn.idl\n'}
+[3.867991] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl\n'}
+[3.868147] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl\n'}
+[3.868264] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.action\n'}
+[3.868373] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/msg/Color.msg\n'}
+[3.868480] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/msg/Pose.msg\n'}
+[3.868585] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/srv/Kill.srv\n'}
+[3.868690] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/srv/Kill_Request.msg\n'}
+[3.868827] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/srv/Kill_Response.msg\n'}
+[3.868949] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/srv/SetPen.srv\n'}
+[3.869055] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg\n'}
+[3.869159] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg\n'}
+[3.869264] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/srv/Spawn.srv\n'}
+[3.869368] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg\n'}
+[3.869472] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg\n'}
+[3.869577] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv\n'}
+[3.869681] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg\n'}
+[3.869833] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg\n'}
+[3.869943] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv\n'}
+[3.870048] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg\n'}
+[3.870153] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg\n'}
+[3.870260] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/lib/turtlesim/turtlesim_node\n'}
+[3.870366] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/lib/turtlesim/turtle_teleop_key\n'}
+[3.870471] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/lib/turtlesim/draw_square\n'}
+[3.871055] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/lib/turtlesim/mimic\n'}
+[3.871159] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/images\n'}
+[3.871230] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/images/foxy.png\n'}
+[3.871530] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/images/dashing.png\n'}
+[3.871623] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/images/bouncy.png\n'}
+[3.871700] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/images/ardent.png\n'}
+[3.871783] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/images/eloquent.png\n'}
+[3.871855] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/images/rolling.png\n'}
+[3.871927] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/images/humble.png\n'}
+[3.871997] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/images/crystal.png\n'}
+[3.872202] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/images/galactic.png\n'}
+[3.872494] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/launch\n'}
+[3.872612] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/launch/multisim.launch.py\n'}
+[3.873762] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim\n'}
+[3.873881] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim\n'}
+[3.873990] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh\n'}
+[3.874097] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv\n'}
+[3.874201] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/environment/path.sh\n'}
+[3.874306] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/environment/path.dsv\n'}
+[3.874410] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/local_setup.bash\n'}
+[3.874513] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/local_setup.sh\n'}
+[3.874644] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/local_setup.zsh\n'}
+[3.874755] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/local_setup.dsv\n'}
+[3.874858] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/package.dsv\n'}
+[3.874961] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/ament_index/resource_index/packages/turtlesim\n'}
+[3.875064] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport.cmake\n'}
+[3.875168] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.875271] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.875392] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[3.875569] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cppExport.cmake\n'}
+[3.875684] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.875830] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.875958] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.876064] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.876170] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake\n'}
+[3.876275] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.876378] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.876482] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.876586] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake\n'}
+[3.876690] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.876795] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport.cmake\n'}
+[3.876899] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport-noconfig.cmake\n'}
+[3.877004] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake\n'}
+[3.877107] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.877211] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.877314] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.877417] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.877520] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.877624] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.877728] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake\n'}
+[3.877831] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake\n'}
+[3.877934] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw3_ws/install/turtlesim/share/turtlesim/package.xml\n'}
+[3.918044] (q2) JobEnded: {'identifier': 'q2', 'rc': 0}
+[3.920425] (q3) CommandEnded: {'returncode': 0}
+[3.953940] (-) TimerEvent: {}
+[3.996951] (q3) JobEnded: {'identifier': 'q3', 'rc': 0}
+[3.998430] (turtlesim) CommandEnded: {'returncode': 0}
+[4.055272] (-) TimerEvent: {}
+[4.114424] (q1) CommandEnded: {'returncode': 0}
+[4.157657] (-) TimerEvent: {}
+[4.183022] (q1) JobEnded: {'identifier': 'q1', 'rc': 0}
+[4.185953] (py_pubsub) CommandEnded: {'returncode': 0}
+[4.253367] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[4.257801] (-) TimerEvent: {}
+[4.358244] (-) TimerEvent: {}
+[4.460062] (-) TimerEvent: {}
+[4.479669] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 0}
+[4.480317] (-) EventReactorShutdown: {}

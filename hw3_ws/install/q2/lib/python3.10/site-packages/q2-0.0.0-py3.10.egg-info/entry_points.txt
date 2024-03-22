@@ -1,0 +1,4 @@
+[console_scripts]
+node_link = q2.node_link:main
+node_link2 = q2.node_link2:main
+

@@ -1,0 +1,37 @@
+[0.344s] Invoking command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_action_client -- -j6 -l6
+[1.223s] [ 12%] [32mBuilding CXX object CMakeFiles/action_client_not_composable_with_feedback.dir/not_composable_with_feedback.cpp.o[0m
+[1.224s] [ 25%] [32mBuilding CXX object CMakeFiles/action_client_not_composable.dir/not_composable.cpp.o[0m
+[1.225s] [ 37%] [32mBuilding CXX object CMakeFiles/action_client_not_composable_with_cancel.dir/not_composable_with_cancel.cpp.o[0m
+[1.235s] [ 50%] [32mBuilding CXX object CMakeFiles/action_client_member_functions.dir/member_functions.cpp.o[0m
+[27.423s] [ 62%] [32m[1mLinking CXX executable action_client_not_composable[0m
+[28.068s] [ 62%] Built target action_client_not_composable
+[28.091s] [ 75%] [32m[1mLinking CXX executable action_client_not_composable_with_feedback[0m
+[28.323s] [ 87%] [32m[1mLinking CXX executable action_client_member_functions[0m
+[28.713s] [ 87%] Built target action_client_not_composable_with_feedback
+[28.721s] [ 87%] Built target action_client_member_functions
+[28.755s] [100%] [32m[1mLinking CXX executable action_client_not_composable_with_cancel[0m
+[29.241s] [100%] Built target action_client_not_composable_with_cancel
+[29.382s] Invoked command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_action_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_action_client -- -j6 -l6
+[29.850s] Invoking command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_action_client
+[29.862s] -- Install configuration: ""
+[29.867s] -- Execute custom install script
+[29.871s] -- Symlinking: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_member_functions
+[29.899s] -- Symlinking: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable
+[29.937s] -- Symlinking: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable_with_cancel
+[29.962s] -- Symlinking: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable_with_feedback
+[29.991s] -- Symlinking: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_action_client
+[30.007s] -- Symlinking: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_action_client
+[30.034s] -- Symlinking: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/ament_prefix_path.sh
+[30.047s] -- Symlinking: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/ament_prefix_path.dsv
+[30.076s] -- Symlinking: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/path.sh
+[30.099s] -- Symlinking: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/path.dsv
+[30.107s] -- Symlinking: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.bash
+[30.117s] -- Symlinking: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.sh
+[30.171s] -- Symlinking: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.zsh
+[30.171s] -- Symlinking: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.dsv
+[30.171s] -- Symlinking: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/package.dsv
+[30.196s] -- Symlinking: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/packages/examples_rclcpp_minimal_action_client
+[30.208s] -- Symlinking: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/cmake/examples_rclcpp_minimal_action_clientConfig.cmake
+[30.241s] -- Symlinking: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/cmake/examples_rclcpp_minimal_action_clientConfig-version.cmake
+[30.248s] -- Symlinking: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/package.xml
+[30.262s] Invoked command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_action_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_action_client

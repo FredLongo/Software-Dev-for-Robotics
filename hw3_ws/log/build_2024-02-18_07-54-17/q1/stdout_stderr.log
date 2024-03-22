@@ -1,0 +1,26 @@
+running develop
+Removing /home/vboxuser/hw3_ws/install/q1/lib/python3.10/site-packages/q1.egg-link (link to .)
+running egg_info
+writing ../../build/q1/q1.egg-info/PKG-INFO
+writing dependency_links to ../../build/q1/q1.egg-info/dependency_links.txt
+writing entry points to ../../build/q1/q1.egg-info/entry_points.txt
+writing requirements to ../../build/q1/q1.egg-info/requires.txt
+writing top-level names to ../../build/q1/q1.egg-info/top_level.txt
+reading manifest file '../../build/q1/q1.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/q1/q1.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/vboxuser/hw3_ws/install/q1/lib/python3.10/site-packages/q1
+copying /home/vboxuser/hw3_ws/build/q1/build/lib/q1/my_pub.py -> /home/vboxuser/hw3_ws/install/q1/lib/python3.10/site-packages/q1
+copying /home/vboxuser/hw3_ws/build/q1/build/lib/q1/__init__.py -> /home/vboxuser/hw3_ws/install/q1/lib/python3.10/site-packages/q1
+byte-compiling /home/vboxuser/hw3_ws/install/q1/lib/python3.10/site-packages/q1/my_pub.py to my_pub.cpython-310.pyc
+byte-compiling /home/vboxuser/hw3_ws/install/q1/lib/python3.10/site-packages/q1/__init__.py to __init__.cpython-310.pyc
+running install_data
+running install_egg_info
+Copying ../../build/q1/q1.egg-info to /home/vboxuser/hw3_ws/install/q1/lib/python3.10/site-packages/q1-0.0.0-py3.10.egg-info
+running install_scripts
+Installing my_pub script to /home/vboxuser/hw3_ws/install/q1/lib/q1
+writing list of installed files to '/home/vboxuser/hw3_ws/build/q1/install.log'

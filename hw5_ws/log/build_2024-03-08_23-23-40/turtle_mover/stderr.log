@@ -1,0 +1,5 @@
+  File "/home/vboxuser/hw5_ws/install/turtle_mover/lib/python3.10/site-packages/turtle_mover/turtle_mover.py", line 62
+    if self.lastmsg != msg 
+                           ^
+SyntaxError: expected ':'
+

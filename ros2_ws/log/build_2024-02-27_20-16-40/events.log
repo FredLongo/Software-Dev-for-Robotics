@@ -1,0 +1,28 @@
+[0.000000] (-) TimerEvent: {}
+[0.000275] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.000314] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.000335] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000354] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.000371] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.000389] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.000407] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.000424] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.000441] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.000458] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.000519] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.000554] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.000588] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.000621] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.000653] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.000686] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.000718] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.000750] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.000782] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.000824] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.000857] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.000890] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.000924] (-) JobUnselected: {'identifier': 'my_cpp_pkg'}
+[0.000956] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.000988] (-) JobUnselected: {'identifier': 'py_pubsub2'}
+[0.001020] (-) JobUnselected: {'identifier': 'py_pubsub3'}
+[0.001053] (-) EventReactorShutdown: {}

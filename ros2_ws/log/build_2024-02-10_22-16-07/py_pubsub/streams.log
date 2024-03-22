@@ -1,0 +1,17 @@
+[2.042s] Invoking command in '/home/vboxuser/ros2_ws/build/py_pubsub': PYTHONPATH=/home/vboxuser/ros2_ws/build/py_pubsub/prefix_override:/home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/vboxuser/ros2_ws/build/py_pubsub/build --no-deps install_data
+[2.506s] running develop
+[2.773s] running egg_info
+[2.773s] writing py_pubsub.egg-info/PKG-INFO
+[2.773s] writing dependency_links to py_pubsub.egg-info/dependency_links.txt
+[2.773s] writing entry points to py_pubsub.egg-info/entry_points.txt
+[2.774s] writing requirements to py_pubsub.egg-info/requires.txt
+[2.774s] writing top-level names to py_pubsub.egg-info/top_level.txt
+[2.777s] reading manifest file 'py_pubsub.egg-info/SOURCES.txt'
+[2.778s] writing manifest file 'py_pubsub.egg-info/SOURCES.txt'
+[2.784s] running build_ext
+[2.784s] Creating /home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py-pubsub.egg-link (link to .)
+[2.784s] Installing talker = py_pubsub.publisher_member_function:mainlistener script to /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub
+[2.786s] 
+[2.786s] Installed /home/vboxuser/ros2_ws/build/py_pubsub
+[2.786s] running install_data
+[2.896s] Invoked command in '/home/vboxuser/ros2_ws/build/py_pubsub' returned '0': PYTHONPATH=/home/vboxuser/ros2_ws/build/py_pubsub/prefix_override:/home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/vboxuser/ros2_ws/build/py_pubsub/build --no-deps install_data

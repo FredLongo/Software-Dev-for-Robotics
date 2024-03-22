@@ -1,0 +1,52 @@
+[0.276s] Invoking command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/vboxuser/ros2_ws/src/examples/rclcpp/executors/cbg_executor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vboxuser/ros2_ws/install/examples_rclcpp_cbg_executor
+[1.155s] -- The C compiler identification is GNU 11.4.0
+[1.575s] -- The CXX compiler identification is GNU 11.4.0
+[1.590s] -- Detecting C compiler ABI info
+[1.755s] -- Detecting C compiler ABI info - done
+[1.773s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.774s] -- Detecting C compile features
+[1.796s] -- Detecting C compile features - done
+[1.801s] -- Detecting CXX compiler ABI info
+[1.916s] -- Detecting CXX compiler ABI info - done
+[1.936s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.936s] -- Detecting CXX compile features
+[1.936s] -- Detecting CXX compile features - done
+[1.970s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.280s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.435s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.556s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[2.765s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.774s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.791s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.832s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.874s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.089s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.118s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.540s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.588s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.658s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.718s] -- Looking for pthread.h
+[3.923s] -- Looking for pthread.h - found
+[3.924s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.037s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.038s] -- Found Threads: TRUE  
+[4.418s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.598s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.620s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.621s] -- Configured cppcheck include dirs: /home/vboxuser/ros2_ws/src/examples/rclcpp/executors/cbg_executor/include
+[4.621s] -- Configured cppcheck exclude dirs and/or files: 
+[4.622s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.623s] -- Configured cpplint exclude dirs and/or files: 
+[4.623s] -- Added test 'lint_cmake' to check CMake code style
+[4.625s] -- Added test 'uncrustify' to check C / C++ code style
+[4.625s] -- Configured uncrustify additional arguments: 
+[4.626s] -- Added test 'xmllint' to check XML markup files
+[4.636s] -- Configuring done
+[4.674s] -- Generating done
+[4.677s] -- Build files have been written to: /home/vboxuser/ros2_ws/build/examples_rclcpp_cbg_executor
+[4.706s] Invoked command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_cbg_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/vboxuser/ros2_ws/src/examples/rclcpp/executors/cbg_executor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vboxuser/ros2_ws/install/examples_rclcpp_cbg_executor
+[4.708s] Invoking command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/examples_rclcpp_cbg_executor -- -j4 -l4
+[4.802s] [ 10%] [32mBuilding CXX object CMakeFiles/ping.dir/src/ping.cpp.o[0m
+[4.804s] [ 20%] [32mBuilding CXX object CMakeFiles/ping.dir/src/examples_rclcpp_cbg_executor/ping_node.cpp.o[0m
+[4.807s] [ 30%] [32mBuilding CXX object CMakeFiles/ping_pong.dir/src/ping_pong.cpp.o[0m
+[4.815s] [ 40%] [32mBuilding CXX object CMakeFiles/pong.dir/src/pong.cpp.o[0m

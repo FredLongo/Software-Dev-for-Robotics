@@ -1,0 +1,16 @@
+[2.174s] Invoking command in '/home/vboxuser/ros2_ws/build/launch_testing_examples': PYTHONPATH=/home/vboxuser/ros2_ws/build/launch_testing_examples/prefix_override:/home/vboxuser/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/vboxuser/ros2_ws/build/launch_testing_examples/build --no-deps install_data
+[2.631s] running develop
+[2.894s] running egg_info
+[2.894s] writing launch_testing_examples.egg-info/PKG-INFO
+[2.895s] writing dependency_links to launch_testing_examples.egg-info/dependency_links.txt
+[2.895s] writing entry points to launch_testing_examples.egg-info/entry_points.txt
+[2.895s] writing requirements to launch_testing_examples.egg-info/requires.txt
+[2.895s] writing top-level names to launch_testing_examples.egg-info/top_level.txt
+[2.898s] reading manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[2.899s] writing manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[2.901s] running build_ext
+[2.902s] Creating /home/vboxuser/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch-testing-examples.egg-link (link to .)
+[2.902s] 
+[2.902s] Installed /home/vboxuser/ros2_ws/build/launch_testing_examples
+[2.903s] running install_data
+[2.946s] Invoked command in '/home/vboxuser/ros2_ws/build/launch_testing_examples' returned '0': PYTHONPATH=/home/vboxuser/ros2_ws/build/launch_testing_examples/prefix_override:/home/vboxuser/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/vboxuser/ros2_ws/build/launch_testing_examples/build --no-deps install_data

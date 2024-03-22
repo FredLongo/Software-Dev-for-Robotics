@@ -1,0 +1,24 @@
+[0.200s] Invoking command in '/home/vboxuser/hw4_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/hw4_ws/install/py_srvcli:/home/vboxuser/hw4_ws/install/calculator:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/hw4_ws/build/tutorial_interfaces -- -j6 -l6
+[0.272s] [  3%] Built target tutorial_interfaces__cpp
+[0.275s] [ 12%] Built target tutorial_interfaces__rosidl_generator_c
+[0.286s] [ 12%] Built target ament_cmake_python_copy_tutorial_interfaces
+[0.297s] [ 22%] Built target tutorial_interfaces__rosidl_typesupport_cpp
+[0.306s] [ 32%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.310s] [ 41%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c
+[0.312s] [ 51%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c
+[0.313s] [ 61%] Built target tutorial_interfaces__rosidl_typesupport_c
+[0.319s] [ 70%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp
+[0.357s] [ 70%] Built target tutorial_interfaces
+[0.379s] [ 74%] Built target tutorial_interfaces__py
+[0.403s] [ 80%] Built target tutorial_interfaces__rosidl_generator_py
+[0.426s] [ 87%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext
+[0.427s] [ 93%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.445s] [100%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.717s] running egg_info
+[0.718s] writing tutorial_interfaces.egg-info/PKG-INFO
+[0.718s] writing dependency_links to tutorial_interfaces.egg-info/dependency_links.txt
+[0.718s] writing top-level names to tutorial_interfaces.egg-info/top_level.txt
+[0.721s] reading manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[0.722s] writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[0.755s] [100%] Built target ament_cmake_python_build_tutorial_interfaces_egg
+[0.768s] Invoked command in '/home/vboxuser/hw4_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/hw4_ws/install/py_srvcli:/home/vboxuser/hw4_ws/install/calculator:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/hw4_ws/build/tutorial_interfaces -- -j6 -l6

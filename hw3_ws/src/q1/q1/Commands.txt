@@ -1,0 +1,12 @@
+ros2 run py_pubsub talker --ros-args -r  /topic:=/son/talk  -r  __node:=son_talker
+ros2 run py_pubsub talker --ros-args -r  /topic:=/lee/talk  -r  __node:=lee_talker
+ros2 run py_pubsub talker --ros-args -r  /topic:=/park/talk  -r  __node:=park_talker
+ros2 run py_pubsub talker --ros-args -r  /topic:=/kim/talk  -r  __node:=kim_talker
+
+
+
+ros2 run py_pubsub listener --ros-args  -r topic:=/son/talk   -r  __node:=park_listener
+ros2 run py_pubsub listener --ros-args  -r topic:=/lee/talk   -r  __node:=kim_listener
+ros2 run py_pubsub listener --ros-args  -r topic:=/park/talk   -r  __node:=lee_listener
+ros2 run py_pubsub listener --ros-args  -r topic:=/kim/talk   -r  __node:=son_listener
+

@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing turtle_joy.egg-info/PKG-INFO
+writing dependency_links to turtle_joy.egg-info/dependency_links.txt
+writing entry points to turtle_joy.egg-info/entry_points.txt
+writing requirements to turtle_joy.egg-info/requires.txt
+writing top-level names to turtle_joy.egg-info/top_level.txt
+reading manifest file 'turtle_joy.egg-info/SOURCES.txt'
+writing manifest file 'turtle_joy.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/vboxuser/hw5_ws/install/turtle_joy/lib/python3.10/site-packages/turtle-joy.egg-link (link to .)
+Installing turtle_joy script to /home/vboxuser/hw5_ws/install/turtle_joy/lib/turtle_joy
+
+Installed /home/vboxuser/hw5_ws/build/turtle_joy
+running install_data

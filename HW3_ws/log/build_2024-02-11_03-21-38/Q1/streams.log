@@ -1,0 +1,17 @@
+[1.111s] Invoking command in '/home/vboxuser/HW3_ws/build/Q1': PYTHONPATH=/home/vboxuser/HW3_ws/build/Q1/prefix_override:/home/vboxuser/HW3_ws/install/Q1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/vboxuser/HW3_ws/build/Q1/build --no-deps install_data
+[1.525s] running develop
+[1.769s] running egg_info
+[1.769s] writing Q1.egg-info/PKG-INFO
+[1.769s] writing dependency_links to Q1.egg-info/dependency_links.txt
+[1.770s] writing entry points to Q1.egg-info/entry_points.txt
+[1.770s] writing requirements to Q1.egg-info/requires.txt
+[1.770s] writing top-level names to Q1.egg-info/top_level.txt
+[1.772s] reading manifest file 'Q1.egg-info/SOURCES.txt'
+[1.773s] writing manifest file 'Q1.egg-info/SOURCES.txt'
+[1.775s] running build_ext
+[1.775s] Creating /home/vboxuser/HW3_ws/install/Q1/lib/python3.10/site-packages/Q1.egg-link (link to .)
+[1.776s] Installing fred_node script to /home/vboxuser/HW3_ws/install/Q1/lib/Q1
+[1.776s] 
+[1.776s] Installed /home/vboxuser/HW3_ws/build/Q1
+[1.776s] running install_data
+[1.817s] Invoked command in '/home/vboxuser/HW3_ws/build/Q1' returned '0': PYTHONPATH=/home/vboxuser/HW3_ws/build/Q1/prefix_override:/home/vboxuser/HW3_ws/install/Q1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/vboxuser/HW3_ws/build/Q1/build --no-deps install_data

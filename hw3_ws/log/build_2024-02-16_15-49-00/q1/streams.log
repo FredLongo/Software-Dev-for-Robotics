@@ -1,0 +1,24 @@
+[1.719s] Invoking command in '/home/vboxuser/hw3_ws/src/q1': PYTHONPATH=/home/vboxuser/hw3_ws/build/q1/prefix_override:/home/vboxuser/hw3_ws/install/q1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/q1 build --build-base /home/vboxuser/hw3_ws/build/q1/build install --record /home/vboxuser/hw3_ws/build/q1/install.log --single-version-externally-managed
+[2.104s] running egg_info
+[2.104s] writing ../../build/q1/q1.egg-info/PKG-INFO
+[2.104s] writing dependency_links to ../../build/q1/q1.egg-info/dependency_links.txt
+[2.104s] writing entry points to ../../build/q1/q1.egg-info/entry_points.txt
+[2.105s] writing requirements to ../../build/q1/q1.egg-info/requires.txt
+[2.105s] writing top-level names to ../../build/q1/q1.egg-info/top_level.txt
+[2.107s] reading manifest file '../../build/q1/q1.egg-info/SOURCES.txt'
+[2.107s] adding license file 'LICENSE'
+[2.108s] writing manifest file '../../build/q1/q1.egg-info/SOURCES.txt'
+[2.108s] running build
+[2.108s] running build_py
+[2.109s] running install
+[2.109s] running install_lib
+[2.110s] running install_data
+[2.111s] copying package.xml -> /home/vboxuser/hw3_ws/install/q1/share/q1
+[2.111s] running install_egg_info
+[2.114s] removing '/home/vboxuser/hw3_ws/install/q1/lib/python3.10/site-packages/q1-0.0.0-py3.10.egg-info' (and everything under it)
+[2.114s] Copying ../../build/q1/q1.egg-info to /home/vboxuser/hw3_ws/install/q1/lib/python3.10/site-packages/q1-0.0.0-py3.10.egg-info
+[2.115s] running install_scripts
+[2.142s] Installing listener script to /home/vboxuser/hw3_ws/install/q1/lib/q1
+[2.142s] Installing my_pub = q1.my_pub:maintalker script to /home/vboxuser/hw3_ws/install/q1/lib/q1
+[2.142s] writing list of installed files to '/home/vboxuser/hw3_ws/build/q1/install.log'
+[2.290s] Invoked command in '/home/vboxuser/hw3_ws/src/q1' returned '0': PYTHONPATH=/home/vboxuser/hw3_ws/build/q1/prefix_override:/home/vboxuser/hw3_ws/install/q1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/q1 build --build-base /home/vboxuser/hw3_ws/build/q1/build install --record /home/vboxuser/hw3_ws/build/q1/install.log --single-version-externally-managed

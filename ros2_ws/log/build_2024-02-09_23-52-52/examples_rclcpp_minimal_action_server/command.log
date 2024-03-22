@@ -1,0 +1,1 @@
+Invoking command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_action_server': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_action_server -- -j4 -l4

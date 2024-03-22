@@ -1,0 +1,63 @@
+[0.199s] Invoking command in '/home/vboxuser/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ros2_ws/install/py_pubsub3:/home/vboxuser/ros2_ws/install/py_pubsub2:/home/vboxuser/ros2_ws/install/py_pubsub:/home/vboxuser/ros2_ws/install/launch_testing_examples:/home/vboxuser/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_service:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_publisher:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_client:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_action_server:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_action_client:/home/vboxuser/ros2_ws/install/examples_rclpy_guard_conditions:/home/vboxuser/ros2_ws/install/examples_rclpy_executors:/home/vboxuser/HW3_ws/install/py_pubsub:/home/vboxuser/HW3_ws/install/Q1:/home/vboxuser/ros2_ws/src/install/py_pubsub3:/home/vboxuser/ros2_ws/src/install/py_pubsub2:/home/vboxuser/ros2_ws/src/install/py_pubsub:/home/vboxuser/ros2_ws/src/install/launch_testing_examples:/home/vboxuser/ros2_ws/src/install/examples_rclpy_pointcloud_publisher:/home/vboxuser/ros2_ws/src/install/examples_rclpy_minimal_subscriber:/home/vboxuser/ros2_ws/src/install/examples_rclpy_minimal_service:/home/vboxuser/ros2_ws/src/install/examples_rclpy_minimal_publisher:/home/vboxuser/ros2_ws/src/install/examples_rclpy_minimal_client:/home/vboxuser/ros2_ws/src/install/examples_rclpy_minimal_action_server:/home/vboxuser/ros2_ws/src/install/examples_rclpy_minimal_action_client:/home/vboxuser/ros2_ws/src/install/examples_rclpy_guard_conditions:/home/vboxuser/ros2_ws/src/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/my_cpp_pkg -- -j6 -l6
+[0.271s] [35m[1mConsolidate compiler generated dependencies of target cpp_node[0m
+[0.297s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[3.870s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.870s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.870s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.871s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.871s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.871s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.871s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.871s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.871s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.871s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.871s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.871s]                  from [01m[K/home/vboxuser/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:1[m[K:
+[3.871s] [01m[K/home/vboxuser/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:[m[K In member function ‘[01m[Kvoid MyNode::timerCallback()[m[K’:
+[3.872s] [01m[K/home/vboxuser/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:17:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kcounter[m[K’ was not declared in this scope; did you mean ‘[01m[Kcounter_[m[K’?
+[3.872s]    17 |         RCLCPP_INFO(this->get_logger(),"Hello" + str([01;31m[Kcounter[m[K++) );
+[3.872s]       |                                                      [01;31m[K^~~~~~~[m[K
+[3.876s] [01m[K/home/vboxuser/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:17:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kstr[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd[m[K’?
+[3.876s]    17 |         RCLCPP_INFO(this->get_logger(),"Hello" + [01;31m[Kstr[m[K(counter++) );
+[3.876s]       |                                                  [01;31m[K^~~[m[K
+[3.882s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.882s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.882s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.882s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.882s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.882s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.883s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.883s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.883s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.883s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.884s]                  from [01m[K/home/vboxuser/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:1[m[K:
+[3.884s] [01m[K/home/vboxuser/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:[m[K At global scope:
+[3.884s] [01m[K/home/vboxuser/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:36:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kdo[m[K’
+[3.884s]    36 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(),"HELLO CPP NODE");
+[3.884s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[3.885s] [01m[K/home/vboxuser/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:36:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kwhile[m[K’
+[3.885s]    36 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(),"HELLO CPP NODE");
+[3.885s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[3.885s] [01m[K/home/vboxuser/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:38:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ does not name a type; did you mean ‘[01m[Ktimer_t[m[K’?
+[3.885s]    38 |         [01;31m[Ktimer_[m[K = this->create_wall_timer(std::chrono::seconds(3),
+[3.885s]       |         [01;31m[K^~~~~~[m[K
+[3.885s]       |         [32m[Ktimer_t[m[K
+[3.885s] [01m[K/home/vboxuser/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:40:5:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[3.886s]    40 |     [01;31m[K}[m[K
+[3.886s]       |     [01;31m[K^[m[K
+[3.886s] [01m[K/home/vboxuser/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:42:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprivate[m[K’
+[3.886s]    42 | [01;31m[Kprivate[m[K:
+[3.886s]       | [01;31m[K^~~~~~~[m[K
+[3.886s] [01m[K/home/vboxuser/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:50:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[3.886s]    50 | [01;31m[K}[m[K;
+[3.886s]       | [01;31m[K^[m[K
+[3.886s] [01m[K/home/vboxuser/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:53:5:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kint main(int, char**)[m[K’
+[3.887s]    53 | int [01;31m[Kmain[m[K(int argc, char **argv)
+[3.887s]       |     [01;31m[K^~~~[m[K
+[3.887s] [01m[K/home/vboxuser/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:25:5:[m[K [01;36m[Knote: [m[K‘[01m[Kint main(int, char**)[m[K’ previously defined here
+[3.887s]    25 | int [01;36m[Kmain[m[K(int argc, char **argv)
+[3.887s]       |     [01;36m[K^~~~[m[K
+[4.596s] gmake[2]: *** [CMakeFiles/cpp_node.dir/build.make:76: CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o] Error 1
+[4.596s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cpp_node.dir/all] Error 2
+[4.596s] gmake: *** [Makefile:146: all] Error 2
+[4.599s] Invoked command in '/home/vboxuser/ros2_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ros2_ws/install/py_pubsub3:/home/vboxuser/ros2_ws/install/py_pubsub2:/home/vboxuser/ros2_ws/install/py_pubsub:/home/vboxuser/ros2_ws/install/launch_testing_examples:/home/vboxuser/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_service:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_publisher:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_client:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_action_server:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_action_client:/home/vboxuser/ros2_ws/install/examples_rclpy_guard_conditions:/home/vboxuser/ros2_ws/install/examples_rclpy_executors:/home/vboxuser/HW3_ws/install/py_pubsub:/home/vboxuser/HW3_ws/install/Q1:/home/vboxuser/ros2_ws/src/install/py_pubsub3:/home/vboxuser/ros2_ws/src/install/py_pubsub2:/home/vboxuser/ros2_ws/src/install/py_pubsub:/home/vboxuser/ros2_ws/src/install/launch_testing_examples:/home/vboxuser/ros2_ws/src/install/examples_rclpy_pointcloud_publisher:/home/vboxuser/ros2_ws/src/install/examples_rclpy_minimal_subscriber:/home/vboxuser/ros2_ws/src/install/examples_rclpy_minimal_service:/home/vboxuser/ros2_ws/src/install/examples_rclpy_minimal_publisher:/home/vboxuser/ros2_ws/src/install/examples_rclpy_minimal_client:/home/vboxuser/ros2_ws/src/install/examples_rclpy_minimal_action_server:/home/vboxuser/ros2_ws/src/install/examples_rclpy_minimal_action_client:/home/vboxuser/ros2_ws/src/install/examples_rclpy_guard_conditions:/home/vboxuser/ros2_ws/src/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/my_cpp_pkg -- -j6 -l6

@@ -1,0 +1,2 @@
+Invoking command in '/home/vboxuser/hw3_ws/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/hw3_ws/build/turtlesim -- -j6 -l6
+Invoked command in '/home/vboxuser/hw3_ws/build/turtlesim' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/hw3_ws/build/turtlesim -- -j6 -l6

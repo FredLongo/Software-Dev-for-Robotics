@@ -1,0 +1,21 @@
+[3.119s] Invoking command in '/home/vboxuser/ros2_ws/src/py_pubsub2': PYTHONPATH=/home/vboxuser/ros2_ws/build/py_pubsub2/prefix_override:/home/vboxuser/ros2_ws/install/py_pubsub2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub2 build --build-base /home/vboxuser/ros2_ws/build/py_pubsub2/build install --record /home/vboxuser/ros2_ws/build/py_pubsub2/install.log --single-version-externally-managed
+[3.635s] running egg_info
+[3.636s] writing ../../build/py_pubsub2/py_pubsub2.egg-info/PKG-INFO
+[3.668s] writing dependency_links to ../../build/py_pubsub2/py_pubsub2.egg-info/dependency_links.txt
+[3.668s] writing entry points to ../../build/py_pubsub2/py_pubsub2.egg-info/entry_points.txt
+[3.669s] writing requirements to ../../build/py_pubsub2/py_pubsub2.egg-info/requires.txt
+[3.669s] writing top-level names to ../../build/py_pubsub2/py_pubsub2.egg-info/top_level.txt
+[3.673s] reading manifest file '../../build/py_pubsub2/py_pubsub2.egg-info/SOURCES.txt'
+[3.685s] adding license file 'LICENSE'
+[3.687s] writing manifest file '../../build/py_pubsub2/py_pubsub2.egg-info/SOURCES.txt'
+[3.687s] running build
+[3.687s] running build_py
+[3.689s] running install
+[3.690s] running install_lib
+[3.693s] running install_data
+[3.694s] running install_egg_info
+[3.696s] removing '/home/vboxuser/ros2_ws/install/py_pubsub2/lib/python3.10/site-packages/py_pubsub2-0.0.0-py3.10.egg-info' (and everything under it)
+[3.696s] Copying ../../build/py_pubsub2/py_pubsub2.egg-info to /home/vboxuser/ros2_ws/install/py_pubsub2/lib/python3.10/site-packages/py_pubsub2-0.0.0-py3.10.egg-info
+[3.698s] running install_scripts
+[3.733s] writing list of installed files to '/home/vboxuser/ros2_ws/build/py_pubsub2/install.log'
+[3.857s] Invoked command in '/home/vboxuser/ros2_ws/src/py_pubsub2' returned '0': PYTHONPATH=/home/vboxuser/ros2_ws/build/py_pubsub2/prefix_override:/home/vboxuser/ros2_ws/install/py_pubsub2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub2 build --build-base /home/vboxuser/ros2_ws/build/py_pubsub2/build install --record /home/vboxuser/ros2_ws/build/py_pubsub2/install.log --single-version-externally-managed

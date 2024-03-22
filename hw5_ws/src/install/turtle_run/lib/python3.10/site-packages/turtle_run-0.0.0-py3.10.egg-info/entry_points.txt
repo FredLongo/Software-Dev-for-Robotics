@@ -1,0 +1,3 @@
+[console_scripts]
+turtle_run_server = turtle_run.turtle_run_server:main
+

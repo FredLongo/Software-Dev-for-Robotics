@@ -1,0 +1,20 @@
+[1.114s] Invoking command in '/home/vboxuser/fred_ws/src/my_test_controller': PYTHONPATH=/home/vboxuser/fred_ws/build/my_test_controller/prefix_override:/home/vboxuser/fred_ws/install/my_test_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_test_controller build --build-base /home/vboxuser/fred_ws/build/my_test_controller/build install --record /home/vboxuser/fred_ws/build/my_test_controller/install.log --single-version-externally-managed
+[1.499s] running egg_info
+[1.500s] writing ../../build/my_test_controller/my_test_controller.egg-info/PKG-INFO
+[1.500s] writing dependency_links to ../../build/my_test_controller/my_test_controller.egg-info/dependency_links.txt
+[1.501s] writing entry points to ../../build/my_test_controller/my_test_controller.egg-info/entry_points.txt
+[1.501s] writing requirements to ../../build/my_test_controller/my_test_controller.egg-info/requires.txt
+[1.501s] writing top-level names to ../../build/my_test_controller/my_test_controller.egg-info/top_level.txt
+[1.503s] reading manifest file '../../build/my_test_controller/my_test_controller.egg-info/SOURCES.txt'
+[1.504s] writing manifest file '../../build/my_test_controller/my_test_controller.egg-info/SOURCES.txt'
+[1.505s] running build
+[1.505s] running build_py
+[1.505s] running install
+[1.505s] running install_lib
+[1.506s] running install_data
+[1.507s] running install_egg_info
+[1.509s] removing '/home/vboxuser/fred_ws/install/my_test_controller/lib/python3.10/site-packages/my_test_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[1.509s] Copying ../../build/my_test_controller/my_test_controller.egg-info to /home/vboxuser/fred_ws/install/my_test_controller/lib/python3.10/site-packages/my_test_controller-0.0.0-py3.10.egg-info
+[1.510s] running install_scripts
+[1.538s] writing list of installed files to '/home/vboxuser/fred_ws/build/my_test_controller/install.log'
+[1.567s] Invoked command in '/home/vboxuser/fred_ws/src/my_test_controller' returned '0': PYTHONPATH=/home/vboxuser/fred_ws/build/my_test_controller/prefix_override:/home/vboxuser/fred_ws/install/my_test_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_test_controller build --build-base /home/vboxuser/fred_ws/build/my_test_controller/build install --record /home/vboxuser/fred_ws/build/my_test_controller/install.log --single-version-externally-managed

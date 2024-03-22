@@ -1,0 +1,5 @@
+[console_scripts]
+say_hello = turtle_run.hello:main
+turtle_run_client = turtle_run.turtle_run_client:main
+turtle_run_server = turtle_run.turtle_run_server:main
+

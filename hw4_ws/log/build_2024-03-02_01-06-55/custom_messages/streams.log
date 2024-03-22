@@ -1,0 +1,25 @@
+[0.105s] Invoking command in '/home/vboxuser/hw4_ws/build/custom_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/hw4_ws/install/calculator:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/hw4_ws/build/custom_messages -- -j6 -l6
+[0.150s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.360s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[0.360s]   By not providing "Findrosidl_generate_interfaces.cmake" in
+[0.360s]   CMAKE_MODULE_PATH this project has asked CMake to find a package
+[0.360s]   configuration file provided by "rosidl_generate_interfaces", but CMake did
+[0.360s]   not find one.
+[0.360s] 
+[0.360s]   Could not find a package configuration file provided by
+[0.361s]   "rosidl_generate_interfaces" with any of the following names:
+[0.361s] 
+[0.361s]     rosidl_generate_interfacesConfig.cmake
+[0.361s]     rosidl_generate_interfaces-config.cmake
+[0.361s] 
+[0.361s]   Add the installation prefix of "rosidl_generate_interfaces" to
+[0.361s]   CMAKE_PREFIX_PATH or set "rosidl_generate_interfaces_DIR" to a directory
+[0.361s]   containing one of the above files.  If "rosidl_generate_interfaces"
+[0.361s]   provides a separate development package or SDK, be sure it has been
+[0.361s]   installed.
+[0.361s] 
+[0.361s] [0m
+[0.362s] -- Configuring incomplete, errors occurred!
+[0.362s] See also "/home/vboxuser/hw4_ws/build/custom_messages/CMakeFiles/CMakeOutput.log".
+[0.363s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.365s] Invoked command in '/home/vboxuser/hw4_ws/build/custom_messages' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/hw4_ws/install/calculator:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/hw4_ws/build/custom_messages -- -j6 -l6

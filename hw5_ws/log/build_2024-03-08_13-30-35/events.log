@@ -1,0 +1,323 @@
+[0.000000] (-) TimerEvent: {}
+[0.000546] (my_robot_intrfaces) JobQueued: {'identifier': 'my_robot_intrfaces', 'dependencies': OrderedDict()}
+[0.000605] (turtle_joy) JobQueued: {'identifier': 'turtle_joy', 'dependencies': OrderedDict()}
+[0.000656] (my_robot_intrfaces) JobStarted: {'identifier': 'my_robot_intrfaces'}
+[0.093972] (turtle_joy) JobStarted: {'identifier': 'turtle_joy'}
+[0.100046] (-) TimerEvent: {}
+[0.192885] (my_robot_intrfaces) JobProgress: {'identifier': 'my_robot_intrfaces', 'progress': 'cmake'}
+[0.193644] (my_robot_intrfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/vboxuser/hw5_ws/src/my_robot_intrfaces', '-DCMAKE_INSTALL_PREFIX=/home/vboxuser/hw5_ws/install/my_robot_intrfaces'], 'cwd': '/home/vboxuser/hw5_ws/build/my_robot_intrfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vboxuser'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vboxuser'), ('OLDPWD', '/home/vboxuser/hw5_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2411'), ('SYSTEMD_EXEC_PID', '2592'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4416'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vboxuser'), ('JOURNAL_STREAM', '8:27159'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vboxuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu:@/tmp/.ICE-unix/2554,unix/Ubuntu:/tmp/.ICE-unix/2554'), ('INVOCATION_ID', '145e44bc333c433bb68807c8d7c5758c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.O9R0J2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:4c2b1353-db8a-4edf-8a87-e1df420c03f5'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vboxuser/hw5_ws/build/my_robot_intrfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.209092] (-) TimerEvent: {}
+[0.211200] (my_robot_intrfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.309698] (-) TimerEvent: {}
+[0.410795] (-) TimerEvent: {}
+[0.438652] (my_robot_intrfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.477881] (my_robot_intrfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.487821] (my_robot_intrfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.511298] (-) TimerEvent: {}
+[0.612280] (-) TimerEvent: {}
+[0.612568] (my_robot_intrfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.714352] (-) TimerEvent: {}
+[0.815161] (-) TimerEvent: {}
+[0.915676] (-) TimerEvent: {}
+[1.016490] (-) TimerEvent: {}
+[1.117200] (-) TimerEvent: {}
+[1.217735] (-) TimerEvent: {}
+[1.220273] (turtle_joy) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/turtle_joy', 'build', '--build-base', '/home/vboxuser/hw5_ws/build/turtle_joy/build', 'install', '--record', '/home/vboxuser/hw5_ws/build/turtle_joy/install.log', '--single-version-externally-managed'], 'cwd': '/home/vboxuser/hw5_ws/src/turtle_joy', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vboxuser', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/vboxuser', 'OLDPWD': '/home/vboxuser/hw5_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2411', 'SYSTEMD_EXEC_PID': '2592', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4416', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'vboxuser', 'JOURNAL_STREAM': '8:27159', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vboxuser', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Ubuntu:@/tmp/.ICE-unix/2554,unix/Ubuntu:/tmp/.ICE-unix/2554', 'INVOCATION_ID': '145e44bc333c433bb68807c8d7c5758c', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.O9R0J2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:4c2b1353-db8a-4edf-8a87-e1df420c03f5', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vboxuser/hw5_ws/build/turtle_joy', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vboxuser/hw5_ws/build/turtle_joy/prefix_override:/home/vboxuser/hw5_ws/install/turtle_joy/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.317882] (-) TimerEvent: {}
+[1.332700] (my_robot_intrfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.418477] (-) TimerEvent: {}
+[1.519112] (-) TimerEvent: {}
+[1.619529] (-) TimerEvent: {}
+[1.625828] (my_robot_intrfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.627854] (turtle_joy) StdoutLine: {'line': b'running egg_info\n'}
+[1.628835] (turtle_joy) StdoutLine: {'line': b'writing ../../build/turtle_joy/turtle_joy.egg-info/PKG-INFO\n'}
+[1.629071] (turtle_joy) StdoutLine: {'line': b'writing dependency_links to ../../build/turtle_joy/turtle_joy.egg-info/dependency_links.txt\n'}
+[1.629287] (turtle_joy) StdoutLine: {'line': b'writing entry points to ../../build/turtle_joy/turtle_joy.egg-info/entry_points.txt\n'}
+[1.629503] (turtle_joy) StdoutLine: {'line': b'writing requirements to ../../build/turtle_joy/turtle_joy.egg-info/requires.txt\n'}
+[1.629710] (turtle_joy) StdoutLine: {'line': b'writing top-level names to ../../build/turtle_joy/turtle_joy.egg-info/top_level.txt\n'}
+[1.631841] (turtle_joy) StdoutLine: {'line': b"reading manifest file '../../build/turtle_joy/turtle_joy.egg-info/SOURCES.txt'\n"}
+[1.633040] (turtle_joy) StdoutLine: {'line': b"writing manifest file '../../build/turtle_joy/turtle_joy.egg-info/SOURCES.txt'\n"}
+[1.633200] (turtle_joy) StdoutLine: {'line': b'running build\n'}
+[1.633273] (turtle_joy) StdoutLine: {'line': b'running build_py\n'}
+[1.633492] (turtle_joy) StdoutLine: {'line': b'running install\n'}
+[1.633859] (turtle_joy) StdoutLine: {'line': b'running install_lib\n'}
+[1.635513] (turtle_joy) StdoutLine: {'line': b'running install_data\n'}
+[1.636267] (turtle_joy) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.638563] (turtle_joy) StdoutLine: {'line': b"removing '/home/vboxuser/hw5_ws/install/turtle_joy/lib/python3.10/site-packages/turtle_joy-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.638870] (turtle_joy) StdoutLine: {'line': b'Copying ../../build/turtle_joy/turtle_joy.egg-info to /home/vboxuser/hw5_ws/install/turtle_joy/lib/python3.10/site-packages/turtle_joy-0.0.0-py3.10.egg-info\n'}
+[1.639859] (turtle_joy) StdoutLine: {'line': b'running install_scripts\n'}
+[1.668187] (turtle_joy) StdoutLine: {'line': b'Installing turtle_joy script to /home/vboxuser/hw5_ws/install/turtle_joy/lib/turtle_joy\n'}
+[1.669141] (turtle_joy) StdoutLine: {'line': b"writing list of installed files to '/home/vboxuser/hw5_ws/build/turtle_joy/install.log'\n"}
+[1.709809] (turtle_joy) CommandEnded: {'returncode': 0}
+[1.721010] (-) TimerEvent: {}
+[1.787019] (turtle_joy) JobEnded: {'identifier': 'turtle_joy', 'rc': 0}
+[1.822092] (-) TimerEvent: {}
+[1.925377] (-) TimerEvent: {}
+[1.997526] (my_robot_intrfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.025204] (my_robot_intrfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.025390] (-) TimerEvent: {}
+[2.027571] (my_robot_intrfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.075159] (my_robot_intrfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.075475] (my_robot_intrfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.075621] (my_robot_intrfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.075726] (my_robot_intrfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.111358] (my_robot_intrfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.125500] (-) TimerEvent: {}
+[2.235634] (-) TimerEvent: {}
+[2.242573] (my_robot_intrfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.336049] (-) TimerEvent: {}
+[2.345426] (my_robot_intrfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[2.348917] (my_robot_intrfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/vboxuser/hw5_ws/build/my_robot_intrfaces\n'}
+[2.357819] (my_robot_intrfaces) CommandEnded: {'returncode': 0}
+[2.358461] (my_robot_intrfaces) JobProgress: {'identifier': 'my_robot_intrfaces', 'progress': 'build'}
+[2.359652] (my_robot_intrfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vboxuser/hw5_ws/build/my_robot_intrfaces', '--', '-j6', '-l6'], 'cwd': '/home/vboxuser/hw5_ws/build/my_robot_intrfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vboxuser'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vboxuser'), ('OLDPWD', '/home/vboxuser/hw5_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2411'), ('SYSTEMD_EXEC_PID', '2592'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4416'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vboxuser'), ('JOURNAL_STREAM', '8:27159'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vboxuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu:@/tmp/.ICE-unix/2554,unix/Ubuntu:/tmp/.ICE-unix/2554'), ('INVOCATION_ID', '145e44bc333c433bb68807c8d7c5758c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.O9R0J2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:4c2b1353-db8a-4edf-8a87-e1df420c03f5'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vboxuser/hw5_ws/build/my_robot_intrfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.406280] (my_robot_intrfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.417819] (my_robot_intrfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.428481] (my_robot_intrfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_my_robot_intrfaces\n'}
+[2.436606] (-) TimerEvent: {}
+[2.536989] (-) TimerEvent: {}
+[2.637483] (-) TimerEvent: {}
+[2.737808] (-) TimerEvent: {}
+[2.838191] (-) TimerEvent: {}
+[2.838732] (my_robot_intrfaces) StdoutLine: {'line': b'running egg_info\n'}
+[2.839674] (my_robot_intrfaces) StdoutLine: {'line': b'creating my_robot_intrfaces.egg-info\n'}
+[2.839838] (my_robot_intrfaces) StdoutLine: {'line': b'writing my_robot_intrfaces.egg-info/PKG-INFO\n'}
+[2.840015] (my_robot_intrfaces) StdoutLine: {'line': b'writing dependency_links to my_robot_intrfaces.egg-info/dependency_links.txt\n'}
+[2.840163] (my_robot_intrfaces) StdoutLine: {'line': b'writing top-level names to my_robot_intrfaces.egg-info/top_level.txt\n'}
+[2.840424] (my_robot_intrfaces) StdoutLine: {'line': b"writing manifest file 'my_robot_intrfaces.egg-info/SOURCES.txt'\n"}
+[2.843115] (my_robot_intrfaces) StdoutLine: {'line': b"reading manifest file 'my_robot_intrfaces.egg-info/SOURCES.txt'\n"}
+[2.843850] (my_robot_intrfaces) StdoutLine: {'line': b"writing manifest file 'my_robot_intrfaces.egg-info/SOURCES.txt'\n"}
+[2.885223] (my_robot_intrfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_my_robot_intrfaces_egg\n'}
+[2.938574] (-) TimerEvent: {}
+[3.039227] (-) TimerEvent: {}
+[3.139651] (-) TimerEvent: {}
+[3.240062] (-) TimerEvent: {}
+[3.282996] (my_robot_intrfaces) StdoutLine: {'line': b'[  6%] Built target my_robot_intrfaces__cpp\n'}
+[3.291863] (my_robot_intrfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/my_robot_intrfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_intrfaces/action/detail/count_until__functions.c.o\x1b[0m\n'}
+[3.299220] (my_robot_intrfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.300091] (my_robot_intrfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.300207] (my_robot_intrfaces) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.340268] (-) TimerEvent: {}
+[3.440742] (-) TimerEvent: {}
+[3.519057] (my_robot_intrfaces) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libmy_robot_intrfaces__rosidl_generator_c.so\x1b[0m\n'}
+[3.540956] (-) TimerEvent: {}
+[3.604575] (my_robot_intrfaces) StdoutLine: {'line': b'[ 22%] Built target my_robot_intrfaces__rosidl_generator_c\n'}
+[3.614858] (my_robot_intrfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.615050] (my_robot_intrfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.615150] (my_robot_intrfaces) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.641127] (-) TimerEvent: {}
+[3.741530] (-) TimerEvent: {}
+[3.841846] (-) TimerEvent: {}
+[3.940292] (my_robot_intrfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_intrfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_intrfaces/action/count_until__type_support.cpp.o\x1b[0m\n'}
+[3.942641] (-) TimerEvent: {}
+[4.042576] (my_robot_intrfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_intrfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_intrfaces/action/detail/count_until__type_support.cpp.o\x1b[0m\n'}
+[4.042765] (-) TimerEvent: {}
+[4.101067] (my_robot_intrfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_intrfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_intrfaces/action/detail/dds_fastrtps/count_until__type_support.cpp.o\x1b[0m\n'}
+[4.143006] (-) TimerEvent: {}
+[4.243418] (-) TimerEvent: {}
+[4.320704] (my_robot_intrfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_intrfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_intrfaces/action/count_until__type_support.cpp.o\x1b[0m\n'}
+[4.343913] (-) TimerEvent: {}
+[4.433269] (my_robot_intrfaces) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_intrfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.444125] (-) TimerEvent: {}
+[4.523343] (my_robot_intrfaces) StdoutLine: {'line': b'[ 48%] Built target my_robot_intrfaces__rosidl_typesupport_c\n'}
+[4.546717] (-) TimerEvent: {}
+[4.559676] (my_robot_intrfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/my_robot_intrfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_intrfaces/action/detail/count_until__type_support.c.o\x1b[0m\n'}
+[4.619992] (my_robot_intrfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_intrfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_intrfaces/action/detail/count_until__type_support_c.cpp.o\x1b[0m\n'}
+[4.646926] (-) TimerEvent: {}
+[4.652496] (my_robot_intrfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libmy_robot_intrfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.708615] (my_robot_intrfaces) StdoutLine: {'line': b'[ 58%] Built target my_robot_intrfaces__rosidl_typesupport_introspection_c\n'}
+[4.747369] (-) TimerEvent: {}
+[4.763420] (my_robot_intrfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_intrfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.847498] (-) TimerEvent: {}
+[4.850606] (my_robot_intrfaces) StdoutLine: {'line': b'[ 61%] Built target my_robot_intrfaces__rosidl_typesupport_cpp\n'}
+[4.906423] (my_robot_intrfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_intrfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[4.948383] (-) TimerEvent: {}
+[5.015524] (my_robot_intrfaces) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_intrfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.018578] (my_robot_intrfaces) StdoutLine: {'line': b'[ 67%] Built target my_robot_intrfaces__rosidl_typesupport_introspection_cpp\n'}
+[5.049265] (-) TimerEvent: {}
+[5.141315] (my_robot_intrfaces) StdoutLine: {'line': b'[ 67%] Built target my_robot_intrfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[5.149718] (-) TimerEvent: {}
+[5.171066] (my_robot_intrfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_intrfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.250666] (-) TimerEvent: {}
+[5.270776] (my_robot_intrfaces) StdoutLine: {'line': b'[ 70%] Built target my_robot_intrfaces__rosidl_typesupport_fastrtps_c\n'}
+[5.299831] (my_robot_intrfaces) StdoutLine: {'line': b'[ 70%] Built target my_robot_intrfaces\n'}
+[5.321636] (my_robot_intrfaces) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[5.351035] (-) TimerEvent: {}
+[5.451969] (-) TimerEvent: {}
+[5.552612] (-) TimerEvent: {}
+[5.653489] (-) TimerEvent: {}
+[5.754251] (-) TimerEvent: {}
+[5.856636] (-) TimerEvent: {}
+[5.957258] (-) TimerEvent: {}
+[6.058023] (-) TimerEvent: {}
+[6.159231] (-) TimerEvent: {}
+[6.259762] (-) TimerEvent: {}
+[6.360535] (-) TimerEvent: {}
+[6.461646] (-) TimerEvent: {}
+[6.562639] (-) TimerEvent: {}
+[6.663666] (-) TimerEvent: {}
+[6.764762] (-) TimerEvent: {}
+[6.837749] (my_robot_intrfaces) StdoutLine: {'line': b'[ 74%] Built target my_robot_intrfaces__py\n'}
+[6.858902] (my_robot_intrfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/my_robot_intrfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_intrfaces/action/_count_until_s.c.o\x1b[0m\n'}
+[6.865534] (-) TimerEvent: {}
+[6.966082] (-) TimerEvent: {}
+[7.067056] (-) TimerEvent: {}
+[7.078161] (my_robot_intrfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_robot_intrfaces/libmy_robot_intrfaces__rosidl_generator_py.so\x1b[0m\n'}
+[7.135593] (my_robot_intrfaces) StdoutLine: {'line': b'[ 80%] Built target my_robot_intrfaces__rosidl_generator_py\n'}
+[7.156518] (my_robot_intrfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/my_robot_intrfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_robot_intrfaces/_my_robot_intrfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[7.156710] (my_robot_intrfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/my_robot_intrfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_robot_intrfaces/_my_robot_intrfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[7.156865] (my_robot_intrfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/my_robot_intrfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_robot_intrfaces/_my_robot_intrfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[7.167249] (-) TimerEvent: {}
+[7.268777] (-) TimerEvent: {}
+[7.323343] (my_robot_intrfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_robot_intrfaces/my_robot_intrfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.332187] (my_robot_intrfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_robot_intrfaces/my_robot_intrfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.333324] (my_robot_intrfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_robot_intrfaces/my_robot_intrfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.368917] (-) TimerEvent: {}
+[7.376380] (my_robot_intrfaces) StdoutLine: {'line': b'[100%] Built target my_robot_intrfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[7.380741] (my_robot_intrfaces) StdoutLine: {'line': b'[100%] Built target my_robot_intrfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[7.381035] (my_robot_intrfaces) StdoutLine: {'line': b'[100%] Built target my_robot_intrfaces__rosidl_typesupport_c__pyext\n'}
+[7.393732] (my_robot_intrfaces) CommandEnded: {'returncode': 0}
+[7.468741] (my_robot_intrfaces) JobProgress: {'identifier': 'my_robot_intrfaces', 'progress': 'install'}
+[7.469113] (-) TimerEvent: {}
+[7.478545] (my_robot_intrfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vboxuser/hw5_ws/build/my_robot_intrfaces'], 'cwd': '/home/vboxuser/hw5_ws/build/my_robot_intrfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vboxuser'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vboxuser'), ('OLDPWD', '/home/vboxuser/hw5_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2411'), ('SYSTEMD_EXEC_PID', '2592'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4416'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vboxuser'), ('JOURNAL_STREAM', '8:27159'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vboxuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu:@/tmp/.ICE-unix/2554,unix/Ubuntu:/tmp/.ICE-unix/2554'), ('INVOCATION_ID', '145e44bc333c433bb68807c8d7c5758c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.O9R0J2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:4c2b1353-db8a-4edf-8a87-e1df420c03f5'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vboxuser/hw5_ws/build/my_robot_intrfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[7.487440] (my_robot_intrfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.488227] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/share/ament_index/resource_index/rosidl_interfaces/my_robot_intrfaces\n'}
+[7.488753] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/include/my_robot_intrfaces/my_robot_intrfaces\n'}
+[7.489174] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/include/my_robot_intrfaces/my_robot_intrfaces/msg\n'}
+[7.489441] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/include/my_robot_intrfaces/my_robot_intrfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.489804] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/include/my_robot_intrfaces/my_robot_intrfaces/action\n'}
+[7.490067] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/include/my_robot_intrfaces/my_robot_intrfaces/action/detail\n'}
+[7.490323] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/include/my_robot_intrfaces/my_robot_intrfaces/action/detail/count_until__functions.h\n'}
+[7.490687] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/include/my_robot_intrfaces/my_robot_intrfaces/action/detail/count_until__type_support.h\n'}
+[7.490963] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/include/my_robot_intrfaces/my_robot_intrfaces/action/detail/count_until__struct.h\n'}
+[7.491234] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/include/my_robot_intrfaces/my_robot_intrfaces/action/detail/count_until__functions.c\n'}
+[7.491752] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/include/my_robot_intrfaces/my_robot_intrfaces/action/count_until.h\n'}
+[7.492134] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/share/my_robot_intrfaces/environment/library_path.sh\n'}
+[7.492440] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/share/my_robot_intrfaces/environment/library_path.dsv\n'}
+[7.492795] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/lib/libmy_robot_intrfaces__rosidl_generator_c.so\n'}
+[7.493401] (my_robot_intrfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/hw5_ws/install/my_robot_intrfaces/lib/libmy_robot_intrfaces__rosidl_generator_c.so" to ""\n'}
+[7.493634] (my_robot_intrfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/include/my_robot_intrfaces/my_robot_intrfaces\n'}
+[7.493854] (my_robot_intrfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/include/my_robot_intrfaces/my_robot_intrfaces/msg\n'}
+[7.494065] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/include/my_robot_intrfaces/my_robot_intrfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.494324] (my_robot_intrfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/include/my_robot_intrfaces/my_robot_intrfaces/action\n'}
+[7.494534] (my_robot_intrfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/include/my_robot_intrfaces/my_robot_intrfaces/action/detail\n'}
+[7.494739] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/include/my_robot_intrfaces/my_robot_intrfaces/action/detail/count_until__rosidl_typesupport_fastrtps_c.h\n'}
+[7.495103] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/lib/libmy_robot_intrfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[7.495737] (my_robot_intrfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/hw5_ws/install/my_robot_intrfaces/lib/libmy_robot_intrfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[7.495981] (my_robot_intrfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/include/my_robot_intrfaces/my_robot_intrfaces\n'}
+[7.496175] (my_robot_intrfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/include/my_robot_intrfaces/my_robot_intrfaces/msg\n'}
+[7.496413] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/include/my_robot_intrfaces/my_robot_intrfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.496677] (my_robot_intrfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/include/my_robot_intrfaces/my_robot_intrfaces/action\n'}
+[7.496861] (my_robot_intrfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/include/my_robot_intrfaces/my_robot_intrfaces/action/detail\n'}
+[7.497063] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/include/my_robot_intrfaces/my_robot_intrfaces/action/detail/count_until__type_support.c\n'}
+[7.497398] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/include/my_robot_intrfaces/my_robot_intrfaces/action/detail/count_until__rosidl_typesupport_introspection_c.h\n'}
+[7.497746] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/lib/libmy_robot_intrfaces__rosidl_typesupport_introspection_c.so\n'}
+[7.498280] (my_robot_intrfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/hw5_ws/install/my_robot_intrfaces/lib/libmy_robot_intrfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[7.498552] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/lib/libmy_robot_intrfaces__rosidl_typesupport_c.so\n'}
+[7.499120] (my_robot_intrfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/hw5_ws/install/my_robot_intrfaces/lib/libmy_robot_intrfaces__rosidl_typesupport_c.so" to ""\n'}
+[7.499368] (my_robot_intrfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/include/my_robot_intrfaces/my_robot_intrfaces\n'}
+[7.499602] (my_robot_intrfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/include/my_robot_intrfaces/my_robot_intrfaces/action\n'}
+[7.499818] (my_robot_intrfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/include/my_robot_intrfaces/my_robot_intrfaces/action/detail\n'}
+[7.500013] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/include/my_robot_intrfaces/my_robot_intrfaces/action/detail/count_until__struct.hpp\n'}
+[7.500353] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/include/my_robot_intrfaces/my_robot_intrfaces/action/detail/count_until__traits.hpp\n'}
+[7.500667] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/include/my_robot_intrfaces/my_robot_intrfaces/action/detail/count_until__builder.hpp\n'}
+[7.500945] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/include/my_robot_intrfaces/my_robot_intrfaces/action/count_until.hpp\n'}
+[7.501290] (my_robot_intrfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/include/my_robot_intrfaces/my_robot_intrfaces\n'}
+[7.507834] (my_robot_intrfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/include/my_robot_intrfaces/my_robot_intrfaces/msg\n'}
+[7.508026] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/include/my_robot_intrfaces/my_robot_intrfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.508124] (my_robot_intrfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/include/my_robot_intrfaces/my_robot_intrfaces/action\n'}
+[7.508213] (my_robot_intrfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/include/my_robot_intrfaces/my_robot_intrfaces/action/detail\n'}
+[7.508300] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/include/my_robot_intrfaces/my_robot_intrfaces/action/detail/count_until__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.508387] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/include/my_robot_intrfaces/my_robot_intrfaces/action/detail/dds_fastrtps\n'}
+[7.508475] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/lib/libmy_robot_intrfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.508561] (my_robot_intrfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/hw5_ws/install/my_robot_intrfaces/lib/libmy_robot_intrfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[7.508647] (my_robot_intrfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/include/my_robot_intrfaces/my_robot_intrfaces\n'}
+[7.508733] (my_robot_intrfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/include/my_robot_intrfaces/my_robot_intrfaces/action\n'}
+[7.508818] (my_robot_intrfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/include/my_robot_intrfaces/my_robot_intrfaces/action/detail\n'}
+[7.508904] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/include/my_robot_intrfaces/my_robot_intrfaces/action/detail/count_until__type_support.cpp\n'}
+[7.509001] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/include/my_robot_intrfaces/my_robot_intrfaces/action/detail/count_until__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.509095] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/lib/libmy_robot_intrfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[7.509182] (my_robot_intrfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/hw5_ws/install/my_robot_intrfaces/lib/libmy_robot_intrfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[7.509268] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/lib/libmy_robot_intrfaces__rosidl_typesupport_cpp.so\n'}
+[7.509353] (my_robot_intrfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/hw5_ws/install/my_robot_intrfaces/lib/libmy_robot_intrfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[7.509439] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/share/my_robot_intrfaces/environment/pythonpath.sh\n'}
+[7.509525] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/share/my_robot_intrfaces/environment/pythonpath.dsv\n'}
+[7.509610] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/local/lib/python3.10/dist-packages/my_robot_intrfaces-0.0.0-py3.10.egg-info\n'}
+[7.509696] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/local/lib/python3.10/dist-packages/my_robot_intrfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[7.509782] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/local/lib/python3.10/dist-packages/my_robot_intrfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[7.509867] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/local/lib/python3.10/dist-packages/my_robot_intrfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[7.509954] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/local/lib/python3.10/dist-packages/my_robot_intrfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[7.510041] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/local/lib/python3.10/dist-packages/my_robot_intrfaces\n'}
+[7.510128] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/local/lib/python3.10/dist-packages/my_robot_intrfaces/libmy_robot_intrfaces__rosidl_generator_py.so\n'}
+[7.510216] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/local/lib/python3.10/dist-packages/my_robot_intrfaces/_my_robot_intrfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[7.510306] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/local/lib/python3.10/dist-packages/my_robot_intrfaces/my_robot_intrfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.510405] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/local/lib/python3.10/dist-packages/my_robot_intrfaces/_my_robot_intrfaces_s.ep.rosidl_typesupport_c.c\n'}
+[7.510492] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/local/lib/python3.10/dist-packages/my_robot_intrfaces/__init__.py\n'}
+[7.510579] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/local/lib/python3.10/dist-packages/my_robot_intrfaces/_my_robot_intrfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[7.511034] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/local/lib/python3.10/dist-packages/my_robot_intrfaces/my_robot_intrfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.511164] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/local/lib/python3.10/dist-packages/my_robot_intrfaces/action\n'}
+[7.511259] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/local/lib/python3.10/dist-packages/my_robot_intrfaces/action/_count_until.py\n'}
+[7.511356] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/local/lib/python3.10/dist-packages/my_robot_intrfaces/action/__init__.py\n'}
+[7.511453] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/local/lib/python3.10/dist-packages/my_robot_intrfaces/action/_count_until_s.c\n'}
+[7.511549] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/local/lib/python3.10/dist-packages/my_robot_intrfaces/my_robot_intrfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.560205] (my_robot_intrfaces) StdoutLine: {'line': b"Listing '/home/vboxuser/hw5_ws/install/my_robot_intrfaces/local/lib/python3.10/dist-packages/my_robot_intrfaces'...\n"}
+[7.560364] (my_robot_intrfaces) StdoutLine: {'line': b"Compiling '/home/vboxuser/hw5_ws/install/my_robot_intrfaces/local/lib/python3.10/dist-packages/my_robot_intrfaces/__init__.py'...\n"}
+[7.560435] (my_robot_intrfaces) StdoutLine: {'line': b"Listing '/home/vboxuser/hw5_ws/install/my_robot_intrfaces/local/lib/python3.10/dist-packages/my_robot_intrfaces/action'...\n"}
+[7.560492] (my_robot_intrfaces) StdoutLine: {'line': b"Compiling '/home/vboxuser/hw5_ws/install/my_robot_intrfaces/local/lib/python3.10/dist-packages/my_robot_intrfaces/action/__init__.py'...\n"}
+[7.560544] (my_robot_intrfaces) StdoutLine: {'line': b"Compiling '/home/vboxuser/hw5_ws/install/my_robot_intrfaces/local/lib/python3.10/dist-packages/my_robot_intrfaces/action/_count_until.py'...\n"}
+[7.565864] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/local/lib/python3.10/dist-packages/my_robot_intrfaces/my_robot_intrfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.566230] (my_robot_intrfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/hw5_ws/install/my_robot_intrfaces/local/lib/python3.10/dist-packages/my_robot_intrfaces/my_robot_intrfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[7.566459] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/local/lib/python3.10/dist-packages/my_robot_intrfaces/my_robot_intrfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.566860] (my_robot_intrfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/hw5_ws/install/my_robot_intrfaces/local/lib/python3.10/dist-packages/my_robot_intrfaces/my_robot_intrfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[7.567105] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/local/lib/python3.10/dist-packages/my_robot_intrfaces/my_robot_intrfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.567525] (my_robot_intrfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/hw5_ws/install/my_robot_intrfaces/local/lib/python3.10/dist-packages/my_robot_intrfaces/my_robot_intrfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[7.567711] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/lib/libmy_robot_intrfaces__rosidl_generator_py.so\n'}
+[7.568008] (my_robot_intrfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/hw5_ws/install/my_robot_intrfaces/lib/libmy_robot_intrfaces__rosidl_generator_py.so" to ""\n'}
+[7.568178] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/share/my_robot_intrfaces/action/CountUntil.idl\n'}
+[7.568332] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/share/my_robot_intrfaces/action/CountUntil.action\n'}
+[7.568484] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/share/ament_index/resource_index/package_run_dependencies/my_robot_intrfaces\n'}
+[7.568619] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/share/ament_index/resource_index/parent_prefix_path/my_robot_intrfaces\n'}
+[7.568781] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/share/my_robot_intrfaces/environment/ament_prefix_path.sh\n'}
+[7.568933] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/share/my_robot_intrfaces/environment/ament_prefix_path.dsv\n'}
+[7.569084] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/share/my_robot_intrfaces/environment/path.sh\n'}
+[7.569230] (-) TimerEvent: {}
+[7.569441] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/share/my_robot_intrfaces/environment/path.dsv\n'}
+[7.569591] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/share/my_robot_intrfaces/local_setup.bash\n'}
+[7.569740] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/share/my_robot_intrfaces/local_setup.sh\n'}
+[7.569887] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/share/my_robot_intrfaces/local_setup.zsh\n'}
+[7.570027] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/share/my_robot_intrfaces/local_setup.dsv\n'}
+[7.570121] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/share/my_robot_intrfaces/package.dsv\n'}
+[7.570266] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/share/ament_index/resource_index/packages/my_robot_intrfaces\n'}
+[7.570411] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/share/my_robot_intrfaces/cmake/export_my_robot_intrfaces__rosidl_generator_cExport.cmake\n'}
+[7.570558] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/share/my_robot_intrfaces/cmake/export_my_robot_intrfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[7.570712] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/share/my_robot_intrfaces/cmake/export_my_robot_intrfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[7.570865] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/share/my_robot_intrfaces/cmake/export_my_robot_intrfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[7.570964] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/share/my_robot_intrfaces/cmake/my_robot_intrfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.571125] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/share/my_robot_intrfaces/cmake/my_robot_intrfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[7.571290] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/share/my_robot_intrfaces/cmake/my_robot_intrfaces__rosidl_typesupport_cExport.cmake\n'}
+[7.571501] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/share/my_robot_intrfaces/cmake/my_robot_intrfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[7.571671] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/share/my_robot_intrfaces/cmake/export_my_robot_intrfaces__rosidl_generator_cppExport.cmake\n'}
+[7.571901] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/share/my_robot_intrfaces/cmake/export_my_robot_intrfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[7.572120] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/share/my_robot_intrfaces/cmake/export_my_robot_intrfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[7.572350] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/share/my_robot_intrfaces/cmake/my_robot_intrfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.572541] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/share/my_robot_intrfaces/cmake/my_robot_intrfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[7.572710] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/share/my_robot_intrfaces/cmake/my_robot_intrfaces__rosidl_typesupport_cppExport.cmake\n'}
+[7.572870] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/share/my_robot_intrfaces/cmake/my_robot_intrfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[7.573028] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/share/my_robot_intrfaces/cmake/export_my_robot_intrfaces__rosidl_generator_pyExport.cmake\n'}
+[7.573207] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/share/my_robot_intrfaces/cmake/export_my_robot_intrfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[7.573360] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/share/my_robot_intrfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[7.573509] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/share/my_robot_intrfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.573692] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/share/my_robot_intrfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.573843] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/share/my_robot_intrfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.573996] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/share/my_robot_intrfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.574145] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/share/my_robot_intrfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.574286] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/share/my_robot_intrfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.574421] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/share/my_robot_intrfaces/cmake/my_robot_intrfacesConfig.cmake\n'}
+[7.574568] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/share/my_robot_intrfaces/cmake/my_robot_intrfacesConfig-version.cmake\n'}
+[7.574655] (my_robot_intrfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/install/my_robot_intrfaces/share/my_robot_intrfaces/package.xml\n'}
+[7.576747] (my_robot_intrfaces) CommandEnded: {'returncode': 0}
+[7.672904] (-) TimerEvent: {}
+[7.775366] (-) TimerEvent: {}
+[7.875359] (my_robot_intrfaces) JobEnded: {'identifier': 'my_robot_intrfaces', 'rc': 0}
+[7.876150] (-) TimerEvent: {}
+[7.876377] (-) EventReactorShutdown: {}

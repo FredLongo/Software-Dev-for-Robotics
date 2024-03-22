@@ -1,0 +1,38 @@
+[1.281s] Invoking command in '/home/vboxuser/hw3_ws/src/q1': PYTHONPATH=/home/vboxuser/hw3_ws/build/q1/prefix_override:/home/vboxuser/hw3_ws/install/q1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/q1 build --build-base /home/vboxuser/hw3_ws/build/q1/build install --record /home/vboxuser/hw3_ws/build/q1/install.log --single-version-externally-managed
+[1.658s] running egg_info
+[1.659s] creating ../../build/q1/q1.egg-info
+[1.659s] writing ../../build/q1/q1.egg-info/PKG-INFO
+[1.659s] writing dependency_links to ../../build/q1/q1.egg-info/dependency_links.txt
+[1.659s] writing entry points to ../../build/q1/q1.egg-info/entry_points.txt
+[1.659s] writing requirements to ../../build/q1/q1.egg-info/requires.txt
+[1.660s] writing top-level names to ../../build/q1/q1.egg-info/top_level.txt
+[1.660s] writing manifest file '../../build/q1/q1.egg-info/SOURCES.txt'
+[1.664s] reading manifest file '../../build/q1/q1.egg-info/SOURCES.txt'
+[1.664s] adding license file 'LICENSE'
+[1.664s] writing manifest file '../../build/q1/q1.egg-info/SOURCES.txt'
+[1.664s] running build
+[1.664s] running build_py
+[1.665s] creating /home/vboxuser/hw3_ws/build/q1/build
+[1.665s] creating /home/vboxuser/hw3_ws/build/q1/build/lib
+[1.665s] creating /home/vboxuser/hw3_ws/build/q1/build/lib/q1
+[1.665s] copying q1/my_pub.py -> /home/vboxuser/hw3_ws/build/q1/build/lib/q1
+[1.665s] copying q1/__init__.py -> /home/vboxuser/hw3_ws/build/q1/build/lib/q1
+[1.665s] running install
+[1.665s] running install_lib
+[1.666s] creating /home/vboxuser/hw3_ws/install/q1/lib/python3.10/site-packages/q1
+[1.667s] copying /home/vboxuser/hw3_ws/build/q1/build/lib/q1/my_pub.py -> /home/vboxuser/hw3_ws/install/q1/lib/python3.10/site-packages/q1
+[1.667s] copying /home/vboxuser/hw3_ws/build/q1/build/lib/q1/__init__.py -> /home/vboxuser/hw3_ws/install/q1/lib/python3.10/site-packages/q1
+[1.667s] byte-compiling /home/vboxuser/hw3_ws/install/q1/lib/python3.10/site-packages/q1/my_pub.py to my_pub.cpython-310.pyc
+[1.668s] byte-compiling /home/vboxuser/hw3_ws/install/q1/lib/python3.10/site-packages/q1/__init__.py to __init__.cpython-310.pyc
+[1.668s] running install_data
+[1.669s] creating /home/vboxuser/hw3_ws/install/q1/share/ament_index
+[1.669s] creating /home/vboxuser/hw3_ws/install/q1/share/ament_index/resource_index
+[1.669s] creating /home/vboxuser/hw3_ws/install/q1/share/ament_index/resource_index/packages
+[1.670s] copying resource/q1 -> /home/vboxuser/hw3_ws/install/q1/share/ament_index/resource_index/packages
+[1.670s] copying package.xml -> /home/vboxuser/hw3_ws/install/q1/share/q1
+[1.670s] running install_egg_info
+[1.672s] Copying ../../build/q1/q1.egg-info to /home/vboxuser/hw3_ws/install/q1/lib/python3.10/site-packages/q1-0.0.0-py3.10.egg-info
+[1.673s] running install_scripts
+[1.702s] Installing my_pub script to /home/vboxuser/hw3_ws/install/q1/lib/q1
+[1.703s] writing list of installed files to '/home/vboxuser/hw3_ws/build/q1/install.log'
+[1.798s] Invoked command in '/home/vboxuser/hw3_ws/src/q1' returned '0': PYTHONPATH=/home/vboxuser/hw3_ws/build/q1/prefix_override:/home/vboxuser/hw3_ws/install/q1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/q1 build --build-base /home/vboxuser/hw3_ws/build/q1/build install --record /home/vboxuser/hw3_ws/build/q1/install.log --single-version-externally-managed

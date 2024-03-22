@@ -1,0 +1,23 @@
+[2.627s] Invoking command in '/home/vboxuser/hw3_ws/src/py_pubsub': PYTHONPATH=/home/vboxuser/hw3_ws/build/py_pubsub/prefix_override:/home/vboxuser/hw3_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/vboxuser/hw3_ws/build/py_pubsub/build install --record /home/vboxuser/hw3_ws/build/py_pubsub/install.log --single-version-externally-managed
+[2.988s] running egg_info
+[2.989s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[2.990s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[2.990s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[2.990s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[2.990s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[2.993s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[2.993s] adding license file 'LICENSE'
+[2.995s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[2.995s] running build
+[2.995s] running build_py
+[2.995s] running install
+[2.995s] running install_lib
+[2.996s] running install_data
+[2.997s] running install_egg_info
+[2.999s] removing '/home/vboxuser/hw3_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info' (and everything under it)
+[3.000s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/vboxuser/hw3_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info
+[3.000s] running install_scripts
+[3.026s] Installing listener script to /home/vboxuser/hw3_ws/install/py_pubsub/lib/py_pubsub
+[3.026s] Installing talker script to /home/vboxuser/hw3_ws/install/py_pubsub/lib/py_pubsub
+[3.027s] writing list of installed files to '/home/vboxuser/hw3_ws/build/py_pubsub/install.log'
+[3.075s] Invoked command in '/home/vboxuser/hw3_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/vboxuser/hw3_ws/build/py_pubsub/prefix_override:/home/vboxuser/hw3_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/vboxuser/hw3_ws/build/py_pubsub/build install --record /home/vboxuser/hw3_ws/build/py_pubsub/install.log --single-version-externally-managed

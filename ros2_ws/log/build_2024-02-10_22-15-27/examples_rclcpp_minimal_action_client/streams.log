@@ -1,0 +1,62 @@
+[0.545s] Invoking command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ros2_ws/install/py_pubsub:/home/vboxuser/ros2_ws/install/launch_testing_examples:/home/vboxuser/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_service:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_publisher:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_client:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_action_server:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_action_client:/home/vboxuser/ros2_ws/install/examples_rclpy_guard_conditions:/home/vboxuser/ros2_ws/install/examples_rclpy_executors:/home/vboxuser/fred_ws/install/my_test_controller:/opt/ros/humble /usr/bin/cmake /home/vboxuser/ros2_ws/src/examples/rclcpp/actions/minimal_action_client -DCMAKE_INSTALL_PREFIX=/home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client
+[0.855s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.228s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.340s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[1.607s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.623s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.653s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.690s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.738s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.097s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[2.187s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.190s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.393s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.844s] -- Found rclcpp_action: 16.0.7 (/opt/ros/humble/share/rclcpp_action/cmake)
+[2.983s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.159s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.160s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.161s] -- Configured cppcheck include dirs: 
+[3.161s] -- Configured cppcheck exclude dirs and/or files: 
+[3.162s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.162s] -- Configured cpplint exclude dirs and/or files: 
+[3.162s] -- Added test 'lint_cmake' to check CMake code style
+[3.163s] -- Added test 'uncrustify' to check C / C++ code style
+[3.163s] -- Configured uncrustify additional arguments: 
+[3.164s] -- Added test 'xmllint' to check XML markup files
+[3.190s] -- Configuring done
+[3.303s] -- Generating done
+[3.305s] -- Build files have been written to: /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_action_client
+[3.318s] Invoked command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_action_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ros2_ws/install/py_pubsub:/home/vboxuser/ros2_ws/install/launch_testing_examples:/home/vboxuser/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_service:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_publisher:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_client:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_action_server:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_action_client:/home/vboxuser/ros2_ws/install/examples_rclpy_guard_conditions:/home/vboxuser/ros2_ws/install/examples_rclpy_executors:/home/vboxuser/fred_ws/install/my_test_controller:/opt/ros/humble /usr/bin/cmake /home/vboxuser/ros2_ws/src/examples/rclcpp/actions/minimal_action_client -DCMAKE_INSTALL_PREFIX=/home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client
+[3.318s] Invoking command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ros2_ws/install/py_pubsub:/home/vboxuser/ros2_ws/install/launch_testing_examples:/home/vboxuser/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_service:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_publisher:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_client:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_action_server:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_action_client:/home/vboxuser/ros2_ws/install/examples_rclpy_guard_conditions:/home/vboxuser/ros2_ws/install/examples_rclpy_executors:/home/vboxuser/fred_ws/install/my_test_controller:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_action_client -- -j6 -l6
+[3.404s] [35m[1mConsolidate compiler generated dependencies of target action_client_member_functions[0m
+[3.404s] [35m[1mConsolidate compiler generated dependencies of target action_client_not_composable_with_cancel[0m
+[3.412s] [35m[1mConsolidate compiler generated dependencies of target action_client_not_composable_with_feedback[0m
+[3.412s] [35m[1mConsolidate compiler generated dependencies of target action_client_not_composable[0m
+[3.429s] [ 25%] Built target action_client_not_composable_with_cancel
+[3.447s] [ 50%] Built target action_client_not_composable_with_feedback
+[3.448s] [ 75%] Built target action_client_member_functions
+[3.448s] [100%] Built target action_client_not_composable
+[3.475s] Invoked command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_action_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ros2_ws/install/py_pubsub:/home/vboxuser/ros2_ws/install/launch_testing_examples:/home/vboxuser/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_service:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_publisher:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_client:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_action_server:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_action_client:/home/vboxuser/ros2_ws/install/examples_rclpy_guard_conditions:/home/vboxuser/ros2_ws/install/examples_rclpy_executors:/home/vboxuser/fred_ws/install/my_test_controller:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_action_client -- -j6 -l6
+[3.742s] Invoking command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ros2_ws/install/py_pubsub:/home/vboxuser/ros2_ws/install/launch_testing_examples:/home/vboxuser/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_service:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_publisher:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_client:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_action_server:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_action_client:/home/vboxuser/ros2_ws/install/examples_rclpy_guard_conditions:/home/vboxuser/ros2_ws/install/examples_rclpy_executors:/home/vboxuser/fred_ws/install/my_test_controller:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_action_client
+[3.907s] -- Install configuration: ""
+[3.908s] -- Execute custom install script
+[3.908s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_member_functions
+[3.908s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable
+[3.908s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable_with_cancel
+[3.908s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable_with_feedback
+[3.908s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_action_client
+[3.908s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_action_client
+[3.908s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/ament_prefix_path.sh
+[3.909s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/ament_prefix_path.dsv
+[3.909s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/path.sh
+[3.909s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/path.dsv
+[3.909s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.bash
+[3.909s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.sh
+[3.909s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.zsh
+[3.910s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.dsv
+[3.910s] -- Symlinking: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/package.dsv
+[3.910s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/packages/examples_rclcpp_minimal_action_client
+[3.910s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/cmake/examples_rclcpp_minimal_action_clientConfig.cmake
+[3.910s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/cmake/examples_rclcpp_minimal_action_clientConfig-version.cmake
+[3.910s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/package.xml
+[4.225s] Invoked command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_action_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ros2_ws/install/py_pubsub:/home/vboxuser/ros2_ws/install/launch_testing_examples:/home/vboxuser/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_service:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_publisher:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_client:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_action_server:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_action_client:/home/vboxuser/ros2_ws/install/examples_rclpy_guard_conditions:/home/vboxuser/ros2_ws/install/examples_rclpy_executors:/home/vboxuser/fred_ws/install/my_test_controller:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_action_client

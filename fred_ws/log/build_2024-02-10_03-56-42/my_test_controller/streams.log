@@ -1,0 +1,17 @@
+[1.144s] Invoking command in '/home/vboxuser/fred_ws/build/my_test_controller': PYTHONPATH=/home/vboxuser/fred_ws/build/my_test_controller/prefix_override:/home/vboxuser/fred_ws/install/my_test_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/vboxuser/fred_ws/build/my_test_controller/build --no-deps install_data
+[1.540s] running develop
+[1.804s] running egg_info
+[1.804s] writing my_test_controller.egg-info/PKG-INFO
+[1.805s] writing dependency_links to my_test_controller.egg-info/dependency_links.txt
+[1.805s] writing entry points to my_test_controller.egg-info/entry_points.txt
+[1.805s] writing requirements to my_test_controller.egg-info/requires.txt
+[1.805s] writing top-level names to my_test_controller.egg-info/top_level.txt
+[1.808s] reading manifest file 'my_test_controller.egg-info/SOURCES.txt'
+[1.809s] writing manifest file 'my_test_controller.egg-info/SOURCES.txt'
+[1.810s] running build_ext
+[1.811s] Creating /home/vboxuser/fred_ws/install/my_test_controller/lib/python3.10/site-packages/my-test-controller.egg-link (link to .)
+[1.811s] Installing test_node script to /home/vboxuser/fred_ws/install/my_test_controller/lib/my_test_controller
+[1.812s] 
+[1.812s] Installed /home/vboxuser/fred_ws/build/my_test_controller
+[1.812s] running install_data
+[1.846s] Invoked command in '/home/vboxuser/fred_ws/build/my_test_controller' returned '0': PYTHONPATH=/home/vboxuser/fred_ws/build/my_test_controller/prefix_override:/home/vboxuser/fred_ws/install/my_test_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/vboxuser/fred_ws/build/my_test_controller/build --no-deps install_data

@@ -1,0 +1,148 @@
+[0.194s] Invoking command in '/home/vboxuser/hw4_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/hw4_ws/install/py_srvcli:/home/vboxuser/hw4_ws/install/calculator:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/hw4_ws/build/tutorial_interfaces -- -j6 -l6
+[0.268s] [  3%] Built target tutorial_interfaces__cpp
+[0.270s] [ 12%] Built target tutorial_interfaces__rosidl_generator_c
+[0.279s] [ 12%] Built target ament_cmake_python_copy_tutorial_interfaces
+[0.295s] [ 22%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.299s] [ 32%] Built target tutorial_interfaces__rosidl_typesupport_cpp
+[0.301s] [ 41%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c
+[0.304s] [ 51%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp
+[0.307s] [ 61%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c
+[0.311s] [ 70%] Built target tutorial_interfaces__rosidl_typesupport_c
+[0.334s] [ 70%] Built target tutorial_interfaces
+[0.354s] [ 74%] Built target tutorial_interfaces__py
+[0.380s] [ 80%] Built target tutorial_interfaces__rosidl_generator_py
+[0.405s] [ 93%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext
+[0.405s] [ 93%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.405s] [100%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.716s] running egg_info
+[0.717s] writing tutorial_interfaces.egg-info/PKG-INFO
+[0.717s] writing dependency_links to tutorial_interfaces.egg-info/dependency_links.txt
+[0.718s] writing top-level names to tutorial_interfaces.egg-info/top_level.txt
+[0.721s] reading manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[0.722s] writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[0.758s] [100%] Built target ament_cmake_python_build_tutorial_interfaces_egg
+[0.770s] Invoked command in '/home/vboxuser/hw4_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/hw4_ws/install/py_srvcli:/home/vboxuser/hw4_ws/install/calculator:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/hw4_ws/build/tutorial_interfaces -- -j6 -l6
+[0.847s] Invoking command in '/home/vboxuser/hw4_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/hw4_ws/install/py_srvcli:/home/vboxuser/hw4_ws/install/calculator:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/hw4_ws/build/tutorial_interfaces
+[0.862s] -- Install configuration: ""
+[0.862s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces
+[0.862s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[0.862s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[0.862s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.862s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[0.862s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[0.863s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/two_ints__type_support.h
+[0.863s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/two_ints__struct.h
+[0.863s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/two_ints__functions.c
+[0.863s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/two_ints__functions.h
+[0.863s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/two_ints.h
+[0.863s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.sh
+[0.863s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.dsv
+[0.863s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so
+[0.864s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[0.864s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[0.864s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.864s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[0.864s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[0.864s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/two_ints__rosidl_typesupport_fastrtps_c.h
+[0.864s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.864s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[0.864s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[0.864s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.864s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[0.864s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[0.865s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/two_ints__rosidl_typesupport_introspection_c.h
+[0.865s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/two_ints__type_support.c
+[0.865s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so
+[0.865s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so
+[0.865s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[0.865s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[0.866s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/two_ints.hpp
+[0.866s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[0.866s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/two_ints__traits.hpp
+[0.866s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/two_ints__struct.hpp
+[0.866s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/two_ints__builder.hpp
+[0.866s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[0.866s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[0.867s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.867s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[0.867s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[0.867s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/two_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[0.867s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/dds_fastrtps
+[0.867s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.868s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[0.868s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[0.868s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[0.868s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/two_ints__rosidl_typesupport_introspection_cpp.hpp
+[0.868s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/two_ints__type_support.cpp
+[0.868s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.868s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so
+[0.868s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.sh
+[0.868s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.dsv
+[0.868s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info
+[0.868s] -- Installing: /home/vboxuser/hw4_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[0.869s] -- Installing: /home/vboxuser/hw4_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.869s] -- Installing: /home/vboxuser/hw4_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.869s] -- Installing: /home/vboxuser/hw4_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[0.869s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces
+[0.869s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c
+[0.869s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.869s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.869s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/__init__.py
+[0.869s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.869s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[0.869s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv
+[0.869s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_two_ints.py
+[0.870s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/__init__.py
+[0.870s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_two_ints_s.c
+[0.870s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/libtutorial_interfaces__rosidl_generator_py.so
+[0.870s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.908s] Listing '/home/vboxuser/hw4_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces'...
+[0.908s] Listing '/home/vboxuser/hw4_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv'...
+[0.913s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.913s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.914s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.914s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so
+[0.914s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/TwoInts.idl
+[0.914s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/TwoInts.srv
+[0.914s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/TwoInts_Request.msg
+[0.914s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/TwoInts_Response.msg
+[0.914s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces
+[0.915s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces
+[0.915s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh
+[0.915s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv
+[0.915s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh
+[0.915s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv
+[0.915s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash
+[0.915s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh
+[0.915s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh
+[0.915s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv
+[0.915s] -- Installing: /home/vboxuser/hw4_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv
+[0.915s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces
+[0.916s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport.cmake
+[0.916s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake
+[0.916s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[0.916s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.916s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[0.916s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.916s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport.cmake
+[0.916s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[0.917s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cppExport.cmake
+[0.917s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.917s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.917s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[0.917s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.917s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport.cmake
+[0.917s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[0.917s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport.cmake
+[0.917s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[0.917s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake-extras.cmake
+[0.918s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.918s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.918s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[0.918s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.918s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.918s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.918s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake
+[0.918s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake
+[0.918s] -- Up-to-date: /home/vboxuser/hw4_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.xml
+[0.919s] Invoked command in '/home/vboxuser/hw4_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/hw4_ws/install/py_srvcli:/home/vboxuser/hw4_ws/install/calculator:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/hw4_ws/build/tutorial_interfaces

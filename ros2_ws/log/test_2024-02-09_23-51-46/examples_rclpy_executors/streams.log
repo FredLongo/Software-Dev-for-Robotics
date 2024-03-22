@@ -1,0 +1,23 @@
+[0.681s] Invoking command in '/home/vboxuser/ros2_ws/src/examples/rclpy/executors': PYTEST_ADDOPTS=--tb=short --junit-xml=/home/vboxuser/ros2_ws/build/examples_rclpy_executors/pytest.xml --junit-prefix=examples_rclpy_executors -o cache_dir=/home/vboxuser/ros2_ws/build/examples_rclpy_executors/.pytest_cache /usr/bin/python3 -m pytest
+[5.253s] [1m============================= test session starts ==============================[0m
+[5.253s] platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[5.260s] cachedir: /home/vboxuser/ros2_ws/build/examples_rclpy_executors/.pytest_cache
+[5.260s] rootdir: /home/vboxuser/ros2_ws/src/examples/rclpy, configfile: pytest.ini
+[5.260s] plugins: ament-copyright-0.12.9, launch-testing-1.0.4, ament-xmllint-0.12.9, ament-pep257-0.12.9, launch-testing-ros-0.19.6, ament-lint-0.12.9, ament-flake8-0.12.9, cov-3.0.0, colcon-core-0.15.1
+[6.184s] [1mcollecting ... [0m[1m
+[6.189s] collecting 0 items                                                             [0m[1m
+[6.190s] collected 3 items                                                              [0m
+[6.190s] 
+[6.687s] test/test_copyright.py [32m.[0m[32m                                                 [ 33%][0m
+[7.043s] test/test_flake8.py [32m.[0m[33m                                                    [ 66%][0m
+[7.125s] test/test_pep257.py [32m.[0m[33m                                                    [100%][0m
+[7.125s] 
+[7.125s] [33m=============================== warnings summary ===============================[0m
+[7.125s] executors/test/test_flake8.py::test_flake8
+[7.125s] executors/test/test_flake8.py::test_flake8
+[7.125s]   Warning: SelectableGroups dict interface is deprecated. Use select.
+[7.126s] 
+[7.126s] -- Docs: https://docs.pytest.org/en/stable/warnings.html
+[7.126s] - generated xml file: /home/vboxuser/ros2_ws/build/examples_rclpy_executors/pytest.xml -
+[7.126s] [33m======================== [32m3 passed[0m, [33m[1m2 warnings[0m[33m in 1.87s[0m[33m =========================[0m
+[7.251s] Invoked command in '/home/vboxuser/ros2_ws/src/examples/rclpy/executors' returned '0': PYTEST_ADDOPTS=--tb=short --junit-xml=/home/vboxuser/ros2_ws/build/examples_rclpy_executors/pytest.xml --junit-prefix=examples_rclpy_executors -o cache_dir=/home/vboxuser/ros2_ws/build/examples_rclpy_executors/.pytest_cache /usr/bin/python3 -m pytest

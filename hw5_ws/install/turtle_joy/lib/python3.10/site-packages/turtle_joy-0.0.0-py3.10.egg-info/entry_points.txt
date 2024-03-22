@@ -1,0 +1,4 @@
+[console_scripts]
+hello_node = turtle_joy.hello:main
+turtle_joy = turtle_joy.turtle_joy:main
+

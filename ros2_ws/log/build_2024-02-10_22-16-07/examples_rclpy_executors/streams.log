@@ -1,0 +1,22 @@
+[1.903s] Invoking command in '/home/vboxuser/ros2_ws/build/examples_rclpy_executors': PYTHONPATH=/home/vboxuser/ros2_ws/build/examples_rclpy_executors/prefix_override:/home/vboxuser/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/vboxuser/ros2_ws/build/examples_rclpy_executors/build --no-deps install_data
+[2.464s] running develop
+[2.609s] running egg_info
+[2.609s] writing examples_rclpy_executors.egg-info/PKG-INFO
+[2.609s] writing dependency_links to examples_rclpy_executors.egg-info/dependency_links.txt
+[2.610s] writing entry points to examples_rclpy_executors.egg-info/entry_points.txt
+[2.610s] writing requirements to examples_rclpy_executors.egg-info/requires.txt
+[2.610s] writing top-level names to examples_rclpy_executors.egg-info/top_level.txt
+[2.613s] reading manifest file 'examples_rclpy_executors.egg-info/SOURCES.txt'
+[2.614s] writing manifest file 'examples_rclpy_executors.egg-info/SOURCES.txt'
+[2.616s] running build_ext
+[2.617s] Creating /home/vboxuser/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples-rclpy-executors.egg-link (link to .)
+[2.618s] Installing callback_group script to /home/vboxuser/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.618s] Installing composed script to /home/vboxuser/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.618s] Installing custom_callback_group script to /home/vboxuser/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.618s] Installing custom_executor script to /home/vboxuser/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.618s] Installing listener script to /home/vboxuser/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.618s] Installing talker script to /home/vboxuser/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.618s] 
+[2.619s] Installed /home/vboxuser/ros2_ws/build/examples_rclpy_executors
+[2.619s] running install_data
+[3.927s] Invoked command in '/home/vboxuser/ros2_ws/build/examples_rclpy_executors' returned '0': PYTHONPATH=/home/vboxuser/ros2_ws/build/examples_rclpy_executors/prefix_override:/home/vboxuser/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/vboxuser/ros2_ws/build/examples_rclpy_executors/build --no-deps install_data

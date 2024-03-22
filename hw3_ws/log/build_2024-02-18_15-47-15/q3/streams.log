@@ -1,0 +1,21 @@
+[2.330s] Invoking command in '/home/vboxuser/hw3_ws/src/q3': PYTHONPATH=/home/vboxuser/hw3_ws/build/q3/prefix_override:/home/vboxuser/hw3_ws/install/q3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/q3 build --build-base /home/vboxuser/hw3_ws/build/q3/build install --record /home/vboxuser/hw3_ws/build/q3/install.log --single-version-externally-managed
+[2.723s] running egg_info
+[2.724s] writing ../../build/q3/q3.egg-info/PKG-INFO
+[2.724s] writing dependency_links to ../../build/q3/q3.egg-info/dependency_links.txt
+[2.724s] writing entry points to ../../build/q3/q3.egg-info/entry_points.txt
+[2.725s] writing requirements to ../../build/q3/q3.egg-info/requires.txt
+[2.725s] writing top-level names to ../../build/q3/q3.egg-info/top_level.txt
+[2.727s] reading manifest file '../../build/q3/q3.egg-info/SOURCES.txt'
+[2.728s] writing manifest file '../../build/q3/q3.egg-info/SOURCES.txt'
+[2.729s] running build
+[2.729s] running build_py
+[2.729s] running install
+[2.729s] running install_lib
+[2.731s] running install_data
+[2.732s] running install_egg_info
+[2.734s] removing '/home/vboxuser/hw3_ws/install/q3/lib/python3.10/site-packages/q3-0.0.0-py3.10.egg-info' (and everything under it)
+[2.734s] Copying ../../build/q3/q3.egg-info to /home/vboxuser/hw3_ws/install/q3/lib/python3.10/site-packages/q3-0.0.0-py3.10.egg-info
+[2.735s] running install_scripts
+[2.762s] Installing node_link script to /home/vboxuser/hw3_ws/install/q3/lib/q3
+[2.762s] writing list of installed files to '/home/vboxuser/hw3_ws/build/q3/install.log'
+[2.941s] Invoked command in '/home/vboxuser/hw3_ws/src/q3' returned '0': PYTHONPATH=/home/vboxuser/hw3_ws/build/q3/prefix_override:/home/vboxuser/hw3_ws/install/q3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/q3 build --build-base /home/vboxuser/hw3_ws/build/q3/build install --record /home/vboxuser/hw3_ws/build/q3/install.log --single-version-externally-managed

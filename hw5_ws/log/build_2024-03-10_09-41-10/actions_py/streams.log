@@ -1,0 +1,28 @@
+[2.409s] Invoking command in '/home/vboxuser/hw5_ws/src/actions_py': PYTHONPATH=/home/vboxuser/hw5_ws/build/actions_py/prefix_override:/home/vboxuser/hw5_ws/install/actions_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/actions_py build --build-base /home/vboxuser/hw5_ws/build/actions_py/build install --record /home/vboxuser/hw5_ws/build/actions_py/install.log --single-version-externally-managed
+[2.833s] running egg_info
+[2.835s] writing ../../build/actions_py/actions_py.egg-info/PKG-INFO
+[2.835s] writing dependency_links to ../../build/actions_py/actions_py.egg-info/dependency_links.txt
+[2.835s] writing entry points to ../../build/actions_py/actions_py.egg-info/entry_points.txt
+[2.836s] writing requirements to ../../build/actions_py/actions_py.egg-info/requires.txt
+[2.836s] writing top-level names to ../../build/actions_py/actions_py.egg-info/top_level.txt
+[2.839s] reading manifest file '../../build/actions_py/actions_py.egg-info/SOURCES.txt'
+[2.853s] writing manifest file '../../build/actions_py/actions_py.egg-info/SOURCES.txt'
+[2.854s] running build
+[2.854s] running build_py
+[2.854s] copying actions_py/count_until_client.py -> /home/vboxuser/hw5_ws/build/actions_py/build/lib/actions_py
+[2.854s] copying actions_py/count_until_server.py -> /home/vboxuser/hw5_ws/build/actions_py/build/lib/actions_py
+[2.854s] running install
+[2.854s] running install_lib
+[2.854s] copying /home/vboxuser/hw5_ws/build/actions_py/build/lib/actions_py/count_until_client.py -> /home/vboxuser/hw5_ws/install/actions_py/lib/python3.10/site-packages/actions_py
+[2.854s] copying /home/vboxuser/hw5_ws/build/actions_py/build/lib/actions_py/count_until_server.py -> /home/vboxuser/hw5_ws/install/actions_py/lib/python3.10/site-packages/actions_py
+[2.855s] byte-compiling /home/vboxuser/hw5_ws/install/actions_py/lib/python3.10/site-packages/actions_py/count_until_client.py to count_until_client.cpython-310.pyc
+[2.856s] byte-compiling /home/vboxuser/hw5_ws/install/actions_py/lib/python3.10/site-packages/actions_py/count_until_server.py to count_until_server.cpython-310.pyc
+[2.857s] running install_data
+[2.858s] running install_egg_info
+[2.860s] removing '/home/vboxuser/hw5_ws/install/actions_py/lib/python3.10/site-packages/actions_py-0.0.0-py3.10.egg-info' (and everything under it)
+[2.860s] Copying ../../build/actions_py/actions_py.egg-info to /home/vboxuser/hw5_ws/install/actions_py/lib/python3.10/site-packages/actions_py-0.0.0-py3.10.egg-info
+[2.870s] running install_scripts
+[2.902s] Installing count_until_client script to /home/vboxuser/hw5_ws/install/actions_py/lib/actions_py
+[2.903s] Installing count_until_server script to /home/vboxuser/hw5_ws/install/actions_py/lib/actions_py
+[2.903s] writing list of installed files to '/home/vboxuser/hw5_ws/build/actions_py/install.log'
+[3.025s] Invoked command in '/home/vboxuser/hw5_ws/src/actions_py' returned '0': PYTHONPATH=/home/vboxuser/hw5_ws/build/actions_py/prefix_override:/home/vboxuser/hw5_ws/install/actions_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/actions_py build --build-base /home/vboxuser/hw5_ws/build/actions_py/build install --record /home/vboxuser/hw5_ws/build/actions_py/install.log --single-version-externally-managed

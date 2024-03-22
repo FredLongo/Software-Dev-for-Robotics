@@ -1,0 +1,27 @@
+running egg_info
+writing ../../build/calculator/calculator.egg-info/PKG-INFO
+writing dependency_links to ../../build/calculator/calculator.egg-info/dependency_links.txt
+writing entry points to ../../build/calculator/calculator.egg-info/entry_points.txt
+writing requirements to ../../build/calculator/calculator.egg-info/requires.txt
+writing top-level names to ../../build/calculator/calculator.egg-info/top_level.txt
+reading manifest file '../../build/calculator/calculator.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/calculator/calculator.egg-info/SOURCES.txt'
+running build
+running build_py
+copying calculator/calc_gpt.py -> /home/vboxuser/hw4_ws/build/calculator/build/lib/calculator
+running install
+running install_lib
+copying /home/vboxuser/hw4_ws/build/calculator/build/lib/calculator/calc_gpt.py -> /home/vboxuser/hw4_ws/install/calculator/lib/python3.10/site-packages/calculator
+byte-compiling /home/vboxuser/hw4_ws/install/calculator/lib/python3.10/site-packages/calculator/calc_gpt.py to calc_gpt.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/vboxuser/hw4_ws/install/calculator/lib/python3.10/site-packages/calculator-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/calculator/calculator.egg-info to /home/vboxuser/hw4_ws/install/calculator/lib/python3.10/site-packages/calculator-0.0.0-py3.10.egg-info
+running install_scripts
+Installing calc_gpt script to /home/vboxuser/hw4_ws/install/calculator/lib/calculator
+Installing calc_node script to /home/vboxuser/hw4_ws/install/calculator/lib/calculator
+Installing calculator script to /home/vboxuser/hw4_ws/install/calculator/lib/calculator
+Installing client script to /home/vboxuser/hw4_ws/install/calculator/lib/calculator
+Installing service script to /home/vboxuser/hw4_ws/install/calculator/lib/calculator
+writing list of installed files to '/home/vboxuser/hw4_ws/build/calculator/install.log'

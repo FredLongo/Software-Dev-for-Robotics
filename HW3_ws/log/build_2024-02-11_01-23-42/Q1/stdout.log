@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/Q1/Q1.egg-info/PKG-INFO
+writing dependency_links to ../../build/Q1/Q1.egg-info/dependency_links.txt
+writing entry points to ../../build/Q1/Q1.egg-info/entry_points.txt
+writing requirements to ../../build/Q1/Q1.egg-info/requires.txt
+writing top-level names to ../../build/Q1/Q1.egg-info/top_level.txt
+reading manifest file '../../build/Q1/Q1.egg-info/SOURCES.txt'
+writing manifest file '../../build/Q1/Q1.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/vboxuser/HW3_ws/install/Q1/lib/python3.10/site-packages/Q1-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/Q1/Q1.egg-info to /home/vboxuser/HW3_ws/install/Q1/lib/python3.10/site-packages/Q1-0.0.0-py3.10.egg-info
+running install_scripts
+Installing fred_node script to /home/vboxuser/HW3_ws/install/Q1/lib/Q1
+writing list of installed files to '/home/vboxuser/HW3_ws/build/Q1/install.log'

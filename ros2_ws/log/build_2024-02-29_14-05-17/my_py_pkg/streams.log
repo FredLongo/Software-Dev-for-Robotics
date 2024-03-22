@@ -1,0 +1,23 @@
+[2.268s] Invoking command in '/home/vboxuser/ros2_ws/src/my_py_pkg': PYTHONPATH=/home/vboxuser/ros2_ws/build/my_py_pkg/prefix_override:/home/vboxuser/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/vboxuser/ros2_ws/build/my_py_pkg/build install --record /home/vboxuser/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed
+[2.674s] running egg_info
+[2.676s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[2.677s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[2.678s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[2.679s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[2.680s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[2.681s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.682s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.682s] running build
+[2.682s] running build_py
+[2.682s] running install
+[2.682s] running install_lib
+[2.685s] running install_data
+[2.685s] running install_egg_info
+[2.685s] removing '/home/vboxuser/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[2.685s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/vboxuser/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[2.686s] running install_scripts
+[2.712s] Installing my_first_node script to /home/vboxuser/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.712s] Installing robot_news_station script to /home/vboxuser/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.713s] Installing smart_phone = my_py_pkg.smart_phone:mainadd_two_ints_server script to /home/vboxuser/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.713s] writing list of installed files to '/home/vboxuser/ros2_ws/build/my_py_pkg/install.log'
+[3.436s] Invoked command in '/home/vboxuser/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/vboxuser/ros2_ws/build/my_py_pkg/prefix_override:/home/vboxuser/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/vboxuser/ros2_ws/build/my_py_pkg/build install --record /home/vboxuser/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed

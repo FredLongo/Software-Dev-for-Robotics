@@ -1,0 +1,105 @@
+[0.316s] Invoking command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_client': AMENT_PREFIX_PATH=/home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_client:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_client /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.333s] UpdateCTestConfiguration  from :/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_client/CTestConfiguration.ini
+[0.333s] Parse Config file:/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_client/CTestConfiguration.ini
+[0.333s]    Site: Ubuntu
+[0.334s]    Build name: (empty)
+[0.334s]  Add coverage exclude regular expressions.
+[0.334s] Create new tag: 20240210-0511 - Experimental
+[0.334s] UpdateCTestConfiguration  from :/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_client/CTestConfiguration.ini
+[0.334s] Parse Config file:/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_client/CTestConfiguration.ini
+[0.334s] Test project /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_client
+[0.334s] Constructing a list of tests
+[0.334s] Done constructing a list of tests
+[0.334s] Updating test list for fixtures
+[0.334s] Added 0 tests to meet fixture requirements
+[0.334s] Checking test dependency graph...
+[0.334s] Checking test dependency graph end
+[0.335s] test 1
+[0.335s]     Start 1: copyright
+[0.335s] 
+[0.335s] 1: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_client/test_results/examples_rclcpp_minimal_client/copyright.xunit.xml" "--package-name" "examples_rclcpp_minimal_client" "--output-file" "/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_client/ament_copyright/copyright.txt" "--command" "/opt/ros/humble/bin/ament_copyright" "--xunit-file" "/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_client/test_results/examples_rclcpp_minimal_client/copyright.xunit.xml"
+[0.335s] 1: Test timeout computed to be: 200
+[0.448s] 1: -- run_test.py: invoking following command in '/home/vboxuser/ros2_ws/src/examples/rclcpp/services/minimal_client':
+[0.448s] 1:  - /opt/ros/humble/bin/ament_copyright --xunit-file /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_client/test_results/examples_rclcpp_minimal_client/copyright.xunit.xml
+[0.675s] 1: No problems found, checked 1 files
+[0.695s] 1: -- run_test.py: return code 0
+[0.695s] 1: -- run_test.py: verify result file '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_client/test_results/examples_rclcpp_minimal_client/copyright.xunit.xml'
+[0.712s] 1/6 Test #1: copyright ........................   Passed    0.39 sec
+[0.712s] test 2
+[0.712s]     Start 2: cppcheck
+[0.712s] 
+[0.713s] 2: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_client/test_results/examples_rclcpp_minimal_client/cppcheck.xunit.xml" "--package-name" "examples_rclcpp_minimal_client" "--output-file" "/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_client/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/humble/bin/ament_cppcheck" "--xunit-file" "/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_client/test_results/examples_rclcpp_minimal_client/cppcheck.xunit.xml"
+[0.713s] 2: Test timeout computed to be: 300
+[0.795s] 2: -- run_test.py: invoking following command in '/home/vboxuser/ros2_ws/src/examples/rclcpp/services/minimal_client':
+[0.795s] 2:  - /opt/ros/humble/bin/ament_cppcheck --xunit-file /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_client/test_results/examples_rclcpp_minimal_client/cppcheck.xunit.xml
+[1.032s] 2: cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+[1.059s] 2: -- run_test.py: return code 0
+[1.060s] 2: -- run_test.py: verify result file '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_client/test_results/examples_rclcpp_minimal_client/cppcheck.xunit.xml'
+[1.073s] 2/6 Test #2: cppcheck .........................   Passed    0.36 sec
+[1.073s] test 3
+[1.073s]     Start 3: cpplint
+[1.074s] 
+[1.074s] 3: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_client/test_results/examples_rclcpp_minimal_client/cpplint.xunit.xml" "--package-name" "examples_rclcpp_minimal_client" "--output-file" "/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_client/ament_cpplint/cpplint.txt" "--command" "/opt/ros/humble/bin/ament_cpplint" "--xunit-file" "/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_client/test_results/examples_rclcpp_minimal_client/cpplint.xunit.xml"
+[1.074s] 3: Test timeout computed to be: 120
+[1.152s] 3: -- run_test.py: invoking following command in '/home/vboxuser/ros2_ws/src/examples/rclcpp/services/minimal_client':
+[1.152s] 3:  - /opt/ros/humble/bin/ament_cpplint --xunit-file /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_client/test_results/examples_rclcpp_minimal_client/cpplint.xunit.xml
+[1.315s] 3: Using '--root=..' argument
+[1.315s] 3: 
+[1.316s] 3: Done processing /home/vboxuser/ros2_ws/src/examples/rclcpp/services/minimal_client/main.cpp
+[1.316s] 3: 
+[1.316s] 3: No problems found
+[1.331s] 3: -- run_test.py: return code 0
+[1.332s] 3: -- run_test.py: verify result file '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_client/test_results/examples_rclcpp_minimal_client/cpplint.xunit.xml'
+[1.341s] 3/6 Test #3: cpplint ..........................   Passed    0.27 sec
+[1.341s] test 4
+[1.341s]     Start 4: lint_cmake
+[1.341s] 
+[1.341s] 4: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_client/test_results/examples_rclcpp_minimal_client/lint_cmake.xunit.xml" "--package-name" "examples_rclcpp_minimal_client" "--output-file" "/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_client/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_client/test_results/examples_rclcpp_minimal_client/lint_cmake.xunit.xml"
+[1.341s] 4: Test timeout computed to be: 60
+[1.424s] 4: -- run_test.py: invoking following command in '/home/vboxuser/ros2_ws/src/examples/rclcpp/services/minimal_client':
+[1.424s] 4:  - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_client/test_results/examples_rclcpp_minimal_client/lint_cmake.xunit.xml
+[1.540s] 4: 
+[1.540s] 4: No problems found
+[1.556s] 4: -- run_test.py: return code 0
+[1.556s] 4: -- run_test.py: verify result file '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_client/test_results/examples_rclcpp_minimal_client/lint_cmake.xunit.xml'
+[1.574s] 4/6 Test #4: lint_cmake .......................   Passed    0.23 sec
+[1.574s] test 5
+[1.574s]     Start 5: uncrustify
+[1.574s] 
+[1.574s] 5: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_client/test_results/examples_rclcpp_minimal_client/uncrustify.xunit.xml" "--package-name" "examples_rclcpp_minimal_client" "--output-file" "/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_client/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/humble/bin/ament_uncrustify" "--xunit-file" "/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_client/test_results/examples_rclcpp_minimal_client/uncrustify.xunit.xml"
+[1.574s] 5: Test timeout computed to be: 60
+[1.647s] 5: -- run_test.py: invoking following command in '/home/vboxuser/ros2_ws/src/examples/rclcpp/services/minimal_client':
+[1.647s] 5:  - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_client/test_results/examples_rclcpp_minimal_client/uncrustify.xunit.xml
+[1.841s] 5: No code style divergence in file 'main.cpp'
+[1.841s] 5: 
+[1.841s] 5: No problems found
+[1.865s] 5: -- run_test.py: return code 0
+[1.866s] 5: -- run_test.py: verify result file '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_client/test_results/examples_rclcpp_minimal_client/uncrustify.xunit.xml'
+[1.880s] 5/6 Test #5: uncrustify .......................   Passed    0.31 sec
+[1.880s] test 6
+[1.880s]     Start 6: xmllint
+[1.880s] 
+[1.880s] 6: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_client/test_results/examples_rclcpp_minimal_client/xmllint.xunit.xml" "--package-name" "examples_rclcpp_minimal_client" "--output-file" "/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_client/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_client/test_results/examples_rclcpp_minimal_client/xmllint.xunit.xml"
+[1.880s] 6: Test timeout computed to be: 60
+[1.957s] 6: -- run_test.py: invoking following command in '/home/vboxuser/ros2_ws/src/examples/rclcpp/services/minimal_client':
+[1.957s] 6:  - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_client/test_results/examples_rclcpp_minimal_client/xmllint.xunit.xml
+[2.480s] 6: File 'package.xml' is valid
+[2.481s] 6: 
+[2.482s] 6: No problems found
+[2.520s] 6: -- run_test.py: return code 0
+[2.520s] 6: -- run_test.py: verify result file '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_client/test_results/examples_rclcpp_minimal_client/xmllint.xunit.xml'
+[2.537s] 6/6 Test #6: xmllint ..........................   Passed    0.66 sec
+[2.537s] 
+[2.537s] [0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 6
+[2.537s] 
+[2.537s] Label Time Summary:
+[2.537s] copyright     =   0.39 sec*proc (1 test)
+[2.537s] cppcheck      =   0.36 sec*proc (1 test)
+[2.537s] cpplint       =   0.27 sec*proc (1 test)
+[2.538s] lint_cmake    =   0.23 sec*proc (1 test)
+[2.538s] linter        =   2.21 sec*proc (6 tests)
+[2.538s] uncrustify    =   0.31 sec*proc (1 test)
+[2.538s] xmllint       =   0.66 sec*proc (1 test)
+[2.538s] 
+[2.538s] Total Test time (real) =   2.22 sec
+[2.631s] Invoked command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_client' returned '0': AMENT_PREFIX_PATH=/home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_client:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_client /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

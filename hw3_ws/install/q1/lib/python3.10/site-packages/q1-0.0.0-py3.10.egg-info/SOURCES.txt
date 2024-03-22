@@ -1,0 +1,17 @@
+LICENSE
+package.xml
+setup.cfg
+setup.py
+../../build/q1/q1.egg-info/PKG-INFO
+../../build/q1/q1.egg-info/SOURCES.txt
+../../build/q1/q1.egg-info/dependency_links.txt
+../../build/q1/q1.egg-info/entry_points.txt
+../../build/q1/q1.egg-info/requires.txt
+../../build/q1/q1.egg-info/top_level.txt
+../../build/q1/q1.egg-info/zip-safe
+q1/__init__.py
+q1/my_pub.py
+resource/q1
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

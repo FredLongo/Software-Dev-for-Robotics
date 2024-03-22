@@ -1,0 +1,28 @@
+[0.735s] Invoking command in '/home/vboxuser/hw5_ws/build/my_robot_intrfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/hw5_ws/install/actions_py:/home/vboxuser/hw5_ws/install/turtle_joy:/opt/ros/humble /usr/bin/cmake /home/vboxuser/hw5_ws/src/my_robot_intrfaces -DCMAKE_INSTALL_PREFIX=/home/vboxuser/hw5_ws/install/my_robot_intrfaces
+[0.748s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.940s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.950s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.953s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.957s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.009s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.597s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.877s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.268s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.296s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.325s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.325s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.326s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.387s] -- Configuring done
+[2.457s] -- Generating done
+[2.464s] -- Build files have been written to: /home/vboxuser/hw5_ws/build/my_robot_intrfaces
+[2.473s] Invoked command in '/home/vboxuser/hw5_ws/build/my_robot_intrfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/hw5_ws/install/actions_py:/home/vboxuser/hw5_ws/install/turtle_joy:/opt/ros/humble /usr/bin/cmake /home/vboxuser/hw5_ws/src/my_robot_intrfaces -DCMAKE_INSTALL_PREFIX=/home/vboxuser/hw5_ws/install/my_robot_intrfaces
+[2.474s] Invoking command in '/home/vboxuser/hw5_ws/build/my_robot_intrfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/hw5_ws/install/actions_py:/home/vboxuser/hw5_ws/install/turtle_joy:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/hw5_ws/build/my_robot_intrfaces -- -j6 -l6
+[2.542s] [35m[1mConsolidate compiler generated dependencies of target my_robot_intrfaces__rosidl_generator_c[0m
+[2.554s] failed to create symbolic link '/home/vboxuser/hw5_ws/build/my_robot_intrfaces/ament_cmake_python/my_robot_intrfaces/my_robot_intrfaces' because existing path cannot be removed: Is a directory
+[2.556s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_my_robot_intrfaces.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_my_robot_intrfaces] Error 1
+[2.568s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_my_robot_intrfaces.dir/all] Error 2
+[2.568s] gmake[1]: *** Waiting for unfinished jobs....
+[2.570s] [  3%] Built target my_robot_intrfaces__cpp
+[2.572s] [ 12%] Built target my_robot_intrfaces__rosidl_generator_c
+[2.576s] gmake: *** [Makefile:146: all] Error 2
+[2.577s] Invoked command in '/home/vboxuser/hw5_ws/build/my_robot_intrfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/hw5_ws/install/actions_py:/home/vboxuser/hw5_ws/install/turtle_joy:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/hw5_ws/build/my_robot_intrfaces -- -j6 -l6

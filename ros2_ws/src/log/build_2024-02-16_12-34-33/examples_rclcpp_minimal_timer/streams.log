@@ -1,0 +1,76 @@
+[0.304s] Invoking command in '/home/vboxuser/ros2_ws/src/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ros2_ws/install/py_pubsub2:/home/vboxuser/ros2_ws/install/py_pubsub:/home/vboxuser/ros2_ws/install/launch_testing_examples:/home/vboxuser/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_service:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_publisher:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_client:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_action_server:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_action_client:/home/vboxuser/ros2_ws/install/examples_rclpy_guard_conditions:/home/vboxuser/ros2_ws/install/examples_rclpy_executors:/home/vboxuser/HW3_ws/install/py_pubsub:/home/vboxuser/HW3_ws/install/Q1:/opt/ros/humble /usr/bin/cmake /home/vboxuser/ros2_ws/src/examples/rclcpp/timers/minimal_timer -DCMAKE_INSTALL_PREFIX=/home/vboxuser/ros2_ws/src/install/examples_rclcpp_minimal_timer
+[9.045s] -- The C compiler identification is GNU 11.4.0
+[9.045s] -- The CXX compiler identification is GNU 11.4.0
+[9.045s] -- Detecting C compiler ABI info
+[9.045s] -- Detecting C compiler ABI info - done
+[9.045s] -- Check for working C compiler: /usr/bin/cc - skipped
+[9.045s] -- Detecting C compile features
+[9.045s] -- Detecting C compile features - done
+[9.046s] -- Detecting CXX compiler ABI info
+[9.046s] -- Detecting CXX compiler ABI info - done
+[9.046s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[9.046s] -- Detecting CXX compile features
+[9.046s] -- Detecting CXX compile features - done
+[9.046s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[9.046s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[9.046s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[9.046s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[9.046s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[9.046s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[9.046s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.047s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.047s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[9.047s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[9.047s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[9.047s] -- Found FastRTPS: /opt/ros/humble/include  
+[9.047s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.047s] -- Looking for pthread.h
+[9.047s] -- Looking for pthread.h - found
+[9.047s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.047s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[9.048s] -- Found Threads: TRUE  
+[9.048s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[10.697s] -- Added test 'copyright' to check source files copyright and LICENSE
+[10.703s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.703s] -- Configured cppcheck include dirs: 
+[10.703s] -- Configured cppcheck exclude dirs and/or files: 
+[10.713s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[10.713s] -- Configured cpplint exclude dirs and/or files: 
+[10.725s] -- Added test 'lint_cmake' to check CMake code style
+[10.732s] -- Added test 'uncrustify' to check C / C++ code style
+[10.733s] -- Configured uncrustify additional arguments: 
+[10.743s] -- Added test 'xmllint' to check XML markup files
+[10.754s] -- Configuring done
+[10.780s] -- Generating done
+[10.783s] -- Build files have been written to: /home/vboxuser/ros2_ws/src/build/examples_rclcpp_minimal_timer
+[10.806s] Invoked command in '/home/vboxuser/ros2_ws/src/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ros2_ws/install/py_pubsub2:/home/vboxuser/ros2_ws/install/py_pubsub:/home/vboxuser/ros2_ws/install/launch_testing_examples:/home/vboxuser/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_service:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_publisher:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_client:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_action_server:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_action_client:/home/vboxuser/ros2_ws/install/examples_rclpy_guard_conditions:/home/vboxuser/ros2_ws/install/examples_rclpy_executors:/home/vboxuser/HW3_ws/install/py_pubsub:/home/vboxuser/HW3_ws/install/Q1:/opt/ros/humble /usr/bin/cmake /home/vboxuser/ros2_ws/src/examples/rclcpp/timers/minimal_timer -DCMAKE_INSTALL_PREFIX=/home/vboxuser/ros2_ws/src/install/examples_rclcpp_minimal_timer
+[10.808s] Invoking command in '/home/vboxuser/ros2_ws/src/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ros2_ws/install/py_pubsub2:/home/vboxuser/ros2_ws/install/py_pubsub:/home/vboxuser/ros2_ws/install/launch_testing_examples:/home/vboxuser/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_service:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_publisher:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_client:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_action_server:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_action_client:/home/vboxuser/ros2_ws/install/examples_rclpy_guard_conditions:/home/vboxuser/ros2_ws/install/examples_rclpy_executors:/home/vboxuser/HW3_ws/install/py_pubsub:/home/vboxuser/HW3_ws/install/Q1:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ros2_ws/src/build/examples_rclcpp_minimal_timer -- -j6 -l6
+[10.877s] [ 25%] [32mBuilding CXX object CMakeFiles/timer_lambda.dir/lambda.cpp.o[0m
+[10.900s] [ 50%] [32mBuilding CXX object CMakeFiles/timer_member_function.dir/member_function.cpp.o[0m
+[17.310s] [ 75%] [32m[1mLinking CXX executable timer_member_function[0m
+[17.669s] [ 75%] Built target timer_member_function
+[19.652s] [100%] [32m[1mLinking CXX executable timer_lambda[0m
+[20.059s] [100%] Built target timer_lambda
+[20.137s] Invoked command in '/home/vboxuser/ros2_ws/src/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ros2_ws/install/py_pubsub2:/home/vboxuser/ros2_ws/install/py_pubsub:/home/vboxuser/ros2_ws/install/launch_testing_examples:/home/vboxuser/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_service:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_publisher:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_client:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_action_server:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_action_client:/home/vboxuser/ros2_ws/install/examples_rclpy_guard_conditions:/home/vboxuser/ros2_ws/install/examples_rclpy_executors:/home/vboxuser/HW3_ws/install/py_pubsub:/home/vboxuser/HW3_ws/install/Q1:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ros2_ws/src/build/examples_rclcpp_minimal_timer -- -j6 -l6
+[20.500s] Invoking command in '/home/vboxuser/ros2_ws/src/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ros2_ws/install/py_pubsub2:/home/vboxuser/ros2_ws/install/py_pubsub:/home/vboxuser/ros2_ws/install/launch_testing_examples:/home/vboxuser/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_service:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_publisher:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_client:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_action_server:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_action_client:/home/vboxuser/ros2_ws/install/examples_rclpy_guard_conditions:/home/vboxuser/ros2_ws/install/examples_rclpy_executors:/home/vboxuser/HW3_ws/install/py_pubsub:/home/vboxuser/HW3_ws/install/Q1:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/ros2_ws/src/build/examples_rclcpp_minimal_timer
+[21.463s] -- Install configuration: ""
+[21.464s] -- Installing: /home/vboxuser/ros2_ws/src/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_lambda
+[21.471s] -- Set runtime path of "/home/vboxuser/ros2_ws/src/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_lambda" to ""
+[21.471s] -- Installing: /home/vboxuser/ros2_ws/src/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_member_function
+[21.471s] -- Set runtime path of "/home/vboxuser/ros2_ws/src/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_member_function" to ""
+[21.471s] -- Installing: /home/vboxuser/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_timer
+[21.472s] -- Installing: /home/vboxuser/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_timer
+[21.472s] -- Installing: /home/vboxuser/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/ament_prefix_path.sh
+[21.472s] -- Installing: /home/vboxuser/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/ament_prefix_path.dsv
+[21.472s] -- Installing: /home/vboxuser/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/path.sh
+[21.472s] -- Installing: /home/vboxuser/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/path.dsv
+[21.472s] -- Installing: /home/vboxuser/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.bash
+[21.472s] -- Installing: /home/vboxuser/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.sh
+[21.472s] -- Installing: /home/vboxuser/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.zsh
+[21.472s] -- Installing: /home/vboxuser/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.dsv
+[21.472s] -- Installing: /home/vboxuser/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.dsv
+[21.472s] -- Installing: /home/vboxuser/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/packages/examples_rclcpp_minimal_timer
+[21.472s] -- Installing: /home/vboxuser/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig.cmake
+[21.473s] -- Installing: /home/vboxuser/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig-version.cmake
+[21.473s] -- Installing: /home/vboxuser/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.xml
+[21.491s] Invoked command in '/home/vboxuser/ros2_ws/src/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ros2_ws/install/py_pubsub2:/home/vboxuser/ros2_ws/install/py_pubsub:/home/vboxuser/ros2_ws/install/launch_testing_examples:/home/vboxuser/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_service:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_publisher:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_client:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_action_server:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_action_client:/home/vboxuser/ros2_ws/install/examples_rclpy_guard_conditions:/home/vboxuser/ros2_ws/install/examples_rclpy_executors:/home/vboxuser/HW3_ws/install/py_pubsub:/home/vboxuser/HW3_ws/install/Q1:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/ros2_ws/src/build/examples_rclcpp_minimal_timer

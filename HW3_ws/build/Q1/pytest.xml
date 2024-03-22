@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="1" tests="3" time="0.571" timestamp="2024-02-16T09:52:53.262014" hostname="Ubuntu"><testcase classname="Q1.test.test_copyright" name="test_copyright" time="0.001"><skipped type="pytest.skip" message="No copyright header has been placed in the generated source file.">/home/vboxuser/HW3_ws/src/Q1/test/test_copyright.py:20: No copyright header has been placed in the generated source file.</skipped></testcase><testcase classname="Q1.test.test_flake8" name="test_flake8" time="0.190"><failure message="AssertionError: Found 9 code style errors / warnings:&#10;  ./setup.py:1:1: F401 'setuptools.find_packages' imported but unused&#10;  ./Q1/fred_node.py:16:49: E225 missing whitespace around operator&#10;  ./Q1/fred_node.py:20:1: E303 too many blank lines (3)&#10;  ./Q1/fred_node.py:22:20: W291 trailing whitespace&#10;  ./Q1/fred_node.py:26:1: E305 expected 2 blank lines after class or function definition, found 1&#10;  ./Q1/my_node.py:1:1: F401 'time' imported but unused&#10;  ./Q1/my_node.py:3:1: E302 expected 2 blank lines, found 1&#10;  ./Q1/my_node.py:5:1: W293 blank line contains whitespace&#10;  ./Q1/my_node.py:8:1: E303 too many blank lines (3)&#10;assert 1 == 0">test/test_flake8.py:23: in test_flake8
+    assert rc == 0, \
+E   AssertionError: Found 9 code style errors / warnings:
+E     ./setup.py:1:1: F401 'setuptools.find_packages' imported but unused
+E     ./Q1/fred_node.py:16:49: E225 missing whitespace around operator
+E     ./Q1/fred_node.py:20:1: E303 too many blank lines (3)
+E     ./Q1/fred_node.py:22:20: W291 trailing whitespace
+E     ./Q1/fred_node.py:26:1: E305 expected 2 blank lines after class or function definition, found 1
+E     ./Q1/my_node.py:1:1: F401 'time' imported but unused
+E     ./Q1/my_node.py:3:1: E302 expected 2 blank lines, found 1
+E     ./Q1/my_node.py:5:1: W293 blank line contains whitespace
+E     ./Q1/my_node.py:8:1: E303 too many blank lines (3)
+E   assert 1 == 0</failure></testcase><testcase classname="Q1.test.test_pep257" name="test_pep257" time="0.061" /></testsuite></testsuites>

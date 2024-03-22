@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing q3.egg-info/PKG-INFO
+writing dependency_links to q3.egg-info/dependency_links.txt
+writing entry points to q3.egg-info/entry_points.txt
+writing requirements to q3.egg-info/requires.txt
+writing top-level names to q3.egg-info/top_level.txt
+reading manifest file 'q3.egg-info/SOURCES.txt'
+writing manifest file 'q3.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/vboxuser/hw3_ws/install/q3/lib/python3.10/site-packages/q3.egg-link (link to .)
+Installing node_link script to /home/vboxuser/hw3_ws/install/q3/lib/q3
+
+Installed /home/vboxuser/hw3_ws/build/q3
+running install_data

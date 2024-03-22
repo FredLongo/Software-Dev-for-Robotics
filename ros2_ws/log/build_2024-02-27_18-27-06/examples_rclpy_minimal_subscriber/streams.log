@@ -1,0 +1,23 @@
+[5.244s] Invoking command in '/home/vboxuser/ros2_ws/src/examples/rclpy/topics/minimal_subscriber': PYTHONPATH=/home/vboxuser/ros2_ws/build/examples_rclpy_minimal_subscriber/prefix_override:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_subscriber build --build-base /home/vboxuser/ros2_ws/build/examples_rclpy_minimal_subscriber/build install --record /home/vboxuser/ros2_ws/build/examples_rclpy_minimal_subscriber/install.log --single-version-externally-managed
+[5.760s] running egg_info
+[5.776s] writing ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/PKG-INFO
+[5.780s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/dependency_links.txt
+[5.780s] writing entry points to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/entry_points.txt
+[5.780s] writing requirements to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/requires.txt
+[5.780s] writing top-level names to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/top_level.txt
+[5.806s] reading manifest file '../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[5.815s] writing manifest file '../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[5.815s] running build
+[5.815s] running build_py
+[5.830s] running install
+[5.830s] running install_lib
+[5.839s] running install_data
+[5.842s] running install_egg_info
+[5.844s] removing '/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber-0.15.1-py3.10.egg-info' (and everything under it)
+[5.845s] Copying ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info to /home/vboxuser/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber-0.15.1-py3.10.egg-info
+[5.851s] running install_scripts
+[5.930s] Installing subscriber_lambda script to /home/vboxuser/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[5.930s] Installing subscriber_member_function script to /home/vboxuser/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[5.931s] Installing subscriber_old_school script to /home/vboxuser/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[5.931s] writing list of installed files to '/home/vboxuser/ros2_ws/build/examples_rclpy_minimal_subscriber/install.log'
+[6.022s] Invoked command in '/home/vboxuser/ros2_ws/src/examples/rclpy/topics/minimal_subscriber' returned '0': PYTHONPATH=/home/vboxuser/ros2_ws/build/examples_rclpy_minimal_subscriber/prefix_override:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_subscriber build --build-base /home/vboxuser/ros2_ws/build/examples_rclpy_minimal_subscriber/build install --record /home/vboxuser/ros2_ws/build/examples_rclpy_minimal_subscriber/install.log --single-version-externally-managed

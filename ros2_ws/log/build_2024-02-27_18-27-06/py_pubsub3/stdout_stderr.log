@@ -1,0 +1,40 @@
+running egg_info
+creating ../../build/py_pubsub3/py_pubsub3.egg-info
+writing ../../build/py_pubsub3/py_pubsub3.egg-info/PKG-INFO
+writing dependency_links to ../../build/py_pubsub3/py_pubsub3.egg-info/dependency_links.txt
+writing entry points to ../../build/py_pubsub3/py_pubsub3.egg-info/entry_points.txt
+writing requirements to ../../build/py_pubsub3/py_pubsub3.egg-info/requires.txt
+writing top-level names to ../../build/py_pubsub3/py_pubsub3.egg-info/top_level.txt
+writing manifest file '../../build/py_pubsub3/py_pubsub3.egg-info/SOURCES.txt'
+reading manifest file '../../build/py_pubsub3/py_pubsub3.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/py_pubsub3/py_pubsub3.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/vboxuser/ros2_ws/build/py_pubsub3/build
+creating /home/vboxuser/ros2_ws/build/py_pubsub3/build/lib
+creating /home/vboxuser/ros2_ws/build/py_pubsub3/build/lib/py_pubsub3
+copying py_pubsub3/my_pub.py -> /home/vboxuser/ros2_ws/build/py_pubsub3/build/lib/py_pubsub3
+copying py_pubsub3/__init__.py -> /home/vboxuser/ros2_ws/build/py_pubsub3/build/lib/py_pubsub3
+copying py_pubsub3/my_sub.py -> /home/vboxuser/ros2_ws/build/py_pubsub3/build/lib/py_pubsub3
+running install
+running install_lib
+creating /home/vboxuser/ros2_ws/install/py_pubsub3/lib/python3.10/site-packages/py_pubsub3
+copying /home/vboxuser/ros2_ws/build/py_pubsub3/build/lib/py_pubsub3/my_pub.py -> /home/vboxuser/ros2_ws/install/py_pubsub3/lib/python3.10/site-packages/py_pubsub3
+copying /home/vboxuser/ros2_ws/build/py_pubsub3/build/lib/py_pubsub3/__init__.py -> /home/vboxuser/ros2_ws/install/py_pubsub3/lib/python3.10/site-packages/py_pubsub3
+copying /home/vboxuser/ros2_ws/build/py_pubsub3/build/lib/py_pubsub3/my_sub.py -> /home/vboxuser/ros2_ws/install/py_pubsub3/lib/python3.10/site-packages/py_pubsub3
+byte-compiling /home/vboxuser/ros2_ws/install/py_pubsub3/lib/python3.10/site-packages/py_pubsub3/my_pub.py to my_pub.cpython-310.pyc
+byte-compiling /home/vboxuser/ros2_ws/install/py_pubsub3/lib/python3.10/site-packages/py_pubsub3/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/vboxuser/ros2_ws/install/py_pubsub3/lib/python3.10/site-packages/py_pubsub3/my_sub.py to my_sub.cpython-310.pyc
+running install_data
+creating /home/vboxuser/ros2_ws/install/py_pubsub3/share/ament_index
+creating /home/vboxuser/ros2_ws/install/py_pubsub3/share/ament_index/resource_index
+creating /home/vboxuser/ros2_ws/install/py_pubsub3/share/ament_index/resource_index/packages
+copying resource/py_pubsub3 -> /home/vboxuser/ros2_ws/install/py_pubsub3/share/ament_index/resource_index/packages
+copying package.xml -> /home/vboxuser/ros2_ws/install/py_pubsub3/share/py_pubsub3
+running install_egg_info
+Copying ../../build/py_pubsub3/py_pubsub3.egg-info to /home/vboxuser/ros2_ws/install/py_pubsub3/lib/python3.10/site-packages/py_pubsub3-0.0.0-py3.10.egg-info
+running install_scripts
+Installing my_pub script to /home/vboxuser/ros2_ws/install/py_pubsub3/lib/py_pubsub3
+Installing my_sub script to /home/vboxuser/ros2_ws/install/py_pubsub3/lib/py_pubsub3
+writing list of installed files to '/home/vboxuser/ros2_ws/build/py_pubsub3/install.log'

@@ -1,0 +1,37 @@
+[1.117s] Invoking command in '/home/vboxuser/hw5_ws/src/turtle_mover': PYTHONPATH=/home/vboxuser/hw5_ws/build/turtle_mover/prefix_override:/home/vboxuser/hw5_ws/install/turtle_mover/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtle_mover build --build-base /home/vboxuser/hw5_ws/build/turtle_mover/build install --record /home/vboxuser/hw5_ws/build/turtle_mover/install.log --single-version-externally-managed
+[1.504s] running egg_info
+[1.505s] creating ../../build/turtle_mover/turtle_mover.egg-info
+[1.505s] writing ../../build/turtle_mover/turtle_mover.egg-info/PKG-INFO
+[1.506s] writing dependency_links to ../../build/turtle_mover/turtle_mover.egg-info/dependency_links.txt
+[1.506s] writing entry points to ../../build/turtle_mover/turtle_mover.egg-info/entry_points.txt
+[1.506s] writing requirements to ../../build/turtle_mover/turtle_mover.egg-info/requires.txt
+[1.506s] writing top-level names to ../../build/turtle_mover/turtle_mover.egg-info/top_level.txt
+[1.506s] writing manifest file '../../build/turtle_mover/turtle_mover.egg-info/SOURCES.txt'
+[1.508s] reading manifest file '../../build/turtle_mover/turtle_mover.egg-info/SOURCES.txt'
+[1.509s] writing manifest file '../../build/turtle_mover/turtle_mover.egg-info/SOURCES.txt'
+[1.509s] running build
+[1.509s] running build_py
+[1.510s] creating /home/vboxuser/hw5_ws/build/turtle_mover/build
+[1.510s] creating /home/vboxuser/hw5_ws/build/turtle_mover/build/lib
+[1.510s] creating /home/vboxuser/hw5_ws/build/turtle_mover/build/lib/turtle_mover
+[1.510s] copying turtle_mover/__init__.py -> /home/vboxuser/hw5_ws/build/turtle_mover/build/lib/turtle_mover
+[1.510s] copying turtle_mover/turtle_mover.py -> /home/vboxuser/hw5_ws/build/turtle_mover/build/lib/turtle_mover
+[1.510s] running install
+[1.510s] running install_lib
+[1.511s] creating /home/vboxuser/hw5_ws/install/turtle_mover/lib/python3.10/site-packages/turtle_mover
+[1.512s] copying /home/vboxuser/hw5_ws/build/turtle_mover/build/lib/turtle_mover/__init__.py -> /home/vboxuser/hw5_ws/install/turtle_mover/lib/python3.10/site-packages/turtle_mover
+[1.512s] copying /home/vboxuser/hw5_ws/build/turtle_mover/build/lib/turtle_mover/turtle_mover.py -> /home/vboxuser/hw5_ws/install/turtle_mover/lib/python3.10/site-packages/turtle_mover
+[1.513s] byte-compiling /home/vboxuser/hw5_ws/install/turtle_mover/lib/python3.10/site-packages/turtle_mover/__init__.py to __init__.cpython-310.pyc
+[1.513s] byte-compiling /home/vboxuser/hw5_ws/install/turtle_mover/lib/python3.10/site-packages/turtle_mover/turtle_mover.py to turtle_mover.cpython-310.pyc
+[1.513s] running install_data
+[1.514s] creating /home/vboxuser/hw5_ws/install/turtle_mover/share/ament_index
+[1.514s] creating /home/vboxuser/hw5_ws/install/turtle_mover/share/ament_index/resource_index
+[1.514s] creating /home/vboxuser/hw5_ws/install/turtle_mover/share/ament_index/resource_index/packages
+[1.514s] copying resource/turtle_mover -> /home/vboxuser/hw5_ws/install/turtle_mover/share/ament_index/resource_index/packages
+[1.515s] copying package.xml -> /home/vboxuser/hw5_ws/install/turtle_mover/share/turtle_mover
+[1.515s] running install_egg_info
+[1.517s] Copying ../../build/turtle_mover/turtle_mover.egg-info to /home/vboxuser/hw5_ws/install/turtle_mover/lib/python3.10/site-packages/turtle_mover-0.0.0-py3.10.egg-info
+[1.518s] running install_scripts
+[1.546s] Installing turtle_mover script to /home/vboxuser/hw5_ws/install/turtle_mover/lib/turtle_mover
+[1.546s] writing list of installed files to '/home/vboxuser/hw5_ws/build/turtle_mover/install.log'
+[1.583s] Invoked command in '/home/vboxuser/hw5_ws/src/turtle_mover' returned '0': PYTHONPATH=/home/vboxuser/hw5_ws/build/turtle_mover/prefix_override:/home/vboxuser/hw5_ws/install/turtle_mover/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtle_mover build --build-base /home/vboxuser/hw5_ws/build/turtle_mover/build install --record /home/vboxuser/hw5_ws/build/turtle_mover/install.log --single-version-externally-managed

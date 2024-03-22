@@ -1,0 +1,37 @@
+[3.045s] Invoking command in '/home/vboxuser/ros2_ws/src/py_pubsub2': PYTHONPATH=/home/vboxuser/ros2_ws/src/build/py_pubsub2/prefix_override:/home/vboxuser/ros2_ws/src/install/py_pubsub2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/py_pubsub2 build --build-base /home/vboxuser/ros2_ws/src/build/py_pubsub2/build install --record /home/vboxuser/ros2_ws/src/build/py_pubsub2/install.log --single-version-externally-managed
+[3.531s] running egg_info
+[3.532s] creating ../build/py_pubsub2/py_pubsub2.egg-info
+[3.534s] writing ../build/py_pubsub2/py_pubsub2.egg-info/PKG-INFO
+[3.535s] writing dependency_links to ../build/py_pubsub2/py_pubsub2.egg-info/dependency_links.txt
+[3.536s] writing entry points to ../build/py_pubsub2/py_pubsub2.egg-info/entry_points.txt
+[3.536s] writing requirements to ../build/py_pubsub2/py_pubsub2.egg-info/requires.txt
+[3.537s] writing top-level names to ../build/py_pubsub2/py_pubsub2.egg-info/top_level.txt
+[3.537s] writing manifest file '../build/py_pubsub2/py_pubsub2.egg-info/SOURCES.txt'
+[3.540s] reading manifest file '../build/py_pubsub2/py_pubsub2.egg-info/SOURCES.txt'
+[3.541s] adding license file 'LICENSE'
+[3.542s] writing manifest file '../build/py_pubsub2/py_pubsub2.egg-info/SOURCES.txt'
+[3.542s] running build
+[3.542s] running build_py
+[3.542s] creating /home/vboxuser/ros2_ws/src/build/py_pubsub2/build
+[3.543s] creating /home/vboxuser/ros2_ws/src/build/py_pubsub2/build/lib
+[3.543s] creating /home/vboxuser/ros2_ws/src/build/py_pubsub2/build/lib/py_pubsub2
+[3.543s] copying py_pubsub2/__init__.py -> /home/vboxuser/ros2_ws/src/build/py_pubsub2/build/lib/py_pubsub2
+[3.544s] copying py_pubsub2/publisher_member_function.py -> /home/vboxuser/ros2_ws/src/build/py_pubsub2/build/lib/py_pubsub2
+[3.545s] running install
+[3.545s] running install_lib
+[3.547s] creating /home/vboxuser/ros2_ws/src/install/py_pubsub2/lib/python3.10/site-packages/py_pubsub2
+[3.547s] copying /home/vboxuser/ros2_ws/src/build/py_pubsub2/build/lib/py_pubsub2/__init__.py -> /home/vboxuser/ros2_ws/src/install/py_pubsub2/lib/python3.10/site-packages/py_pubsub2
+[3.547s] copying /home/vboxuser/ros2_ws/src/build/py_pubsub2/build/lib/py_pubsub2/publisher_member_function.py -> /home/vboxuser/ros2_ws/src/install/py_pubsub2/lib/python3.10/site-packages/py_pubsub2
+[3.548s] byte-compiling /home/vboxuser/ros2_ws/src/install/py_pubsub2/lib/python3.10/site-packages/py_pubsub2/__init__.py to __init__.cpython-310.pyc
+[3.548s] byte-compiling /home/vboxuser/ros2_ws/src/install/py_pubsub2/lib/python3.10/site-packages/py_pubsub2/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[3.548s] running install_data
+[3.549s] creating /home/vboxuser/ros2_ws/src/install/py_pubsub2/share/ament_index
+[3.550s] creating /home/vboxuser/ros2_ws/src/install/py_pubsub2/share/ament_index/resource_index
+[3.550s] creating /home/vboxuser/ros2_ws/src/install/py_pubsub2/share/ament_index/resource_index/packages
+[3.550s] copying resource/py_pubsub2 -> /home/vboxuser/ros2_ws/src/install/py_pubsub2/share/ament_index/resource_index/packages
+[3.550s] copying package.xml -> /home/vboxuser/ros2_ws/src/install/py_pubsub2/share/py_pubsub2
+[3.550s] running install_egg_info
+[3.554s] Copying ../build/py_pubsub2/py_pubsub2.egg-info to /home/vboxuser/ros2_ws/src/install/py_pubsub2/lib/python3.10/site-packages/py_pubsub2-0.0.0-py3.10.egg-info
+[3.554s] running install_scripts
+[3.588s] writing list of installed files to '/home/vboxuser/ros2_ws/src/build/py_pubsub2/install.log'
+[3.785s] Invoked command in '/home/vboxuser/ros2_ws/src/py_pubsub2' returned '0': PYTHONPATH=/home/vboxuser/ros2_ws/src/build/py_pubsub2/prefix_override:/home/vboxuser/ros2_ws/src/install/py_pubsub2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/py_pubsub2 build --build-base /home/vboxuser/ros2_ws/src/build/py_pubsub2/build install --record /home/vboxuser/ros2_ws/src/build/py_pubsub2/install.log --single-version-externally-managed

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/vboxuser/hw5_ws/build/my_robot_intrfaces/rosidl_generator_py/my_robot_intrfaces/my_robot_intrfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" "TARGETS" "my_robot_intrfaces__rosidl_typesupport_introspection_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/my_robot_intrfaces")

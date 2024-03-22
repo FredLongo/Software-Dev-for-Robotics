@@ -1,0 +1,31 @@
+[1.704s] Invoking command in '/home/vboxuser/hw4_ws/src/calculator': CMAKE_PREFIX_PATH=/home/vboxuser/hw4_ws/install/tutorial_interfaces:/home/vboxuser/hw4_ws/install/custom_interfaces:/home/vboxuser/hw4_ws/install/custom_messages LD_LIBRARY_PATH=/home/vboxuser/hw4_ws/install/tutorial_interfaces/lib:/home/vboxuser/hw4_ws/install/custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/vboxuser/hw4_ws/build/calculator/prefix_override:/home/vboxuser/hw4_ws/install/calculator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/calculator build --build-base /home/vboxuser/hw4_ws/build/calculator/build install --record /home/vboxuser/hw4_ws/build/calculator/install.log --single-version-externally-managed
+[2.084s] running egg_info
+[2.084s] writing ../../build/calculator/calculator.egg-info/PKG-INFO
+[2.085s] writing dependency_links to ../../build/calculator/calculator.egg-info/dependency_links.txt
+[2.085s] writing entry points to ../../build/calculator/calculator.egg-info/entry_points.txt
+[2.085s] writing requirements to ../../build/calculator/calculator.egg-info/requires.txt
+[2.085s] writing top-level names to ../../build/calculator/calculator.egg-info/top_level.txt
+[2.088s] reading manifest file '../../build/calculator/calculator.egg-info/SOURCES.txt'
+[2.088s] adding license file 'LICENSE'
+[2.089s] writing manifest file '../../build/calculator/calculator.egg-info/SOURCES.txt'
+[2.089s] running build
+[2.089s] running build_py
+[2.089s] copying calculator/calculator.py -> /home/vboxuser/hw4_ws/build/calculator/build/lib/calculator
+[2.090s] running install
+[2.090s] running install_lib
+[2.091s] copying /home/vboxuser/hw4_ws/build/calculator/build/lib/calculator/calculator.py -> /home/vboxuser/hw4_ws/install/calculator/lib/python3.10/site-packages/calculator
+[2.092s] byte-compiling /home/vboxuser/hw4_ws/install/calculator/lib/python3.10/site-packages/calculator/calculator.py to calculator.cpython-310.pyc
+[2.094s]   File "/home/vboxuser/hw4_ws/install/calculator/lib/python3.10/site-packages/calculator/calculator.py", line 104
+[2.097s]     f'Sending to server.. {formatted_time} %s %d %c %d = %f' %
+[2.097s]     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.097s] running install_data
+[2.098s] SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2.098s] 
+[2.098s] running install_egg_info
+[2.098s] removing '/home/vboxuser/hw4_ws/install/calculator/lib/python3.10/site-packages/calculator-0.0.0-py3.10.egg-info' (and everything under it)
+[2.099s] Copying ../../build/calculator/calculator.egg-info to /home/vboxuser/hw4_ws/install/calculator/lib/python3.10/site-packages/calculator-0.0.0-py3.10.egg-info
+[2.099s] running install_scripts
+[2.126s] Installing client script to /home/vboxuser/hw4_ws/install/calculator/lib/calculator
+[2.126s] Installing service script to /home/vboxuser/hw4_ws/install/calculator/lib/calculator
+[2.126s] writing list of installed files to '/home/vboxuser/hw4_ws/build/calculator/install.log'
+[2.171s] Invoked command in '/home/vboxuser/hw4_ws/src/calculator' returned '0': CMAKE_PREFIX_PATH=/home/vboxuser/hw4_ws/install/tutorial_interfaces:/home/vboxuser/hw4_ws/install/custom_interfaces:/home/vboxuser/hw4_ws/install/custom_messages LD_LIBRARY_PATH=/home/vboxuser/hw4_ws/install/tutorial_interfaces/lib:/home/vboxuser/hw4_ws/install/custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/vboxuser/hw4_ws/build/calculator/prefix_override:/home/vboxuser/hw4_ws/install/calculator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/calculator build --build-base /home/vboxuser/hw4_ws/build/calculator/build install --record /home/vboxuser/hw4_ws/build/calculator/install.log --single-version-externally-managed

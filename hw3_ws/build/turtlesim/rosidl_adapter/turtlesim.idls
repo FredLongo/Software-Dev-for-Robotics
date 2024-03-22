@@ -1,0 +1,8 @@
+/home/vboxuser/hw3_ws/build/turtlesim/rosidl_adapter/turtlesim:action/RotateAbsolute.idl
+/home/vboxuser/hw3_ws/build/turtlesim/rosidl_adapter/turtlesim:msg/Color.idl
+/home/vboxuser/hw3_ws/build/turtlesim/rosidl_adapter/turtlesim:msg/Pose.idl
+/home/vboxuser/hw3_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/Kill.idl
+/home/vboxuser/hw3_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/SetPen.idl
+/home/vboxuser/hw3_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/Spawn.idl
+/home/vboxuser/hw3_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportAbsolute.idl
+/home/vboxuser/hw3_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportRelative.idl

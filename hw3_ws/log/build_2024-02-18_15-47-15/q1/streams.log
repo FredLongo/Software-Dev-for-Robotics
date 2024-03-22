@@ -1,0 +1,22 @@
+[2.490s] Invoking command in '/home/vboxuser/hw3_ws/src/q1': PYTHONPATH=/home/vboxuser/hw3_ws/build/q1/prefix_override:/home/vboxuser/hw3_ws/install/q1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/q1 build --build-base /home/vboxuser/hw3_ws/build/q1/build install --record /home/vboxuser/hw3_ws/build/q1/install.log --single-version-externally-managed
+[2.881s] running egg_info
+[2.882s] writing ../../build/q1/q1.egg-info/PKG-INFO
+[2.882s] writing dependency_links to ../../build/q1/q1.egg-info/dependency_links.txt
+[2.882s] writing entry points to ../../build/q1/q1.egg-info/entry_points.txt
+[2.882s] writing requirements to ../../build/q1/q1.egg-info/requires.txt
+[2.883s] writing top-level names to ../../build/q1/q1.egg-info/top_level.txt
+[2.885s] reading manifest file '../../build/q1/q1.egg-info/SOURCES.txt'
+[2.885s] adding license file 'LICENSE'
+[2.886s] writing manifest file '../../build/q1/q1.egg-info/SOURCES.txt'
+[2.886s] running build
+[2.886s] running build_py
+[2.886s] running install
+[2.887s] running install_lib
+[2.888s] running install_data
+[2.889s] running install_egg_info
+[2.891s] removing '/home/vboxuser/hw3_ws/install/q1/lib/python3.10/site-packages/q1-0.0.0-py3.10.egg-info' (and everything under it)
+[2.891s] Copying ../../build/q1/q1.egg-info to /home/vboxuser/hw3_ws/install/q1/lib/python3.10/site-packages/q1-0.0.0-py3.10.egg-info
+[2.892s] running install_scripts
+[2.919s] Installing my_pub script to /home/vboxuser/hw3_ws/install/q1/lib/q1
+[2.919s] writing list of installed files to '/home/vboxuser/hw3_ws/build/q1/install.log'
+[3.040s] Invoked command in '/home/vboxuser/hw3_ws/src/q1' returned '0': PYTHONPATH=/home/vboxuser/hw3_ws/build/q1/prefix_override:/home/vboxuser/hw3_ws/install/q1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/q1 build --build-base /home/vboxuser/hw3_ws/build/q1/build install --record /home/vboxuser/hw3_ws/build/q1/install.log --single-version-externally-managed

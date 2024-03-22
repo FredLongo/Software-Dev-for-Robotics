@@ -1,0 +1,222 @@
+[0.109s] Invoking command in '/home/vboxuser/hw4_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/hw4_ws/install/py_srvcli:/home/vboxuser/hw4_ws/install/calculator:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/hw4_ws/build/custom_interfaces -- -j6 -l6
+[0.155s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.367s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.370s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.375s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.422s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.813s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.077s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.407s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.435s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.464s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.464s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.465s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.482s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.495s] -- Added test 'lint_cmake' to check CMake code style
+[1.497s] -- Added test 'xmllint' to check XML markup files
+[1.500s] -- Configuring done
+[1.546s] -- Generating done
+[1.551s] -- Build files have been written to: /home/vboxuser/hw4_ws/build/custom_interfaces
+[1.576s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.593s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.609s] [  6%] Built target ament_cmake_python_copy_custom_interfaces
+[2.019s] running egg_info
+[2.020s] writing custom_interfaces.egg-info/PKG-INFO
+[2.020s] writing dependency_links to custom_interfaces.egg-info/dependency_links.txt
+[2.020s] writing top-level names to custom_interfaces.egg-info/top_level.txt
+[2.023s] reading manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[2.024s] writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[2.056s] [  6%] Built target ament_cmake_python_build_custom_interfaces_egg
+[2.075s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_generator_c[0m
+[2.084s] [  6%] Built target custom_interfaces__cpp
+[2.091s] [  9%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/srv/detail/two_int_calc__functions.c.o[0m
+[2.101s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.101s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.103s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.170s] [ 22%] [32m[1mLinking C shared library libcustom_interfaces__rosidl_generator_c.so[0m
+[2.223s] [ 22%] Built target custom_interfaces__rosidl_generator_c
+[2.235s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.238s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.244s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.542s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_cpp[0m
+[2.556s] [ 35%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/srv/two_int_calc__type_support.cpp.o[0m
+[2.585s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[2.601s] [ 38%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/srv/detail/dds_fastrtps/two_int_calc__type_support.cpp.o[0m
+[2.602s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_introspection_cpp[0m
+[2.621s] [ 41%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/srv/detail/two_int_calc__type_support.cpp.o[0m
+[2.687s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_introspection_c[0m
+[2.707s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_c[0m
+[2.730s] [ 45%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/srv/detail/two_int_calc__type_support.c.o[0m
+[2.741s] [ 48%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/srv/two_int_calc__type_support.cpp.o[0m
+[2.782s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_c[0m
+[2.794s] [ 51%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_c.so[0m
+[2.794s] [ 54%] [32m[1mLinking C shared library libcustom_interfaces__rosidl_typesupport_introspection_c.so[0m
+[2.808s] [ 58%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/srv/detail/two_int_calc__type_support_c.cpp.o[0m
+[2.858s] [ 58%] Built target custom_interfaces__rosidl_typesupport_introspection_c
+[2.868s] [ 58%] Built target custom_interfaces__rosidl_typesupport_c
+[2.985s] [ 61%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_cpp.so[0m
+[3.059s] [ 61%] Built target custom_interfaces__rosidl_typesupport_cpp
+[3.136s] [ 64%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.159s] [ 67%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.253s] [ 67%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.254s] [ 70%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.262s] [ 70%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp
+[3.375s] [ 70%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c
+[3.396s] [ 70%] Built target custom_interfaces
+[3.423s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.065s] [ 74%] Built target custom_interfaces__py
+[4.077s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_generator_py[0m
+[4.090s] [ 77%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/srv/_two_int_calc_s.c.o[0m
+[4.221s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so[0m
+[4.270s] [ 80%] Built target custom_interfaces__rosidl_generator_py
+[4.281s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[4.281s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_c__pyext[0m
+[4.281s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[4.295s] [ 90%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[4.295s] [ 90%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.295s] [ 90%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.418s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.421s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.455s] [100%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.460s] [100%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext
+[4.465s] [100%] Built target custom_interfaces__rosidl_typesupport_c__pyext
+[4.496s] [100%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[4.507s] Invoked command in '/home/vboxuser/hw4_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/hw4_ws/install/py_srvcli:/home/vboxuser/hw4_ws/install/calculator:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/hw4_ws/build/custom_interfaces -- -j6 -l6
+[4.589s] Invoking command in '/home/vboxuser/hw4_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/hw4_ws/install/py_srvcli:/home/vboxuser/hw4_ws/install/calculator:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/hw4_ws/build/custom_interfaces
+[4.597s] -- Install configuration: ""
+[4.597s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces
+[4.597s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[4.597s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[4.597s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_c__visibility_control.h
+[4.597s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[4.597s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[4.598s] -- Installing: /home/vboxuser/hw4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/two_int_calc__functions.h
+[4.598s] -- Installing: /home/vboxuser/hw4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/two_int_calc__struct.h
+[4.598s] -- Installing: /home/vboxuser/hw4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/two_int_calc__type_support.h
+[4.598s] -- Installing: /home/vboxuser/hw4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/two_int_calc__functions.c
+[4.598s] -- Installing: /home/vboxuser/hw4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/two_int_calc.h
+[4.598s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.sh
+[4.598s] -- Installing: /home/vboxuser/hw4_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.dsv
+[4.598s] -- Installing: /home/vboxuser/hw4_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so
+[4.599s] -- Set runtime path of "/home/vboxuser/hw4_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so" to ""
+[4.599s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[4.599s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[4.599s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.599s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[4.599s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[4.599s] -- Installing: /home/vboxuser/hw4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/two_int_calc__rosidl_typesupport_fastrtps_c.h
+[4.599s] -- Installing: /home/vboxuser/hw4_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so
+[4.599s] -- Set runtime path of "/home/vboxuser/hw4_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[4.600s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[4.600s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[4.600s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.600s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[4.600s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[4.600s] -- Installing: /home/vboxuser/hw4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/two_int_calc__type_support.c
+[4.600s] -- Installing: /home/vboxuser/hw4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/two_int_calc__rosidl_typesupport_introspection_c.h
+[4.600s] -- Installing: /home/vboxuser/hw4_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so
+[4.601s] -- Set runtime path of "/home/vboxuser/hw4_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[4.601s] -- Installing: /home/vboxuser/hw4_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so
+[4.601s] -- Set runtime path of "/home/vboxuser/hw4_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so" to ""
+[4.601s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[4.601s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[4.601s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[4.601s] -- Installing: /home/vboxuser/hw4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/two_int_calc__traits.hpp
+[4.601s] -- Installing: /home/vboxuser/hw4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/two_int_calc__struct.hpp
+[4.602s] -- Installing: /home/vboxuser/hw4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/two_int_calc__builder.hpp
+[4.602s] -- Installing: /home/vboxuser/hw4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/two_int_calc.hpp
+[4.602s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[4.602s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[4.602s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.602s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[4.602s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[4.602s] -- Installing: /home/vboxuser/hw4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/two_int_calc__rosidl_typesupport_fastrtps_cpp.hpp
+[4.602s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/dds_fastrtps
+[4.602s] -- Installing: /home/vboxuser/hw4_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.603s] -- Set runtime path of "/home/vboxuser/hw4_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.603s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[4.603s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[4.603s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[4.603s] -- Installing: /home/vboxuser/hw4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/two_int_calc__type_support.cpp
+[4.603s] -- Installing: /home/vboxuser/hw4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/two_int_calc__rosidl_typesupport_introspection_cpp.hpp
+[4.603s] -- Installing: /home/vboxuser/hw4_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so
+[4.604s] -- Set runtime path of "/home/vboxuser/hw4_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[4.604s] -- Installing: /home/vboxuser/hw4_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so
+[4.604s] -- Set runtime path of "/home/vboxuser/hw4_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so" to ""
+[4.604s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.sh
+[4.604s] -- Installing: /home/vboxuser/hw4_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.dsv
+[4.605s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info
+[4.605s] -- Installing: /home/vboxuser/hw4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[4.605s] -- Installing: /home/vboxuser/hw4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.605s] -- Installing: /home/vboxuser/hw4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.605s] -- Installing: /home/vboxuser/hw4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[4.605s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces
+[4.605s] -- Installing: /home/vboxuser/hw4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.605s] -- Installing: /home/vboxuser/hw4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so
+[4.605s] -- Installing: /home/vboxuser/hw4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py
+[4.606s] -- Installing: /home/vboxuser/hw4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[4.606s] -- Installing: /home/vboxuser/hw4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.606s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv
+[4.606s] -- Installing: /home/vboxuser/hw4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/__init__.py
+[4.606s] -- Installing: /home/vboxuser/hw4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_two_int_calc.py
+[4.606s] -- Installing: /home/vboxuser/hw4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_two_int_calc_s.c
+[4.606s] -- Installing: /home/vboxuser/hw4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.606s] -- Installing: /home/vboxuser/hw4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.606s] -- Installing: /home/vboxuser/hw4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c
+[4.666s] Listing '/home/vboxuser/hw4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces'...
+[4.667s] Compiling '/home/vboxuser/hw4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py'...
+[4.667s] Listing '/home/vboxuser/hw4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv'...
+[4.667s] Compiling '/home/vboxuser/hw4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/__init__.py'...
+[4.667s] Compiling '/home/vboxuser/hw4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_two_int_calc.py'...
+[4.672s] -- Installing: /home/vboxuser/hw4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.672s] -- Set runtime path of "/home/vboxuser/hw4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.673s] -- Installing: /home/vboxuser/hw4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.673s] -- Set runtime path of "/home/vboxuser/hw4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.673s] -- Installing: /home/vboxuser/hw4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.674s] -- Set runtime path of "/home/vboxuser/hw4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.674s] -- Installing: /home/vboxuser/hw4_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so
+[4.674s] -- Set runtime path of "/home/vboxuser/hw4_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so" to ""
+[4.674s] -- Installing: /home/vboxuser/hw4_ws/install/custom_interfaces/share/custom_interfaces/srv/TwoIntCalc.idl
+[4.675s] -- Installing: /home/vboxuser/hw4_ws/install/custom_interfaces/share/custom_interfaces/srv/TwoIntCalc.srv
+[4.675s] -- Installing: /home/vboxuser/hw4_ws/install/custom_interfaces/share/custom_interfaces/srv/TwoIntCalc_Request.msg
+[4.675s] -- Installing: /home/vboxuser/hw4_ws/install/custom_interfaces/share/custom_interfaces/srv/TwoIntCalc_Response.msg
+[4.675s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces
+[4.676s] -- Installing: /home/vboxuser/hw4_ws/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces
+[4.676s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh
+[4.676s] -- Installing: /home/vboxuser/hw4_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv
+[4.676s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/share/custom_interfaces/environment/path.sh
+[4.677s] -- Installing: /home/vboxuser/hw4_ws/install/custom_interfaces/share/custom_interfaces/environment/path.dsv
+[4.677s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/share/custom_interfaces/local_setup.bash
+[4.677s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/share/custom_interfaces/local_setup.sh
+[4.677s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/share/custom_interfaces/local_setup.zsh
+[4.677s] -- Installing: /home/vboxuser/hw4_ws/install/custom_interfaces/share/custom_interfaces/local_setup.dsv
+[4.678s] -- Installing: /home/vboxuser/hw4_ws/install/custom_interfaces/share/custom_interfaces/package.dsv
+[4.678s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces
+[4.678s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport.cmake
+[4.678s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.678s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[4.678s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.678s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.678s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.678s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport.cmake
+[4.679s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.679s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cppExport.cmake
+[4.679s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.679s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.679s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.679s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.679s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport.cmake
+[4.679s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.679s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport.cmake
+[4.679s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[4.679s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake-extras.cmake
+[4.679s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.679s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.679s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.679s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.679s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.679s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.679s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake
+[4.679s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake
+[4.679s] -- Up-to-date: /home/vboxuser/hw4_ws/install/custom_interfaces/share/custom_interfaces/package.xml
+[4.681s] Invoked command in '/home/vboxuser/hw4_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/hw4_ws/install/py_srvcli:/home/vboxuser/hw4_ws/install/calculator:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/hw4_ws/build/custom_interfaces

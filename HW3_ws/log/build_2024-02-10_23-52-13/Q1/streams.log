@@ -1,0 +1,33 @@
+[1.216s] Invoking command in '/home/vboxuser/HW3_ws/src/Q1': PYTHONPATH=/home/vboxuser/HW3_ws/build/Q1/prefix_override:/home/vboxuser/HW3_ws/install/Q1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/Q1 build --build-base /home/vboxuser/HW3_ws/build/Q1/build install --record /home/vboxuser/HW3_ws/build/Q1/install.log --single-version-externally-managed
+[1.584s] running egg_info
+[1.585s] creating ../../build/Q1/Q1.egg-info
+[1.585s] writing ../../build/Q1/Q1.egg-info/PKG-INFO
+[1.586s] writing dependency_links to ../../build/Q1/Q1.egg-info/dependency_links.txt
+[1.586s] writing entry points to ../../build/Q1/Q1.egg-info/entry_points.txt
+[1.586s] writing requirements to ../../build/Q1/Q1.egg-info/requires.txt
+[1.586s] writing top-level names to ../../build/Q1/Q1.egg-info/top_level.txt
+[1.587s] writing manifest file '../../build/Q1/Q1.egg-info/SOURCES.txt'
+[1.589s] reading manifest file '../../build/Q1/Q1.egg-info/SOURCES.txt'
+[1.590s] writing manifest file '../../build/Q1/Q1.egg-info/SOURCES.txt'
+[1.590s] running build
+[1.590s] running build_py
+[1.590s] creating /home/vboxuser/HW3_ws/build/Q1/build
+[1.590s] creating /home/vboxuser/HW3_ws/build/Q1/build/lib
+[1.591s] creating /home/vboxuser/HW3_ws/build/Q1/build/lib/Q1
+[1.591s] copying Q1/__init__.py -> /home/vboxuser/HW3_ws/build/Q1/build/lib/Q1
+[1.591s] running install
+[1.592s] running install_lib
+[1.593s] creating /home/vboxuser/HW3_ws/install/Q1/lib/python3.10/site-packages/Q1
+[1.593s] copying /home/vboxuser/HW3_ws/build/Q1/build/lib/Q1/__init__.py -> /home/vboxuser/HW3_ws/install/Q1/lib/python3.10/site-packages/Q1
+[1.593s] byte-compiling /home/vboxuser/HW3_ws/install/Q1/lib/python3.10/site-packages/Q1/__init__.py to __init__.cpython-310.pyc
+[1.593s] running install_data
+[1.601s] creating /home/vboxuser/HW3_ws/install/Q1/share/ament_index
+[1.601s] creating /home/vboxuser/HW3_ws/install/Q1/share/ament_index/resource_index
+[1.601s] creating /home/vboxuser/HW3_ws/install/Q1/share/ament_index/resource_index/packages
+[1.601s] copying resource/Q1 -> /home/vboxuser/HW3_ws/install/Q1/share/ament_index/resource_index/packages
+[1.601s] copying package.xml -> /home/vboxuser/HW3_ws/install/Q1/share/Q1
+[1.601s] running install_egg_info
+[1.603s] Copying ../../build/Q1/Q1.egg-info to /home/vboxuser/HW3_ws/install/Q1/lib/python3.10/site-packages/Q1-0.0.0-py3.10.egg-info
+[1.604s] running install_scripts
+[1.631s] writing list of installed files to '/home/vboxuser/HW3_ws/build/Q1/install.log'
+[1.664s] Invoked command in '/home/vboxuser/HW3_ws/src/Q1' returned '0': PYTHONPATH=/home/vboxuser/HW3_ws/build/Q1/prefix_override:/home/vboxuser/HW3_ws/install/Q1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/Q1 build --build-base /home/vboxuser/HW3_ws/build/Q1/build install --record /home/vboxuser/HW3_ws/build/Q1/install.log --single-version-externally-managed

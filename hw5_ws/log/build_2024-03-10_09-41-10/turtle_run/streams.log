@@ -1,0 +1,37 @@
+[1.553s] Invoking command in '/home/vboxuser/hw5_ws/src/turtle_run': AMENT_PREFIX_PATH=/home/vboxuser/hw5_ws/install/my_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/hw5_ws/install/my_interfaces LD_LIBRARY_PATH=/home/vboxuser/hw5_ws/install/my_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vboxuser/hw5_ws/build/turtle_run/prefix_override:/home/vboxuser/hw5_ws/install/turtle_run/lib/python3.10/site-packages:/home/vboxuser/hw5_ws/install/my_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtle_run build --build-base /home/vboxuser/hw5_ws/build/turtle_run/build install --record /home/vboxuser/hw5_ws/build/turtle_run/install.log --single-version-externally-managed
+[1.955s] running egg_info
+[1.956s] creating ../../build/turtle_run/turtle_run.egg-info
+[1.956s] writing ../../build/turtle_run/turtle_run.egg-info/PKG-INFO
+[1.957s] writing dependency_links to ../../build/turtle_run/turtle_run.egg-info/dependency_links.txt
+[1.957s] writing entry points to ../../build/turtle_run/turtle_run.egg-info/entry_points.txt
+[1.957s] writing requirements to ../../build/turtle_run/turtle_run.egg-info/requires.txt
+[1.957s] writing top-level names to ../../build/turtle_run/turtle_run.egg-info/top_level.txt
+[1.958s] writing manifest file '../../build/turtle_run/turtle_run.egg-info/SOURCES.txt'
+[1.961s] reading manifest file '../../build/turtle_run/turtle_run.egg-info/SOURCES.txt'
+[1.962s] writing manifest file '../../build/turtle_run/turtle_run.egg-info/SOURCES.txt'
+[1.962s] running build
+[1.962s] running build_py
+[1.963s] creating /home/vboxuser/hw5_ws/build/turtle_run/build
+[1.963s] creating /home/vboxuser/hw5_ws/build/turtle_run/build/lib
+[1.963s] creating /home/vboxuser/hw5_ws/build/turtle_run/build/lib/turtle_run
+[1.963s] copying turtle_run/turtle_run_server.py -> /home/vboxuser/hw5_ws/build/turtle_run/build/lib/turtle_run
+[1.964s] copying turtle_run/__init__.py -> /home/vboxuser/hw5_ws/build/turtle_run/build/lib/turtle_run
+[1.964s] running install
+[1.965s] running install_lib
+[1.966s] creating /home/vboxuser/hw5_ws/install/turtle_run/lib/python3.10/site-packages/turtle_run
+[1.966s] copying /home/vboxuser/hw5_ws/build/turtle_run/build/lib/turtle_run/turtle_run_server.py -> /home/vboxuser/hw5_ws/install/turtle_run/lib/python3.10/site-packages/turtle_run
+[1.966s] copying /home/vboxuser/hw5_ws/build/turtle_run/build/lib/turtle_run/__init__.py -> /home/vboxuser/hw5_ws/install/turtle_run/lib/python3.10/site-packages/turtle_run
+[1.967s] byte-compiling /home/vboxuser/hw5_ws/install/turtle_run/lib/python3.10/site-packages/turtle_run/turtle_run_server.py to turtle_run_server.cpython-310.pyc
+[1.968s] byte-compiling /home/vboxuser/hw5_ws/install/turtle_run/lib/python3.10/site-packages/turtle_run/__init__.py to __init__.cpython-310.pyc
+[1.968s] running install_data
+[1.969s] creating /home/vboxuser/hw5_ws/install/turtle_run/share/ament_index
+[1.969s] creating /home/vboxuser/hw5_ws/install/turtle_run/share/ament_index/resource_index
+[1.969s] creating /home/vboxuser/hw5_ws/install/turtle_run/share/ament_index/resource_index/packages
+[1.969s] copying resource/turtle_run -> /home/vboxuser/hw5_ws/install/turtle_run/share/ament_index/resource_index/packages
+[1.970s] copying package.xml -> /home/vboxuser/hw5_ws/install/turtle_run/share/turtle_run
+[1.970s] running install_egg_info
+[1.972s] Copying ../../build/turtle_run/turtle_run.egg-info to /home/vboxuser/hw5_ws/install/turtle_run/lib/python3.10/site-packages/turtle_run-0.0.0-py3.10.egg-info
+[1.973s] running install_scripts
+[2.000s] Installing turtle_run_server script to /home/vboxuser/hw5_ws/install/turtle_run/lib/turtle_run
+[2.001s] writing list of installed files to '/home/vboxuser/hw5_ws/build/turtle_run/install.log'
+[2.034s] Invoked command in '/home/vboxuser/hw5_ws/src/turtle_run' returned '0': AMENT_PREFIX_PATH=/home/vboxuser/hw5_ws/install/my_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/hw5_ws/install/my_interfaces LD_LIBRARY_PATH=/home/vboxuser/hw5_ws/install/my_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vboxuser/hw5_ws/build/turtle_run/prefix_override:/home/vboxuser/hw5_ws/install/turtle_run/lib/python3.10/site-packages:/home/vboxuser/hw5_ws/install/my_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtle_run build --build-base /home/vboxuser/hw5_ws/build/turtle_run/build install --record /home/vboxuser/hw5_ws/build/turtle_run/install.log --single-version-externally-managed

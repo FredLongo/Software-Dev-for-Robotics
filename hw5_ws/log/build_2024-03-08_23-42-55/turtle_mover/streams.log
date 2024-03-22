@@ -1,0 +1,24 @@
+[1.222s] Invoking command in '/home/vboxuser/hw5_ws/src/turtle_mover': PYTHONPATH=/home/vboxuser/hw5_ws/build/turtle_mover/prefix_override:/home/vboxuser/hw5_ws/install/turtle_mover/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtle_mover build --build-base /home/vboxuser/hw5_ws/build/turtle_mover/build install --record /home/vboxuser/hw5_ws/build/turtle_mover/install.log --single-version-externally-managed
+[1.612s] running egg_info
+[1.613s] writing ../../build/turtle_mover/turtle_mover.egg-info/PKG-INFO
+[1.613s] writing dependency_links to ../../build/turtle_mover/turtle_mover.egg-info/dependency_links.txt
+[1.614s] writing entry points to ../../build/turtle_mover/turtle_mover.egg-info/entry_points.txt
+[1.614s] writing requirements to ../../build/turtle_mover/turtle_mover.egg-info/requires.txt
+[1.614s] writing top-level names to ../../build/turtle_mover/turtle_mover.egg-info/top_level.txt
+[1.616s] reading manifest file '../../build/turtle_mover/turtle_mover.egg-info/SOURCES.txt'
+[1.617s] writing manifest file '../../build/turtle_mover/turtle_mover.egg-info/SOURCES.txt'
+[1.618s] running build
+[1.618s] running build_py
+[1.618s] copying turtle_mover/turtle_mover.py -> /home/vboxuser/hw5_ws/build/turtle_mover/build/lib/turtle_mover
+[1.618s] running install
+[1.618s] running install_lib
+[1.619s] copying /home/vboxuser/hw5_ws/build/turtle_mover/build/lib/turtle_mover/turtle_mover.py -> /home/vboxuser/hw5_ws/install/turtle_mover/lib/python3.10/site-packages/turtle_mover
+[1.620s] byte-compiling /home/vboxuser/hw5_ws/install/turtle_mover/lib/python3.10/site-packages/turtle_mover/turtle_mover.py to turtle_mover.cpython-310.pyc
+[1.620s] running install_data
+[1.621s] running install_egg_info
+[1.624s] removing '/home/vboxuser/hw5_ws/install/turtle_mover/lib/python3.10/site-packages/turtle_mover-0.0.0-py3.10.egg-info' (and everything under it)
+[1.624s] Copying ../../build/turtle_mover/turtle_mover.egg-info to /home/vboxuser/hw5_ws/install/turtle_mover/lib/python3.10/site-packages/turtle_mover-0.0.0-py3.10.egg-info
+[1.625s] running install_scripts
+[1.653s] Installing turtle_mover script to /home/vboxuser/hw5_ws/install/turtle_mover/lib/turtle_mover
+[1.653s] writing list of installed files to '/home/vboxuser/hw5_ws/build/turtle_mover/install.log'
+[1.690s] Invoked command in '/home/vboxuser/hw5_ws/src/turtle_mover' returned '0': PYTHONPATH=/home/vboxuser/hw5_ws/build/turtle_mover/prefix_override:/home/vboxuser/hw5_ws/install/turtle_mover/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtle_mover build --build-base /home/vboxuser/hw5_ws/build/turtle_mover/build install --record /home/vboxuser/hw5_ws/build/turtle_mover/install.log --single-version-externally-managed

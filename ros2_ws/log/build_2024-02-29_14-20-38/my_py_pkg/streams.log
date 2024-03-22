@@ -1,0 +1,27 @@
+[1.034s] Invoking command in '/home/vboxuser/ros2_ws/src/my_py_pkg': PYTHONPATH=/home/vboxuser/ros2_ws/build/my_py_pkg/prefix_override:/home/vboxuser/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/vboxuser/ros2_ws/build/my_py_pkg/build install --record /home/vboxuser/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed
+[1.445s] running egg_info
+[1.447s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[1.447s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[1.447s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[1.447s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[1.447s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[1.450s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.452s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.452s] running build
+[1.452s] running build_py
+[1.452s] copying my_py_pkg/add_two_ints_server.py -> /home/vboxuser/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.453s] running install
+[1.453s] running install_lib
+[1.454s] copying /home/vboxuser/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_server.py -> /home/vboxuser/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.455s] byte-compiling /home/vboxuser/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_server.py to add_two_ints_server.cpython-310.pyc
+[1.456s] running install_data
+[1.457s] running install_egg_info
+[1.459s] removing '/home/vboxuser/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.464s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/vboxuser/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[1.465s] running install_scripts
+[1.491s] Installing add_two_ints_server script to /home/vboxuser/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.491s] Installing my_first_node script to /home/vboxuser/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.491s] Installing robot_news_station script to /home/vboxuser/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.491s] Installing smart_phone script to /home/vboxuser/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.492s] writing list of installed files to '/home/vboxuser/ros2_ws/build/my_py_pkg/install.log'
+[1.524s] Invoked command in '/home/vboxuser/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/vboxuser/ros2_ws/build/my_py_pkg/prefix_override:/home/vboxuser/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/vboxuser/ros2_ws/build/my_py_pkg/build install --record /home/vboxuser/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed

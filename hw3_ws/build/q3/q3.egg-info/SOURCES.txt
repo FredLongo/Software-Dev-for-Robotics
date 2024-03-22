@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/q3/q3.egg-info/PKG-INFO
+../../build/q3/q3.egg-info/SOURCES.txt
+../../build/q3/q3.egg-info/dependency_links.txt
+../../build/q3/q3.egg-info/entry_points.txt
+../../build/q3/q3.egg-info/requires.txt
+../../build/q3/q3.egg-info/top_level.txt
+../../build/q3/q3.egg-info/zip-safe
+q3/__init__.py
+q3/node_link.py
+resource/q3
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

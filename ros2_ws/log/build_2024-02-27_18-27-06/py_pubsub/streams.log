@@ -1,0 +1,22 @@
+[3.299s] Invoking command in '/home/vboxuser/ros2_ws/src/py_pubsub': PYTHONPATH=/home/vboxuser/ros2_ws/build/py_pubsub/prefix_override:/home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/vboxuser/ros2_ws/build/py_pubsub/build install --record /home/vboxuser/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed
+[3.861s] running egg_info
+[3.862s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[3.863s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[3.863s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[3.863s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[3.863s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[3.866s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[3.884s] adding license file 'LICENSE'
+[3.885s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[3.885s] running build
+[3.885s] running build_py
+[3.905s] running install
+[3.906s] running install_lib
+[3.917s] running install_data
+[3.919s] running install_egg_info
+[3.924s] removing '/home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info' (and everything under it)
+[3.924s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info
+[3.941s] running install_scripts
+[3.990s] Installing talker = py_pubsub.publisher_member_function:mainlistener script to /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub
+[3.992s] writing list of installed files to '/home/vboxuser/ros2_ws/build/py_pubsub/install.log'
+[5.714s] Invoked command in '/home/vboxuser/ros2_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/vboxuser/ros2_ws/build/py_pubsub/prefix_override:/home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/vboxuser/ros2_ws/build/py_pubsub/build install --record /home/vboxuser/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed

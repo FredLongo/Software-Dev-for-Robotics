@@ -1,0 +1,13 @@
+[2.084s] Invoking command in '/home/vboxuser/hw3_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/hw3_ws/install/q2:/home/vboxuser/hw3_ws/install/q1:/home/vboxuser/hw3_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/hw3_ws/build/turtlesim -- -j6 -l6
+[2.182s] [  1%] Built target turtlesim__cpp
+[2.191s] failed to create symbolic link '/home/vboxuser/hw3_ws/build/turtlesim/ament_cmake_python/turtlesim/turtlesim' because existing path cannot be removed: Is a directory
+[2.192s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_turtlesim.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_turtlesim] Error 1
+[2.193s] gmake[1]: *** [CMakeFiles/Makefile2:429: CMakeFiles/ament_cmake_python_symlink_turtlesim.dir/all] Error 2
+[2.193s] gmake[1]: *** Waiting for unfinished jobs....
+[2.196s] [ 11%] Built target turtlesim__rosidl_generator_c
+[2.206s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_cpp[0m
+[2.218s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_fastrtps_cpp[0m
+[2.242s] [ 21%] Built target turtlesim__rosidl_typesupport_cpp
+[2.251s] [ 31%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp
+[2.253s] gmake: *** [Makefile:146: all] Error 2
+[2.256s] Invoked command in '/home/vboxuser/hw3_ws/build/turtlesim' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/hw3_ws/install/q2:/home/vboxuser/hw3_ws/install/q1:/home/vboxuser/hw3_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/hw3_ws/build/turtlesim -- -j6 -l6

@@ -1,0 +1,8 @@
+
+ros2 run q3 node_link --ros-args -r /pub:=/kim/talk -r /sub:=/lee/talk -r __node:=kim
+ros2 run q3 node_link --ros-args -r /pub:=/son/talk -r /sub:=/kim/talk -r __node:=son
+ros2 run q3 node_link --ros-args -r /pub:=/park/talk -r /sub:=/son/talk -r __node:=park
+ros2 run q3 node_link --ros-args -r /pub:=/lee/talk -r /sub:=/park/talk -r __node:=lee
+
+
+

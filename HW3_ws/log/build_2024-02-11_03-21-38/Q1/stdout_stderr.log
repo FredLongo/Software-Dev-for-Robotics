@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing Q1.egg-info/PKG-INFO
+writing dependency_links to Q1.egg-info/dependency_links.txt
+writing entry points to Q1.egg-info/entry_points.txt
+writing requirements to Q1.egg-info/requires.txt
+writing top-level names to Q1.egg-info/top_level.txt
+reading manifest file 'Q1.egg-info/SOURCES.txt'
+writing manifest file 'Q1.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/vboxuser/HW3_ws/install/Q1/lib/python3.10/site-packages/Q1.egg-link (link to .)
+Installing fred_node script to /home/vboxuser/HW3_ws/install/Q1/lib/Q1
+
+Installed /home/vboxuser/HW3_ws/build/Q1
+running install_data

@@ -1,0 +1,516 @@
+[0.000000] (-) TimerEvent: {}
+[0.000315] (actions_py) JobQueued: {'identifier': 'actions_py', 'dependencies': OrderedDict()}
+[0.001610] (my_interfaces) JobQueued: {'identifier': 'my_interfaces', 'dependencies': OrderedDict()}
+[0.001675] (turtle_joy) JobQueued: {'identifier': 'turtle_joy', 'dependencies': OrderedDict()}
+[0.001712] (turtle_mover) JobQueued: {'identifier': 'turtle_mover', 'dependencies': OrderedDict()}
+[0.001741] (turtle_run) JobQueued: {'identifier': 'turtle_run', 'dependencies': OrderedDict([('my_interfaces', '/home/vboxuser/hw5_ws/src/install/my_interfaces')])}
+[0.001777] (my_interfaces) JobStarted: {'identifier': 'my_interfaces'}
+[0.104009] (-) TimerEvent: {}
+[0.121543] (actions_py) JobStarted: {'identifier': 'actions_py'}
+[0.204386] (-) TimerEvent: {}
+[0.276990] (turtle_joy) JobStarted: {'identifier': 'turtle_joy'}
+[0.304963] (-) TimerEvent: {}
+[0.397991] (turtle_mover) JobStarted: {'identifier': 'turtle_mover'}
+[0.406131] (-) TimerEvent: {}
+[0.507053] (-) TimerEvent: {}
+[0.522635] (my_interfaces) JobProgress: {'identifier': 'my_interfaces', 'progress': 'cmake'}
+[0.525010] (my_interfaces) JobProgress: {'identifier': 'my_interfaces', 'progress': 'build'}
+[0.525056] (my_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vboxuser/hw5_ws/src/build/my_interfaces', '--', '-j6', '-l6'], 'cwd': '/home/vboxuser/hw5_ws/src/build/my_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vboxuser'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vboxuser/hw5_ws/install/my_robot_intrfaces/lib:/home/vboxuser/hw5_ws/install/my_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vboxuser'), ('OLDPWD', '/home/vboxuser/hw5_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2434'), ('SYSTEMD_EXEC_PID', '2614'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3710'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vboxuser/hw5_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vboxuser'), ('JOURNAL_STREAM', '8:25322'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vboxuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu:@/tmp/.ICE-unix/2580,unix/Ubuntu:/tmp/.ICE-unix/2580'), ('INVOCATION_ID', '0a6379f627c244f4ae6a8d6a291f702d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.G0ODK2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vboxuser/hw5_ws/install/turtle_run:/home/vboxuser/hw5_ws/install/turtle_mover:/home/vboxuser/hw5_ws/install/turtle_joy:/home/vboxuser/hw5_ws/install/my_robot_intrfaces:/home/vboxuser/hw5_ws/install/my_interfaces:/home/vboxuser/hw5_ws/install/actions_py:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:5c74bc04-47eb-409c-b2be-c9bcc05ecac1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vboxuser/hw5_ws/src/build/my_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vboxuser/hw5_ws/install/turtle_run/lib/python3.10/site-packages:/home/vboxuser/hw5_ws/install/turtle_mover/lib/python3.10/site-packages:/home/vboxuser/hw5_ws/install/turtle_joy/lib/python3.10/site-packages:/home/vboxuser/hw5_ws/install/my_robot_intrfaces/local/lib/python3.10/dist-packages:/home/vboxuser/hw5_ws/install/my_interfaces/local/lib/python3.10/dist-packages:/home/vboxuser/hw5_ws/install/actions_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vboxuser/hw5_ws/install/my_robot_intrfaces:/home/vboxuser/hw5_ws/install/my_interfaces:/home/vboxuser/hw5_ws/install/turtle_run:/home/vboxuser/hw5_ws/install/turtle_mover:/home/vboxuser/hw5_ws/install/turtle_joy:/home/vboxuser/hw5_ws/install/actions_py:/opt/ros/humble')]), 'shell': False}
+[0.607947] (-) TimerEvent: {}
+[0.708541] (-) TimerEvent: {}
+[0.808990] (-) TimerEvent: {}
+[0.909457] (-) TimerEvent: {}
+[1.014123] (-) TimerEvent: {}
+[1.114883] (-) TimerEvent: {}
+[1.215664] (-) TimerEvent: {}
+[1.316328] (-) TimerEvent: {}
+[1.416719] (-) TimerEvent: {}
+[1.517911] (-) TimerEvent: {}
+[1.606142] (my_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.607156] (my_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.607282] (my_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.607478] (my_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.607591] (my_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.607697] (my_interfaces) StdoutLine: {'line': b'-- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)\n'}
+[1.611183] (my_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.618881] (-) TimerEvent: {}
+[1.719933] (-) TimerEvent: {}
+[1.820977] (-) TimerEvent: {}
+[1.904284] (my_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.921063] (-) TimerEvent: {}
+[2.021721] (-) TimerEvent: {}
+[2.122667] (-) TimerEvent: {}
+[2.223030] (-) TimerEvent: {}
+[2.316692] (my_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.323114] (-) TimerEvent: {}
+[2.337482] (my_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.380795] (my_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.381068] (my_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.381206] (my_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.423272] (-) TimerEvent: {}
+[2.435062] (my_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.523399] (-) TimerEvent: {}
+[2.524456] (my_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[2.530199] (my_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/vboxuser/hw5_ws/src/build/my_interfaces\n'}
+[2.565591] (my_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.623974] (my_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.624174] (-) TimerEvent: {}
+[2.716676] (my_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_my_interfaces\n'}
+[2.724849] (-) TimerEvent: {}
+[2.825695] (-) TimerEvent: {}
+[2.834333] (turtle_mover) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/turtle_mover', 'build', '--build-base', '/home/vboxuser/hw5_ws/src/build/turtle_mover/build', 'install', '--record', '/home/vboxuser/hw5_ws/src/build/turtle_mover/install.log', '--single-version-externally-managed'], 'cwd': '/home/vboxuser/hw5_ws/src/turtle_mover', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vboxuser', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/vboxuser/hw5_ws/install/my_robot_intrfaces/lib:/home/vboxuser/hw5_ws/install/my_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/vboxuser', 'OLDPWD': '/home/vboxuser/hw5_ws', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2434', 'SYSTEMD_EXEC_PID': '2614', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3710', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vboxuser/hw5_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'vboxuser', 'JOURNAL_STREAM': '8:25322', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vboxuser', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Ubuntu:@/tmp/.ICE-unix/2580,unix/Ubuntu:/tmp/.ICE-unix/2580', 'INVOCATION_ID': '0a6379f627c244f4ae6a8d6a291f702d', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.G0ODK2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vboxuser/hw5_ws/install/turtle_run:/home/vboxuser/hw5_ws/install/turtle_mover:/home/vboxuser/hw5_ws/install/turtle_joy:/home/vboxuser/hw5_ws/install/my_robot_intrfaces:/home/vboxuser/hw5_ws/install/my_interfaces:/home/vboxuser/hw5_ws/install/actions_py:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:5c74bc04-47eb-409c-b2be-c9bcc05ecac1', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vboxuser/hw5_ws/src/build/turtle_mover', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vboxuser/hw5_ws/src/build/turtle_mover/prefix_override:/home/vboxuser/hw5_ws/src/install/turtle_mover/lib/python3.10/site-packages:/home/vboxuser/hw5_ws/install/turtle_run/lib/python3.10/site-packages:/home/vboxuser/hw5_ws/install/turtle_mover/lib/python3.10/site-packages:/home/vboxuser/hw5_ws/install/turtle_joy/lib/python3.10/site-packages:/home/vboxuser/hw5_ws/install/my_robot_intrfaces/local/lib/python3.10/dist-packages:/home/vboxuser/hw5_ws/install/my_interfaces/local/lib/python3.10/dist-packages:/home/vboxuser/hw5_ws/install/actions_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/vboxuser/hw5_ws/install/my_robot_intrfaces:/home/vboxuser/hw5_ws/install/my_interfaces'}, 'shell': False}
+[2.878365] (actions_py) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/actions_py', 'build', '--build-base', '/home/vboxuser/hw5_ws/src/build/actions_py/build', 'install', '--record', '/home/vboxuser/hw5_ws/src/build/actions_py/install.log', '--single-version-externally-managed'], 'cwd': '/home/vboxuser/hw5_ws/src/actions_py', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vboxuser', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/vboxuser/hw5_ws/install/my_robot_intrfaces/lib:/home/vboxuser/hw5_ws/install/my_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/vboxuser', 'OLDPWD': '/home/vboxuser/hw5_ws', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2434', 'SYSTEMD_EXEC_PID': '2614', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3710', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vboxuser/hw5_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'vboxuser', 'JOURNAL_STREAM': '8:25322', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vboxuser', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Ubuntu:@/tmp/.ICE-unix/2580,unix/Ubuntu:/tmp/.ICE-unix/2580', 'INVOCATION_ID': '0a6379f627c244f4ae6a8d6a291f702d', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.G0ODK2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vboxuser/hw5_ws/install/turtle_run:/home/vboxuser/hw5_ws/install/turtle_mover:/home/vboxuser/hw5_ws/install/turtle_joy:/home/vboxuser/hw5_ws/install/my_robot_intrfaces:/home/vboxuser/hw5_ws/install/my_interfaces:/home/vboxuser/hw5_ws/install/actions_py:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:5c74bc04-47eb-409c-b2be-c9bcc05ecac1', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vboxuser/hw5_ws/src/build/actions_py', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vboxuser/hw5_ws/src/build/actions_py/prefix_override:/home/vboxuser/hw5_ws/src/install/actions_py/lib/python3.10/site-packages:/home/vboxuser/hw5_ws/install/turtle_run/lib/python3.10/site-packages:/home/vboxuser/hw5_ws/install/turtle_mover/lib/python3.10/site-packages:/home/vboxuser/hw5_ws/install/turtle_joy/lib/python3.10/site-packages:/home/vboxuser/hw5_ws/install/my_robot_intrfaces/local/lib/python3.10/dist-packages:/home/vboxuser/hw5_ws/install/my_interfaces/local/lib/python3.10/dist-packages:/home/vboxuser/hw5_ws/install/actions_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/vboxuser/hw5_ws/install/my_robot_intrfaces:/home/vboxuser/hw5_ws/install/my_interfaces'}, 'shell': False}
+[2.938868] (turtle_joy) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/turtle_joy', 'build', '--build-base', '/home/vboxuser/hw5_ws/src/build/turtle_joy/build', 'install', '--record', '/home/vboxuser/hw5_ws/src/build/turtle_joy/install.log', '--single-version-externally-managed'], 'cwd': '/home/vboxuser/hw5_ws/src/turtle_joy', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vboxuser', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/vboxuser/hw5_ws/install/my_robot_intrfaces/lib:/home/vboxuser/hw5_ws/install/my_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/vboxuser', 'OLDPWD': '/home/vboxuser/hw5_ws', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2434', 'SYSTEMD_EXEC_PID': '2614', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3710', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vboxuser/hw5_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'vboxuser', 'JOURNAL_STREAM': '8:25322', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vboxuser', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Ubuntu:@/tmp/.ICE-unix/2580,unix/Ubuntu:/tmp/.ICE-unix/2580', 'INVOCATION_ID': '0a6379f627c244f4ae6a8d6a291f702d', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.G0ODK2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vboxuser/hw5_ws/install/turtle_run:/home/vboxuser/hw5_ws/install/turtle_mover:/home/vboxuser/hw5_ws/install/turtle_joy:/home/vboxuser/hw5_ws/install/my_robot_intrfaces:/home/vboxuser/hw5_ws/install/my_interfaces:/home/vboxuser/hw5_ws/install/actions_py:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:5c74bc04-47eb-409c-b2be-c9bcc05ecac1', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vboxuser/hw5_ws/src/build/turtle_joy', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vboxuser/hw5_ws/src/build/turtle_joy/prefix_override:/home/vboxuser/hw5_ws/src/install/turtle_joy/lib/python3.10/site-packages:/home/vboxuser/hw5_ws/install/turtle_run/lib/python3.10/site-packages:/home/vboxuser/hw5_ws/install/turtle_mover/lib/python3.10/site-packages:/home/vboxuser/hw5_ws/install/turtle_joy/lib/python3.10/site-packages:/home/vboxuser/hw5_ws/install/my_robot_intrfaces/local/lib/python3.10/dist-packages:/home/vboxuser/hw5_ws/install/my_interfaces/local/lib/python3.10/dist-packages:/home/vboxuser/hw5_ws/install/actions_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/vboxuser/hw5_ws/install/my_robot_intrfaces:/home/vboxuser/hw5_ws/install/my_interfaces'}, 'shell': False}
+[2.939878] (-) TimerEvent: {}
+[3.040671] (-) TimerEvent: {}
+[3.157213] (-) TimerEvent: {}
+[3.283262] (my_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[3.283471] (-) TimerEvent: {}
+[3.285774] (my_interfaces) StdoutLine: {'line': b'writing my_interfaces.egg-info/PKG-INFO\n'}
+[3.287277] (my_interfaces) StdoutLine: {'line': b'writing dependency_links to my_interfaces.egg-info/dependency_links.txt\n'}
+[3.288697] (my_interfaces) StdoutLine: {'line': b'writing top-level names to my_interfaces.egg-info/top_level.txt\n'}
+[3.293100] (my_interfaces) StdoutLine: {'line': b"reading manifest file 'my_interfaces.egg-info/SOURCES.txt'\n"}
+[3.295214] (my_interfaces) StdoutLine: {'line': b"writing manifest file 'my_interfaces.egg-info/SOURCES.txt'\n"}
+[3.363975] (my_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_my_interfaces_egg\n'}
+[3.384304] (-) TimerEvent: {}
+[3.483067] (turtle_mover) StdoutLine: {'line': b'running egg_info\n'}
+[3.483330] (turtle_mover) StdoutLine: {'line': b'writing ../build/turtle_mover/turtle_mover.egg-info/PKG-INFO\n'}
+[3.483435] (turtle_mover) StdoutLine: {'line': b'writing dependency_links to ../build/turtle_mover/turtle_mover.egg-info/dependency_links.txt\n'}
+[3.483829] (turtle_mover) StdoutLine: {'line': b'writing entry points to ../build/turtle_mover/turtle_mover.egg-info/entry_points.txt\n'}
+[3.485715] (-) TimerEvent: {}
+[3.488987] (turtle_mover) StdoutLine: {'line': b'writing requirements to ../build/turtle_mover/turtle_mover.egg-info/requires.txt\n'}
+[3.489209] (turtle_mover) StdoutLine: {'line': b'writing top-level names to ../build/turtle_mover/turtle_mover.egg-info/top_level.txt\n'}
+[3.493362] (turtle_mover) StdoutLine: {'line': b"reading manifest file '../build/turtle_mover/turtle_mover.egg-info/SOURCES.txt'\n"}
+[3.497605] (turtle_mover) StdoutLine: {'line': b"writing manifest file '../build/turtle_mover/turtle_mover.egg-info/SOURCES.txt'\n"}
+[3.497806] (turtle_mover) StdoutLine: {'line': b'running build\n'}
+[3.497908] (turtle_mover) StdoutLine: {'line': b'running build_py\n'}
+[3.498172] (turtle_mover) StdoutLine: {'line': b'running install\n'}
+[3.498629] (turtle_mover) StdoutLine: {'line': b'running install_lib\n'}
+[3.503563] (turtle_mover) StdoutLine: {'line': b'running install_data\n'}
+[3.507635] (turtle_mover) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.510018] (turtle_mover) StdoutLine: {'line': b"removing '/home/vboxuser/hw5_ws/src/install/turtle_mover/lib/python3.10/site-packages/turtle_mover-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.523693] (turtle_mover) StdoutLine: {'line': b'Copying ../build/turtle_mover/turtle_mover.egg-info to /home/vboxuser/hw5_ws/src/install/turtle_mover/lib/python3.10/site-packages/turtle_mover-0.0.0-py3.10.egg-info\n'}
+[3.523893] (turtle_mover) StdoutLine: {'line': b'running install_scripts\n'}
+[3.555610] (turtle_mover) StdoutLine: {'line': b'Installing turtle_mover script to /home/vboxuser/hw5_ws/src/install/turtle_mover/lib/turtle_mover\n'}
+[3.557048] (turtle_mover) StdoutLine: {'line': b"writing list of installed files to '/home/vboxuser/hw5_ws/src/build/turtle_mover/install.log'\n"}
+[3.585794] (-) TimerEvent: {}
+[3.591922] (turtle_joy) StdoutLine: {'line': b'running egg_info\n'}
+[3.594179] (turtle_joy) StdoutLine: {'line': b'writing ../build/turtle_joy/turtle_joy.egg-info/PKG-INFO\n'}
+[3.595477] (turtle_joy) StdoutLine: {'line': b'writing dependency_links to ../build/turtle_joy/turtle_joy.egg-info/dependency_links.txt\n'}
+[3.596989] (turtle_joy) StdoutLine: {'line': b'writing entry points to ../build/turtle_joy/turtle_joy.egg-info/entry_points.txt\n'}
+[3.598194] (turtle_joy) StdoutLine: {'line': b'writing requirements to ../build/turtle_joy/turtle_joy.egg-info/requires.txt\n'}
+[3.602540] (turtle_mover) CommandEnded: {'returncode': 0}
+[3.603063] (turtle_joy) StdoutLine: {'line': b'writing top-level names to ../build/turtle_joy/turtle_joy.egg-info/top_level.txt\n'}
+[3.604009] (turtle_joy) StdoutLine: {'line': b"reading manifest file '../build/turtle_joy/turtle_joy.egg-info/SOURCES.txt'\n"}
+[3.606375] (turtle_joy) StdoutLine: {'line': b"writing manifest file '../build/turtle_joy/turtle_joy.egg-info/SOURCES.txt'\n"}
+[3.608793] (turtle_joy) StdoutLine: {'line': b'running build\n'}
+[3.608967] (turtle_joy) StdoutLine: {'line': b'running build_py\n'}
+[3.609064] (turtle_joy) StdoutLine: {'line': b'running install\n'}
+[3.611231] (turtle_joy) StdoutLine: {'line': b'running install_lib\n'}
+[3.613940] (turtle_joy) StdoutLine: {'line': b'running install_data\n'}
+[3.615871] (turtle_joy) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.628629] (turtle_joy) StdoutLine: {'line': b"removing '/home/vboxuser/hw5_ws/src/install/turtle_joy/lib/python3.10/site-packages/turtle_joy-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.628842] (turtle_joy) StdoutLine: {'line': b'Copying ../build/turtle_joy/turtle_joy.egg-info to /home/vboxuser/hw5_ws/src/install/turtle_joy/lib/python3.10/site-packages/turtle_joy-0.0.0-py3.10.egg-info\n'}
+[3.628944] (turtle_joy) StdoutLine: {'line': b'running install_scripts\n'}
+[3.672186] (actions_py) StdoutLine: {'line': b'running egg_info\n'}
+[3.672408] (actions_py) StdoutLine: {'line': b'writing ../build/actions_py/actions_py.egg-info/PKG-INFO\n'}
+[3.672506] (actions_py) StdoutLine: {'line': b'writing dependency_links to ../build/actions_py/actions_py.egg-info/dependency_links.txt\n'}
+[3.672596] (actions_py) StdoutLine: {'line': b'writing entry points to ../build/actions_py/actions_py.egg-info/entry_points.txt\n'}
+[3.672684] (actions_py) StdoutLine: {'line': b'writing requirements to ../build/actions_py/actions_py.egg-info/requires.txt\n'}
+[3.672771] (actions_py) StdoutLine: {'line': b'writing top-level names to ../build/actions_py/actions_py.egg-info/top_level.txt\n'}
+[3.672857] (actions_py) StdoutLine: {'line': b"reading manifest file '../build/actions_py/actions_py.egg-info/SOURCES.txt'\n"}
+[3.672943] (actions_py) StdoutLine: {'line': b"writing manifest file '../build/actions_py/actions_py.egg-info/SOURCES.txt'\n"}
+[3.673028] (actions_py) StdoutLine: {'line': b'running build\n'}
+[3.673175] (actions_py) StdoutLine: {'line': b'running build_py\n'}
+[3.673336] (actions_py) StdoutLine: {'line': b'running install\n'}
+[3.673426] (actions_py) StdoutLine: {'line': b'running install_lib\n'}
+[3.673519] (actions_py) StdoutLine: {'line': b'running install_data\n'}
+[3.673605] (actions_py) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.673755] (actions_py) StdoutLine: {'line': b"removing '/home/vboxuser/hw5_ws/src/install/actions_py/lib/python3.10/site-packages/actions_py-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.673848] (actions_py) StdoutLine: {'line': b'Copying ../build/actions_py/actions_py.egg-info to /home/vboxuser/hw5_ws/src/install/actions_py/lib/python3.10/site-packages/actions_py-0.0.0-py3.10.egg-info\n'}
+[3.673936] (turtle_joy) StdoutLine: {'line': b'Installing hello_node script to /home/vboxuser/hw5_ws/src/install/turtle_joy/lib/turtle_joy\n'}
+[3.674029] (turtle_joy) StdoutLine: {'line': b'Installing turtle_joy script to /home/vboxuser/hw5_ws/src/install/turtle_joy/lib/turtle_joy\n'}
+[3.674504] (actions_py) StdoutLine: {'line': b'running install_scripts\n'}
+[3.678862] (turtle_joy) StdoutLine: {'line': b"writing list of installed files to '/home/vboxuser/hw5_ws/src/build/turtle_joy/install.log'\n"}
+[3.686278] (-) TimerEvent: {}
+[3.703095] (actions_py) StdoutLine: {'line': b'Installing count_until_client script to /home/vboxuser/hw5_ws/src/install/actions_py/lib/actions_py\n'}
+[3.703305] (actions_py) StdoutLine: {'line': b'Installing count_until_server script to /home/vboxuser/hw5_ws/src/install/actions_py/lib/actions_py\n'}
+[3.703821] (actions_py) StdoutLine: {'line': b"writing list of installed files to '/home/vboxuser/hw5_ws/src/build/actions_py/install.log'\n"}
+[3.704158] (turtle_mover) JobEnded: {'identifier': 'turtle_mover', 'rc': 0}
+[3.744787] (turtle_joy) CommandEnded: {'returncode': 0}
+[3.786269] (-) TimerEvent: {}
+[3.867913] (turtle_joy) JobEnded: {'identifier': 'turtle_joy', 'rc': 0}
+[3.868877] (actions_py) CommandEnded: {'returncode': 0}
+[3.886497] (-) TimerEvent: {}
+[3.968315] (actions_py) JobEnded: {'identifier': 'actions_py', 'rc': 0}
+[3.990976] (-) TimerEvent: {}
+[4.091367] (-) TimerEvent: {}
+[4.192456] (-) TimerEvent: {}
+[4.292910] (-) TimerEvent: {}
+[4.388866] (my_interfaces) StdoutLine: {'line': b'[  5%] Built target my_interfaces__cpp\n'}
+[4.393251] (-) TimerEvent: {}
+[4.404857] (my_interfaces) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.405235] (my_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.408673] (my_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.494117] (-) TimerEvent: {}
+[4.598969] (-) TimerEvent: {}
+[4.668084] (my_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_interfaces__rosidl_generator_c\x1b[0m\n'}
+[4.699218] (-) TimerEvent: {}
+[4.725569] (my_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/action/detail/count_until__functions.c.o\x1b[0m\n'}
+[4.737111] (my_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/action/detail/turtle_run__functions.c.o\x1b[0m\n'}
+[4.799493] (-) TimerEvent: {}
+[4.900141] (-) TimerEvent: {}
+[4.978565] (my_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libmy_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[5.012065] (-) TimerEvent: {}
+[5.094389] (my_interfaces) StdoutLine: {'line': b'[ 20%] Built target my_interfaces__rosidl_generator_c\n'}
+[5.114206] (-) TimerEvent: {}
+[5.118776] (my_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.122647] (my_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.136939] (my_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.214267] (-) TimerEvent: {}
+[5.314677] (-) TimerEvent: {}
+[5.406258] (my_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[5.414994] (-) TimerEvent: {}
+[5.466113] (my_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_interfaces/action/count_until__type_support.cpp.o\x1b[0m\n'}
+[5.515393] (-) TimerEvent: {}
+[5.615796] (-) TimerEvent: {}
+[5.719833] (-) TimerEvent: {}
+[5.820283] (-) TimerEvent: {}
+[5.934150] (-) TimerEvent: {}
+[6.035358] (-) TimerEvent: {}
+[6.047877] (my_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[6.100553] (my_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_interfaces/action/detail/count_until__type_support.cpp.o\x1b[0m\n'}
+[6.135518] (-) TimerEvent: {}
+[6.236597] (-) TimerEvent: {}
+[6.256457] (my_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[6.278329] (my_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_interfaces/action/count_until__type_support.cpp.o\x1b[0m\n'}
+[6.336759] (-) TimerEvent: {}
+[6.377534] (my_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_interfaces/action/turtle_run__type_support.cpp.o\x1b[0m\n'}
+[6.386932] (my_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_interfaces/action/turtle_run__type_support.cpp.o\x1b[0m\n'}
+[6.437016] (-) TimerEvent: {}
+[6.462454] (my_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[6.531152] (my_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.537304] (-) TimerEvent: {}
+[6.540774] (my_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_interfaces/action/detail/dds_fastrtps/count_until__type_support.cpp.o\x1b[0m\n'}
+[6.640451] (-) TimerEvent: {}
+[6.657957] (my_interfaces) StdoutLine: {'line': b'[ 46%] Built target my_interfaces__rosidl_typesupport_c\n'}
+[6.680480] (my_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_interfaces/action/detail/dds_fastrtps/turtle_run__type_support.cpp.o\x1b[0m\n'}
+[6.745679] (-) TimerEvent: {}
+[6.846708] (-) TimerEvent: {}
+[6.948439] (-) TimerEvent: {}
+[7.049602] (-) TimerEvent: {}
+[7.151779] (-) TimerEvent: {}
+[7.258027] (-) TimerEvent: {}
+[7.274814] (my_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[7.359244] (-) TimerEvent: {}
+[7.385206] (my_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_interfaces/action/detail/count_until__type_support.c.o\x1b[0m\n'}
+[7.459416] (-) TimerEvent: {}
+[7.467518] (my_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[7.514291] (my_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_interfaces/action/detail/turtle_run__type_support.cpp.o\x1b[0m\n'}
+[7.542659] (my_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_interfaces/action/detail/count_until__type_support_c.cpp.o\x1b[0m\n'}
+[7.559082] (my_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[7.559854] (-) TimerEvent: {}
+[7.577543] (my_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_interfaces/action/detail/turtle_run__type_support.c.o\x1b[0m\n'}
+[7.660608] (-) TimerEvent: {}
+[7.757618] (my_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking C shared library libmy_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[7.757934] (my_interfaces) StdoutLine: {'line': b'[ 64%] Built target my_interfaces__rosidl_typesupport_cpp\n'}
+[7.760779] (-) TimerEvent: {}
+[7.793267] (my_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_interfaces/action/detail/turtle_run__type_support_c.cpp.o\x1b[0m\n'}
+[7.860925] (-) TimerEvent: {}
+[7.873072] (my_interfaces) StdoutLine: {'line': b'[ 66%] Built target my_interfaces__rosidl_typesupport_introspection_c\n'}
+[7.929230] (my_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[7.962008] (-) TimerEvent: {}
+[8.066960] (-) TimerEvent: {}
+[8.071172] (my_interfaces) StdoutLine: {'line': b'[ 69%] Built target my_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[8.167095] (-) TimerEvent: {}
+[8.268163] (-) TimerEvent: {}
+[8.369174] (-) TimerEvent: {}
+[8.403761] (my_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[8.470685] (-) TimerEvent: {}
+[8.505516] (my_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[8.534948] (my_interfaces) StdoutLine: {'line': b'[ 74%] Built target my_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[8.570857] (-) TimerEvent: {}
+[8.617160] (my_interfaces) StdoutLine: {'line': b'[ 74%] Built target my_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[8.662778] (my_interfaces) StdoutLine: {'line': b'[ 74%] Built target my_interfaces\n'}
+[8.671142] (-) TimerEvent: {}
+[8.689145] (my_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[8.771210] (-) TimerEvent: {}
+[8.871866] (-) TimerEvent: {}
+[8.972321] (-) TimerEvent: {}
+[9.072678] (-) TimerEvent: {}
+[9.173515] (-) TimerEvent: {}
+[9.273897] (-) TimerEvent: {}
+[9.374720] (-) TimerEvent: {}
+[9.475580] (-) TimerEvent: {}
+[9.576274] (-) TimerEvent: {}
+[9.676765] (-) TimerEvent: {}
+[9.777058] (-) TimerEvent: {}
+[9.877414] (-) TimerEvent: {}
+[9.977886] (-) TimerEvent: {}
+[10.078368] (-) TimerEvent: {}
+[10.178624] (-) TimerEvent: {}
+[10.280293] (-) TimerEvent: {}
+[10.381456] (-) TimerEvent: {}
+[10.482302] (-) TimerEvent: {}
+[10.583652] (-) TimerEvent: {}
+[10.683949] (-) TimerEvent: {}
+[10.785423] (-) TimerEvent: {}
+[10.886570] (-) TimerEvent: {}
+[10.987744] (-) TimerEvent: {}
+[11.088147] (-) TimerEvent: {}
+[11.188467] (-) TimerEvent: {}
+[11.289390] (-) TimerEvent: {}
+[11.390189] (-) TimerEvent: {}
+[11.479835] (my_interfaces) StdoutLine: {'line': b'[ 76%] Built target my_interfaces__py\n'}
+[11.491360] (my_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_interfaces__rosidl_generator_py\x1b[0m\n'}
+[11.491541] (-) TimerEvent: {}
+[11.507274] (my_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/action/_count_until_s.c.o\x1b[0m\n'}
+[11.508368] (my_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/action/_turtle_run_s.c.o\x1b[0m\n'}
+[11.591613] (-) TimerEvent: {}
+[11.691977] (-) TimerEvent: {}
+[11.715975] (my_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_interfaces/libmy_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[11.775614] (my_interfaces) StdoutLine: {'line': b'[ 84%] Built target my_interfaces__rosidl_generator_py\n'}
+[11.786869] (my_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[11.787155] (my_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[11.788526] (my_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[11.792299] (-) TimerEvent: {}
+[11.803551] (my_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[11.805809] (my_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[11.806079] (my_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[11.892755] (-) TimerEvent: {}
+[11.993283] (-) TimerEvent: {}
+[12.012104] (my_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_interfaces/my_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[12.018032] (my_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[12.019791] (my_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[12.081167] (my_interfaces) StdoutLine: {'line': b'[100%] Built target my_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[12.081372] (my_interfaces) StdoutLine: {'line': b'[100%] Built target my_interfaces__rosidl_typesupport_c__pyext\n'}
+[12.089991] (my_interfaces) StdoutLine: {'line': b'[100%] Built target my_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[12.093389] (-) TimerEvent: {}
+[12.105984] (my_interfaces) CommandEnded: {'returncode': 0}
+[12.193537] (-) TimerEvent: {}
+[12.209739] (my_interfaces) JobProgress: {'identifier': 'my_interfaces', 'progress': 'install'}
+[12.228076] (my_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vboxuser/hw5_ws/src/build/my_interfaces'], 'cwd': '/home/vboxuser/hw5_ws/src/build/my_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vboxuser'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vboxuser/hw5_ws/install/my_robot_intrfaces/lib:/home/vboxuser/hw5_ws/install/my_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vboxuser'), ('OLDPWD', '/home/vboxuser/hw5_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2434'), ('SYSTEMD_EXEC_PID', '2614'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3710'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vboxuser/hw5_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vboxuser'), ('JOURNAL_STREAM', '8:25322'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vboxuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu:@/tmp/.ICE-unix/2580,unix/Ubuntu:/tmp/.ICE-unix/2580'), ('INVOCATION_ID', '0a6379f627c244f4ae6a8d6a291f702d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.G0ODK2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vboxuser/hw5_ws/install/turtle_run:/home/vboxuser/hw5_ws/install/turtle_mover:/home/vboxuser/hw5_ws/install/turtle_joy:/home/vboxuser/hw5_ws/install/my_robot_intrfaces:/home/vboxuser/hw5_ws/install/my_interfaces:/home/vboxuser/hw5_ws/install/actions_py:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:5c74bc04-47eb-409c-b2be-c9bcc05ecac1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vboxuser/hw5_ws/src/build/my_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vboxuser/hw5_ws/install/turtle_run/lib/python3.10/site-packages:/home/vboxuser/hw5_ws/install/turtle_mover/lib/python3.10/site-packages:/home/vboxuser/hw5_ws/install/turtle_joy/lib/python3.10/site-packages:/home/vboxuser/hw5_ws/install/my_robot_intrfaces/local/lib/python3.10/dist-packages:/home/vboxuser/hw5_ws/install/my_interfaces/local/lib/python3.10/dist-packages:/home/vboxuser/hw5_ws/install/actions_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vboxuser/hw5_ws/install/my_robot_intrfaces:/home/vboxuser/hw5_ws/install/my_interfaces:/home/vboxuser/hw5_ws/install/turtle_run:/home/vboxuser/hw5_ws/install/turtle_mover:/home/vboxuser/hw5_ws/install/turtle_joy:/home/vboxuser/hw5_ws/install/actions_py:/opt/ros/humble')]), 'shell': False}
+[12.231169] (my_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.231374] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_interfaces\n'}
+[12.234079] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/src/install/my_interfaces/include/my_interfaces/my_interfaces\n'}
+[12.234258] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/src/install/my_interfaces/include/my_interfaces/my_interfaces/msg\n'}
+[12.234353] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/src/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[12.234443] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/src/install/my_interfaces/include/my_interfaces/my_interfaces/action\n'}
+[12.234531] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/src/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail\n'}
+[12.234620] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail/turtle_run__struct.h\n'}
+[12.234707] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail/turtle_run__functions.c\n'}
+[12.234997] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail/turtle_run__functions.h\n'}
+[12.235112] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail/count_until__functions.h\n'}
+[12.235200] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail/count_until__type_support.h\n'}
+[12.235296] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail/count_until__struct.h\n'}
+[12.235385] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail/count_until__functions.c\n'}
+[12.235472] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail/turtle_run__type_support.h\n'}
+[12.235558] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/include/my_interfaces/my_interfaces/action/count_until.h\n'}
+[12.235645] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/include/my_interfaces/my_interfaces/action/turtle_run.h\n'}
+[12.235732] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/src/install/my_interfaces/share/my_interfaces/environment/library_path.sh\n'}
+[12.235819] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/share/my_interfaces/environment/library_path.dsv\n'}
+[12.235905] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_c.so\n'}
+[12.236047] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/hw5_ws/src/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_c.so" to ""\n'}
+[12.236146] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/src/install/my_interfaces/include/my_interfaces/my_interfaces\n'}
+[12.236364] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/src/install/my_interfaces/include/my_interfaces/my_interfaces/msg\n'}
+[12.236514] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/src/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[12.236683] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/src/install/my_interfaces/include/my_interfaces/my_interfaces/action\n'}
+[12.236980] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/src/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail\n'}
+[12.238715] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail/turtle_run__rosidl_typesupport_fastrtps_c.h\n'}
+[12.238992] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail/count_until__rosidl_typesupport_fastrtps_c.h\n'}
+[12.239143] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[12.240777] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/hw5_ws/src/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[12.240894] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/src/install/my_interfaces/include/my_interfaces/my_interfaces\n'}
+[12.240988] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/src/install/my_interfaces/include/my_interfaces/my_interfaces/msg\n'}
+[12.241078] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/src/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[12.241172] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/src/install/my_interfaces/include/my_interfaces/my_interfaces/action\n'}
+[12.241267] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/src/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail\n'}
+[12.241402] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail/count_until__type_support.c\n'}
+[12.243994] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail/turtle_run__type_support.c\n'}
+[12.244126] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail/count_until__rosidl_typesupport_introspection_c.h\n'}
+[12.244227] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail/turtle_run__rosidl_typesupport_introspection_c.h\n'}
+[12.244321] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[12.244413] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/hw5_ws/src/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[12.244514] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_c.so\n'}
+[12.244605] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/hw5_ws/src/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[12.244704] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/src/install/my_interfaces/include/my_interfaces/my_interfaces\n'}
+[12.244802] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/src/install/my_interfaces/include/my_interfaces/my_interfaces/action\n'}
+[12.244891] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/src/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail\n'}
+[12.244982] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail/count_until__struct.hpp\n'}
+[12.245072] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail/count_until__traits.hpp\n'}
+[12.245162] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail/turtle_run__builder.hpp\n'}
+[12.245251] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail/count_until__builder.hpp\n'}
+[12.245342] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail/turtle_run__struct.hpp\n'}
+[12.245434] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail/turtle_run__traits.hpp\n'}
+[12.245524] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/include/my_interfaces/my_interfaces/action/count_until.hpp\n'}
+[12.245614] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/include/my_interfaces/my_interfaces/action/turtle_run.hpp\n'}
+[12.245703] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/src/install/my_interfaces/include/my_interfaces/my_interfaces\n'}
+[12.245792] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/src/install/my_interfaces/include/my_interfaces/my_interfaces/msg\n'}
+[12.245881] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/src/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[12.246069] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/src/install/my_interfaces/include/my_interfaces/my_interfaces/action\n'}
+[12.246256] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/src/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail\n'}
+[12.246392] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail/count_until__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.246538] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail/turtle_run__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.246657] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/src/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail/dds_fastrtps\n'}
+[12.246784] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[12.246913] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/hw5_ws/src/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[12.247008] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/src/install/my_interfaces/include/my_interfaces/my_interfaces\n'}
+[12.247100] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/src/install/my_interfaces/include/my_interfaces/my_interfaces/action\n'}
+[12.247195] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/src/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail\n'}
+[12.247287] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail/count_until__type_support.cpp\n'}
+[12.247377] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail/count_until__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.247466] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail/turtle_run__type_support.cpp\n'}
+[12.247554] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail/turtle_run__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.247652] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[12.251689] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/hw5_ws/src/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[12.251924] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_cpp.so\n'}
+[12.252023] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/hw5_ws/src/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[12.252116] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/src/install/my_interfaces/share/my_interfaces/environment/pythonpath.sh\n'}
+[12.252206] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/share/my_interfaces/environment/pythonpath.dsv\n'}
+[12.252294] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/src/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info\n'}
+[12.252383] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[12.252478] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[12.252573] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[12.252664] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[12.252752] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/src/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces\n'}
+[12.252843] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[12.252932] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.253021] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/libmy_interfaces__rosidl_generator_py.so\n'}
+[12.253108] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/__init__.py\n'}
+[12.253205] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.253292] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/src/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/action\n'}
+[12.253379] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/action/_count_until.py\n'}
+[12.253477] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/action/_turtle_run.py\n'}
+[12.253564] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/action/__init__.py\n'}
+[12.253651] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/action/_turtle_run_s.c\n'}
+[12.253738] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/action/_count_until_s.c\n'}
+[12.253824] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[12.254043] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[12.254348] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.293867] (-) TimerEvent: {}
+[12.315889] (my_interfaces) StdoutLine: {'line': b"Listing '/home/vboxuser/hw5_ws/src/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces'...\n"}
+[12.316091] (my_interfaces) StdoutLine: {'line': b"Compiling '/home/vboxuser/hw5_ws/src/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/__init__.py'...\n"}
+[12.316193] (my_interfaces) StdoutLine: {'line': b"Listing '/home/vboxuser/hw5_ws/src/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/action'...\n"}
+[12.316284] (my_interfaces) StdoutLine: {'line': b"Compiling '/home/vboxuser/hw5_ws/src/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/action/__init__.py'...\n"}
+[12.316374] (my_interfaces) StdoutLine: {'line': b"Compiling '/home/vboxuser/hw5_ws/src/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/action/_count_until.py'...\n"}
+[12.316463] (my_interfaces) StdoutLine: {'line': b"Compiling '/home/vboxuser/hw5_ws/src/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/action/_turtle_run.py'...\n"}
+[12.325620] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.325909] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/hw5_ws/src/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[12.326145] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.326258] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/hw5_ws/src/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[12.326362] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.334463] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/hw5_ws/src/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[12.334663] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_py.so\n'}
+[12.334759] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/hw5_ws/src/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_py.so" to ""\n'}
+[12.334850] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/src/install/my_interfaces/share/my_interfaces/action/CountUntil.idl\n'}
+[12.334939] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/share/my_interfaces/action/TurtleRun.idl\n'}
+[12.335027] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/src/install/my_interfaces/share/my_interfaces/action/CountUntil.action\n'}
+[12.335114] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/share/my_interfaces/action/TurtleRun.action\n'}
+[12.335207] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/share/ament_index/resource_index/package_run_dependencies/my_interfaces\n'}
+[12.335295] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/share/ament_index/resource_index/parent_prefix_path/my_interfaces\n'}
+[12.335382] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/src/install/my_interfaces/share/my_interfaces/environment/ament_prefix_path.sh\n'}
+[12.335470] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/share/my_interfaces/environment/ament_prefix_path.dsv\n'}
+[12.335573] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/src/install/my_interfaces/share/my_interfaces/environment/path.sh\n'}
+[12.335662] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/share/my_interfaces/environment/path.dsv\n'}
+[12.335749] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/src/install/my_interfaces/share/my_interfaces/local_setup.bash\n'}
+[12.335837] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/src/install/my_interfaces/share/my_interfaces/local_setup.sh\n'}
+[12.335925] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/src/install/my_interfaces/share/my_interfaces/local_setup.zsh\n'}
+[12.336012] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/share/my_interfaces/local_setup.dsv\n'}
+[12.336212] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/share/my_interfaces/package.dsv\n'}
+[12.336852] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/src/install/my_interfaces/share/ament_index/resource_index/packages/my_interfaces\n'}
+[12.336980] (my_interfaces) StdoutLine: {'line': b'-- Old export file "/home/vboxuser/hw5_ws/src/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_cExport.cmake" will be replaced.  Removing files [/home/vboxuser/hw5_ws/src/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_cExport-noconfig.cmake].\n'}
+[12.337915] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_cExport.cmake\n'}
+[12.338074] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[12.339402] (my_interfaces) StdoutLine: {'line': b'-- Old export file "/home/vboxuser/hw5_ws/src/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cExport.cmake" will be replaced.  Removing files [/home/vboxuser/hw5_ws/src/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake].\n'}
+[12.339545] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[12.339641] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[12.339732] (my_interfaces) StdoutLine: {'line': b'-- Old export file "/home/vboxuser/hw5_ws/src/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cExport.cmake" will be replaced.  Removing files [/home/vboxuser/hw5_ws/src/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake].\n'}
+[12.339824] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[12.339915] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[12.340004] (my_interfaces) StdoutLine: {'line': b'-- Old export file "/home/vboxuser/hw5_ws/src/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cExport.cmake" will be replaced.  Removing files [/home/vboxuser/hw5_ws/src/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cExport-noconfig.cmake].\n'}
+[12.340095] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[12.340184] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[12.340273] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_cppExport.cmake\n'}
+[12.340360] (my_interfaces) StdoutLine: {'line': b'-- Old export file "/home/vboxuser/hw5_ws/src/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake" will be replaced.  Removing files [/home/vboxuser/hw5_ws/src/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake].\n'}
+[12.340450] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[12.340538] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[12.340641] (my_interfaces) StdoutLine: {'line': b'-- Old export file "/home/vboxuser/hw5_ws/src/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cppExport.cmake" will be replaced.  Removing files [/home/vboxuser/hw5_ws/src/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake].\n'}
+[12.340737] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[12.340825] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[12.340918] (my_interfaces) StdoutLine: {'line': b'-- Old export file "/home/vboxuser/hw5_ws/src/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cppExport.cmake" will be replaced.  Removing files [/home/vboxuser/hw5_ws/src/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cppExport-noconfig.cmake].\n'}
+[12.341010] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[12.341098] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[12.341186] (my_interfaces) StdoutLine: {'line': b'-- Old export file "/home/vboxuser/hw5_ws/src/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_pyExport.cmake" will be replaced.  Removing files [/home/vboxuser/hw5_ws/src/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_pyExport-noconfig.cmake].\n'}
+[12.341275] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_pyExport.cmake\n'}
+[12.341364] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[12.341452] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[12.341540] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[12.341627] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/src/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[12.341714] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/src/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[12.341801] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/src/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[12.341967] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/src/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[12.342105] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/src/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[12.342194] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/src/install/my_interfaces/share/my_interfaces/cmake/my_interfacesConfig.cmake\n'}
+[12.342282] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/hw5_ws/src/install/my_interfaces/share/my_interfaces/cmake/my_interfacesConfig-version.cmake\n'}
+[12.342370] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/hw5_ws/src/install/my_interfaces/share/my_interfaces/package.xml\n'}
+[12.342480] (my_interfaces) CommandEnded: {'returncode': 0}
+[12.394363] (-) TimerEvent: {}
+[12.495117] (-) TimerEvent: {}
+[12.595490] (-) TimerEvent: {}
+[12.698878] (-) TimerEvent: {}
+[12.743700] (my_interfaces) JobEnded: {'identifier': 'my_interfaces', 'rc': 0}
+[12.745693] (turtle_run) JobStarted: {'identifier': 'turtle_run'}
+[12.799403] (-) TimerEvent: {}
+[12.901381] (-) TimerEvent: {}
+[13.016085] (-) TimerEvent: {}
+[13.116450] (-) TimerEvent: {}
+[13.225007] (-) TimerEvent: {}
+[13.325446] (-) TimerEvent: {}
+[13.426199] (-) TimerEvent: {}
+[13.529479] (-) TimerEvent: {}
+[13.632802] (-) TimerEvent: {}
+[13.733145] (-) TimerEvent: {}
+[13.833940] (-) TimerEvent: {}
+[13.934399] (-) TimerEvent: {}
+[14.034694] (-) TimerEvent: {}
+[14.135018] (-) TimerEvent: {}
+[14.235585] (-) TimerEvent: {}
+[14.336082] (-) TimerEvent: {}
+[14.401551] (turtle_run) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/turtle_run', 'build', '--build-base', '/home/vboxuser/hw5_ws/src/build/turtle_run/build', 'install', '--record', '/home/vboxuser/hw5_ws/src/build/turtle_run/install.log', '--single-version-externally-managed'], 'cwd': '/home/vboxuser/hw5_ws/src/turtle_run', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vboxuser', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/vboxuser/hw5_ws/src/install/my_interfaces/lib:/home/vboxuser/hw5_ws/install/my_robot_intrfaces/lib:/home/vboxuser/hw5_ws/install/my_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/vboxuser', 'OLDPWD': '/home/vboxuser/hw5_ws', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2434', 'SYSTEMD_EXEC_PID': '2614', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3710', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vboxuser/hw5_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'vboxuser', 'JOURNAL_STREAM': '8:25322', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vboxuser', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Ubuntu:@/tmp/.ICE-unix/2580,unix/Ubuntu:/tmp/.ICE-unix/2580', 'INVOCATION_ID': '0a6379f627c244f4ae6a8d6a291f702d', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.G0ODK2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vboxuser/hw5_ws/src/install/my_interfaces:/home/vboxuser/hw5_ws/install/turtle_run:/home/vboxuser/hw5_ws/install/turtle_mover:/home/vboxuser/hw5_ws/install/turtle_joy:/home/vboxuser/hw5_ws/install/my_robot_intrfaces:/home/vboxuser/hw5_ws/install/my_interfaces:/home/vboxuser/hw5_ws/install/actions_py:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:5c74bc04-47eb-409c-b2be-c9bcc05ecac1', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vboxuser/hw5_ws/src/build/turtle_run', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vboxuser/hw5_ws/src/build/turtle_run/prefix_override:/home/vboxuser/hw5_ws/src/install/turtle_run/lib/python3.10/site-packages:/home/vboxuser/hw5_ws/src/install/my_interfaces/local/lib/python3.10/dist-packages:/home/vboxuser/hw5_ws/install/turtle_run/lib/python3.10/site-packages:/home/vboxuser/hw5_ws/install/turtle_mover/lib/python3.10/site-packages:/home/vboxuser/hw5_ws/install/turtle_joy/lib/python3.10/site-packages:/home/vboxuser/hw5_ws/install/my_robot_intrfaces/local/lib/python3.10/dist-packages:/home/vboxuser/hw5_ws/install/my_interfaces/local/lib/python3.10/dist-packages:/home/vboxuser/hw5_ws/install/actions_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/vboxuser/hw5_ws/src/install/my_interfaces:/home/vboxuser/hw5_ws/install/my_robot_intrfaces:/home/vboxuser/hw5_ws/install/my_interfaces'}, 'shell': False}
+[14.436324] (-) TimerEvent: {}
+[14.541701] (-) TimerEvent: {}
+[14.642566] (-) TimerEvent: {}
+[14.742908] (-) TimerEvent: {}
+[14.844041] (-) TimerEvent: {}
+[14.881690] (turtle_run) StdoutLine: {'line': b'running egg_info\n'}
+[14.886773] (turtle_run) StdoutLine: {'line': b'writing ../build/turtle_run/turtle_run.egg-info/PKG-INFO\n'}
+[14.895477] (turtle_run) StderrLine: {'line': b'  File "/home/vboxuser/hw5_ws/src/install/turtle_run/lib/python3.10/site-packages/turtle_run/turtle_run_server.py", line 94\n'}
+[14.895681] (turtle_run) StderrLine: {'line': b'    def is_pose_in_checkpoint(checkpoint, point:Pose)\n'}
+[14.895809] (turtle_run) StderrLine: {'line': b'                                                     ^\n'}
+[14.895900] (turtle_run) StderrLine: {'line': b"SyntaxError: expected ':'\n"}
+[14.895986] (turtle_run) StderrLine: {'line': b'\n'}
+[14.896071] (turtle_run) StdoutLine: {'line': b'writing dependency_links to ../build/turtle_run/turtle_run.egg-info/dependency_links.txt\n'}
+[14.896166] (turtle_run) StdoutLine: {'line': b'writing entry points to ../build/turtle_run/turtle_run.egg-info/entry_points.txt\n'}
+[14.896255] (turtle_run) StdoutLine: {'line': b'writing requirements to ../build/turtle_run/turtle_run.egg-info/requires.txt\n'}
+[14.896341] (turtle_run) StdoutLine: {'line': b'writing top-level names to ../build/turtle_run/turtle_run.egg-info/top_level.txt\n'}
+[14.896435] (turtle_run) StdoutLine: {'line': b"reading manifest file '../build/turtle_run/turtle_run.egg-info/SOURCES.txt'\n"}
+[14.896525] (turtle_run) StdoutLine: {'line': b"writing manifest file '../build/turtle_run/turtle_run.egg-info/SOURCES.txt'\n"}
+[14.896613] (turtle_run) StdoutLine: {'line': b'running build\n'}
+[14.896701] (turtle_run) StdoutLine: {'line': b'running build_py\n'}
+[14.896789] (turtle_run) StdoutLine: {'line': b'copying turtle_run/turtle_run_server.py -> /home/vboxuser/hw5_ws/src/build/turtle_run/build/lib/turtle_run\n'}
+[14.896893] (turtle_run) StdoutLine: {'line': b'running install\n'}
+[14.896980] (turtle_run) StdoutLine: {'line': b'running install_lib\n'}
+[14.897067] (turtle_run) StdoutLine: {'line': b'copying /home/vboxuser/hw5_ws/src/build/turtle_run/build/lib/turtle_run/turtle_run_server.py -> /home/vboxuser/hw5_ws/src/install/turtle_run/lib/python3.10/site-packages/turtle_run\n'}
+[14.897158] (turtle_run) StdoutLine: {'line': b'byte-compiling /home/vboxuser/hw5_ws/src/install/turtle_run/lib/python3.10/site-packages/turtle_run/turtle_run_server.py to turtle_run_server.cpython-310.pyc\n'}
+[14.897246] (turtle_run) StdoutLine: {'line': b'running install_data\n'}
+[14.897333] (turtle_run) StdoutLine: {'line': b'running install_egg_info\n'}
+[14.906753] (turtle_run) StdoutLine: {'line': b"removing '/home/vboxuser/hw5_ws/src/install/turtle_run/lib/python3.10/site-packages/turtle_run-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[14.906964] (turtle_run) StdoutLine: {'line': b'Copying ../build/turtle_run/turtle_run.egg-info to /home/vboxuser/hw5_ws/src/install/turtle_run/lib/python3.10/site-packages/turtle_run-0.0.0-py3.10.egg-info\n'}
+[14.907062] (turtle_run) StdoutLine: {'line': b'running install_scripts\n'}
+[14.931898] (turtle_run) StdoutLine: {'line': b'Installing turtle_run_server script to /home/vboxuser/hw5_ws/src/install/turtle_run/lib/turtle_run\n'}
+[14.932799] (turtle_run) StdoutLine: {'line': b"writing list of installed files to '/home/vboxuser/hw5_ws/src/build/turtle_run/install.log'\n"}
+[14.944212] (-) TimerEvent: {}
+[14.980803] (turtle_run) CommandEnded: {'returncode': 0}
+[15.044586] (-) TimerEvent: {}
+[15.086200] (turtle_run) JobEnded: {'identifier': 'turtle_run', 'rc': 0}
+[15.087137] (-) EventReactorShutdown: {}

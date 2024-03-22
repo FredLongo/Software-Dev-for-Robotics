@@ -1,0 +1,22 @@
+[3.453s] Invoking command in '/home/vboxuser/hw3_ws/src/q2': PYTHONPATH=/home/vboxuser/hw3_ws/build/q2/prefix_override:/home/vboxuser/hw3_ws/install/q2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/q2 build --build-base /home/vboxuser/hw3_ws/build/q2/build install --record /home/vboxuser/hw3_ws/build/q2/install.log --single-version-externally-managed
+[3.841s] running egg_info
+[3.842s] writing ../../build/q2/q2.egg-info/PKG-INFO
+[3.856s] writing dependency_links to ../../build/q2/q2.egg-info/dependency_links.txt
+[3.857s] writing entry points to ../../build/q2/q2.egg-info/entry_points.txt
+[3.857s] writing requirements to ../../build/q2/q2.egg-info/requires.txt
+[3.857s] writing top-level names to ../../build/q2/q2.egg-info/top_level.txt
+[3.863s] reading manifest file '../../build/q2/q2.egg-info/SOURCES.txt'
+[3.872s] adding license file 'LICENSE'
+[3.873s] writing manifest file '../../build/q2/q2.egg-info/SOURCES.txt'
+[3.874s] running build
+[3.874s] running build_py
+[3.892s] running install
+[3.892s] running install_lib
+[3.903s] running install_data
+[3.911s] running install_egg_info
+[3.913s] removing '/home/vboxuser/hw3_ws/install/q2/lib/python3.10/site-packages/q2-0.0.0-py3.10.egg-info' (and everything under it)
+[3.913s] Copying ../../build/q2/q2.egg-info to /home/vboxuser/hw3_ws/install/q2/lib/python3.10/site-packages/q2-0.0.0-py3.10.egg-info
+[3.934s] running install_scripts
+[3.964s] Installing node_link script to /home/vboxuser/hw3_ws/install/q2/lib/q2
+[3.972s] Installing node_link2 script to /home/vboxuser/hw3_ws/install/q2/lib/q2
+[3.972s] writing list of installed files to '/home/vboxuser/hw3_ws/build/q2/install.log'

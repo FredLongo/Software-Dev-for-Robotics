@@ -1,0 +1,50 @@
+[0.337s] Invoking command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_async_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/vboxuser/ros2_ws/src/examples/rclcpp/services/async_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vboxuser/ros2_ws/install/examples_rclcpp_async_client
+[1.254s] -- The C compiler identification is GNU 11.4.0
+[1.669s] -- The CXX compiler identification is GNU 11.4.0
+[1.691s] -- Detecting C compiler ABI info
+[1.862s] -- Detecting C compiler ABI info - done
+[1.887s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.888s] -- Detecting C compile features
+[1.898s] -- Detecting C compile features - done
+[1.904s] -- Detecting CXX compiler ABI info
+[2.022s] -- Detecting CXX compiler ABI info - done
+[2.038s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.038s] -- Detecting CXX compile features
+[2.038s] -- Detecting CXX compile features - done
+[2.071s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.384s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.537s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.643s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[2.866s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.875s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.893s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.934s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.977s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.327s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[3.432s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.435s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.641s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.688s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.750s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.820s] -- Looking for pthread.h
+[4.029s] -- Looking for pthread.h - found
+[4.029s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.143s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.144s] -- Found Threads: TRUE  
+[4.519s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.700s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.702s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.702s] -- Configured cppcheck include dirs: 
+[4.703s] -- Configured cppcheck exclude dirs and/or files: 
+[4.721s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.721s] -- Configured cpplint exclude dirs and/or files: 
+[4.723s] -- Added test 'lint_cmake' to check CMake code style
+[4.725s] -- Added test 'uncrustify' to check C / C++ code style
+[4.726s] -- Configured uncrustify additional arguments: 
+[4.727s] -- Added test 'xmllint' to check XML markup files
+[4.729s] -- Configuring done
+[4.743s] -- Generating done
+[4.746s] -- Build files have been written to: /home/vboxuser/ros2_ws/build/examples_rclcpp_async_client
+[4.766s] Invoked command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_async_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/vboxuser/ros2_ws/src/examples/rclcpp/services/async_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vboxuser/ros2_ws/install/examples_rclcpp_async_client
+[4.769s] Invoking command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_async_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/examples_rclcpp_async_client -- -j4 -l4
+[4.837s] [ 50%] [32mBuilding CXX object CMakeFiles/client_main.dir/main.cpp.o[0m

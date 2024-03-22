@@ -1,0 +1,4 @@
+[console_scripts]
+client = calculator.calculator:main_client
+service = calculator.calculator:main_service
+

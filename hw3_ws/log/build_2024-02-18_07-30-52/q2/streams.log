@@ -1,0 +1,18 @@
+[2.890s] Invoking command in '/home/vboxuser/hw3_ws/build/q2': PYTHONPATH=/home/vboxuser/hw3_ws/build/q2/prefix_override:/home/vboxuser/hw3_ws/install/q2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/vboxuser/hw3_ws/build/q2/build --no-deps install_data
+[3.330s] running develop
+[3.585s] running egg_info
+[3.585s] writing q2.egg-info/PKG-INFO
+[3.586s] writing dependency_links to q2.egg-info/dependency_links.txt
+[3.586s] writing entry points to q2.egg-info/entry_points.txt
+[3.586s] writing requirements to q2.egg-info/requires.txt
+[3.587s] writing top-level names to q2.egg-info/top_level.txt
+[3.590s] reading manifest file 'q2.egg-info/SOURCES.txt'
+[3.591s] writing manifest file 'q2.egg-info/SOURCES.txt'
+[3.593s] running build_ext
+[3.593s] Creating /home/vboxuser/hw3_ws/install/q2/lib/python3.10/site-packages/q2.egg-link (link to .)
+[3.594s] Installing node_link script to /home/vboxuser/hw3_ws/install/q2/lib/q2
+[3.595s] Installing node_link2 script to /home/vboxuser/hw3_ws/install/q2/lib/q2
+[3.595s] 
+[3.595s] Installed /home/vboxuser/hw3_ws/build/q2
+[3.595s] running install_data
+[3.950s] Invoked command in '/home/vboxuser/hw3_ws/build/q2' returned '0': PYTHONPATH=/home/vboxuser/hw3_ws/build/q2/prefix_override:/home/vboxuser/hw3_ws/install/q2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/vboxuser/hw3_ws/build/q2/build --no-deps install_data

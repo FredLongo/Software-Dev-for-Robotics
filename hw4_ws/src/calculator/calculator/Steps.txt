@@ -1,0 +1,21 @@
+
+1. Start Server 
+	ros2 run calculator service
+2. Show parameter value
+	ros2 node list
+	ros2 param list /calculator_service
+	ros2 param get /calculator_service decimal_formatting
+3. Send Add
+	ros2 run calculator client 'Fred' 2 1.123456789  '+'
+4. Change decimal_formatting, Send Subtraction	
+	ros2 param set /calculator_service decimal_formatting 2
+	ros2 param get /calculator_service decimal_formatting
+	ros2 run calculator client 'Tom' 5 1.123456  '-'
+5. Change decimal_formatting, Send Multiplication
+	ros2 param set /calculator_service decimal_formatting 6
+	ros2 run calculator client 'Joe' 5 1.123456  '*'
+6. Change decimal_formatting, Send Division
+	ros2 param set /calculator_service decimal_formatting 30
+	ros2 run calculator client 'kim' 22 7  '/'
+
+(!-12)

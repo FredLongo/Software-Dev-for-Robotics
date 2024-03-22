@@ -1,0 +1,3 @@
+[console_scripts]
+fred_node = Q1.fred_node:main
+

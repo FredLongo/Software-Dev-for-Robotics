@@ -1,0 +1,39 @@
+[2.045s] Invoking command in '/home/vboxuser/hw5_ws/src/actions_py': PYTHONPATH=/home/vboxuser/hw5_ws/build/actions_py/prefix_override:/home/vboxuser/hw5_ws/install/actions_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/actions_py build --build-base /home/vboxuser/hw5_ws/build/actions_py/build install --record /home/vboxuser/hw5_ws/build/actions_py/install.log --single-version-externally-managed
+[2.443s] running egg_info
+[2.444s] creating ../../build/actions_py/actions_py.egg-info
+[2.444s] writing ../../build/actions_py/actions_py.egg-info/PKG-INFO
+[2.445s] writing dependency_links to ../../build/actions_py/actions_py.egg-info/dependency_links.txt
+[2.445s] writing entry points to ../../build/actions_py/actions_py.egg-info/entry_points.txt
+[2.445s] writing requirements to ../../build/actions_py/actions_py.egg-info/requires.txt
+[2.445s] writing top-level names to ../../build/actions_py/actions_py.egg-info/top_level.txt
+[2.445s] writing manifest file '../../build/actions_py/actions_py.egg-info/SOURCES.txt'
+[2.448s] reading manifest file '../../build/actions_py/actions_py.egg-info/SOURCES.txt'
+[2.449s] writing manifest file '../../build/actions_py/actions_py.egg-info/SOURCES.txt'
+[2.449s] running build
+[2.449s] running build_py
+[2.449s] creating /home/vboxuser/hw5_ws/build/actions_py/build
+[2.449s] creating /home/vboxuser/hw5_ws/build/actions_py/build/lib
+[2.450s] creating /home/vboxuser/hw5_ws/build/actions_py/build/lib/actions_py
+[2.450s] copying actions_py/count_until_server.py -> /home/vboxuser/hw5_ws/build/actions_py/build/lib/actions_py
+[2.450s] copying actions_py/__init__.py -> /home/vboxuser/hw5_ws/build/actions_py/build/lib/actions_py
+[2.450s] copying actions_py/TemplateNodeOPP.py -> /home/vboxuser/hw5_ws/build/actions_py/build/lib/actions_py
+[2.450s] running install
+[2.450s] running install_lib
+[2.452s] creating /home/vboxuser/hw5_ws/install/actions_py/lib/python3.10/site-packages/actions_py
+[2.452s] copying /home/vboxuser/hw5_ws/build/actions_py/build/lib/actions_py/count_until_server.py -> /home/vboxuser/hw5_ws/install/actions_py/lib/python3.10/site-packages/actions_py
+[2.452s] copying /home/vboxuser/hw5_ws/build/actions_py/build/lib/actions_py/__init__.py -> /home/vboxuser/hw5_ws/install/actions_py/lib/python3.10/site-packages/actions_py
+[2.452s] copying /home/vboxuser/hw5_ws/build/actions_py/build/lib/actions_py/TemplateNodeOPP.py -> /home/vboxuser/hw5_ws/install/actions_py/lib/python3.10/site-packages/actions_py
+[2.460s] byte-compiling /home/vboxuser/hw5_ws/install/actions_py/lib/python3.10/site-packages/actions_py/count_until_server.py to count_until_server.cpython-310.pyc
+[2.460s] byte-compiling /home/vboxuser/hw5_ws/install/actions_py/lib/python3.10/site-packages/actions_py/__init__.py to __init__.cpython-310.pyc
+[2.460s] byte-compiling /home/vboxuser/hw5_ws/install/actions_py/lib/python3.10/site-packages/actions_py/TemplateNodeOPP.py to TemplateNodeOPP.cpython-310.pyc
+[2.460s] running install_data
+[2.460s] creating /home/vboxuser/hw5_ws/install/actions_py/share/ament_index
+[2.461s] creating /home/vboxuser/hw5_ws/install/actions_py/share/ament_index/resource_index
+[2.461s] creating /home/vboxuser/hw5_ws/install/actions_py/share/ament_index/resource_index/packages
+[2.461s] copying resource/actions_py -> /home/vboxuser/hw5_ws/install/actions_py/share/ament_index/resource_index/packages
+[2.461s] copying package.xml -> /home/vboxuser/hw5_ws/install/actions_py/share/actions_py
+[2.461s] running install_egg_info
+[2.462s] Copying ../../build/actions_py/actions_py.egg-info to /home/vboxuser/hw5_ws/install/actions_py/lib/python3.10/site-packages/actions_py-0.0.0-py3.10.egg-info
+[2.462s] running install_scripts
+[2.498s] writing list of installed files to '/home/vboxuser/hw5_ws/build/actions_py/install.log'
+[2.600s] Invoked command in '/home/vboxuser/hw5_ws/src/actions_py' returned '0': PYTHONPATH=/home/vboxuser/hw5_ws/build/actions_py/prefix_override:/home/vboxuser/hw5_ws/install/actions_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/actions_py build --build-base /home/vboxuser/hw5_ws/build/actions_py/build install --record /home/vboxuser/hw5_ws/build/actions_py/install.log --single-version-externally-managed

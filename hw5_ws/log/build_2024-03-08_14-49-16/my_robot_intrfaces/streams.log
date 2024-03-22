@@ -1,0 +1,9 @@
+[0.693s] Invoking command in '/home/vboxuser/hw5_ws/build/my_robot_intrfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/hw5_ws/build/my_robot_intrfaces -- -j6 -l6
+[0.766s] failed to create symbolic link '/home/vboxuser/hw5_ws/build/my_robot_intrfaces/ament_cmake_python/my_robot_intrfaces/my_robot_intrfaces' because existing path cannot be removed: Is a directory
+[0.766s] [  3%] Built target my_robot_intrfaces__cpp
+[0.767s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_my_robot_intrfaces.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_my_robot_intrfaces] Error 1
+[0.767s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_my_robot_intrfaces.dir/all] Error 2
+[0.768s] gmake[1]: *** Waiting for unfinished jobs....
+[0.773s] [ 12%] Built target my_robot_intrfaces__rosidl_generator_c
+[0.775s] gmake: *** [Makefile:146: all] Error 2
+[1.206s] Invoked command in '/home/vboxuser/hw5_ws/build/my_robot_intrfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/hw5_ws/build/my_robot_intrfaces -- -j6 -l6

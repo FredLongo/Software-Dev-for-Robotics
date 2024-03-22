@@ -1,0 +1,25 @@
+[2.303s] Invoking command in '/home/vboxuser/hw5_ws/src/turtle_joy': PYTHONPATH=/home/vboxuser/hw5_ws/build/turtle_joy/prefix_override:/home/vboxuser/hw5_ws/install/turtle_joy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtle_joy build --build-base /home/vboxuser/hw5_ws/build/turtle_joy/build install --record /home/vboxuser/hw5_ws/build/turtle_joy/install.log --single-version-externally-managed
+[2.776s] running egg_info
+[2.778s] writing ../../build/turtle_joy/turtle_joy.egg-info/PKG-INFO
+[2.779s] writing dependency_links to ../../build/turtle_joy/turtle_joy.egg-info/dependency_links.txt
+[2.779s] writing entry points to ../../build/turtle_joy/turtle_joy.egg-info/entry_points.txt
+[2.779s] writing requirements to ../../build/turtle_joy/turtle_joy.egg-info/requires.txt
+[2.779s] writing top-level names to ../../build/turtle_joy/turtle_joy.egg-info/top_level.txt
+[2.790s] reading manifest file '../../build/turtle_joy/turtle_joy.egg-info/SOURCES.txt'
+[2.790s] writing manifest file '../../build/turtle_joy/turtle_joy.egg-info/SOURCES.txt'
+[2.790s] running build
+[2.790s] running build_py
+[2.790s] copying turtle_joy/turtle_joy.py -> /home/vboxuser/hw5_ws/build/turtle_joy/build/lib/turtle_joy
+[2.791s] running install
+[2.791s] running install_lib
+[2.791s] copying /home/vboxuser/hw5_ws/build/turtle_joy/build/lib/turtle_joy/turtle_joy.py -> /home/vboxuser/hw5_ws/install/turtle_joy/lib/python3.10/site-packages/turtle_joy
+[2.791s] byte-compiling /home/vboxuser/hw5_ws/install/turtle_joy/lib/python3.10/site-packages/turtle_joy/turtle_joy.py to turtle_joy.cpython-310.pyc
+[2.791s] running install_data
+[2.791s] running install_egg_info
+[2.791s] removing '/home/vboxuser/hw5_ws/install/turtle_joy/lib/python3.10/site-packages/turtle_joy-0.0.0-py3.10.egg-info' (and everything under it)
+[2.791s] Copying ../../build/turtle_joy/turtle_joy.egg-info to /home/vboxuser/hw5_ws/install/turtle_joy/lib/python3.10/site-packages/turtle_joy-0.0.0-py3.10.egg-info
+[2.791s] running install_scripts
+[2.828s] Installing hello_node script to /home/vboxuser/hw5_ws/install/turtle_joy/lib/turtle_joy
+[2.828s] Installing turtle_joy script to /home/vboxuser/hw5_ws/install/turtle_joy/lib/turtle_joy
+[2.830s] writing list of installed files to '/home/vboxuser/hw5_ws/build/turtle_joy/install.log'
+[3.064s] Invoked command in '/home/vboxuser/hw5_ws/src/turtle_joy' returned '0': PYTHONPATH=/home/vboxuser/hw5_ws/build/turtle_joy/prefix_override:/home/vboxuser/hw5_ws/install/turtle_joy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtle_joy build --build-base /home/vboxuser/hw5_ws/build/turtle_joy/build install --record /home/vboxuser/hw5_ws/build/turtle_joy/install.log --single-version-externally-managed

@@ -1,0 +1,72 @@
+[0.000000] (-) TimerEvent: {}
+[0.000232] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.000264] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.000287] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000307] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.000327] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.000370] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.000405] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.000437] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.000468] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.000499] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.000531] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.000562] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.000593] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.000624] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.000655] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.000686] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.000717] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.000748] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.000779] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.000815] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.000847] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.000878] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.000909] (-) JobUnselected: {'identifier': 'my_cpp_pkg'}
+[0.000941] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.000972] (-) JobUnselected: {'identifier': 'py_pubsub2'}
+[0.001003] (-) JobUnselected: {'identifier': 'py_pubsub3'}
+[0.001037] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict()}
+[0.001071] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[0.110262] (-) TimerEvent: {}
+[0.212985] (-) TimerEvent: {}
+[0.315638] (-) TimerEvent: {}
+[0.416853] (-) TimerEvent: {}
+[0.518304] (-) TimerEvent: {}
+[0.620279] (-) TimerEvent: {}
+[0.721325] (-) TimerEvent: {}
+[0.822692] (-) TimerEvent: {}
+[0.923354] (-) TimerEvent: {}
+[1.024410] (-) TimerEvent: {}
+[1.134904] (-) TimerEvent: {}
+[1.135843] (my_py_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/vboxuser/ros2_ws/build/my_py_pkg/build', '--no-deps', 'install_data'], 'cwd': '/home/vboxuser/ros2_ws/build/my_py_pkg', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vboxuser', 'GIO_MODULE_DIR': '/home/vboxuser/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/153/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/vboxuser', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'OLDPWD': '/home/vboxuser', 'TERM_PROGRAM_VERSION': '1.87.0', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/153/usr/lib/x86_64-linux-gnu/gtk-3.0', 'GTK_IM_MODULE_FILE': '/home/vboxuser/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/153/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/153/usr/share/code/code', 'MANAGERPID': '1381', 'SYSTEMD_EXEC_PID': '1559', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4317', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'vboxuser', 'JOURNAL_STREAM': '8:23899', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'vboxuser', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Ubuntu:@/tmp/.ICE-unix/1534,unix/Ubuntu:/tmp/.ICE-unix/1534', 'GTK_EXE_PREFIX': '/snap/code/153/usr', 'INVOCATION_ID': '9d19b27d24294f26918b7f21a82a492d', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/153/usr/lib/locale', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'IBUS_DISABLE_SNOOPER': '1', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.INLCK2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-e1f3700489.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/vboxuser/snap/code/153/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:760c5870-0f05-40bc-81e9-09893fba931c', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GJS_DEBUG_OUTPUT': 'stderr', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vboxuser/ros2_ws/build/my_py_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/vboxuser/snap/code/153/.local/share:/home/vboxuser/snap/code/153:/snap/code/153/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vboxuser/ros2_ws/build/my_py_pkg/prefix_override:/home/vboxuser/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.235807] (-) TimerEvent: {}
+[1.336648] (-) TimerEvent: {}
+[1.440861] (-) TimerEvent: {}
+[1.541397] (my_py_pkg) StdoutLine: {'line': b'running develop\n'}
+[1.541563] (-) TimerEvent: {}
+[1.643459] (-) TimerEvent: {}
+[1.744197] (-) TimerEvent: {}
+[1.803761] (my_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.803983] (my_py_pkg) StdoutLine: {'line': b'writing my_py_pkg.egg-info/PKG-INFO\n'}
+[1.804210] (my_py_pkg) StdoutLine: {'line': b'writing dependency_links to my_py_pkg.egg-info/dependency_links.txt\n'}
+[1.804516] (my_py_pkg) StdoutLine: {'line': b'writing entry points to my_py_pkg.egg-info/entry_points.txt\n'}
+[1.804662] (my_py_pkg) StdoutLine: {'line': b'writing requirements to my_py_pkg.egg-info/requires.txt\n'}
+[1.804787] (my_py_pkg) StdoutLine: {'line': b'writing top-level names to my_py_pkg.egg-info/top_level.txt\n'}
+[1.807207] (my_py_pkg) StdoutLine: {'line': b"reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'\n"}
+[1.808580] (my_py_pkg) StdoutLine: {'line': b"writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'\n"}
+[1.810136] (my_py_pkg) StdoutLine: {'line': b'running build_ext\n'}
+[1.810475] (my_py_pkg) StdoutLine: {'line': b'Creating /home/vboxuser/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)\n'}
+[1.811341] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_client_no_oop script to /home/vboxuser/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.811546] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_clinet script to /home/vboxuser/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.811680] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_server script to /home/vboxuser/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.811800] (my_py_pkg) StdoutLine: {'line': b'Installing my_first_node script to /home/vboxuser/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.811919] (my_py_pkg) StdoutLine: {'line': b'Installing robot_news_station script to /home/vboxuser/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.812035] (my_py_pkg) StdoutLine: {'line': b'Installing smart_phone script to /home/vboxuser/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.812281] (my_py_pkg) StdoutLine: {'line': b'\n'}
+[1.812391] (my_py_pkg) StdoutLine: {'line': b'Installed /home/vboxuser/ros2_ws/build/my_py_pkg\n'}
+[1.812541] (my_py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[1.844999] (-) TimerEvent: {}
+[1.845974] (my_py_pkg) CommandEnded: {'returncode': 0}
+[1.945917] (-) TimerEvent: {}
+[1.946863] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 0}
+[1.947202] (-) EventReactorShutdown: {}

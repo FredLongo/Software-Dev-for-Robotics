@@ -1,0 +1,50 @@
+[0.000000] (-) TimerEvent: {}
+[0.000260] (-) JobUnselected: {'identifier': 'custom_interfaces'}
+[0.000288] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.000310] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000331] (calculator) JobQueued: {'identifier': 'calculator', 'dependencies': OrderedDict([('custom_interfaces', '/home/vboxuser/hw4_ws/install/custom_interfaces'), ('tutorial_interfaces', '/home/vboxuser/hw4_ws/install/tutorial_interfaces')])}
+[0.000359] (calculator) JobStarted: {'identifier': 'calculator'}
+[0.100170] (-) TimerEvent: {}
+[0.202895] (-) TimerEvent: {}
+[0.304373] (-) TimerEvent: {}
+[0.406168] (-) TimerEvent: {}
+[0.510450] (-) TimerEvent: {}
+[0.611970] (-) TimerEvent: {}
+[0.715248] (-) TimerEvent: {}
+[0.818623] (-) TimerEvent: {}
+[0.921260] (-) TimerEvent: {}
+[1.024719] (-) TimerEvent: {}
+[1.125817] (-) TimerEvent: {}
+[1.147457] (calculator) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/calculator', 'build', '--build-base', '/home/vboxuser/hw4_ws/build/calculator/build', 'install', '--record', '/home/vboxuser/hw4_ws/build/calculator/install.log', '--single-version-externally-managed'], 'cwd': '/home/vboxuser/hw4_ws/src/calculator', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vboxuser', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/vboxuser/hw4_ws/install/tutorial_interfaces/lib:/home/vboxuser/hw4_ws/install/custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/vboxuser', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2447', 'SYSTEMD_EXEC_PID': '2627', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '7029', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vboxuser/hw4_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'vboxuser', 'JOURNAL_STREAM': '8:27053', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vboxuser', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Ubuntu:@/tmp/.ICE-unix/2595,unix/Ubuntu:/tmp/.ICE-unix/2595', 'INVOCATION_ID': 'b37fd95e8bdd4e07aed036c86dfcfd90', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.C09XJ2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vboxuser/hw4_ws/install/custom_interfaces:/home/vboxuser/hw4_ws/install/py_srvcli:/home/vboxuser/hw4_ws/install/calculator:/home/vboxuser/hw4_ws/install/tutorial_interfaces:/home/vboxuser/hw4_ws/install/custom_messages:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:312a4f9a-8696-4928-8c78-352a1cbc03be', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vboxuser/hw4_ws/build/calculator', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vboxuser/hw4_ws/build/calculator/prefix_override:/home/vboxuser/hw4_ws/install/calculator/lib/python3.10/site-packages:/home/vboxuser/hw4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/home/vboxuser/hw4_ws/install/py_srvcli/lib/python3.10/site-packages:/home/vboxuser/hw4_ws/install/calculator/lib/python3.10/site-packages:/home/vboxuser/hw4_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/vboxuser/hw4_ws/install/tutorial_interfaces:/home/vboxuser/hw4_ws/install/custom_interfaces:/home/vboxuser/hw4_ws/install/custom_messages'}, 'shell': False}
+[1.226526] (-) TimerEvent: {}
+[1.327050] (-) TimerEvent: {}
+[1.427276] (-) TimerEvent: {}
+[1.528184] (-) TimerEvent: {}
+[1.533277] (calculator) StdoutLine: {'line': b'running egg_info\n'}
+[1.534617] (calculator) StdoutLine: {'line': b'writing ../../build/calculator/calculator.egg-info/PKG-INFO\n'}
+[1.534747] (calculator) StdoutLine: {'line': b'writing dependency_links to ../../build/calculator/calculator.egg-info/dependency_links.txt\n'}
+[1.534890] (calculator) StdoutLine: {'line': b'writing entry points to ../../build/calculator/calculator.egg-info/entry_points.txt\n'}
+[1.535013] (calculator) StdoutLine: {'line': b'writing requirements to ../../build/calculator/calculator.egg-info/requires.txt\n'}
+[1.535211] (calculator) StdoutLine: {'line': b'writing top-level names to ../../build/calculator/calculator.egg-info/top_level.txt\n'}
+[1.537323] (calculator) StdoutLine: {'line': b"reading manifest file '../../build/calculator/calculator.egg-info/SOURCES.txt'\n"}
+[1.537597] (calculator) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.538604] (calculator) StdoutLine: {'line': b"writing manifest file '../../build/calculator/calculator.egg-info/SOURCES.txt'\n"}
+[1.538725] (calculator) StdoutLine: {'line': b'running build\n'}
+[1.538819] (calculator) StdoutLine: {'line': b'running build_py\n'}
+[1.539013] (calculator) StdoutLine: {'line': b'copying calculator/calculator.py -> /home/vboxuser/hw4_ws/build/calculator/build/lib/calculator\n'}
+[1.539183] (calculator) StdoutLine: {'line': b'running install\n'}
+[1.539548] (calculator) StdoutLine: {'line': b'running install_lib\n'}
+[1.540371] (calculator) StdoutLine: {'line': b'copying /home/vboxuser/hw4_ws/build/calculator/build/lib/calculator/calculator.py -> /home/vboxuser/hw4_ws/install/calculator/lib/python3.10/site-packages/calculator\n'}
+[1.541118] (calculator) StdoutLine: {'line': b'byte-compiling /home/vboxuser/hw4_ws/install/calculator/lib/python3.10/site-packages/calculator/calculator.py to calculator.cpython-310.pyc\n'}
+[1.542722] (calculator) StdoutLine: {'line': b'running install_data\n'}
+[1.543456] (calculator) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.545335] (calculator) StdoutLine: {'line': b"removing '/home/vboxuser/hw4_ws/install/calculator/lib/python3.10/site-packages/calculator-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.545738] (calculator) StdoutLine: {'line': b'Copying ../../build/calculator/calculator.egg-info to /home/vboxuser/hw4_ws/install/calculator/lib/python3.10/site-packages/calculator-0.0.0-py3.10.egg-info\n'}
+[1.546824] (calculator) StdoutLine: {'line': b'running install_scripts\n'}
+[1.574783] (calculator) StdoutLine: {'line': b'Installing client script to /home/vboxuser/hw4_ws/install/calculator/lib/calculator\n'}
+[1.575103] (calculator) StdoutLine: {'line': b'Installing service script to /home/vboxuser/hw4_ws/install/calculator/lib/calculator\n'}
+[1.575404] (calculator) StdoutLine: {'line': b"writing list of installed files to '/home/vboxuser/hw4_ws/build/calculator/install.log'\n"}
+[1.612937] (calculator) CommandEnded: {'returncode': 0}
+[1.629041] (-) TimerEvent: {}
+[1.693069] (calculator) JobEnded: {'identifier': 'calculator', 'rc': 0}
+[1.694196] (-) EventReactorShutdown: {}

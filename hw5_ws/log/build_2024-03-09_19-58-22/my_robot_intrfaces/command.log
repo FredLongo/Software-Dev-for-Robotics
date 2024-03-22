@@ -1,0 +1,2 @@
+Invoking command in '/home/vboxuser/hw5_ws/build/my_robot_intrfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/hw5_ws/build/my_robot_intrfaces -- -j6 -l6
+Invoked command in '/home/vboxuser/hw5_ws/build/my_robot_intrfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/hw5_ws/build/my_robot_intrfaces -- -j6 -l6

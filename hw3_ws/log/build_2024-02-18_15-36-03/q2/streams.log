@@ -1,0 +1,23 @@
+[2.451s] Invoking command in '/home/vboxuser/hw3_ws/src/q2': PYTHONPATH=/home/vboxuser/hw3_ws/build/q2/prefix_override:/home/vboxuser/hw3_ws/install/q2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/q2 build --build-base /home/vboxuser/hw3_ws/build/q2/build install --record /home/vboxuser/hw3_ws/build/q2/install.log --single-version-externally-managed
+[2.854s] running egg_info
+[2.855s] writing ../../build/q2/q2.egg-info/PKG-INFO
+[2.856s] writing dependency_links to ../../build/q2/q2.egg-info/dependency_links.txt
+[2.856s] writing entry points to ../../build/q2/q2.egg-info/entry_points.txt
+[2.856s] writing requirements to ../../build/q2/q2.egg-info/requires.txt
+[2.857s] writing top-level names to ../../build/q2/q2.egg-info/top_level.txt
+[2.859s] reading manifest file '../../build/q2/q2.egg-info/SOURCES.txt'
+[2.860s] adding license file 'LICENSE'
+[2.861s] writing manifest file '../../build/q2/q2.egg-info/SOURCES.txt'
+[2.861s] running build
+[2.861s] running build_py
+[2.861s] running install
+[2.862s] running install_lib
+[2.863s] running install_data
+[2.864s] running install_egg_info
+[2.867s] removing '/home/vboxuser/hw3_ws/install/q2/lib/python3.10/site-packages/q2-0.0.0-py3.10.egg-info' (and everything under it)
+[2.867s] Copying ../../build/q2/q2.egg-info to /home/vboxuser/hw3_ws/install/q2/lib/python3.10/site-packages/q2-0.0.0-py3.10.egg-info
+[2.868s] running install_scripts
+[2.896s] Installing node_link script to /home/vboxuser/hw3_ws/install/q2/lib/q2
+[2.896s] Installing node_link2 script to /home/vboxuser/hw3_ws/install/q2/lib/q2
+[2.897s] writing list of installed files to '/home/vboxuser/hw3_ws/build/q2/install.log'
+[2.978s] Invoked command in '/home/vboxuser/hw3_ws/src/q2' returned '0': PYTHONPATH=/home/vboxuser/hw3_ws/build/q2/prefix_override:/home/vboxuser/hw3_ws/install/q2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/q2 build --build-base /home/vboxuser/hw3_ws/build/q2/build install --record /home/vboxuser/hw3_ws/build/q2/install.log --single-version-externally-managed

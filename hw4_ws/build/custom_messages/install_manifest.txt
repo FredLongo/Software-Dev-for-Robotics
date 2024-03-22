@@ -1,0 +1,15 @@
+/home/vboxuser/hw4_ws/install/custom_messages/share/ament_index/resource_index/package_run_dependencies/custom_messages
+/home/vboxuser/hw4_ws/install/custom_messages/share/ament_index/resource_index/parent_prefix_path/custom_messages
+/home/vboxuser/hw4_ws/install/custom_messages/share/custom_messages/environment/ament_prefix_path.sh
+/home/vboxuser/hw4_ws/install/custom_messages/share/custom_messages/environment/ament_prefix_path.dsv
+/home/vboxuser/hw4_ws/install/custom_messages/share/custom_messages/environment/path.sh
+/home/vboxuser/hw4_ws/install/custom_messages/share/custom_messages/environment/path.dsv
+/home/vboxuser/hw4_ws/install/custom_messages/share/custom_messages/local_setup.bash
+/home/vboxuser/hw4_ws/install/custom_messages/share/custom_messages/local_setup.sh
+/home/vboxuser/hw4_ws/install/custom_messages/share/custom_messages/local_setup.zsh
+/home/vboxuser/hw4_ws/install/custom_messages/share/custom_messages/local_setup.dsv
+/home/vboxuser/hw4_ws/install/custom_messages/share/custom_messages/package.dsv
+/home/vboxuser/hw4_ws/install/custom_messages/share/ament_index/resource_index/packages/custom_messages
+/home/vboxuser/hw4_ws/install/custom_messages/share/custom_messages/cmake/custom_messagesConfig.cmake
+/home/vboxuser/hw4_ws/install/custom_messages/share/custom_messages/cmake/custom_messagesConfig-version.cmake
+/home/vboxuser/hw4_ws/install/custom_messages/share/custom_messages/package.xml

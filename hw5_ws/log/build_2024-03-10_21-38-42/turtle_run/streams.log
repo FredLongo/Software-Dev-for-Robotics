@@ -1,0 +1,26 @@
+[1.920s] Invoking command in '/home/vboxuser/hw5_ws/src/turtle_run': CMAKE_PREFIX_PATH=/home/vboxuser/hw5_ws/install/my_interfaces:/home/vboxuser/hw5_ws/install/my_robot_intrfaces:/home/vboxuser/hw5_ws/src/install/my_interfaces LD_LIBRARY_PATH=/home/vboxuser/hw5_ws/install/my_interfaces/lib:/home/vboxuser/hw5_ws/install/my_robot_intrfaces/lib:/home/vboxuser/hw5_ws/src/install/my_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/vboxuser/hw5_ws/build/turtle_run/prefix_override:/home/vboxuser/hw5_ws/install/turtle_run/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtle_run build --build-base /home/vboxuser/hw5_ws/build/turtle_run/build install --record /home/vboxuser/hw5_ws/build/turtle_run/install.log --single-version-externally-managed
+[2.459s] running egg_info
+[2.460s] writing ../../build/turtle_run/turtle_run.egg-info/PKG-INFO
+[2.461s] writing dependency_links to ../../build/turtle_run/turtle_run.egg-info/dependency_links.txt
+[2.461s] writing entry points to ../../build/turtle_run/turtle_run.egg-info/entry_points.txt
+[2.461s] writing requirements to ../../build/turtle_run/turtle_run.egg-info/requires.txt
+[2.461s] writing top-level names to ../../build/turtle_run/turtle_run.egg-info/top_level.txt
+[2.464s] reading manifest file '../../build/turtle_run/turtle_run.egg-info/SOURCES.txt'
+[2.466s] writing manifest file '../../build/turtle_run/turtle_run.egg-info/SOURCES.txt'
+[2.466s] running build
+[2.467s] running build_py
+[2.467s] copying turtle_run/hello.py -> /home/vboxuser/hw5_ws/build/turtle_run/build/lib/turtle_run
+[2.467s] running install
+[2.468s] running install_lib
+[2.469s] copying /home/vboxuser/hw5_ws/build/turtle_run/build/lib/turtle_run/hello.py -> /home/vboxuser/hw5_ws/install/turtle_run/lib/python3.10/site-packages/turtle_run
+[2.470s] byte-compiling /home/vboxuser/hw5_ws/install/turtle_run/lib/python3.10/site-packages/turtle_run/hello.py to hello.cpython-310.pyc
+[2.471s] running install_data
+[2.472s] running install_egg_info
+[2.475s] removing '/home/vboxuser/hw5_ws/install/turtle_run/lib/python3.10/site-packages/turtle_run-0.0.0-py3.10.egg-info' (and everything under it)
+[2.475s] Copying ../../build/turtle_run/turtle_run.egg-info to /home/vboxuser/hw5_ws/install/turtle_run/lib/python3.10/site-packages/turtle_run-0.0.0-py3.10.egg-info
+[2.476s] running install_scripts
+[2.519s] Installing my_client script to /home/vboxuser/hw5_ws/install/turtle_run/lib/turtle_run
+[2.520s] Installing say_hello script to /home/vboxuser/hw5_ws/install/turtle_run/lib/turtle_run
+[2.520s] Installing turtle_run_server script to /home/vboxuser/hw5_ws/install/turtle_run/lib/turtle_run
+[2.521s] writing list of installed files to '/home/vboxuser/hw5_ws/build/turtle_run/install.log'
+[2.572s] Invoked command in '/home/vboxuser/hw5_ws/src/turtle_run' returned '0': CMAKE_PREFIX_PATH=/home/vboxuser/hw5_ws/install/my_interfaces:/home/vboxuser/hw5_ws/install/my_robot_intrfaces:/home/vboxuser/hw5_ws/src/install/my_interfaces LD_LIBRARY_PATH=/home/vboxuser/hw5_ws/install/my_interfaces/lib:/home/vboxuser/hw5_ws/install/my_robot_intrfaces/lib:/home/vboxuser/hw5_ws/src/install/my_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/vboxuser/hw5_ws/build/turtle_run/prefix_override:/home/vboxuser/hw5_ws/install/turtle_run/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtle_run build --build-base /home/vboxuser/hw5_ws/build/turtle_run/build install --record /home/vboxuser/hw5_ws/build/turtle_run/install.log --single-version-externally-managed

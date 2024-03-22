@@ -1,0 +1,21 @@
+cmake_minimum_required(VERSION 3.8)
+project(my_interfaces)
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+# find dependencies
+find_package(ament_cmake REQUIRED)
+
+find_package(rosidl_default_generators REQUIRED)
+find_package(turtlesim REQUIRED)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  "action/CountUntil.action"
+  "action/TurtleRun.action"
+  DEPENDENCIES turtlesim action_msgs
+)
+
+
+ament_package()

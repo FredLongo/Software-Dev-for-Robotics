@@ -1,0 +1,87 @@
+[0.000000] (-) TimerEvent: {}
+[0.000313] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.000344] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.000367] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000386] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.000403] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.000420] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.000436] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.000453] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.000469] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.000485] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.000501] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.000517] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.000533] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.000549] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.000566] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.000582] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.000597] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.000614] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.000630] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.000652] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.000671] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.000956] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.000991] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.001012] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.100007] (-) TimerEvent: {}
+[0.201000] (-) TimerEvent: {}
+[0.302083] (-) TimerEvent: {}
+[0.403218] (-) TimerEvent: {}
+[0.504270] (-) TimerEvent: {}
+[0.605367] (-) TimerEvent: {}
+[0.707679] (-) TimerEvent: {}
+[0.808043] (-) TimerEvent: {}
+[0.908706] (-) TimerEvent: {}
+[1.009218] (-) TimerEvent: {}
+[1.109726] (-) TimerEvent: {}
+[1.209969] (-) TimerEvent: {}
+[1.310734] (-) TimerEvent: {}
+[1.391223] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/py_pubsub', 'build', '--build-base', '/home/vboxuser/ros2_ws/build/py_pubsub/build', 'install', '--record', '/home/vboxuser/ros2_ws/build/py_pubsub/install.log', '--single-version-externally-managed'], 'cwd': '/home/vboxuser/ros2_ws/src/py_pubsub', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vboxuser', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/vboxuser', 'OLDPWD': '/home/vboxuser/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1369', 'SYSTEMD_EXEC_PID': '1552', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2254', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vboxuser/ros2_ws/install:/home/vboxuser/fred_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'vboxuser', 'JOURNAL_STREAM': '8:25133', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vboxuser', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Ubuntu:@/tmp/.ICE-unix/1523,unix/Ubuntu:/tmp/.ICE-unix/1523', 'INVOCATION_ID': 'f842dafbbe024db682d30bfd8238b067', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.54BUI2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vboxuser/ros2_ws/install/launch_testing_examples:/home/vboxuser/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_service:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_publisher:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_client:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_action_server:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_action_client:/home/vboxuser/ros2_ws/install/examples_rclpy_guard_conditions:/home/vboxuser/ros2_ws/install/examples_rclpy_executors:/home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set:/home/vboxuser/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_timer:/home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_service:/home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition:/home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_client:/home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/vboxuser/ros2_ws/install/examples_rclcpp_cbg_executor:/home/vboxuser/ros2_ws/install/examples_rclcpp_async_client:/home/vboxuser/fred_ws/install/my_test_controller:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:e1d9fdff-9f8d-4ff8-8bc4-3f48f240c0d4', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vboxuser/ros2_ws/build/py_pubsub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vboxuser/ros2_ws/build/py_pubsub/prefix_override:/home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/vboxuser/ros2_ws/build/launch_testing_examples:/home/vboxuser/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:/home/vboxuser/ros2_ws/build/examples_rclpy_pointcloud_publisher:/home/vboxuser/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/vboxuser/ros2_ws/build/examples_rclpy_minimal_subscriber:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/vboxuser/ros2_ws/build/examples_rclpy_minimal_service:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/vboxuser/ros2_ws/build/examples_rclpy_minimal_publisher:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/vboxuser/ros2_ws/build/examples_rclpy_minimal_client:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/vboxuser/ros2_ws/build/examples_rclpy_minimal_action_server:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/vboxuser/ros2_ws/build/examples_rclpy_minimal_action_client:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/vboxuser/ros2_ws/build/examples_rclpy_guard_conditions:/home/vboxuser/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/vboxuser/ros2_ws/build/examples_rclpy_executors:/home/vboxuser/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/home/vboxuser/fred_ws/build/my_test_controller:/home/vboxuser/fred_ws/install/my_test_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set:/home/vboxuser/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_timer:/home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_service:/home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition:/home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_client:/home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/vboxuser/ros2_ws/install/examples_rclcpp_cbg_executor:/home/vboxuser/ros2_ws/install/examples_rclcpp_async_client'}, 'shell': False}
+[1.411075] (-) TimerEvent: {}
+[1.512156] (-) TimerEvent: {}
+[1.613269] (-) TimerEvent: {}
+[1.713877] (-) TimerEvent: {}
+[1.807439] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[1.808327] (py_pubsub) StdoutLine: {'line': b'creating ../../build/py_pubsub/py_pubsub.egg-info\n'}
+[1.808582] (py_pubsub) StdoutLine: {'line': b'writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO\n'}
+[1.808843] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt\n'}
+[1.809023] (py_pubsub) StdoutLine: {'line': b'writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt\n'}
+[1.809224] (py_pubsub) StdoutLine: {'line': b'writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt\n'}
+[1.809332] (py_pubsub) StdoutLine: {'line': b'writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt\n'}
+[1.809586] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[1.811926] (py_pubsub) StdoutLine: {'line': b"reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[1.812144] (py_pubsub) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.812980] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[1.813146] (py_pubsub) StdoutLine: {'line': b'running build\n'}
+[1.813334] (py_pubsub) StdoutLine: {'line': b'running build_py\n'}
+[1.813611] (py_pubsub) StdoutLine: {'line': b'creating /home/vboxuser/ros2_ws/build/py_pubsub/build\n'}
+[1.813760] (py_pubsub) StdoutLine: {'line': b'creating /home/vboxuser/ros2_ws/build/py_pubsub/build/lib\n'}
+[1.813959] (-) TimerEvent: {}
+[1.814071] (py_pubsub) StdoutLine: {'line': b'creating /home/vboxuser/ros2_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[1.814207] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/subscriber_member_function.py -> /home/vboxuser/ros2_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[1.814316] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/__init__.py -> /home/vboxuser/ros2_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[1.814410] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/publisher_member_function.py -> /home/vboxuser/ros2_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[1.814502] (py_pubsub) StdoutLine: {'line': b'running install\n'}
+[1.814710] (py_pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[1.815009] (py_pubsub) StdoutLine: {'line': b'creating /home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub\n'}
+[1.815260] (py_pubsub) StdoutLine: {'line': b'copying /home/vboxuser/ros2_ws/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub\n'}
+[1.815380] (py_pubsub) StdoutLine: {'line': b'copying /home/vboxuser/ros2_ws/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub\n'}
+[1.815548] (py_pubsub) StdoutLine: {'line': b'copying /home/vboxuser/ros2_ws/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub\n'}
+[1.816184] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc\n'}
+[1.816606] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__init__.py to __init__.cpython-310.pyc\n'}
+[1.816771] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-310.pyc\n'}
+[1.817311] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[1.818002] (py_pubsub) StdoutLine: {'line': b'creating /home/vboxuser/ros2_ws/install/py_pubsub/share/ament_index\n'}
+[1.818254] (py_pubsub) StdoutLine: {'line': b'creating /home/vboxuser/ros2_ws/install/py_pubsub/share/ament_index/resource_index\n'}
+[1.818451] (py_pubsub) StdoutLine: {'line': b'creating /home/vboxuser/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages\n'}
+[1.818550] (py_pubsub) StdoutLine: {'line': b'copying resource/py_pubsub -> /home/vboxuser/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages\n'}
+[1.818638] (py_pubsub) StdoutLine: {'line': b'copying package.xml -> /home/vboxuser/ros2_ws/install/py_pubsub/share/py_pubsub\n'}
+[1.818723] (py_pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.820631] (py_pubsub) StdoutLine: {'line': b'Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info\n'}
+[1.821661] (py_pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[1.857168] (py_pubsub) StdoutLine: {'line': b'Installing talker = py_pubsub.publisher_member_function:mainlistener script to /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[1.857592] (py_pubsub) StdoutLine: {'line': b"writing list of installed files to '/home/vboxuser/ros2_ws/build/py_pubsub/install.log'\n"}
+[1.885294] (py_pubsub) CommandEnded: {'returncode': 0}
+[1.914059] (-) TimerEvent: {}
+[1.985115] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[1.985683] (-) EventReactorShutdown: {}

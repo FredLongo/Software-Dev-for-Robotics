@@ -1,0 +1,17 @@
+LICENSE
+package.xml
+setup.cfg
+setup.py
+../../build/calculator/calculator.egg-info/PKG-INFO
+../../build/calculator/calculator.egg-info/SOURCES.txt
+../../build/calculator/calculator.egg-info/dependency_links.txt
+../../build/calculator/calculator.egg-info/entry_points.txt
+../../build/calculator/calculator.egg-info/requires.txt
+../../build/calculator/calculator.egg-info/top_level.txt
+../../build/calculator/calculator.egg-info/zip-safe
+calculator/__init__.py
+calculator/calculator.py
+resource/calculator
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

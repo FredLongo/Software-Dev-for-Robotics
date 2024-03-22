@@ -1,0 +1,25 @@
+[1.601s] Invoking command in '/home/vboxuser/HW3_ws/build/py_pubsub': PYTHONPATH=/home/vboxuser/HW3_ws/build/py_pubsub/prefix_override:/home/vboxuser/HW3_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/vboxuser/HW3_ws/build/py_pubsub/build --no-deps install_data
+[2.002s] running develop
+[2.268s] running egg_info
+[2.268s] creating py_pubsub.egg-info
+[2.269s] writing py_pubsub.egg-info/PKG-INFO
+[2.269s] writing dependency_links to py_pubsub.egg-info/dependency_links.txt
+[2.269s] writing entry points to py_pubsub.egg-info/entry_points.txt
+[2.269s] writing requirements to py_pubsub.egg-info/requires.txt
+[2.270s] writing top-level names to py_pubsub.egg-info/top_level.txt
+[2.270s] writing manifest file 'py_pubsub.egg-info/SOURCES.txt'
+[2.272s] reading manifest file 'py_pubsub.egg-info/SOURCES.txt'
+[2.273s] writing manifest file 'py_pubsub.egg-info/SOURCES.txt'
+[2.275s] running build_ext
+[2.275s] Creating /home/vboxuser/HW3_ws/install/py_pubsub/lib/python3.10/site-packages/py-pubsub.egg-link (link to .)
+[2.275s] Installing listener script to /home/vboxuser/HW3_ws/install/py_pubsub/lib/py_pubsub
+[2.276s] Installing talker script to /home/vboxuser/HW3_ws/install/py_pubsub/lib/py_pubsub
+[2.276s] 
+[2.276s] Installed /home/vboxuser/HW3_ws/build/py_pubsub
+[2.277s] running install_data
+[2.277s] creating /home/vboxuser/HW3_ws/install/py_pubsub/share/ament_index
+[2.277s] creating /home/vboxuser/HW3_ws/install/py_pubsub/share/ament_index/resource_index
+[2.277s] creating /home/vboxuser/HW3_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[2.277s] copying resource/py_pubsub -> /home/vboxuser/HW3_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[2.277s] copying package.xml -> /home/vboxuser/HW3_ws/install/py_pubsub/share/py_pubsub
+[2.336s] Invoked command in '/home/vboxuser/HW3_ws/build/py_pubsub' returned '0': PYTHONPATH=/home/vboxuser/HW3_ws/build/py_pubsub/prefix_override:/home/vboxuser/HW3_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/vboxuser/HW3_ws/build/py_pubsub/build --no-deps install_data
