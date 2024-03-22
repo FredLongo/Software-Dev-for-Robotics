@@ -1,0 +1,10 @@
+# Ignore everything
+
+# But not directories ending in '_ws'
+!*_ws/
+
+
+#Include everything under the _ws direcorty
+!*_ws/**/*
+
+
